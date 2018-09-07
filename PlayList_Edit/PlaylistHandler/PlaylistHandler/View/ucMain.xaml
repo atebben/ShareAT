@@ -1,0 +1,15 @@
+﻿<UserControl x:Class="PlaylistHandler.View.ucMain"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"              
+             mc:Ignorable="d" d:DesignWidth="600" Height="190">
+    <Grid x:Name="MainGrd">
+        <Grid Height="46" Margin="10,10,10,0" VerticalAlignment="Top">
+            <Label Content="Root Pfad:" x:Name="lblRootpath" HorizontalAlignment="Left" Margin="10,10,0,10" Width="100" VerticalContentAlignment="Center"/>
+            <TextBox Margin="115,10,10,10" x:Name="txtRootpath"  TextWrapping="Wrap" Text="" VerticalContentAlignment="Center" />
+        </Grid>
+        <Button x:Name="btnChange"  Content="Change" ToolTip="Ändert den Musikpfad der Playlist, wenn dieser Dateipfad nicht mehr existiert" HorizontalAlignment="Right" Margin="0,144,22,0" VerticalAlignment="Top" Width="90" Height="30" Click="btnChange_Click"/>
+        <Label x:Name="lblStatus" Content="Status:" VerticalContentAlignment="Center" HorizontalAlignment="Left" Margin="20,137,0,0" VerticalAlignment="Top" Width="324" FontWeight="Bold" FontSize="14" Height="44"/>
+    </Grid>
+</UserControl>

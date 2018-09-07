@@ -1,0 +1,102 @@
+
+Mobile Router:
+	WIFI:				Event_Mobile
+	Key:				RUfNQXDA
+	Sicherheitsmodus:	WPA-Personal
+	WPA-Modus:			WPA2
+	Typ:				AES
+
+Router Zugang:
+	User:				admin
+	Passwd:				''
+
+SIM Card:
+	Telefon Nummer:		01792725802
+	Account Passwd:		Default Old
+	Pin:				6718
+	Puk:				67620496
+	Auflade Pin			0801	
+
+Stream:					1fg1Tl2KK2
+
+Account TeamViewer		Name:	atebben
+						E-Mail	tebben@gmx.de
+						Passwd	$remoteteam0801!$
+
+Router Zugang:			!homeDSLE_A_!$
+
+DMX Router:				2.85.151.90		255.0.0.0
+						USB NetCard:		2.85.151.95
+						raspberrypi DMX		2.85.151.96		User:root  passwd:0801Hallo
+
+Router WLAN:			6056 3109 4022 4090
+
+FTP:
+    Server:       		wp160.webpack.hosteurope.de
+    User:         		ftp12163202-ate
+    Passwd:       		0801Musik
+
+DB:
+    Server:       		wp160.webpack.hosteurope.de
+    
+    User:     			db12163202-ate
+    Passwd:   			0801Hallo
+    DB:       			db12163202-joomla
+    Admin:    			https://dbadmin.hosteurope.de/phpmyadmin/index.php?db=db12163202-joomla
+        
+    User:     			db12163202-at
+    Passwd:   			0801Hallo
+    DB:      			db12163202-online
+    Admin:   			https://dbadmin.hosteurope.de/phpmyadmin/index.php?db=db12163202-online
+		
+	User:     			db12163202-root
+    Passwd:   			0801Hallo
+     DB:      			db12163202-joomladb
+
+Account:
+    Server:       	 	https://kis.hosteurope.de/administration/
+    KundenNr:     	 	389089
+    Passwd:       	 	0801Musik            //default other
+  
+Zugang Webspace: 
+	https://kis.hosteurope.de/administration/webhosting/admin.php?wp_id=12163202
+	Ku Nr:				389089
+	Passwd: 			DefaultM
+	
+	Joomla Admin	http://wp12163202.server-he.de/joomla/public/htdocs/webpage/administrator/
+		User:			at
+		Passwd:			0801Hallo
+ 
+ Zugang Domain Offensive:
+	https://www.do.de/
+	User:				tebben@gmx.de
+	Passwd:				DefaultH
+ 
+ Datenbanken: 			ServerName						Password
+	db12163202-joomla	wp160.webpack.hosteurope.de		Passwd: DefaultH
+	db12163202-online	wp160.webpack.hosteurope.de		Passwd: DefaultH
+
+Ansgar-Tebben				All Share
+	https://drive.google.com/folderview?id=0ByBobnfI5dTtRmU2NXNqNjhhZG8&usp=sharing
+	
+Public						All Share
+	https://drive.google.com/folderview?id=0ByBobnfI5dTtSDdHWU11NDduNzA&usp=sharing
+	
+Private
+	https://drive.google.com/folderview?id=0ByBobnfI5dTtWlAwYjBVcS1RNUE&usp=sharing
+	
+Link_Only
+	https://drive.google.com/folderview?id=0ByBobnfI5dTtQTJnR0I3U0ltUXc&usp=sharing
+
+
+
+www				https://www.o2online.de/ecare-prepaid/?3
+einmalige Aufladung		https://aufladen.o2online.de/expressaufladung/SingleTopup/AddSingleTopup
+Packs Tarife			https://www.o2online.de/ecare-prepaid/?2#packs+random=1430654328481
+
+
+Telefon Nummer:			01792725802
+Account Passwd:			Default Old
+Pin:					6718
+Puk:					67620496
+Auflade Pin				0801

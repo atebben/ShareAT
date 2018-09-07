@@ -1,0 +1,871 @@
+<EasyShow author="dylan" version="1.0">
+  <global AutoSave="0" loop="0" play_at_the_begining="0" stop_on_break="1" show_audio="1" show_movie="0" show_cd="1" draw_mode="0" enable_history="1" Synchro="0" MidiInId="-1" MidiInName="" MidiOutId="-1" MidiOutName="" MidiOutFrameRates="1" MIDI_OUT="0" MIDI_play_in_zone="0" MIDI_offset_zone="0" MIDI_offset="0" />
+  <bin>
+    <general_bin name="Audio">
+      <file folder="D:\at\wc\trunk\Live_Projects\Light\Audio_LightShow\Intro\wav\" name="Intro_Fun_Speech.wav" />
+    </general_bin>
+    <light_data name="MH-X25">
+      <file folder="MH-X25" name="Color Anti clockwise Rotation" type="12" />
+      <file folder="MH-X25" name="Color Blue or Kelly" type="12" />
+      <file folder="MH-X25" name="Color Blue" type="12" />
+      <file folder="MH-X25" name="Color Clockwise Rotation" type="12" />
+      <file folder="MH-X25" name="Color Dark blue or white" type="12" />
+      <file folder="MH-X25" name="Color Dark Blue" type="12" />
+      <file folder="MH-X25" name="Color Green or Peachbow" type="12" />
+      <file folder="MH-X25" name="Color Green" type="12" />
+      <file folder="MH-X25" name="Color Half color (2 colors)" type="12" />
+      <file folder="MH-X25" name="Color Kelly or Red" type="12" />
+      <file folder="MH-X25" name="Color Kelly" type="12" />
+      <file folder="MH-X25" name="Color Peachblow" type="12" />
+      <file folder="MH-X25" name="Color Peachbow or Blue" type="12" />
+      <file folder="MH-X25" name="Color Pink or Green" type="12" />
+      <file folder="MH-X25" name="Color Pink" type="12" />
+      <file folder="MH-X25" name="Color Red" type="12" />
+      <file folder="MH-X25" name="Color white or yellow" type="12" />
+      <file folder="MH-X25" name="Color White" type="12" />
+      <file folder="MH-X25" name="Color Yellow or pink" type="12" />
+      <file folder="MH-X25" name="Color Yellow" type="12" />
+      <file folder="MH-X25" name="Function Blackout all moving2" type="10" />
+      <file folder="MH-X25" name="Function Blackout while moving" type="10" />
+      <file folder="MH-X25" name="Function Off" type="10" />
+      <file folder="MH-X25" name="Function Off2" type="10" />
+      <file folder="MH-X25" name="Function Off3" type="10" />
+      <file folder="MH-X25" name="Function Reset color wheel" type="10" />
+      <file folder="MH-X25" name="Function Reset pan" type="10" />
+      <file folder="MH-X25" name="Function Reset tilt" type="10" />
+      <file folder="MH-X25" name="Gobo Anti clockwise Rotation" type="12" />
+      <file folder="MH-X25" name="Gobo Clockwise Rotation" type="12" />
+      <file folder="MH-X25" name="Gobo Gobo 2" type="12" />
+      <file folder="MH-X25" name="Gobo Gobo 3" type="12" />
+      <file folder="MH-X25" name="Gobo Gobo 4" type="12" />
+      <file folder="MH-X25" name="Gobo Gobo 6" type="12" />
+      <file folder="MH-X25" name="Gobo Gobo 7" type="12" />
+      <file folder="MH-X25" name="Gobo open" type="12" />
+      <file folder="MH-X25" name="Gobo R-Gobo 1" type="12" />
+      <file folder="MH-X25" name="Gobo R-Gobo 5" type="12" />
+      <file folder="MH-X25" name="Gobo rotation Anti clockwise Rotation" type="12" />
+      <file folder="MH-X25" name="Gobo rotation Clockwise Rotation" type="12" />
+      <file folder="MH-X25" name="Gobo rotation Gobo Shake" type="12" />
+      <file folder="MH-X25" name="Gobo rotation Rotation Index" type="12" />
+      <file folder="MH-X25" name="Gobo S-Gobo 2" type="12" />
+      <file folder="MH-X25" name="Gobo S-Gobo 3" type="12" />
+      <file folder="MH-X25" name="Gobo S-Gobo 4" type="12" />
+      <file folder="MH-X25" name="Gobo S-Gobo 5" type="12" />
+      <file folder="MH-X25" name="Gobo S-Gobo 6" type="12" />
+      <file folder="MH-X25" name="Gobo S-Gobo 7" type="12" />
+      <file folder="MH-X25" name="I N I T" type="11" />
+      <file folder="MH-X25" name="MH-X25_Color 00 White" type="12" />
+      <file folder="MH-X25" name="MH-X25_Color 01 Blue" type="12" />
+      <file folder="MH-X25" name="MH-X25_Color 02 Red" type="12" />
+      <file folder="MH-X25" name="MH-X25_Color 03 Yellow" type="12" />
+      <file folder="MH-X25" name="MH-X25_Color 04 Green" type="12" />
+      <file folder="MH-X25" name="MH-X25_Color 05 Blue Red" type="12" />
+      <file folder="MH-X25" name="MH-X25_Color 07 Yellow Green" type="12" />
+      <file folder="MH-X25" name="MH-X25_Live ON" type="12" />
+      <file folder="MH-X25" name="MH-X25_Position 05 Truss" type="10" />
+      <file folder="MH-X25" name="Program built-in Program built-in 1" type="10" />
+      <file folder="MH-X25" name="Program built-in Program built-in 2" type="10" />
+      <file folder="MH-X25" name="Program built-in Sound control 2" type="10" />
+      <file folder="MH-X25" name="Program built-in Sound control" type="10" />
+      <file folder="MH-X25" name="Shutter Open" type="12" />
+      <file folder="MH-X25" name="Shutter Speed" type="12" />
+      <file folder="MH-X25" name="Shutter Strobe" type="12" />
+      <file folder="MH-X25" name="X-Y 1_Spot_MH-X25_Stairville  1" type="12" />
+      <file folder="MH-X25" name="X-Y 1_Spot_MH-X25_Stairville  2" type="12" />
+      <file folder="MH-X25" name="X-Y 1_Spot_MH-X25_Stairville  3" type="12" />
+      <file folder="MH-X25" name="X-Y 1_Spot_MH-X25_Stairville  4" type="12" />
+      <file folder="MH-X25" name="X-Y all" type="12" />
+      <file folder="MH-X25" name="Shutter-Dimmer Strobe" type="12" />
+      <file folder="MH-X25" name="MH-X25_Live 00 ON" type="12" />
+      <file folder="MH-X25" name="MH-X25_Live 03 Strobe-Dimmer" type="12" />
+      <file folder="MH-X25" name="MH-X25_Live 10 Single On" type="12" />
+      <file folder="MH-X25" name="MH-X25_Live 11 Pair" type="12" />
+      <file folder="MH-X25" name="MH-X25_Live Speed" type="12" />
+      <file folder="MH-X25" name="MH-X25_Position 01 DJ" type="10" />
+      <file folder="MH-X25" name="MH-X25_Position 02 Lightball" type="10" />
+      <file folder="MH-X25" name="MH-X25_Position 03 Top" type="10" />
+      <file folder="MH-X25" name="MH-X25_Position 10 TiltMove" type="10" />
+      <file folder="MH-X25" name="MH-X25_Position 11 PanMove" type="10" />
+      <file folder="MH-X25" name="MH-X25_Position 22 Circle LiveRoom Phase" type="10" />
+      <file folder="MH-X25" name="MH-X25_Position 32 Top" type="10" />
+      <file folder="MH-X25" name="MH-X25_Gobo 01 Gobo 1" type="12" />
+      <file folder="MH-X25" name="MH-X25_Gobo 02 Gobo 2" type="12" />
+      <file folder="MH-X25" name="MH-X25_Gobo 03 Gobo 3" type="12" />
+      <file folder="MH-X25" name="MH-X25_Gobo 04 Gobo 4" type="12" />
+      <file folder="MH-X25" name="MH-X25_Gobo 05 Gobo 5" type="12" />
+      <file folder="MH-X25" name="MH-X25_Gobo 06 Gobo 6" type="12" />
+      <file folder="MH-X25" name="MH-X25_Gobo 07 Gobo 7" type="12" />
+      <file folder="MH-X25" name="MH-X25_Gobo 11 S-Gobo 2" type="12" />
+      <file folder="MH-X25" name="MH-X25_Gobo 12 S-Gobo 3" type="12" />
+      <file folder="MH-X25" name="MH-X25_Gobo 13 S-Gobo 4" type="12" />
+      <file folder="MH-X25" name="MH-X25_Gobo 14 S-Gobo 5" type="12" />
+      <file folder="MH-X25" name="MH-X25_Gobo 15 S-Gobo 6" type="12" />
+      <file folder="MH-X25" name="MH-X25_Gobo 16 S-Gobo 7" type="12" />
+      <file folder="MH-X25" name="MH-X25_Gobo 2 AntiClockwise Rotation" type="12" />
+      <file folder="MH-X25" name="MH-X25_Gobo 2 Clockwise Rotation" type="12" />
+      <file folder="MH-X25" name="MH-X25_Gobo 3 Bounce" type="12" />
+      <file folder="MH-X25" name="MH-X25_Live 01 Pos Default" type="12" />
+      <file folder="MH-X25" name="MH-X25_Live 03 Chaser" type="12" />
+      <file folder="MH-X25" name="MH-X25_Position 13 Eight" type="10" />
+      <file folder="MH-X25" name="MH-X25_X-Y 1_Spot_MH-X25_Stairville  1" type="10" />
+      <file folder="MH-X25" name="MH-X25_X-Y 1_Spot_MH-X25_Stairville  2" type="10" />
+      <file folder="MH-X25" name="MH-X25_X-Y 1_Spot_MH-X25_Stairville  3" type="10" />
+      <file folder="MH-X25" name="MH-X25_X-Y 1_Spot_MH-X25_Stairville  4" type="10" />
+      <file folder="MH-X25" name="MH-X25_X-Y all" type="12" />
+      <file folder="MH-X25" name="MH-X25_Position 14 T Wait" type="10" />
+      <file folder="MH-X25" name="MH-X25_Position 15 LiveRoom Main Phase" type="10" />
+      <file folder="MH-X25" name="MH-X25_Position 16 LiveRoom 8 Endpoints Phase" type="10" />
+      <file folder="MH-X25" name="MH-X25_Position 17 Invert" type="10" />
+      <file folder="MH-X25" name="MH-X25_Position 18 Site" type="10" />
+      <file folder="MH-X25" name="MH-X25_Pos_Hang 00 Truss" type="12" />
+      <file folder="MH-X25" name="MH-X25_Pos_Hang 01 DJ" type="12" />
+      <file folder="MH-X25" name="MH-X25_Pos_Hang 01 Lightball" type="12" />
+      <file folder="MH-X25" name="MH-X25_Pos_Hang 02 1 Top Middle" type="12" />
+      <file folder="MH-X25" name="MH-X25_Pos_Hang 02 2 I Top  Middle" type="12" />
+      <file folder="MH-X25" name="MH-X25_Pos_Hang 02 Lightball" type="12" />
+      <file folder="MH-X25" name="MH-X25_Pos_Hang 03 1 Top Front" type="12" />
+      <file folder="MH-X25" name="MH-X25_Pos_Hang 03 2 Top Behind" type="12" />
+      <file folder="MH-X25" name="MH-X25_Pos_Hang 03 3 Down Behind" type="12" />
+      <file folder="MH-X25" name="MH-X25_Pos_Hang 03 4 Down Front" type="12" />
+      <file folder="MH-X25" name="MH-X25_Pos_Hang 03 Top" type="12" />
+      <file folder="MH-X25" name="MH-X25_Pos_Hang 04 1 I Top Front" type="12" />
+      <file folder="MH-X25" name="MH-X25_Pos_Hang 04 2 I Top Behind" type="12" />
+      <file folder="MH-X25" name="MH-X25_Pos_Hang 04 3 I Down Behind" type="12" />
+      <file folder="MH-X25" name="MH-X25_Pos_Hang 04 4 I Down Front" type="12" />
+      <file folder="MH-X25" name="MH-X25_Pos_Hang 05 DJ" type="12" />
+      <file folder="MH-X25" name="MH-X25_Pos_Hang 05 Truss" type="12" />
+      <file folder="MH-X25" name="MH-X25_Pos_Hang 10 TiltMove" type="12" />
+      <file folder="MH-X25" name="MH-X25_Pos_Hang 11 PanMove" type="12" />
+      <file folder="MH-X25" name="MH-X25_Pos_Hang 13 Eight" type="12" />
+      <file folder="MH-X25" name="MH-X25_Pos_Hang 14 T Wait" type="12" />
+      <file folder="MH-X25" name="MH-X25_Pos_Hang 15 LiveRoom Main Phase" type="12" />
+      <file folder="MH-X25" name="MH-X25_Pos_Hang 16 LiveRoom 8 Endpoints Phase" type="12" />
+      <file folder="MH-X25" name="MH-X25_Pos_Hang 17 Invert" type="12" />
+      <file folder="MH-X25" name="MH-X25_Pos_Hang 18 Site" type="12" />
+      <file folder="MH-X25" name="MH-X25_Pos_Hang 22 Circle LiveRoom Phase" type="12" />
+      <file folder="MH-X25" name="MH-X25_Pos_Hang 32 Top" type="12" />
+      <file folder="MH-X25" name="MH-X25_Pos_Stay 01 DJ" type="12" />
+      <file folder="MH-X25" name="MH-X25_Pos_Stay 02 Lightball" type="12" />
+      <file folder="MH-X25" name="MH-X25_Pos_Stay 03 Top" type="12" />
+      <file folder="MH-X25" name="MH-X25_Pos_Stay 05 Truss" type="12" />
+      <file folder="MH-X25" name="MH-X25_Pos_Stay 10 TiltMove" type="12" />
+      <file folder="MH-X25" name="MH-X25_Pos_Stay 11 PanMove" type="12" />
+      <file folder="MH-X25" name="MH-X25_Pos_Stay 13 Eight" type="12" />
+      <file folder="MH-X25" name="MH-X25_Pos_Stay 14 T Wait" type="12" />
+      <file folder="MH-X25" name="MH-X25_Pos_Stay 15 LiveRoom Main Phase" type="12" />
+      <file folder="MH-X25" name="MH-X25_Pos_Stay 16 LiveRoom 8 Endpoints Phase" type="12" />
+      <file folder="MH-X25" name="MH-X25_Pos_Stay 17 Invert" type="12" />
+      <file folder="MH-X25" name="MH-X25_Pos_Stay 18 Site" type="12" />
+      <file folder="MH-X25" name="MH-X25_Pos_Stay 22 Circle LiveRoom Phase" type="12" />
+      <file folder="MH-X25" name="MH-X25_Pos_Stay 32 Top" type="12" />
+    </light_data>
+    <light_data name="PAR56">
+      <file folder="PAR56" name="Farbmischung all" type="12" />
+      <file folder="PAR56" name="I N I T" type="11" />
+      <file folder="PAR56" name="Mode 1 Speed" type="12" />
+      <file folder="PAR56" name="Mode 2 Shutter open" type="12" />
+      <file folder="PAR56" name="Mode 5 3ColorChange" type="12" />
+      <file folder="PAR56" name="PAR56_Color 00 White" type="12" />
+      <file folder="PAR56" name="PAR56_Color 01 Blue" type="12" />
+      <file folder="PAR56" name="PAR56_Color 02 Red" type="12" />
+      <file folder="PAR56" name="PAR56_Color 03 Yellow" type="12" />
+      <file folder="PAR56" name="PAR56_Color 04 Green" type="12" />
+      <file folder="PAR56" name="PAR56_Color 05 Blue Red" type="12" />
+      <file folder="PAR56" name="PAR56_Color 06 Blue Yellow" type="12" />
+      <file folder="PAR56" name="PAR56_Color 07 Yellow Green" type="12" />
+      <file folder="PAR56" name="PAR56_Color 08 Red Blue" type="12" />
+      <file folder="PAR56" name="PAR56_Color 10 Rainbow" type="12" />
+      <file folder="PAR56" name="PAR56_Color 11 3ColorChange" type="12" />
+      <file folder="PAR56" name="PAR56_Color 12 7ColorChange" type="12" />
+    </light_data>
+    <light_data name="CLS3">
+      <file folder="CLS3" name="CLS3_Color 00 White" type="12" />
+      <file folder="CLS3" name="CLS3_Color 01 Blue" type="12" />
+      <file folder="CLS3" name="CLS3_Color 02 Red" type="12" />
+      <file folder="CLS3" name="CLS3_Color 03 Yellow" type="12" />
+      <file folder="CLS3" name="CLS3_Color 04 Green" type="12" />
+      <file folder="CLS3" name="CLS3_Color 05 Red Blue" type="12" />
+      <file folder="CLS3" name="CLS3_Color 06 Blue Yellow" type="12" />
+      <file folder="CLS3" name="CLS3_Color 07 Green Yellow" type="12" />
+      <file folder="CLS3" name="CLS3_Color Effects 00 Rainbow" type="12" />
+      <file folder="CLS3" name="CLS3_Color Effects 10 Meteor" type="12" />
+      <file folder="CLS3" name="CLS3_Color Effects 11 Change" type="12" />
+      <file folder="CLS3" name="CLS3_Color Effects 12 Dream" type="12" />
+      <file folder="CLS3" name="CLS3_Color Effects 14 Flow 3" type="12" />
+      <file folder="CLS3" name="CLS3_Color Effects 15 Flow 6" type="12" />
+      <file folder="CLS3" name="CLS3_Color Effects 16 Flow 7" type="12" />
+      <file folder="CLS3" name="CLS3_Color Effects 17 Flow 8" type="12" />
+      <file folder="CLS3" name="CLS3_Dimmer 00 On" type="12" />
+      <file folder="CLS3" name="CLS3_Dimmer 02 1" type="12" />
+      <file folder="CLS3" name="CLS3_Dimmer 03 2" type="12" />
+      <file folder="CLS3" name="CLS3_Dimmer 04 Speed" type="12" />
+      <file folder="CLS3" name="CLS3_Dimmer 10 Change Pair" type="12" />
+      <file folder="CLS3" name="CLS3_Dimmer 11 Change Single" type="12" />
+      <file folder="CLS3" name="CLS3_Dimmer 12 Fade Pair" type="12" />
+      <file folder="CLS3" name="CLS3_Dimmer 13 Fade Single" type="12" />
+      <file folder="CLS3" name="Color BW" type="12" />
+      <file folder="CLS3" name="Color Change" type="12" />
+      <file folder="CLS3" name="Color Dream" type="12" />
+      <file folder="CLS3" name="Color Fade" type="12" />
+      <file folder="CLS3" name="Color Flow 1" type="12" />
+      <file folder="CLS3" name="Color Flow 2" type="12" />
+      <file folder="CLS3" name="Color Flow 3" type="12" />
+      <file folder="CLS3" name="Color Flow 4" type="12" />
+      <file folder="CLS3" name="Color Flow 5" type="12" />
+      <file folder="CLS3" name="Color Flow 6" type="12" />
+      <file folder="CLS3" name="Color Flow 7" type="12" />
+      <file folder="CLS3" name="Color Flow 8" type="12" />
+      <file folder="CLS3" name="Color GBW" type="12" />
+      <file folder="CLS3" name="Color GW" type="12" />
+      <file folder="CLS3" name="Color Meteor" type="12" />
+      <file folder="CLS3" name="Color RBW" type="12" />
+      <file folder="CLS3" name="Color RGBW" type="12" />
+      <file folder="CLS3" name="Color RGW" type="12" />
+      <file folder="CLS3" name="Color WR" type="12" />
+      <file folder="CLS3" name="Farbmischung all" type="12" />
+      <file folder="CLS3" name="I N I T" type="11" />
+      <file folder="CLS3" name="CLS3_Power Flash-Dimmer" type="12" />
+      <file folder="CLS3" name="CLS3_Dimmer 20 FlashDimmer" type="12" />
+      <file folder="CLS3" name="CLS3_Dimmer 21 01" type="12" />
+      <file folder="CLS3" name="CLS3_Dimmer 22 2" type="12" />
+    </light_data>
+    <light_data name="PAR64">
+      <file folder="PAR64" name="Color EffectsRainbow" type="12" />
+      <file folder="PAR64" name="I N I T" type="11" />
+      <file folder="PAR64" name="Mode 3 Color Change" type="12" />
+      <file folder="PAR64" name="Mode 7 Color Change" type="12" />
+      <file folder="PAR64" name="Mode 7 Color Fade" type="12" />
+      <file folder="PAR64" name="Mode RGB Control" type="12" />
+      <file folder="PAR64" name="PAR64_Color 00 White" type="12" />
+      <file folder="PAR64" name="PAR64_Color 01 Blue" type="12" />
+      <file folder="PAR64" name="PAR64_Color 02 Red" type="12" />
+      <file folder="PAR64" name="PAR64_Color 03 Yellow" type="12" />
+      <file folder="PAR64" name="PAR64_Color 04 Green" type="12" />
+      <file folder="PAR64" name="PAR64_Color 10 Rainbow" type="12" />
+      <file folder="PAR64" name="PAR64_Color 10 Speed" type="12" />
+      <file folder="PAR64" name="PAR64_Color 20 Speed On" type="12" />
+      <file folder="PAR64" name="PAR64_Color 21 Speed Of" type="12" />
+      <file folder="PAR64" name="PAR64_Color 30 7 Fade" type="12" />
+      <file folder="PAR64" name="PAR64_Color 31 7 Change" type="12" />
+      <file folder="PAR64" name="PAR64_Color 32 3 Change" type="12" />
+      <file folder="PAR64" name="PAR64_Color All" type="12" />
+      <file folder="PAR64" name="Speed No Function No Speed" type="12" />
+      <file folder="PAR64" name="Speed Speed Control by Unit Music or VAR" type="12" />
+    </light_data>
+    <light_data name="_MASTER">
+      <file folder="_MASTER" name="ALL_Color 00 White" type="12" />
+      <file folder="_MASTER" name="ALL_Color 01 Blue" type="12" />
+      <file folder="_MASTER" name="ALL_Color 02 Red" type="12" />
+      <file folder="_MASTER" name="ALL_Color 03 Yellow" type="12" />
+      <file folder="_MASTER" name="ALL_Color 04 Green" type="12" />
+      <file folder="_MASTER" name="ALL_Color 05 Blue Yellow" type="12" />
+      <file folder="_MASTER" name="ALL_Color 05 Yellow Blue" type="12" />
+      <file folder="_MASTER" name="ALL_Color 06 Red Blue" type="12" />
+      <file folder="_MASTER" name="ALL_Color 07 Blue Red" type="12" />
+      <file folder="_MASTER" name="ALL_Color 08 White Blue" type="12" />
+      <file folder="_MASTER" name="ALL_Color 09 Green Yellow" type="12" />
+      <file folder="_MASTER" name="ALL_Color 09 Yellow Green" type="12" />
+      <file folder="_MASTER" name="ALL_Devices 00 On Default" type="12" />
+      <file folder="_MASTER" name="ALL_Devices 01 Off" type="12" />
+      <file folder="_MASTER" name="ALL_Devices 02 NULL" type="12" />
+      <file folder="_MASTER" name="ALL_Dimmer 02 Dimmer" type="12" />
+      <file folder="_MASTER" name="ALL_Dimmer 03 Shutter" type="12" />
+      <file folder="_MASTER" name="ALL_Flash 01 F" type="12" />
+      <file folder="_MASTER" name="ALL_Flash 02 M" type="12" />
+      <file folder="_MASTER" name="ALL_Flash 03 S" type="12" />
+      <file folder="_MASTER" name="CLS3_Color 00 White" type="12" />
+      <file folder="_MASTER" name="CLS3_Color 01 Blue" type="12" />
+      <file folder="_MASTER" name="CLS3_Color 02 Red" type="12" />
+      <file folder="_MASTER" name="CLS3_Color 03 Yellow" type="12" />
+      <file folder="_MASTER" name="CLS3_Color 04 Green" type="12" />
+      <file folder="_MASTER" name="CLS3_Color 05 Red Blue" type="12" />
+      <file folder="_MASTER" name="CLS3_Color 06 Blue Yellow" type="12" />
+      <file folder="_MASTER" name="CLS3_Color 07 Green Yellow" type="12" />
+      <file folder="_MASTER" name="CLS3_Color Effects 00 Rainbow" type="12" />
+      <file folder="_MASTER" name="CLS3_Color Effects 10 Meteor" type="12" />
+      <file folder="_MASTER" name="CLS3_Color Effects 11 Change" type="12" />
+      <file folder="_MASTER" name="CLS3_Color Effects 12 Dream" type="12" />
+      <file folder="_MASTER" name="CLS3_Color Effects 14 Flow 3" type="12" />
+      <file folder="_MASTER" name="CLS3_Color Effects 15 Flow 6" type="12" />
+      <file folder="_MASTER" name="CLS3_Color Effects 16 Flow 7" type="12" />
+      <file folder="_MASTER" name="CLS3_Color Effects 17 Flow 8" type="12" />
+      <file folder="_MASTER" name="CLS3_Dimmer 00 On" type="12" />
+      <file folder="_MASTER" name="CLS3_Dimmer 02 1" type="12" />
+      <file folder="_MASTER" name="CLS3_Dimmer 03 2" type="12" />
+      <file folder="_MASTER" name="CLS3_Dimmer 04 Speed" type="12" />
+      <file folder="_MASTER" name="CLS3_Dimmer 10 Change Pair" type="12" />
+      <file folder="_MASTER" name="CLS3_Dimmer 11 Change Single" type="12" />
+      <file folder="_MASTER" name="CLS3_Dimmer 12 Fade Pair" type="12" />
+      <file folder="_MASTER" name="CLS3_Dimmer 13 Fade Single" type="12" />
+      <file folder="_MASTER" name="CLS3_Dimmer 20 FlashDimmer" type="12" />
+      <file folder="_MASTER" name="CLS3_Dimmer 21 01" type="12" />
+      <file folder="_MASTER" name="CLS3_Dimmer 22 2" type="12" />
+      <file folder="_MASTER" name="I N I T" type="11" />
+      <file folder="_MASTER" name="MH-X25_Color 00 White" type="12" />
+      <file folder="_MASTER" name="MH-X25_Color 01 Blue" type="12" />
+      <file folder="_MASTER" name="MH-X25_Color 02 Red" type="12" />
+      <file folder="_MASTER" name="MH-X25_Color 03 Yellow" type="12" />
+      <file folder="_MASTER" name="MH-X25_Color 04 Green" type="12" />
+      <file folder="_MASTER" name="MH-X25_Color 05 Blue Red" type="12" />
+      <file folder="_MASTER" name="MH-X25_Color 07 Yellow Green" type="12" />
+      <file folder="_MASTER" name="MH-X25_Gobo 01 Gobo 1" type="12" />
+      <file folder="_MASTER" name="MH-X25_Gobo 02 Gobo 2" type="12" />
+      <file folder="_MASTER" name="MH-X25_Gobo 03 Gobo 3" type="12" />
+      <file folder="_MASTER" name="MH-X25_Gobo 04 Gobo 4" type="12" />
+      <file folder="_MASTER" name="MH-X25_Gobo 05 Gobo 5" type="12" />
+      <file folder="_MASTER" name="MH-X25_Gobo 06 Gobo 6" type="12" />
+      <file folder="_MASTER" name="MH-X25_Gobo 07 Gobo 7" type="12" />
+      <file folder="_MASTER" name="MH-X25_Gobo 11 S-Gobo 2" type="12" />
+      <file folder="_MASTER" name="MH-X25_Gobo 12 S-Gobo 3" type="12" />
+      <file folder="_MASTER" name="MH-X25_Gobo 13 S-Gobo 4" type="12" />
+      <file folder="_MASTER" name="MH-X25_Gobo 14 S-Gobo 5" type="12" />
+      <file folder="_MASTER" name="MH-X25_Gobo 15 S-Gobo 6" type="12" />
+      <file folder="_MASTER" name="MH-X25_Gobo 16 S-Gobo 7" type="12" />
+      <file folder="_MASTER" name="MH-X25_Gobo 2 AntiClockwise Rotation" type="12" />
+      <file folder="_MASTER" name="MH-X25_Gobo 2 Clockwise Rotation" type="12" />
+      <file folder="_MASTER" name="MH-X25_Gobo 3 Bounce" type="12" />
+      <file folder="_MASTER" name="MH-X25_Live 00 ON" type="12" />
+      <file folder="_MASTER" name="MH-X25_Live 01 Pos Default" type="12" />
+      <file folder="_MASTER" name="MH-X25_Live 03 Chaser" type="12" />
+      <file folder="_MASTER" name="MH-X25_Live 03 Strobe-Dimmer" type="12" />
+      <file folder="_MASTER" name="MH-X25_Live 10 Single On" type="12" />
+      <file folder="_MASTER" name="MH-X25_Live 11 Pair" type="12" />
+      <file folder="_MASTER" name="MH-X25_Live Speed" type="12" />
+      <file folder="_MASTER" name="MH-X25_Pos_Hang 00 Truss" type="12" />
+      <file folder="_MASTER" name="MH-X25_Pos_Hang 01 Lightball" type="12" />
+      <file folder="_MASTER" name="MH-X25_Pos_Hang 02 1 Top Middle" type="12" />
+      <file folder="_MASTER" name="MH-X25_Pos_Hang 02 2 I Top  Middle" type="12" />
+      <file folder="_MASTER" name="MH-X25_Pos_Hang 03 1 Top Front" type="12" />
+      <file folder="_MASTER" name="MH-X25_Pos_Hang 03 2 Top Behind" type="12" />
+      <file folder="_MASTER" name="MH-X25_Pos_Hang 03 3 Down Behind" type="12" />
+      <file folder="_MASTER" name="MH-X25_Pos_Hang 03 4 Down Front" type="12" />
+      <file folder="_MASTER" name="MH-X25_Pos_Hang 04 1 I Top Front" type="12" />
+      <file folder="_MASTER" name="MH-X25_Pos_Hang 04 2 I Top Behind" type="12" />
+      <file folder="_MASTER" name="MH-X25_Pos_Hang 04 3 I Down Behind" type="12" />
+      <file folder="_MASTER" name="MH-X25_Pos_Hang 04 4 I Down Front" type="12" />
+      <file folder="_MASTER" name="MH-X25_Pos_Hang 05 DJ" type="12" />
+      <file folder="_MASTER" name="MH-X25_Pos_Hang 10 TiltMove" type="12" />
+      <file folder="_MASTER" name="MH-X25_Pos_Hang 11 PanMove" type="12" />
+      <file folder="_MASTER" name="MH-X25_Pos_Hang 13 Eight" type="12" />
+      <file folder="_MASTER" name="MH-X25_Pos_Hang 14 T Wait" type="12" />
+      <file folder="_MASTER" name="MH-X25_Pos_Hang 15 LiveRoom Main Phase" type="12" />
+      <file folder="_MASTER" name="MH-X25_Pos_Hang 16 LiveRoom 8 Endpoints Phase" type="12" />
+      <file folder="_MASTER" name="MH-X25_Pos_Hang 17 Invert" type="12" />
+      <file folder="_MASTER" name="MH-X25_Pos_Hang 18 Site" type="12" />
+      <file folder="_MASTER" name="MH-X25_Pos_Hang 22 Circle LiveRoom Phase" type="12" />
+      <file folder="_MASTER" name="MH-X25_Pos_Hang 32 Top" type="12" />
+      <file folder="_MASTER" name="MH-X25_Pos_Stay 01 DJ" type="12" />
+      <file folder="_MASTER" name="MH-X25_Pos_Stay 02 Lightball" type="12" />
+      <file folder="_MASTER" name="MH-X25_Pos_Stay 03 Top" type="12" />
+      <file folder="_MASTER" name="MH-X25_Pos_Stay 05 Truss" type="12" />
+      <file folder="_MASTER" name="MH-X25_Pos_Stay 10 TiltMove" type="12" />
+      <file folder="_MASTER" name="MH-X25_Pos_Stay 11 PanMove" type="12" />
+      <file folder="_MASTER" name="MH-X25_Pos_Stay 13 Eight" type="12" />
+      <file folder="_MASTER" name="MH-X25_Pos_Stay 14 T Wait" type="12" />
+      <file folder="_MASTER" name="MH-X25_Pos_Stay 15 LiveRoom Main Phase" type="12" />
+      <file folder="_MASTER" name="MH-X25_Pos_Stay 16 LiveRoom 8 Endpoints Phase" type="12" />
+      <file folder="_MASTER" name="MH-X25_Pos_Stay 17 Invert" type="12" />
+      <file folder="_MASTER" name="MH-X25_Pos_Stay 18 Site" type="12" />
+      <file folder="_MASTER" name="MH-X25_Pos_Stay 22 Circle LiveRoom Phase" type="12" />
+      <file folder="_MASTER" name="MH-X25_Pos_Stay 32 Top" type="12" />
+      <file folder="_MASTER" name="MH-X25_X-Y all" type="10" />
+      <file folder="_MASTER" name="PAR56_Color 00 White" type="12" />
+      <file folder="_MASTER" name="PAR56_Color 01 Blue" type="12" />
+      <file folder="_MASTER" name="PAR56_Color 02 Red" type="12" />
+      <file folder="_MASTER" name="PAR56_Color 03 Yellow" type="12" />
+      <file folder="_MASTER" name="PAR56_Color 04 Green" type="12" />
+      <file folder="_MASTER" name="PAR56_Color 05 Blue Red" type="12" />
+      <file folder="_MASTER" name="PAR56_Color 06 Blue Yellow" type="12" />
+      <file folder="_MASTER" name="PAR56_Color 07 Yellow Green" type="12" />
+      <file folder="_MASTER" name="PAR56_Color 08 Red Blue" type="12" />
+      <file folder="_MASTER" name="PAR56_Color 10 Rainbow" type="12" />
+      <file folder="_MASTER" name="PAR56_Color 11 3ColorChange" type="12" />
+      <file folder="_MASTER" name="PAR56_Color 12 7ColorChange" type="12" />
+      <file folder="_MASTER" name="PAR64_Color 00 White" type="12" />
+      <file folder="_MASTER" name="PAR64_Color 01 Blue" type="12" />
+      <file folder="_MASTER" name="PAR64_Color 02 Red" type="12" />
+      <file folder="_MASTER" name="PAR64_Color 03 Yellow" type="12" />
+      <file folder="_MASTER" name="PAR64_Color 04 Green" type="12" />
+      <file folder="_MASTER" name="PAR64_Color 10 Rainbow" type="12" />
+      <file folder="_MASTER" name="PAR64_Color 20 Speed On" type="12" />
+      <file folder="_MASTER" name="PAR64_Color 21 Speed Of" type="12" />
+      <file folder="_MASTER" name="PAR64_Color 30 7 Fade" type="12" />
+      <file folder="_MASTER" name="PAR64_Color 31 7 Change" type="12" />
+      <file folder="_MASTER" name="PAR64_Color 32 3 Change" type="12" />
+      <file folder="_MASTER" name="Show_Hang Intro 00 GodSay" type="12" />
+      <file folder="_MASTER" name="Show_Hang Intro 01 FunSpeech" type="12" />
+      <file folder="_MASTER" name="Show_Stay Intro 00 GodSay" type="12" />
+      <file folder="_MASTER" name="Show_Stay Intro 01 FunSpeech" type="12" />
+      <file folder="_MASTER" name="Show_Hang 00 Only Positions Heads" type="13" />
+      <file folder="_MASTER" name="Show_Hang 01 Default ON" type="13" />
+      <file folder="_MASTER" name="Show_Stay 00 Only Positions Heads" type="13" />
+      <file folder="_MASTER" name="Show_Stay 01 Default ON" type="13" />
+    </light_data>
+    <light_data name="ML400">
+      <file folder="ML400" name="Color EffectsRainbow" type="10" />
+      <file folder="ML400" name="Farbmischung all" type="10" />
+      <file folder="ML400" name="I N I T" type="10" />
+    </light_data>
+  </bin>
+  <time_line total_time="16104" starting_play_time="50" ending_play_time="16084">
+    <tl_audio name="Audio" enable="1" lock="0" mute="0">
+      <button name="Intro_Fun_Speech.wav" type="17" position="204" size="15880">
+        <sound position="0" level="512" />
+        <sound position="15880" level="512" />
+      </button>
+    </tl_audio>
+    <tl_movie name="Video" enable="1" lock="0" mute="0" />
+    <tl_light_data name="MH-X25">
+      <scene enable="1" lock="0" />
+      <switch enable="1" lock="0">
+        <button name="MH-X25_Color 01 Blue" type="12" position="2640" size="5000" enable_dimmer="0" enable_speed="0">
+          <dimmer position="0" level="512" />
+          <dimmer position="5000" level="512" />
+          <speed position="0" level="256" />
+          <speed position="5000" level="256" />
+        </button>
+        <button name="MH-X25_Color 03 Yellow" type="12" position="7640" size="4480" enable_dimmer="0" enable_speed="0">
+          <dimmer position="0" level="512" />
+          <dimmer position="4480" level="512" />
+          <speed position="0" level="256" />
+          <speed position="4480" level="256" />
+        </button>
+        <button name="MH-X25_Color 02 Red" type="12" position="12120" size="2290" enable_dimmer="0" enable_speed="0">
+          <dimmer position="0" level="512" />
+          <dimmer position="2290" level="512" />
+          <speed position="0" level="256" />
+          <speed position="2290" level="256" />
+        </button>
+        <button name="MH-X25_Color 03 Yellow" type="12" position="14416" size="1664" enable_dimmer="0" enable_speed="0">
+          <dimmer position="0" level="512" />
+          <dimmer position="1664" level="512" />
+          <speed position="0" level="256" />
+          <speed position="1664" level="256" />
+        </button>
+      </switch>
+      <switch enable="1" lock="0">
+        <button name="Shutter-Dimmer Strobe" type="12" position="2752" size="130" enable_dimmer="1" enable_speed="0">
+          <dimmer position="0" level="394" />
+          <dimmer position="130" level="394" />
+          <speed position="0" level="256" />
+          <speed position="130" level="256" />
+        </button>
+        <button name="MH-X25_Live ON" type="12" position="3100" size="620" enable_dimmer="1" enable_speed="0">
+          <dimmer position="0" level="21" />
+          <dimmer position="620" level="21" />
+          <speed position="0" level="256" />
+          <speed position="620" level="256" />
+        </button>
+        <button name="Shutter-Dimmer Strobe" type="12" position="3720" size="996" enable_dimmer="1" enable_speed="0">
+          <dimmer position="0" level="352" />
+          <dimmer position="850" level="352" />
+          <dimmer position="996" level="512" />
+          <speed position="0" level="256" />
+          <speed position="996" level="256" />
+        </button>
+        <button name="MH-X25_Live ON" type="12" position="4716" size="818" enable_dimmer="1" enable_speed="0">
+          <dimmer position="0" level="362" />
+          <dimmer position="818" level="362" />
+          <speed position="0" level="256" />
+          <speed position="818" level="256" />
+        </button>
+        <button name="Shutter-Dimmer Strobe" type="12" position="5534" size="996" enable_dimmer="1" enable_speed="0">
+          <dimmer position="0" level="352" />
+          <dimmer position="836" level="352" />
+          <dimmer position="996" level="512" />
+          <speed position="0" level="256" />
+          <speed position="996" level="256" />
+        </button>
+        <button name="MH-X25_Live ON" type="12" position="6530" size="1065" enable_dimmer="1" enable_speed="0">
+          <dimmer position="0" level="362" />
+          <dimmer position="1065" level="362" />
+          <speed position="0" level="256" />
+          <speed position="1065" level="256" />
+        </button>
+        <button name="Shutter-Dimmer Strobe" type="12" position="7595" size="135" enable_dimmer="1" enable_speed="0">
+          <dimmer position="0" level="458" />
+          <dimmer position="135" level="458" />
+          <speed position="0" level="256" />
+          <speed position="135" level="256" />
+        </button>
+        <button name="MH-X25_Live ON" type="12" position="7730" size="1050" enable_dimmer="1" enable_speed="0">
+          <dimmer position="0" level="10" />
+          <dimmer position="243" level="10" />
+          <dimmer position="790" level="138" />
+          <dimmer position="1050" level="512" />
+          <speed position="0" level="256" />
+          <speed position="1050" level="256" />
+        </button>
+        <button name="Shutter-Dimmer Strobe" type="12" position="8780" size="80" enable_dimmer="1" enable_speed="0">
+          <dimmer position="0" level="480" />
+          <dimmer position="80" level="480" />
+          <speed position="0" level="256" />
+          <speed position="80" level="256" />
+        </button>
+        <button name="MH-X25_Live ON" type="12" position="8860" size="480" enable_dimmer="1" enable_speed="0">
+          <dimmer position="0" level="512" />
+          <dimmer position="480" level="512" />
+          <speed position="0" level="256" />
+          <speed position="480" level="256" />
+        </button>
+        <button name="Shutter-Dimmer Strobe" type="12" position="9340" size="80" enable_dimmer="1" enable_speed="0">
+          <dimmer position="0" level="480" />
+          <dimmer position="80" level="480" />
+          <speed position="0" level="256" />
+          <speed position="80" level="256" />
+        </button>
+        <button name="MH-X25_Live ON" type="12" position="9420" size="490" enable_dimmer="1" enable_speed="0">
+          <dimmer position="0" level="512" />
+          <dimmer position="230" level="512" />
+          <dimmer position="240" level="0" />
+          <dimmer position="470" level="0" />
+          <dimmer position="490" level="512" />
+          <speed position="0" level="256" />
+          <speed position="490" level="256" />
+        </button>
+        <button name="MH-X25_Live 11 Pair" type="12" position="9910" size="2202" enable_dimmer="0" enable_speed="1">
+          <dimmer position="0" level="512" />
+          <dimmer position="2202" level="512" />
+          <speed position="0" level="288" />
+          <speed position="2202" level="288" />
+        </button>
+        <button name="MH-X25_Live 00 ON" type="12" position="12112" size="3967" enable_dimmer="1" enable_speed="0">
+          <dimmer position="0" level="0" />
+          <dimmer position="43" level="0" />
+          <dimmer position="313" level="96" />
+          <dimmer position="613" level="512" />
+          <dimmer position="2920" level="512" />
+          <dimmer position="3967" level="0" />
+          <speed position="0" level="256" />
+          <speed position="3967" level="256" />
+        </button>
+      </switch>
+      <switch enable="1" lock="0">
+        <button name="MH-X25_Pos_Hang 00 Truss" type="12" position="425" size="7175" enable_dimmer="1" enable_speed="0">
+          <dimmer position="0" level="106" />
+          <dimmer position="7175" level="106" />
+          <speed position="0" level="256" />
+          <speed position="996" level="256" />
+          <speed position="7175" level="256" />
+        </button>
+        <button name="MH-X25_Pos_Hang 00 Truss" type="12" position="7600" size="2055" enable_dimmer="1" enable_speed="1">
+          <dimmer position="0" level="21" />
+          <dimmer position="2055" level="21" />
+          <speed position="0" level="256" />
+          <speed position="2055" level="256" />
+        </button>
+        <button name="MH-X25_Pos_Hang 00 Truss" type="12" position="9655" size="260" enable_dimmer="1" enable_speed="1">
+          <dimmer position="0" level="21" />
+          <dimmer position="260" level="21" />
+          <speed position="0" level="256" />
+          <speed position="260" level="256" />
+        </button>
+        <button name="MH-X25_Pos_Hang 22 Circle LiveRoom Phase" type="12" position="9915" size="2179" enable_dimmer="1" enable_speed="1">
+          <dimmer position="0" level="53" />
+          <dimmer position="2179" level="53" />
+          <speed position="0" level="277" />
+          <speed position="2179" level="277" />
+        </button>
+        <button name="MH-X25_Pos_Hang 02 1 Top Middle" type="12" position="12094" size="200" enable_dimmer="1" enable_speed="0">
+          <dimmer position="0" level="448" />
+          <dimmer position="200" level="448" />
+          <speed position="0" level="256" />
+          <speed position="200" level="256" />
+        </button>
+        <button name="MH-X25_Pos_Hang 32 Top" type="12" position="12294" size="2450" enable_dimmer="1" enable_speed="1">
+          <dimmer position="0" level="490" />
+          <dimmer position="2450" level="490" />
+          <speed position="0" level="160" />
+          <speed position="2450" level="160" />
+        </button>
+        <button name="MH-X25_Pos_Hang 01 Lightball" type="12" position="14744" size="1336" enable_dimmer="1" enable_speed="0">
+          <dimmer position="0" level="501" />
+          <dimmer position="1336" level="501" />
+          <speed position="0" level="256" />
+          <speed position="1336" level="256" />
+        </button>
+      </switch>
+      <switch enable="1" lock="0">
+        <button name="Gobo Gobo 4" type="12" position="449" size="15631" enable_dimmer="0" enable_speed="0">
+          <dimmer position="0" level="512" />
+          <dimmer position="15631" level="512" />
+          <speed position="0" level="256" />
+          <speed position="15631" level="256" />
+        </button>
+      </switch>
+    </tl_light_data>
+    <tl_light_data name="PAR56">
+      <scene enable="1" lock="0" />
+      <switch enable="1" lock="0">
+        <button name="PAR56_Color 01 Blue" type="12" position="443" size="2657" enable_dimmer="1" enable_speed="0">
+          <dimmer position="0" level="10" />
+          <dimmer position="1676" level="512" />
+          <dimmer position="2657" level="512" />
+          <speed position="0" level="256" />
+          <speed position="2657" level="256" />
+        </button>
+        <button name="PAR56_Color 01 Blue" type="12" position="3100" size="1616" enable_dimmer="0" enable_speed="0">
+          <dimmer position="0" level="512" />
+          <dimmer position="1616" level="512" />
+          <speed position="0" level="256" />
+          <speed position="1616" level="256" />
+        </button>
+        <button name="PAR56_Color 02 Red" type="12" position="4716" size="818" enable_dimmer="0" enable_speed="0">
+          <dimmer position="0" level="512" />
+          <dimmer position="818" level="512" />
+          <speed position="0" level="256" />
+          <speed position="818" level="256" />
+        </button>
+        <button name="PAR56_Color 01 Blue" type="12" position="5534" size="996" enable_dimmer="0" enable_speed="0">
+          <dimmer position="0" level="512" />
+          <dimmer position="996" level="512" />
+          <speed position="0" level="256" />
+          <speed position="996" level="256" />
+        </button>
+        <button name="PAR56_Color 02 Red" type="12" position="6530" size="1065" enable_dimmer="0" enable_speed="0">
+          <dimmer position="0" level="512" />
+          <dimmer position="1065" level="512" />
+          <speed position="0" level="256" />
+          <speed position="1065" level="256" />
+        </button>
+        <button name="PAR56_Color 01 Blue" type="12" position="7595" size="6825" enable_dimmer="1" enable_speed="0">
+          <dimmer position="0" level="512" />
+          <dimmer position="130" level="512" />
+          <dimmer position="135" level="0" />
+          <dimmer position="925" level="0" />
+          <dimmer position="1180" level="512" />
+          <dimmer position="4501" level="512" />
+          <dimmer position="4573" level="10" />
+          <dimmer position="4825" level="10" />
+          <dimmer position="5125" level="512" />
+          <dimmer position="6825" level="512" />
+          <speed position="0" level="256" />
+          <speed position="6825" level="256" />
+        </button>
+        <button name="PAR56_Color 02 Red" type="12" position="14420" size="1660" enable_dimmer="1" enable_speed="0">
+          <dimmer position="0" level="512" />
+          <dimmer position="595" level="512" />
+          <dimmer position="1660" level="0" />
+          <speed position="0" level="256" />
+          <speed position="1660" level="256" />
+        </button>
+      </switch>
+    </tl_light_data>
+    <tl_light_data name="CLS3">
+      <scene enable="1" lock="0" />
+      <switch enable="1" lock="0">
+        <button name="CLS3_Color 01 Blue" type="12" position="2731" size="154" enable_dimmer="0" enable_speed="0">
+          <dimmer position="0" level="512" />
+          <dimmer position="154" level="512" />
+          <speed position="0" level="256" />
+          <speed position="154" level="256" />
+        </button>
+        <button name="CLS3_Color 01 Blue" type="12" position="3100" size="1617" enable_dimmer="0" enable_speed="0">
+          <dimmer position="0" level="512" />
+          <dimmer position="1617" level="512" />
+          <speed position="0" level="256" />
+          <speed position="1617" level="256" />
+        </button>
+        <button name="CLS3_Color 02 Red" type="12" position="4717" size="817" enable_dimmer="0" enable_speed="0">
+          <dimmer position="0" level="512" />
+          <dimmer position="817" level="512" />
+          <speed position="0" level="256" />
+          <speed position="817" level="256" />
+        </button>
+        <button name="CLS3_Color 01 Blue" type="12" position="5534" size="996" enable_dimmer="0" enable_speed="0">
+          <dimmer position="0" level="512" />
+          <dimmer position="996" level="512" />
+          <speed position="0" level="256" />
+          <speed position="996" level="256" />
+        </button>
+        <button name="CLS3_Color 02 Red" type="12" position="6530" size="1065" enable_dimmer="0" enable_speed="0">
+          <dimmer position="0" level="512" />
+          <dimmer position="1065" level="512" />
+          <speed position="0" level="256" />
+          <speed position="1065" level="256" />
+        </button>
+        <button name="CLS3_Color 01 Blue" type="12" position="7595" size="2060" enable_dimmer="0" enable_speed="0">
+          <dimmer position="0" level="512" />
+          <dimmer position="2060" level="512" />
+          <speed position="0" level="256" />
+          <speed position="2060" level="256" />
+        </button>
+        <button name="CLS3_Color Effects 10 Meteor" type="12" position="9655" size="2440" enable_dimmer="0" enable_speed="0">
+          <dimmer position="0" level="512" />
+          <dimmer position="2440" level="512" />
+          <speed position="0" level="256" />
+          <speed position="2440" level="256" />
+        </button>
+        <button name="CLS3_Color 01 Blue" type="12" position="12095" size="2325" enable_dimmer="0" enable_speed="0">
+          <dimmer position="0" level="512" />
+          <dimmer position="2325" level="512" />
+          <speed position="0" level="256" />
+          <speed position="2325" level="256" />
+        </button>
+        <button name="CLS3_Color 02 Red" type="12" position="14420" size="1660" enable_dimmer="0" enable_speed="0">
+          <dimmer position="0" level="512" />
+          <dimmer position="1660" level="512" />
+          <speed position="0" level="256" />
+          <speed position="1660" level="256" />
+        </button>
+      </switch>
+      <switch enable="1" lock="0">
+        <button name="CLS3_Dimmer 20 FlashDimmer" type="12" position="2752" size="121" enable_dimmer="1" enable_speed="0">
+          <dimmer position="0" level="394" />
+          <dimmer position="121" level="394" />
+          <speed position="0" level="256" />
+          <speed position="121" level="256" />
+        </button>
+        <button name="CLS3_Dimmer 00 On" type="12" position="3100" size="620" enable_dimmer="1" enable_speed="0">
+          <dimmer position="0" level="10" />
+          <dimmer position="620" level="10" />
+          <speed position="0" level="256" />
+          <speed position="620" level="256" />
+        </button>
+        <button name="CLS3_Dimmer 20 FlashDimmer" type="12" position="3720" size="996" enable_dimmer="1" enable_speed="0">
+          <dimmer position="0" level="362" />
+          <dimmer position="850" level="362" />
+          <dimmer position="996" level="512" />
+          <speed position="0" level="256" />
+          <speed position="996" level="256" />
+        </button>
+        <button name="CLS3_Dimmer 00 On" type="12" position="4716" size="818" enable_dimmer="1" enable_speed="0">
+          <dimmer position="0" level="309" />
+          <dimmer position="818" level="309" />
+          <speed position="0" level="256" />
+          <speed position="818" level="256" />
+        </button>
+        <button name="CLS3_Dimmer 20 FlashDimmer" type="12" position="5534" size="996" enable_dimmer="1" enable_speed="0">
+          <dimmer position="0" level="362" />
+          <dimmer position="836" level="362" />
+          <dimmer position="996" level="512" />
+          <speed position="0" level="256" />
+          <speed position="996" level="256" />
+        </button>
+        <button name="CLS3_Dimmer 00 On" type="12" position="6530" size="1065" enable_dimmer="1" enable_speed="0">
+          <dimmer position="0" level="309" />
+          <dimmer position="1065" level="309" />
+          <speed position="0" level="256" />
+          <speed position="1065" level="256" />
+        </button>
+        <button name="CLS3_Dimmer 20 FlashDimmer" type="12" position="7595" size="135" enable_dimmer="1" enable_speed="0">
+          <dimmer position="0" level="490" />
+          <dimmer position="135" level="490" />
+          <speed position="0" level="256" />
+          <speed position="135" level="256" />
+        </button>
+        <button name="CLS3_Dimmer 00 On" type="12" position="7730" size="1050" enable_dimmer="1" enable_speed="0">
+          <dimmer position="0" level="0" />
+          <dimmer position="410" level="0" />
+          <dimmer position="790" level="10" />
+          <dimmer position="1050" level="512" />
+          <speed position="0" level="256" />
+          <speed position="1050" level="256" />
+        </button>
+        <button name="CLS3_Power Flash-Dimmer" type="12" position="8780" size="80" enable_dimmer="1" enable_speed="0">
+          <dimmer position="0" level="501" />
+          <dimmer position="80" level="501" />
+          <speed position="0" level="256" />
+          <speed position="80" level="256" />
+        </button>
+        <button name="CLS3_Dimmer 00 On" type="12" position="8860" size="480" enable_dimmer="0" enable_speed="0">
+          <dimmer position="0" level="512" />
+          <dimmer position="480" level="512" />
+          <speed position="0" level="256" />
+          <speed position="480" level="256" />
+        </button>
+        <button name="CLS3_Power Flash-Dimmer" type="12" position="9340" size="80" enable_dimmer="1" enable_speed="0">
+          <dimmer position="0" level="501" />
+          <dimmer position="80" level="501" />
+          <speed position="0" level="256" />
+          <speed position="80" level="256" />
+        </button>
+        <button name="CLS3_Dimmer 00 On" type="12" position="9420" size="6660" enable_dimmer="1" enable_speed="0">
+          <dimmer position="0" level="512" />
+          <dimmer position="210" level="362" />
+          <dimmer position="2515" level="362" />
+          <dimmer position="2670" level="512" />
+          <dimmer position="2748" level="10" />
+          <dimmer position="3004" level="10" />
+          <dimmer position="3296" level="512" />
+          <dimmer position="5595" level="512" />
+          <dimmer position="6660" level="0" />
+          <speed position="0" level="256" />
+          <speed position="6660" level="256" />
+        </button>
+      </switch>
+    </tl_light_data>
+    <tl_light_data name="PAR64">
+      <scene enable="1" lock="0" />
+      <switch enable="1" lock="0">
+        <button name="PAR64_Color 01 Blue" type="12" position="443" size="2657" enable_dimmer="1" enable_speed="0">
+          <dimmer position="0" level="10" />
+          <dimmer position="1676" level="512" />
+          <dimmer position="2657" level="512" />
+          <speed position="0" level="256" />
+          <speed position="2657" level="256" />
+        </button>
+        <button name="PAR64_Color 01 Blue" type="12" position="3100" size="1616" enable_dimmer="0" enable_speed="0">
+          <dimmer position="0" level="512" />
+          <dimmer position="1616" level="512" />
+          <speed position="0" level="256" />
+          <speed position="1616" level="256" />
+        </button>
+        <button name="PAR64_Color 02 Red" type="12" position="4716" size="818" enable_dimmer="0" enable_speed="0">
+          <dimmer position="0" level="512" />
+          <dimmer position="818" level="512" />
+          <speed position="0" level="256" />
+          <speed position="818" level="256" />
+        </button>
+        <button name="PAR64_Color 01 Blue" type="12" position="5534" size="996" enable_dimmer="0" enable_speed="0">
+          <dimmer position="0" level="512" />
+          <dimmer position="996" level="512" />
+          <speed position="0" level="256" />
+          <speed position="996" level="256" />
+        </button>
+        <button name="PAR64_Color 02 Red" type="12" position="6530" size="1065" enable_dimmer="0" enable_speed="0">
+          <dimmer position="0" level="512" />
+          <dimmer position="1065" level="512" />
+          <speed position="0" level="256" />
+          <speed position="1065" level="256" />
+        </button>
+        <button name="PAR64_Color 01 Blue" type="12" position="7595" size="6825" enable_dimmer="1" enable_speed="0">
+          <dimmer position="0" level="512" />
+          <dimmer position="130" level="512" />
+          <dimmer position="135" level="0" />
+          <dimmer position="925" level="0" />
+          <dimmer position="1180" level="512" />
+          <dimmer position="4501" level="512" />
+          <dimmer position="4573" level="10" />
+          <dimmer position="4825" level="10" />
+          <dimmer position="5125" level="512" />
+          <dimmer position="6825" level="512" />
+          <speed position="0" level="256" />
+          <speed position="6825" level="256" />
+        </button>
+        <button name="PAR64_Color 02 Red" type="12" position="14420" size="1660" enable_dimmer="1" enable_speed="0">
+          <dimmer position="0" level="512" />
+          <dimmer position="595" level="512" />
+          <dimmer position="1660" level="0" />
+          <speed position="0" level="256" />
+          <speed position="1660" level="256" />
+        </button>
+      </switch>
+    </tl_light_data>
+    <tl_light_data name="_MASTER">
+      <scene enable="1" lock="0" />
+      <switch enable="1" lock="0">
+        <button name="ALL_Devices 01 Off" type="12" position="58" size="50" enable_dimmer="0" enable_speed="0">
+          <dimmer position="0" level="512" />
+          <dimmer position="50" level="512" />
+          <speed position="0" level="256" />
+          <speed position="50" level="256" />
+        </button>
+      </switch>
+    </tl_light_data>
+    <tl_light_data name="ML400">
+      <scene enable="1" lock="0" />
+      <switch enable="1" lock="0" />
+    </tl_light_data>
+  </time_line>
+</EasyShow>

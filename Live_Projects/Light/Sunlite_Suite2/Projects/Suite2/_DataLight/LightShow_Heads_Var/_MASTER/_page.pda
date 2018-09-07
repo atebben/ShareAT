@@ -1,0 +1,63 @@
+<Page Author="dylan" Version="1.0">
+  <Global Name="_MASTER" Selected="1" InMaster="0" DmxSend="1" Freeze="0" Lock="0" SceneFadeManual="1" SceneFadeEnable="1" Icon="" ID="110" Currentlayer="2" ShowTab="1" Zoom="1" Image="" ImageCoef="100" ZoomFixture="500">
+    <Shortcut Key="0" Flag="1" />
+    <ShortcutFreeze Key="0" Flag="1" />
+    <ShortcutSendDmx Key="0" Flag="1" />
+  </Global>
+  <Lock AskPassword="1" PageRename="1" PageDelete="1" PageSettings="1" PageExport="1" PageFreeze="1" PageDmx="1" PageLock="1" PageAddInMaster="1" FxLiveMode="1" FxEmbeddedMode="1" FxAddEditDeleteRenameGroup="1" FxMove="1" Dimmer="0" Speed="0" ButtonsLayersChange="1" ButtonsLayersModif="1" ButtonsLayerOrder="1" ButtonsActivation="0" ButtonsOrder="1" ButtonsCreate="1" ButtonsEdit="1" ButtonsSettings="1" ButtonsRename="1" ButtonsDelete="1" ButtonsLinkKeyboard="1" ButtonsDimmer="0" ButtonsSpeed="0" ButtonsPhasing="0" ButtonsSize="0" />
+  <SwitchOn>
+    <Switch Name="MH-X25_Live 01 Pos Default" />
+    <Switch Page="MH-X25" Name="MH-X25_Live 01 Pos Default" />
+    <Switch Name="MH-X25_Dev_0" />
+  </SwitchOn>
+  <Compress Name="test" RandomAtTheEnd="0" SwitchOneIsOn="0" SwitchOnlyOneIsOn="0" Sort="1" ModeApplication="All" Type="Icon" Icon="" PX="0" PY="0" SX="0" SY="0" Flag="36" />
+  <Compress Name="Szene" RandomAtTheEnd="0" SwitchOneIsOn="0" SwitchOnlyOneIsOn="0" Sort="1" ModeApplication="All" Type="Icon" Icon="" PX="1313" PY="309" SX="205" SY="216" Flag="36" />
+  <Compress Name="Show_Stay" RandomAtTheEnd="0" SwitchOneIsOn="0" SwitchOnlyOneIsOn="0" Sort="1" ModeApplication="All" Type="Icon" Icon="" PX="0" PY="0" SX="0" SY="0" Flag="36" />
+  <Compress Name="Show_Hang" RandomAtTheEnd="0" SwitchOneIsOn="0" SwitchOnlyOneIsOn="0" Sort="1" ModeApplication="All" Type="Icon" Icon="" PX="0" PY="0" SX="0" SY="0" Flag="36" />
+  <Compress Name="ShowZyklus" RandomAtTheEnd="0" SwitchOneIsOn="0" SwitchOnlyOneIsOn="0" Sort="1" ModeApplication="All" Type="Icon" Icon="" PX="0" PY="0" SX="0" SY="0" Flag="36" />
+  <Compress Name="PAR_64_Speed" RandomAtTheEnd="0" SwitchOneIsOn="0" SwitchOnlyOneIsOn="0" Sort="0" ModeApplication="Switch" Type="Icon" Icon="" PX="0" PY="0" SX="0" SY="0" Flag="36" />
+  <Compress Name="PAR_64_Mode" RandomAtTheEnd="0" SwitchOneIsOn="0" SwitchOnlyOneIsOn="0" Sort="0" ModeApplication="Switch" Type="Icon" Icon="" PX="0" PY="0" SX="0" SY="0" Flag="36" />
+  <Compress Name="PAR_64_Farbmischung " RandomAtTheEnd="0" SwitchOneIsOn="0" SwitchOnlyOneIsOn="0" Sort="0" ModeApplication="Switch" Type="Icon" Icon="trichro.png" PX="0" PY="0" SX="0" SY="0" Flag="36" />
+  <Compress Name="PAR_64_Color Effects" RandomAtTheEnd="0" SwitchOneIsOn="0" SwitchOnlyOneIsOn="0" Sort="0" ModeApplication="Switch" Type="Icon" Icon="" PX="0" PY="0" SX="0" SY="0" Flag="36" />
+  <Compress Name="PAR64_Color" RandomAtTheEnd="0" SwitchOneIsOn="0" SwitchOnlyOneIsOn="0" Sort="1" ModeApplication="All" Type="Icon" Icon="" PX="0" PY="0" SX="0" SY="0" Flag="36" />
+  <Compress Name="PAR56_Speed" RandomAtTheEnd="0" SwitchOneIsOn="0" SwitchOnlyOneIsOn="0" Sort="1" ModeApplication="All" Type="Icon" Icon="" PX="0" PY="0" SX="0" SY="0" Flag="36" />
+  <Compress Name="PAR56_Mode" RandomAtTheEnd="0" SwitchOneIsOn="0" SwitchOnlyOneIsOn="0" Sort="1" ModeApplication="All" Type="Icon" Icon="" PX="0" PY="0" SX="0" SY="0" Flag="36" />
+  <Compress Name="PAR56_Farbmischung " RandomAtTheEnd="0" SwitchOneIsOn="0" SwitchOnlyOneIsOn="0" Sort="1" ModeApplication="All" Type="Icon" Icon="trichro.png" PX="0" PY="0" SX="0" SY="0" Flag="36" />
+  <Compress Name="PAR56_Color Effects" RandomAtTheEnd="0" SwitchOneIsOn="0" SwitchOnlyOneIsOn="0" Sort="1" ModeApplication="All" Type="Icon" Icon="" PX="0" PY="0" SX="0" SY="0" Flag="36" />
+  <Compress Name="PAR56_Color" RandomAtTheEnd="0" SwitchOneIsOn="0" SwitchOnlyOneIsOn="0" Sort="1" ModeApplication="All" Type="Icon" Icon="" PX="0" PY="0" SX="0" SY="0" Flag="36" />
+  <Compress Name="MusikIntro" RandomAtTheEnd="0" SwitchOneIsOn="0" SwitchOnlyOneIsOn="0" Sort="1" ModeApplication="All" Type="Icon" Icon="" PX="0" PY="0" SX="0" SY="0" Flag="36" />
+  <Compress Name="MH-X25_Speed" RandomAtTheEnd="0" SwitchOneIsOn="0" SwitchOnlyOneIsOn="0" Sort="1" ModeApplication="All" Type="Icon" Icon="" PX="0" PY="0" SX="0" SY="0" Flag="36" />
+  <Compress Name="MH-X25_Shutter" RandomAtTheEnd="0" SwitchOneIsOn="0" SwitchOnlyOneIsOn="0" Sort="1" ModeApplication="All" Type="Icon" Icon="shutter.png" PX="0" PY="0" SX="0" SY="0" Flag="36" />
+  <Compress Name="MH-X25_Position" RandomAtTheEnd="0" SwitchOneIsOn="0" SwitchOnlyOneIsOn="0" Sort="1" ModeApplication="All" Type="Icon" Icon="" PX="0" PY="0" SX="0" SY="0" Flag="36" />
+  <Compress Name="MH-X25_Pos_Stay" RandomAtTheEnd="0" SwitchOneIsOn="0" SwitchOnlyOneIsOn="0" Sort="1" ModeApplication="All" Type="Icon" Icon="" PX="0" PY="0" SX="0" SY="0" Flag="36" />
+  <Compress Name="MH-X25_Pos_Hang" RandomAtTheEnd="0" SwitchOneIsOn="0" SwitchOnlyOneIsOn="0" Sort="1" ModeApplication="All" Type="Icon" Icon="" PX="0" PY="0" SX="0" SY="0" Flag="36" />
+  <Compress Name="MH-X25_Live" RandomAtTheEnd="0" SwitchOneIsOn="0" SwitchOnlyOneIsOn="0" Sort="1" ModeApplication="All" Type="Icon" Icon="" PX="0" PY="0" SX="0" SY="0" Flag="36" />
+  <Compress Name="MH-X25_Gobo rotation" RandomAtTheEnd="0" SwitchOneIsOn="0" SwitchOnlyOneIsOn="0" Sort="1" ModeApplication="All" Type="Icon" Icon="goborot.png" PX="0" PY="0" SX="0" SY="0" Flag="36" />
+  <Compress Name="MH-X25_Gobo" RandomAtTheEnd="0" SwitchOneIsOn="0" SwitchOnlyOneIsOn="0" Sort="1" ModeApplication="All" Type="Icon" Icon="gobo.png" PX="0" PY="0" SX="0" SY="0" Flag="36" />
+  <Compress Name="MH-X25_Dimmer" RandomAtTheEnd="0" SwitchOneIsOn="0" SwitchOnlyOneIsOn="0" Sort="1" ModeApplication="All" Type="Icon" Icon="dimmer.png" PX="0" PY="0" SX="0" SY="0" Flag="36" />
+  <Compress Name="MH-X25_Dev_" RandomAtTheEnd="0" SwitchOneIsOn="0" SwitchOnlyOneIsOn="0" Sort="1" ModeApplication="Switch" Type="SplashPanTiltIco" Icon="pantilt.png" PX="204" PY="415" SX="450" SY="601" Flag="4" />
+  <Compress Name="MH-X25_Color" RandomAtTheEnd="0" SwitchOneIsOn="0" SwitchOnlyOneIsOn="0" Sort="1" ModeApplication="All" Type="Icon" Icon="color.png" PX="0" PY="0" SX="0" SY="0" Flag="36" />
+  <Compress Name="LiveShow" RandomAtTheEnd="0" SwitchOneIsOn="0" SwitchOnlyOneIsOn="0" Sort="1" ModeApplication="All" Type="Icon" Icon="" PX="0" PY="0" SX="0" SY="0" Flag="36" />
+  <Compress Name="Intro Stay" RandomAtTheEnd="0" SwitchOneIsOn="0" SwitchOnlyOneIsOn="0" Sort="1" ModeApplication="All" Type="Icon" Icon="" PX="0" PY="0" SX="0" SY="0" Flag="36" />
+  <Compress Name="ColorALL" RandomAtTheEnd="0" SwitchOneIsOn="1" SwitchOnlyOneIsOn="0" Sort="1" ModeApplication="Switch" Type="SplashList" Icon="COLOR.PNG" PX="0" PY="0" SX="0" SY="0" Flag="36" />
+  <Compress Name="CLS3_Power2" RandomAtTheEnd="0" SwitchOneIsOn="0" SwitchOnlyOneIsOn="0" Sort="1" ModeApplication="All" Type="Icon" Icon="" PX="0" PY="0" SX="0" SY="0" Flag="36" />
+  <Compress Name="CLS3_Power" RandomAtTheEnd="0" SwitchOneIsOn="0" SwitchOnlyOneIsOn="0" Sort="1" ModeApplication="All" Type="Icon" Icon="" PX="0" PY="0" SX="0" SY="0" Flag="36" />
+  <Compress Name="CLS3_Flash" RandomAtTheEnd="0" SwitchOneIsOn="0" SwitchOnlyOneIsOn="0" Sort="1" ModeApplication="All" Type="Icon" Icon="shutter.png" PX="0" PY="0" SX="0" SY="0" Flag="36" />
+  <Compress Name="CLS3_Farbmischung " RandomAtTheEnd="0" SwitchOneIsOn="0" SwitchOnlyOneIsOn="0" Sort="0" ModeApplication="All" Type="Icon" Icon="trichro.png" PX="0" PY="0" SX="0" SY="0" Flag="36" />
+  <Compress Name="CLS3_Dimmer" RandomAtTheEnd="0" SwitchOneIsOn="0" SwitchOnlyOneIsOn="0" Sort="1" ModeApplication="All" Type="Icon" Icon="dimmer.png" PX="0" PY="0" SX="0" SY="0" Flag="36" />
+  <Compress Name="CLS3_Color Effects" RandomAtTheEnd="0" SwitchOneIsOn="0" SwitchOnlyOneIsOn="0" Sort="1" ModeApplication="All" Type="Icon" Icon="" PX="0" PY="0" SX="0" SY="0" Flag="36" />
+  <Compress Name="CLS3_Color" RandomAtTheEnd="0" SwitchOneIsOn="0" SwitchOnlyOneIsOn="0" Sort="1" ModeApplication="All" Type="Icon" Icon="color.png" PX="0" PY="0" SX="0" SY="0" Flag="36" />
+  <Compress Name="ALL_Flash" RandomAtTheEnd="0" SwitchOneIsOn="0" SwitchOnlyOneIsOn="0" Sort="1" ModeApplication="All" Type="Icon" Icon="" PX="0" PY="0" SX="0" SY="0" Flag="36" />
+  <Compress Name="ALL_Dimmer" RandomAtTheEnd="0" SwitchOneIsOn="0" SwitchOnlyOneIsOn="0" Sort="1" ModeApplication="All" Type="Icon" Icon="" PX="0" PY="0" SX="0" SY="0" Flag="36" />
+  <Compress Name="ALL_Devices" RandomAtTheEnd="0" SwitchOneIsOn="0" SwitchOnlyOneIsOn="0" Sort="1" ModeApplication="All" Type="Icon" Icon="" PX="0" PY="0" SX="0" SY="0" Flag="36" />
+  <Compress Name="ALL_Color" RandomAtTheEnd="0" SwitchOneIsOn="0" SwitchOnlyOneIsOn="0" Sort="1" ModeApplication="All" Type="Icon" Icon="" PX="0" PY="0" SX="0" SY="0" Flag="36" />
+  <Fxs />
+  <VisuDmx _VisuDmxAllFxNameShow="0" _VisuDmxAllFxNameFontCustom="0" _VisuDmxAllFxNameFontclrCustom="0" _VisuDmxAllFxNameZoneclrCustom="0" _VisuDmxAllFxChannelsNameShow="0" _VisuDmxAllFxChannelsNameFontCustom="0" _VisuDmxAllFxChannelsNameFontclrCustom="0" _VisuDmxAllFxChannelsNameZoneclrCustom="0" _VisuDmxAllFxPresetsImageShow="0">
+    <_VisuDmxAllFxNameFont lfHeight="12" lfWidth="0" lfEscapement="0" lfOrientation="0" lfWeight="400" lfItalic="0" lfUnderline="0" lfStrikeOut="0" lfCharSet="1" lfOutPrecision="0" lfClipPrecision="0" lfQuality="0" lfPitchAndFamily="32" lfFaceName="Arial" />
+    <_VisuDmxAllFxNameFontclrArray data0="-1" data1="-1" data2="-1" data3="-1" data4="-1" data5="-1" data6="-1" data7="-1" data8="-1" data9="-1" />
+    <_VisuDmxAllFxNameZoneclrArray data0="-1" data1="-1" data2="-1" data3="-1" data4="-1" data5="-1" data6="-1" data7="-1" data8="-1" data9="-1" />
+    <_VisuDmxAllFxChannelsNameFont lfHeight="12" lfWidth="0" lfEscapement="0" lfOrientation="0" lfWeight="400" lfItalic="0" lfUnderline="0" lfStrikeOut="0" lfCharSet="1" lfOutPrecision="0" lfClipPrecision="0" lfQuality="0" lfPitchAndFamily="32" lfFaceName="Arial" />
+    <_VisuDmxAllFxChannelsNameFontclrArray data0="-1" data1="-1" data2="-1" data3="-1" data4="-1" data5="-1" data6="-1" data7="-1" data8="-1" data9="-1" />
+    <_VisuDmxAllFxChannelsNameZoneclrArray data0="-1" data1="-1" data2="-1" data3="-1" data4="-1" data5="-1" data6="-1" data7="-1" data8="-1" data9="-1" />
+  </VisuDmx>
+</Page>

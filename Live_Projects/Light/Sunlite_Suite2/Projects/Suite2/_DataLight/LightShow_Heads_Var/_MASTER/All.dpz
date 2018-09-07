@@ -1,0 +1,17 @@
+<ZoneParam Author="dylan" Version="1.0">
+  <Zone Type="0" ID="200">
+    <Group Name="MH-X25_DIMMER" Index="0" />
+    <Group Name="MH-X25_POSITION" Index="1" />
+    <Button Name="MH-X25_SPEED SPEED" Index="2" />
+    <Group Name="MH-X25_SHUTTER" Index="3" />
+    <Group Name="MH-X25_COLOR" Index="4" />
+    <Group Name="MH-X25_GOBO ROTATION" Index="5" />
+    <Group Name="MH-X25_GOBO" Index="6" />
+    <Button Name="I N I T" Index="7" />
+    <Group Name="CLS3_DIMMER" Index="8" />
+    <Group Name="CLS3_COLOR" Index="9" />
+    <Button Name="CLS3_FLASH FLASH" Index="10" />
+    <Group Name="CLS3_POWER1" Index="11" />
+    <Group Name="CLS3_POWER2" Index="12" />
+  </Zone>
+</ZoneParam>

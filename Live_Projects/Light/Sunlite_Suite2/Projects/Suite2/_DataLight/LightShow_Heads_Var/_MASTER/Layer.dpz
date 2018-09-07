@@ -1,0 +1,29 @@
+<ZoneParam Author="dylan" Version="1.0">
+  <Zone Type="0" ID="200">
+    <Group Name="ALL_DEVICES" Index="0" />
+    <Group Name="ALL_DIMMER" Index="1" />
+    <Group Name="ALL_FLASH" Index="2" />
+    <Group Name="ALL_COLOR" Index="3" />
+    <Group Name="SHOW_HANG" Index="4" />
+  </Zone>
+  <Zone Type="0" ID="201">
+    <Group Name="MH-X25_LIVE" Index="0" />
+    <Group Name="MH-X25_COLOR" Index="1" />
+    <Group Name="MH-X25_GOBO" Index="2" />
+    <Group Name="MH-X25_POS_HANG" Index="3" />
+  </Zone>
+  <Zone Type="0" ID="202">
+    <Group Name="CLS3_DIMMER" Index="0" />
+    <Group Name="CLS3_COLOR" Index="1" />
+    <Group Name="CLS3_COLOR EFFECTS" Index="2" />
+    <Group Name="CLS3_POWER" Index="3" />
+  </Zone>
+  <Zone Type="0" ID="203">
+    <Group Name="PAR64_COLOR" Index="0" />
+    <Group Name="PAR_64_MODE" Index="1" />
+    <Group Name="PAR56_COLOR" Index="2" />
+  </Zone>
+  <Zone Type="2" ID="204">
+    <Group Name="MH-X25_DEV_" Index="0" />
+  </Zone>
+</ZoneParam>
