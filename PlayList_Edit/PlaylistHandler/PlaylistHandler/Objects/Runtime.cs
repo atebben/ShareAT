@@ -199,8 +199,10 @@ namespace PlaylistHandler
             bool bArtists           = false;
             bool bTitel             = false;
             bool bName              = false;
-            if (mMP3FileName != null && mMP3FileName.Length > 0)
+            bool bWithFilename      = false;
+            if (mMP3FileName != null && mMP3FileName.Length > 0 && mMP3FileName.Contains("#EXTINF") == false)
             {
+                bWithFilename = true;
                 try
                 {
                     mMP3FileName = new FileInfo(mMP3FileName).Name;
@@ -251,7 +253,7 @@ namespace PlaylistHandler
                         {
                             bTitel = true;
                         }
-                        if (bName == false && mName == mMP3FileName)
+                        if (bName == false && ((bWithFilename == true && mName == mMP3FileName)|| bWithFilename == false))
                         {
                             bName = true;
                         }

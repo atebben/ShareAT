@@ -8,7 +8,7 @@ namespace PlaylistHandler.View
         public ucMain()
         {
             InitializeComponent();
-            txtRootpath.Text                = @"M:\EVENTS\01_Events\02_EventOpening\01_Played\";         
+            txtRootpath.Text                = @"M:\EVENTS\01_Events\02_EventOpening\";         
             btnChange.IsEnabled             = true;
             txtRootpath.IsEnabled           = true;
             lblStatus.Content               = "Status: Idle";
