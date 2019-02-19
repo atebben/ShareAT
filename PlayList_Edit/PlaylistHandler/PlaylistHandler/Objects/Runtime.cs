@@ -261,7 +261,7 @@ namespace PlaylistHandler
                     catch { }
                 }
             }
-            if (bArtists == true && bTitel == true && bName == true)
+            if (bArtists == true && bTitel == true)
             {
                 return true;
             }
