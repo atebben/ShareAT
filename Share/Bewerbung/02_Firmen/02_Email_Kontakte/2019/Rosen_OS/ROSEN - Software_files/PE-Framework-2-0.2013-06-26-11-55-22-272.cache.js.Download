@@ -1,0 +1,568 @@
+/*
+ * PE Modular Progressive Enhancement Framework 
+ * @License: MIT (http://www.opensource.org/licenses/mit-license.php)
+ * @Author: Michiel Kikkert 
+ * @Version: 2.0 
+ * @Date: September 2011
+ * Needs the jQuery Library.
+ * Expects a modules file containing _PE.module objects to parse.
+ * 
+ *********
+ * USAGE *
+ *********
+ * Include PE-Framework.js
+ * Include My-Modules.js
+ * Include jQuery library
+ * Include module dependent jQuery plugins
+ * 
+ * Starting the framework
+ * 
+ * //Create an [optional] overwrite config object (overwrites _PE.config items): 
+ * var oOptions = {moduleOrder:['mainNav','productTree','carousel'],debug:true};
+ * 
+ * //Create an new Framework instance, passing in the [optional] overwrite object and an [optional] jQuery object (required if other libs like Prototype also exist on the page)
+ * var application = new _PE.app(oOptions,jQuery.noConflict());
+ * 
+ * //Boot the framework: 
+ * application.boot();
+ * 
+ * PLEASE NOTE:
+ * Inside the _PE namespaced modules, jQuery has been abstracted as the _PE.config.jquery value (DEFAULT: $).
+ * Please change this to a different value if it conflicts with another library. 
+ * 
+ */
+
+
+if(typeof _PE != 'object'){
+	var _PE = {};
+	var _PE_version = '2.0'; // Added to be able to detect the PE framework version from code (can be used for compatibility version checks for generic modules)
+}
+
+_PE = {
+		// Here is where we set 'global' variables.
+		version: _PE_version,
+		config: { // Set default config options. Can be overwritten by passing in an options object to 'app'
+			debug: true,
+			globalErrorHandling: true,
+			UrlShowTrace: true,
+			benchmarkFile: '/js/benchmark.js',
+			jquery: '$',
+			ajaxConfig: {
+				dataType: 	"json",
+				type:		"POST",
+				success: 	function(data){_PE.core.ajax.globalSuccess(data)},
+				error: 		function(error){
+										_PE.utils.trace("AJAX REQUEST FAILED", "warn");
+										_PE.utils.trace(error.status+ ", "+ error.statusText);
+										_PE.utils.trace(error);
+										}
+			},
+			minjQueryVersion: "1.4.1",
+			moduleOrder: []
+		},
+		metaData:[],
+		modules: {},
+		fn: {},
+		vars: null,
+		registeredFunctions: [],
+		registeredEvents: [],
+		NS: '_PE',
+		framework:{
+			ready: false,
+			timings: {},
+			env: {}
+		},
+		path: [],
+		
+		app: function(options,jQueryObj){ 	// Main Constructor
+			if(typeof options == 'undefined') options = {};
+			jQuery.extend(true, _PE.config, options);
+			if(typeof jQueryObj == 'undefined'){ _PE.utils.trace("jQuery object not passed in, trying to assign default $");jQueryObj = window.$;}
+			if(typeof options.minjQueryVersion !="undefined"){_PE.config.minjQueryVersion = options.minjQueryVersion};
+			if(typeof options.debug !="undefined"){_PE.config.debug = options.debug};
+			if(!_PE.jQueryAssign(jQueryObj)){return {boot:function(){_PE.utils.trace("PE Framework failed to boot. jQuery missing or wrong version","warn");}};};
+			return _PE;
+		},
+		
+		jQueryAssign: function(jQuery){
+			try{
+				// Test if jQuery passed in is really jQuery and if the version is correct:
+				if(typeof jQuery == 'function'){
+					// Could still be prototype
+					if(typeof jQuery().jquery == "string"){
+						if(!this.compareVersions(jQuery().jquery, _PE.config.minjQueryVersion)){
+							throw("jQuery version is too old. The PE framework needs at least version "+ _PE.config.minjQueryVersion);
+						} else {
+							_PE.utils.trace("Found jQuery version "+jQuery().jquery+" (version " +_PE.config.minjQueryVersion + " is required according to config).");
+							_PE.utils.trace("Use "+_PE.config.jquery+" for jQuery in your modules");
+							window[_PE.config.jquery] = jQuery;
+							return true;
+						}
+					} else {
+						throw("You passed something in the app constructor, but it wasn't jQuery!");
+					}
+				} else {
+					throw("jQuery object not found. Please pass in a jQuery object into the app constructor");
+				}
+			} catch(e){
+				_PE.utils.trace("FRAMEWORK ERROR","warn");
+				_PE.utils.trace(e,"warn");
+				return false;
+			}
+			return false;
+		},
+		
+		compareVersions: function(dottedUsed,dottedRequired){
+			var usedVersionParts = dottedUsed.split(".");
+			var requiredVersionParts = dottedRequired.split(".");
+			var factor = 10;
+			var longest = 0;
+			
+			while(usedVersionParts.length < requiredVersionParts.length) usedVersionParts.push('0');
+			while(requiredVersionParts.length < usedVersionParts.length) requiredVersionParts.push('0');
+			
+			for(var i = 0; i < usedVersionParts.length; i++) longest = usedVersionParts[i].length > longest ? usedVersionParts[i].length : longest;
+			for(var i = 0; i < requiredVersionParts.length; i++) longest = requiredVersionParts[i].length > longest ? requiredVersionParts[i].length : longest;
+			factor = Math.pow(factor, longest);
+
+			var usedVersion = this.calcVersionNumbers(usedVersionParts, factor);
+			var requiredVersion = this.calcVersionNumbers(requiredVersionParts, factor);
+			
+			return (usedVersion >= requiredVersion);
+		},
+		
+		calcVersionNumbers: function(versionParts, base){
+			var totalCount = 0;
+			var start = 1;
+			for(var i = versionParts.length;i > 0 ; i--){
+				totalCount += (Math.pow(base,start)) * versionParts[i-1] ;
+				++start;
+			}
+			return totalCount;
+		},
+		
+		setEnv: function(){
+			for(var browser in jQuery.browser){
+				if(jQuery.browser[browser] == true){
+					_PE.framework.env.browser = browser;
+				} else {
+					_PE.framework.env.browser_version= jQuery.browser[browser];
+				}
+			}
+			var os="Unknown OS";
+			var appv = navigator.appVersion;
+			if (appv.indexOf("Win")!=-1) os="Windows";
+			if (appv.indexOf("Mac")!=-1) os="MacOS";
+			if (appv.indexOf("X11")!=-1) os="UNIX";
+			if (appv.indexOf("Linux")!=-1) os="Linux";
+			_PE.framework.env.os = os;
+			if(typeof _PE.metaData['version'] !='undefined'){
+				_PE.utils.trace("VERSION: "+_PE.metaData['version']);
+				_PE.framework.version = _PE.metaData['version'];
+			}
+			if(typeof _PE.metaData['buildnumber'] !='undefined'){
+				_PE.utils.trace("BUILD: "+_PE.metaData['buildnumber']);
+				_PE.framework.build = _PE.metaData['buildnumber'];
+			}
+			
+		},
+		
+		baseModule: {
+				
+				_construct: function(){
+					_PE.utils.trace("MODULE:" + this.id + "::_construct() start");
+					this.elements = jQuery(this.PEClass);
+					if(this.elements.length == 0){
+						_PE.utils.trace("MODULE:" + this.id + ":Not Applicable");
+						return;
+					}
+					_PE.core.timer("Module_"+this.id,true);
+					_PE.core.attachData(this.elements,"module");
+					_PE.core.attachController(this,"controller");
+					
+					try{
+						this.init();
+					} catch(e){
+						_PE.utils.trace("Could not run the init method on module:" + this.id,"warn")
+						_PE.utils.trace(e,"warn");
+					}
+					_PE.core.timer("Module_"+this.id,false);
+				}
+		},
+		
+		event: {
+			trigger: function(customEvent){
+			_PE.registeredEvents.push(customEvent);
+				jQuery(document).trigger(_PE.NS+"_"+customEvent);
+			},
+			bind: function(event,fn,args){
+				_PE.utils.trace('EVENT:BIND:: '+_PE.NS+'_'+event);
+				jQuery(document).bind(_PE.NS+'_'+event,args,fn);
+			}
+		},
+		
+		registerFunction: function(fn,event,oArgs){
+			try{
+				var args = oArgs || {};
+				_PE.registeredFunctions.push(fn+" -> "+event);
+				_PE.event.bind(event,_PE.fn[fn],args);
+			} catch(e){
+				_PE.utils.trace("Could not bind custom function "+fn,"warn");
+			}
+		},
+		
+		boot: function(){
+			_PE.utils.trace("_PE.boot()");
+			_PE.event.trigger('onBeforeDocumentReady')
+			jQuery(document).ready(function(){
+				// Bind Framework events
+				_PE.event.trigger('ready'); // Abstraction of document.ready
+				_PE.event.bind('onFrameworkReady',function(e){
+					_PE.framework.ready = true;
+					_PE.utils.trace("EVENTS:REGISTERED " + _PE.registeredEvents.join(" :: "));
+					_PE.utils.trace("FUNCTIONS:REGISTERED "+_PE.registeredFunctions.join(" :: "));
+				})
+				_PE.event.trigger('onBeforeFrameworkInit');
+				_PE.core.init();
+				_PE.event.trigger('onFrameworkReady');
+			});
+			
+		}
+};
+/*
+ * 
+ * _PE core
+ * 
+ */
+
+_PE.core = {
+		/*
+		 * _PE.core.init() method
+		 * Determines main execution order of the framework.
+		 * init() is called by $(document).ready which in turn
+		 * is bound by _PE.boot();
+		 * 
+		 */
+		init: function(){
+			try{
+				_PE.core.timer('Application',true);
+				_PE.utils.trace("_PE.core.init() START");
+				_PE.core.setMetaData();
+				_PE.core.setPath();
+				_PE.setEnv();
+				_PE.core.tweakInterface();
+				_PE.core.ajax.init();
+				_PE.core.startModules();
+				jQuery(window).scrollTop(0); // Fix for IE to prevent scrolling to halfway page.
+				_PE.core.timer('Application',false,true);
+				_PE.utils.trace("FRAMEWORK EXECUTION DONE in "+_PE.framework.timings.Application.total + " milliseconds");
+			} catch(e){
+				_PE.utils.trace("_PE.core.init() FAILED", "warn");
+				_PE.utils.trace(e);
+			}
+		},
+		
+		startModules: function(){
+			_PE.event.trigger('onBeforeModuleStart');
+			try{
+				if(_PE.modules){
+					// First run modules defined in the moduleOrder array:
+					jQuery.each(_PE.config.moduleOrder,function(index,obj){
+						if(typeof _PE.modules[obj] == 'object'){
+							var currentMod = _PE.modules[obj];
+							jQuery.extend(currentMod,_PE.baseModule);
+							_PE.core.extendModule(obj);
+							currentMod.done = true;
+							currentMod.module = currentMod;
+							currentMod._construct();
+						}
+					});
+					// Run the rest
+					jQuery.each(_PE.modules, function(index, obj){
+						if(!this.done){
+							this.done = true;
+							this.module = this;
+							jQuery.extend(this,_PE.baseModule);
+							_PE.core.extendModule(index);
+							this._construct();
+						}
+					});
+				}
+			} catch (e){
+				_PE.utils.trace(e)
+			}
+			_PE.event.trigger('onModulesReady');
+		},
+			
+		extendModule: function(module) {
+			var extension = _PE.modules[module];
+			if (typeof extension.extendsOn != 'undefined') {
+				var base = _PE.modules[extension.extendsOn];
+				if (typeof base != 'object') {
+					_PE.utils.trace("MODULE:"+module+" was not extended with MODULE:"+extension.extendsOn+", MODOULE:"+extension.extendsOn+" is not a valid module" , "warn");
+				} else { 
+					_PE.utils.trace("MODULE:"+module+" extended with MODULE:"+extension.extendsOn);
+					
+					// Bind the super "class" init() method to extension
+					extension.__init = base.init; // We make a copy of the base, rather then storing a reference to the base
+					
+					// Extend below might seem unlogical, but we extend the module with the base and then override it again with the module itself,
+					// this way we are sure references to the module object remains untouched, it's a slight overhead, but not worth mentioning.
+					var tmpobj = jQuery.extend({}, base, extension);
+					jQuery.extend(extension, tmpobj);
+				}
+			}
+		},
+
+		attachData: function(elements,type){
+			try{
+				jQuery.each(elements, function(index, obj){
+					var oData = _PE.core.parseClassData(obj.className);
+					jQuery(this).data(type,{data:oData});
+				});
+			} catch(e) {
+				_PE.utils.trace("Error caught in _PE.core.attachData ", "warn");
+				_PE.utils.trace(e);
+			}
+		},
+		
+		attachController: function(element,type){
+			try{
+				var elements = element.elements;
+				jQuery.each(elements, function(index, obj){
+					jQuery(this).data(type,{controller:element});
+				});
+			} catch(e) {
+				_PE.utils.trace("Error caught in _PE.core.attachController", "warn");
+				_PE.utils.trace(e);
+			}
+		},
+		
+		getControllerFromView: function(selector){
+			
+			if(typeof jQuery(selector).data("controller") !='undefined'){
+				return jQuery(selector).data("controller").controller;
+			} else {
+				return false;
+			}
+		},
+		
+		addFormData: function(form,key,value){
+			var existing = form.find('input[name*='+key+']');
+			if(existing.length > 0){
+				existing.val(value);
+			} else {
+				var input = jQuery('<input></input>');
+				input.attr('type','hidden');
+				input.attr('name',key);
+				input.attr('value',value);
+				input.appendTo(form);
+			}
+		},
+		
+		parseClassData: function(sData){
+			var myregexp = /data=(\{.+\})/i;
+			var match = myregexp.exec(sData);
+			if (match != null) {
+				result = match[1];
+				try{
+					if(eval("typeof "+result+" == 'object'")){
+						return eval("("+result+")");
+					}
+				} catch(e){
+					_PE.utils.trace("There is a problem with your 'data' attribute: "+ result,"warn");
+					_PE.utils.trace(e, "warn");
+				}
+			} 
+			return {};
+		},
+		
+		setMetaData: function(){
+			if(typeof window.metaData == 'object' || typeof window.metaData == 'array'){
+				_PE.metaData = window.metaData;
+			}
+			_PE.event.trigger('onSetMetaDataReady');
+		},
+		
+		setPath: function(){
+			if(typeof _PE.metaData['path'] !='undefined'){
+				_PE.path = _PE.core.parsePath(_PE.metaData['path']);
+			} else {
+				_PE.path = [];
+			}
+			_PE.event.trigger('onSetPathReady');
+		},
+		
+		tweakInterface: function(){
+			_PE.event.trigger('onBeforeTweakInterface');
+			/* Attach browser name to html element class */
+			jQuery('html').addClass(_PE.framework.env.browser);
+			/* Open download links in new window */
+			jQuery("._blank").attr("target","_blank");
+			jQuery(".no-autocomplete").attr("autocomplete","off");
+			_PE.event.trigger('onTweakInterfaceReady');
+		},
+		
+		timer: function(item,start,done){
+			var date = new Date();
+			if(start){
+				_PE.framework.timings[item] = new Array();
+				_PE.framework.timings[item].start = date.getTime();
+			} else {
+				_PE.framework.timings[item].stop = date.getTime();
+				_PE.framework.timings[item].total = _PE.framework.timings[item].stop - _PE.framework.timings[item].start;
+			}
+			if(done){
+				//_PE.utils.trace("Processing Times:");
+				//_PE.utils.trace(_PE.framework.timings);
+			}
+		},
+		
+		benchmark: function(data){
+			if(!data){
+				_PE.core.timer("_Benchmark",true);
+				_PE.core.ajax.send({type:'get', url:_PE.config.benchmarkFile, data:{}, success:_PE.core.benchmark});
+			} else {
+				_PE.core.timer("_Benchmark",false);
+				_PE.utils.trace(_PE.utils.trace(_PE.framework.timings._Benchmark));
+			}
+		},
+		
+		ajax: {
+			
+			init: function(){
+				jQuery.ajaxSetup(_PE.config.ajaxConfig);
+			},
+			
+			send: function(options){
+				
+				
+				var context = window;
+				var success = options.success;
+				var data = options.customdata || {};
+				
+				
+				if(options.context){
+					context = options.context;
+					options.context = null;
+				}
+				
+				var callback = function(responseData){_PE.core.createSuccess(context,responseData,success,data)()};
+				options.success = callback;
+				
+				return jQuery.ajax(options);
+			},
+			
+			globalFail: function(){
+				_PE.utils.trace("Ajax Fail", "warn")
+			},
+			
+			globalSuccess: function(data){
+				_PE.utils.trace("Ajax Success");
+				_PE.utils.trace(data);
+			}
+			
+		},
+		
+		createSuccess: function(context,responseData,callback,elementData){
+			return function(){
+				callback.apply(context,[{response:responseData,custom: elementData}]);
+			};
+		},
+		
+		parsePath: function(path){
+			
+			var arrPath = path.split("/");
+			var arrTemp = [];
+			
+			for(var i=0;i<arrPath.length;i++){
+				if(arrPath[i] !=""){arrTemp.push(arrPath[i])}
+			}
+			
+			if(arrTemp.length == 0){arrTemp.push("/");}
+			
+			return arrTemp;	
+		}	
+}
+
+/*
+ * 
+ *  _PE Utils 
+ *  
+*/
+
+if(typeof _PE == 'undefined'){
+	_PE = {};
+}
+
+_PE.utils = {
+	counter: 1,
+	trace: function(trace, level){
+		try {
+		
+		// Create timestamp
+		var d = new Date();
+		
+		//Create increment:
+		var i = this.counter; this.counter++; 
+
+		if(_PE.config.debug || window.showTrace){
+			if(typeof console =='object') {
+				if(typeof trace =='string' || typeof trace=="number" || typeof console.dir !='function'){	
+					if(level && console[level]){
+						console[level](i+") Trace: ["+d.getTime()+"] "+trace);
+					} else {
+					console.info(i+") Trace: ["+d.getTime()+"] "+trace);
+					}
+				}else {
+					console.info(i+") Trace: ["+d.getTime()+"]");
+					console.dir(trace);
+				}
+			}
+		}
+	} catch (e) {}
+		
+	}
+};
+
+/* 
+ * Global Error and Trace handling
+ */
+
+(function(){ 
+	if(typeof _PE.config == 'object' && _PE.config.globalErrorHandling){
+		if(typeof _PE.utils.trace !='undefined'){ _PE.utils.trace("Global Error handling is enabled");}
+		window.trace = [];
+		window.onerror = function(msg,url,line){
+			window.trace.push(msg + " - Line:"+line);
+			
+			if(typeof _PE.utils.trace !='undefined'){
+				var err = {};
+				err.msg = msg; err.url = url; err.line = line;
+				_PE.utils.trace("WINDOW.ONERROR","warn");
+				_PE.utils.trace(err,"error");
+			}
+			
+			return true;
+		};
+	} else {
+		if(typeof _PE.utils.trace !='undefined'){ _PE.utils.trace("Global Error handling is disabled");}
+	}
+	
+	if(typeof _PE.config == 'object' && _PE.config.UrlShowTrace){	
+		// determine if "showTrace" exists in the URL:
+		if(document.location.href.indexOf("showTrace") > 0){
+			window.showTrace = true;
+			window.onload = function(){	
+				if(window.trace.length > 0){
+					if(typeof window.console == 'undefined'){
+						alert(window.trace.join("\n"));
+					} else {
+						window.console.dir(window.trace);
+					}
+				}
+			}
+			 
+		}
+	}
+})();
