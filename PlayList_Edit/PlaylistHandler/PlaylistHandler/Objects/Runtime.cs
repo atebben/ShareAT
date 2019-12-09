@@ -70,14 +70,14 @@ namespace PlaylistHandler
         {
             get { return _Active; }
         }
-        public void Start(string mRootPath)
+        public void Start(List<string> mPlayPathes, List<string> mMusicPathes)
         {
             nPlaylisteEntries = 0;
             MusikInPlaylists.Clear();
             NotFindedFiles.Clear();
             MusicFiles.Clear();
             PlayListsFiles.Clear();
-            DirSearch(mRootPath);
+            DirSearch(mPlayPathes, mMusicPathes);
             ChangePlaylists();
             WriteLog();
             
@@ -267,29 +267,49 @@ namespace PlaylistHandler
             }
             return false;
         }
-        public void DirSearch(string dir)
+        public void DirSearch(List<string> mPlayPathes, List<string> mMusicPathes)
         {
-            foreach (string f in Directory.GetFiles(dir))
+            if (mPlayPathes != null && mPlayPathes.Count > 0)
+            {
+                for (int i = 0; i < mPlayPathes.Count; i++)
+                {
+                    foreach (string f in Directory.GetFiles(mPlayPathes[i]))
+                    {
+                        FileInfo mInfo = new FileInfo(f);
+                        if (mInfo.Extension.ToLower().Contains("m3u") == true)
+                        {
+                            PlayListsFiles.Add(mInfo);
+                        }
+                    }
+                }
+                if (mMusicPathes != null)
+                {
+                    for (int i = 0; i < mMusicPathes.Count; i++)
+                    {
+                        SearchMusic(mMusicPathes[i]);
+                    }
+                }
+            }
+        }
+        public void SearchMusic(string mDirPath)
+        {
+            foreach (string f in Directory.GetFiles(mDirPath))
             {
                 FileInfo mInfo = new FileInfo(f);
-                if (mInfo.Extension.ToLower().Contains("m3u") == true)
-                {
-                    PlayListsFiles.Add(mInfo);
-                }
-                else if (mInfo.Extension.ToLower().Contains("mp3") == true)
+                if (mInfo.Extension.ToLower().Contains("mp3") == true)
                 {
                     try
                     {
                         MusicFiles.Add(new MusikMetaData(mInfo, TagLib.File.Create(mInfo.FullName)));
                     }
                     catch
-                    {                       
+                    {
                     }
                 }
             }
-            foreach (string d in Directory.GetDirectories(dir))
+            foreach (string d in Directory.GetDirectories(mDirPath))
             {
-                DirSearch(d);
+                SearchMusic(d);
             }
         }
     }
