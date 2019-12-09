@@ -147,7 +147,8 @@ namespace PlaylistHandler
             {
                 try
                 {
-                    string[] mLines = File.ReadAllLines(PlayListsFiles[i].FullName, Encoding.UTF8);
+                    //string[] mLines = File.ReadAllLines(PlayListsFiles[i].FullName, Encoding.UTF8);
+                    string[] mLines = File.ReadAllLines(PlayListsFiles[i].FullName, Encoding.Default);
                     if (mLines != null && mLines.Length > 0)
                     {
                         MusikInPlaylists.Clear();
