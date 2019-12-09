@@ -290,6 +290,9 @@ namespace PlaylistHandler
                     }
                 }
             }
+
+            Console.WriteLine("");
+
         }
         public void SearchMusic(string mDirPath)
         {

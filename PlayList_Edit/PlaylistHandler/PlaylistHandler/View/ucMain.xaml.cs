@@ -32,7 +32,7 @@ namespace PlaylistHandler.View
                 }
                 for (int i = 0; i < mListMusic.Items.Count; i++)
                 {
-                    mPlaylists.Add(mListMusic.Items[i].ToString());
+                    mMusiclists.Add(mListMusic.Items[i].ToString());
                 }
                 MediaRuntime.Active.Start(mPlaylists, mMusiclists);
                 lblStatus.Content           = "Status: End ";
