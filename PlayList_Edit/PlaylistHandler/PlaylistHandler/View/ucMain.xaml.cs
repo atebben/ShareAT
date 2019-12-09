@@ -11,30 +11,27 @@ namespace PlaylistHandler.View
             InitializeComponent();     
             btnChange.IsEnabled             = true;            
             lblStatus.Content               = "Status: Idle";
-            this.IsEnabled                  = true;
-            mListPlaylists.Items.Add(@"M:\01_Music\0001_ActiveEvent\0011_Playlist\02_Events");
-            mListMusic.Items.Add(@"M:\01_Music\0001_ActiveEvent\1000_PartyPaarTanz");
-            mListMusic.Items.Add(@"M:\01_Music\0001_ActiveEvent\2000_PartySoloDance");
-            mListMusic.Items.Add(@"M:\01_Music\0001_ActiveEvent\3000_PartyArt");
+            this.IsEnabled                  = false;
+            if (XML.Active != null && XML.Active.Playlists.Count > 0 && XML.Active.Musiclists.Count > 0)
+            {
+                this.IsEnabled = true;
+                for (int i = 0; i < XML.Active.Playlists.Count; i++)
+                {
+                    mListPlaylists.Items.Add(XML.Active.Playlists[i]);
+                }
+                for (int i = 0; i < XML.Active.Musiclists.Count; i++)
+                {
+                    mListMusic.Items.Add(XML.Active.Musiclists[i]);
+                }
+            }
         }
         private void StartRun()
         {
             this.IsEnabled                  = false;
             lblStatus.Content               = "Status: Running ... ";
             if (MessageBox.Show("Soll der Prozess ausgeführt werden?","Sicherheitsabfrage", MessageBoxButton.YesNo, MessageBoxImage.Question) == MessageBoxResult.Yes)
-            {
-                List<string> mPlaylists = new List<string>();
-                List<string> mMusiclists = new List<string>();
-
-                for (int i=0; i< mListPlaylists.Items.Count; i++)
-                {
-                    mPlaylists.Add(mListPlaylists.Items[i].ToString());
-                }
-                for (int i = 0; i < mListMusic.Items.Count; i++)
-                {
-                    mMusiclists.Add(mListMusic.Items[i].ToString());
-                }
-                MediaRuntime.Active.Start(mPlaylists, mMusiclists);
+            {              
+                MediaRuntime.Active.Start();
                 lblStatus.Content           = "Status: End ";
             }
             else

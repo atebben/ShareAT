@@ -3,9 +3,69 @@ using System.Collections.Generic;
 using System.IO;
 using System.Text;
 using System.Windows;
+using System.Xml;
+using System.Xml.Linq;
+using System.Xml.Serialization;
 
 namespace PlaylistHandler
 {
+    [Serializable]
+    public class XML
+    {
+        string mXMLPath = "";
+        public XML()
+        {
+            mXMLPath = Directory.GetCurrentDirectory() + @"\Lists.xml";
+            if (File.Exists(mXMLPath) == false)
+            {
+                this.Playlists.Add(@"M:\01_Music\0001_ActiveEvent\0011_Playlist\02_Events");
+                this.Musiclists.Add(@"M:\01_Music\0001_ActiveEvent\1000_PartyPaarTanz");
+                this.Musiclists.Add(@"M:\01_Music\0001_ActiveEvent\2000_PartySoloDance");
+                this.Musiclists.Add(@"M:\01_Music\0001_ActiveEvent\3000_PartyArt");
+                Deserialize();
+                return;
+            }
+            XDocument doc = XDocument.Load(mXMLPath);
+            var mPlaylists = doc.Descendants("Playlists");
+            foreach (var mPlaylist in mPlaylists)
+            {
+                this.Playlists.Add(mPlaylist.Value);
+            }
+            var mMusiclists = doc.Descendants("Musiclists");
+            foreach (var mMusiclist in mMusiclists.Nodes())
+            {
+                if (mMusiclist is XElement)
+                {
+                    this.Musiclists.Add(((XElement)mMusiclist).Value);
+                }
+            }
+        }
+        private static XML _Active = new XML();
+        public static XML Active
+        {
+            get { return _Active; }
+        }      
+        private List<string> _Playlists = new List<string>();
+        public List<string> Playlists
+        {
+            get { return _Playlists; }
+            set { _Playlists = value; }
+        }
+        private List<string> _Musiclists = new List<string>();
+        public List<string> Musiclists
+        {
+            get { return _Musiclists; }
+            set { _Musiclists = value; }
+        }
+        public void Deserialize()
+        {
+            var serializer = new XmlSerializer(this.GetType());
+            using (var writer = XmlWriter.Create(mXMLPath))
+            {
+                serializer.Serialize(writer, this);
+            }
+        }
+    }
     public class MusikFilePlaylist
     {
         public MusikFilePlaylist(string mEXTINFValue, string mFilePath)
@@ -70,17 +130,16 @@ namespace PlaylistHandler
         {
             get { return _Active; }
         }
-        public void Start(List<string> mPlayPathes, List<string> mMusicPathes)
+        public void Start()
         {
             nPlaylisteEntries = 0;
             MusikInPlaylists.Clear();
             NotFindedFiles.Clear();
             MusicFiles.Clear();
             PlayListsFiles.Clear();
-            DirSearch(mPlayPathes, mMusicPathes);
+            DirSearch(XML.Active.Playlists, XML.Active.Musiclists);
             ChangePlaylists();
-            WriteLog();
-            
+            WriteLog();            
         }
         public void ChangePlaylists()
         {

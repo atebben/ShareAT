@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"              
-             mc:Ignorable="d" d:DesignWidth="900" Height="400">
+             mc:Ignorable="d" d:DesignWidth="900" Height="256.859">
     <Grid x:Name="MainGrd">
         <Button x:Name="btnChange"  Content="Change" ToolTip="Ändert den Musikpfad der Playlist, wenn dieser Dateipfad nicht mehr existiert" HorizontalAlignment="Right" Margin="0,198,22,0" VerticalAlignment="Top" Width="90" Height="30" Click="btnChange_Click"/>
         <Label x:Name="lblStatus" Content="Status:" VerticalContentAlignment="Center" HorizontalAlignment="Left" Margin="20,191,0,0" VerticalAlignment="Top" Width="324" FontWeight="Bold" FontSize="14" Height="44"/>
@@ -11,9 +11,5 @@
         <Label Content="Playlist Pfade:" HorizontalAlignment="Left" Margin="10,4,0,0" VerticalAlignment="Top" Width="84"/>
         <ListBox Height="139" x:Name="mListMusic" Margin="445,30,10,0" VerticalAlignment="Top" MouseDoubleClick="mListMusic_MouseDoubleClick"/>
         <Label Content="Musik Pfade:" HorizontalAlignment="Left" Margin="446,4,0,0" VerticalAlignment="Top" Width="76"/>
-        <Button Content="Add" x:Name="mAddPlaylists" HorizontalAlignment="Left" Margin="99,7,0,0" VerticalAlignment="Top" Width="40" Click="mAddPlaylists_Click"/>
-        <Button Content="Add" x:Name="mAddMusic" HorizontalAlignment="Left" Margin="522,7,0,0" VerticalAlignment="Top" Width="40" Click="mAddMusic_Click"/>
-        <Button Content="Delete" x:Name="mDeleteMusic" HorizontalAlignment="Left" Margin="567,7,0,0" VerticalAlignment="Top" Width="50" Click="mDeleteMusic_Click"/>
-        <Button Content="Delete" x:Name="mDeletePlaylists" HorizontalAlignment="Left" Margin="144,7,0,0" VerticalAlignment="Top" Width="50" Click="mDeletePlaylists_Click"/>
     </Grid>
 </UserControl>
