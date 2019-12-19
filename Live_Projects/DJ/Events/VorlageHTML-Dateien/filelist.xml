@@ -4,5 +4,7 @@
  <o:File HRef="props002.xml"/>
  <o:File HRef="themedata.thmx"/>
  <o:File HRef="colorschememapping.xml"/>
+ <o:File HRef="plchdr.html"/>
+ <o:File HRef="header.html"/>
  <o:File HRef="filelist.xml"/>
 </xml>
