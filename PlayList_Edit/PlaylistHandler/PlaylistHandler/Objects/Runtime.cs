@@ -18,10 +18,8 @@ namespace PlaylistHandler
             mXMLPath = Directory.GetCurrentDirectory() + @"\Lists.xml";
             if (File.Exists(mXMLPath) == false)
             {
-                this.Playlists.Add(@"M:\01_Music\0001_ActiveEvent\0011_Playlist\02_Events");
-                this.Musiclists.Add(@"M:\01_Music\0001_ActiveEvent\1000_PartyPaarTanz");
-                this.Musiclists.Add(@"M:\01_Music\0001_ActiveEvent\2000_PartySoloDance");
-                this.Musiclists.Add(@"M:\01_Music\0001_ActiveEvent\3000_PartyArt");
+                this.Playlists.Add(@"M:\01_Music\01_ActiveEvent\01_Playlist");
+                this.Musiclists.Add(@"M:\01_Music\01_ActiveEvent\02_PartyRounds");
                 Deserialize();
                 return;
             }
@@ -147,8 +145,7 @@ namespace PlaylistHandler
             {
                 try
                 {
-                    //string[] mLines = File.ReadAllLines(PlayListsFiles[i].FullName, Encoding.UTF8);
-                    string[] mLines = File.ReadAllLines(PlayListsFiles[i].FullName, Encoding.Default);
+                    string[] mLines = File.ReadAllLines(PlayListsFiles[i].FullName, Encoding.UTF8);
                     if (mLines != null && mLines.Length > 0)
                     {
                         MusikInPlaylists.Clear();
