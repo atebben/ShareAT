@@ -1,54 +1,51 @@
-
-		11.01.Paar.Walzer.Classics
-		11.02.Paar.Walzer.Modern
-		11.11.Paar.Latein.Classics
-
-		12.01.Paar.Discofox.Classics
-		12.02.Paar.Discofox.Middle
-		12.03.Paar.Discofox.Modern
-
-		13.01.Paar.Schlager.Classics
-		13.02.Paar.Schlager.Modern
-
-		21.01.Solo.Charts.Classics
-		21.02.Solo.Charts.Modern
-		21.03.Solo.Charts.ClubDance
-		21.21.Solo.BlaRnBHipHop.Classics
-		21.22.Solo.BlaRnBHipHop.Modern
-		21.31.Solo.HipHop.Classics
-		21.32.Solo.HipHop.Modern
-		21.41.Solo.ElectroHouse
-		21.42.Solo.TechnoTrance
-
-		31.01.PartyHits.DE.Classics
-		31.02.PartyHits.DE.Modern
-		31.11.PartyHits.Mix
-		31.21.PartyHits.Schlager
-		31.31.PartyHits.BallerApresSki
-
-		32.01.Deutsch.RockPop.Classics
-		32.02.Deutsch.RockPop.Modern
-		32.03.Deutsch.RockPop.Balladen
-		32.11.Deutsch.HipHop.Classics
-		32.71.Deutsch.Oldies
-		32.81.Deutsch.NDW
-
-		33.01.RealClas.RockPop.Classics
-		33.02.RealClas.RockPop.Modern
-		33.11.RealClas.50-60er.Classics
-		33.12.RealClas.50-60er.JazzSwing
-		33.21.RealClas.70-80er.Classics
-		33.22.RealClas.70-80er.GrooveDisco
-		33.31.RealClas.90-2000er.Classics
-		33.32.RealClas.90-2000er.EuroDance
-		33.41.RealClas.Oldies.Classics
-		33.42.RealClas.Oldies.Evergreens
-		33.51.RealClas.RocknRollTwist
-		33.52.RealClas.Soul
-		33.53.RealClas.ReggeaLatin
-
-		34.01.Rockig.Classics
-		34.02.Rockig.Modern
-
-		35.01.Slow.Balladen
-		35.02.Slow.LoveSongs
+11.01.Paar.Walzer.Classics
+11.02.Paar.Walzer.Modern
+11.11.Paar.Latein.Classics
+12.01.Paar.Discofox.Classics
+12.02.Paar.Discofox.Middle
+12.03.Paar.Discofox.Modern
+13.01.Paar.Schlager.Classics
+13.02.Paar.Schlager.Modern
+-----------------------------------------
+21.01.Solo.Charts.Classics
+21.02.Solo.Charts.Modern
+21.03.Solo.Charts.ClubDance
+21.21.Solo.BlaRnBHipHop.Classics
+21.22.Solo.BlaRnBHipHop.Modern
+21.31.Solo.HipHop.Classics
+21.32.Solo.HipHop.Modern
+21.41.Solo.ElectroHouse
+21.42.Solo.TechnoTrance
+-----------------------------------------
+31.01.PartyHits.DE.Classics
+31.02.PartyHits.DE.Modern
+31.11.PartyHits.Mix
+31.21.PartyHits.Schlager
+31.31.PartyHits.BallerApresSki
+-----------------------------------------
+32.01.Deutsch.RockPop.Classics
+32.02.Deutsch.RockPop.Modern
+32.03.Deutsch.RockPop.Balladen
+32.11.Deutsch.HipHop.Classics
+32.71.Deutsch.Oldies
+32.81.Deutsch.NDW
+-----------------------------------------
+33.01.RealClas.RockPop.Classics
+33.02.RealClas.RockPop.Modern
+33.11.RealClas.50-60er.Classics
+33.12.RealClas.50-60er.JazzSwing
+33.21.RealClas.70-80er.Classics
+33.22.RealClas.70-80er.GrooveDisco
+33.31.RealClas.90-2000er.Classics
+33.32.RealClas.90-2000er.EuroDance
+33.41.RealClas.Oldies.Classics
+33.42.RealClas.Oldies.Evergreens
+33.51.RealClas.RocknRollTwist
+33.52.RealClas.Soul
+33.53.RealClas.ReggeaLatin
+-----------------------------------------
+34.01.Rockig.Classics
+34.02.Rockig.Modern
+-----------------------------------------
+35.01.Slow.Balladen
+35.02.Slow.LoveSongs
