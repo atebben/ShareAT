@@ -1,6 +1,6 @@
-11.01.Paar.Walzer.Classics
-11.02.Paar.Walzer.Modern
-11.11.Paar.Latein.Classics
+Paar.Walzer.Classics
+Paar.Walzer.Modern
+Paar.Latein.Classics
 Paar.Discofox.Classics
 Paar.Discofox.Middle
 Paar.Discofox.Modern
