@@ -1,5 +1,5 @@
 //---------------------------------------------------------------------------------
-//Latino & Reggaeton
+%%Genre Latino & Reggaeton
 //---------------------------------------------------------------------------------
 Alvaro Soler & Jennifer Lopez - El Mismo Sol
 Bob Marley & The Wailers - Could You Be Loved
@@ -31,7 +31,7 @@ The Gipsy Kings - Bamboleo
 UB40 - Red Red Wine
 Yoland Be Cool & DCUP - We No Speak Americano
 //---------------------------------------------------------------------------------
-//Charts & House
+%%Genre Charts & House
 //---------------------------------------------------------------------------------
 Adele - Set Fire To The Rain (Moto Blanko)
 Alex Gaudino & Crystal Waters - Destination Unknown
@@ -98,7 +98,7 @@ The Disco Boys ft. Manfred Mann's Earth Band - For You
 Will.I.Am ft. Britney Spears - Scream & Shout
 Yves Larock - Rise Up
 //---------------------------------------------------------------------------------
-//Hip-Hop, RNB & Funk
+%%Genre Hip-Hop, RNB & Funk
 //---------------------------------------------------------------------------------
 2Pac ft. Dr. Dre - California Love
 50 Cent - In Da Club
@@ -145,7 +145,7 @@ Timbaland ft. Keri Hilson - The Way I Are
 Tiziano Ferro - Perdono
 Usher ft. Lil' Jon & Ludacris - Yeah!
 //---------------------------------------------------------------------------------
-//90er Partyhits
+%%Genre Partyhits
 //---------------------------------------------------------------------------------
 2 Unlimited - No Limit
 Ace of Base - All That She Wants
@@ -232,7 +232,7 @@ Whigfield - Saturday Night
 Will Smith - Gettin' Jiggy Wit It
 Will Smith - Men in Black
 //---------------------------------------------------------------------------------
-//Party, NDW & Schlager
+%%Genre Party, NDW & Schlager
 //---------------------------------------------------------------------------------
 Andrea Berg - Du hast mich 1000x belogen
 Andreas Gabalier - Hulapalu
@@ -290,7 +290,7 @@ Wildecker Herzbuben - Herzilein
 Wolfgang Petry - Verlieben verloren..
 Zillertaler Schürzenjäger - Sierra MadreAnd
 //---------------------------------------------------------------------------------
-//Pop und Disco
+%%Genre Pop und Disco
 //---------------------------------------------------------------------------------
 Abba - Dancing Queen
 Amanda ft. Sido - Blau
@@ -355,7 +355,7 @@ Village People - Y.M.C.A.
 Walk The Moon - Shut Up And Dance
 Wir sind Helden - Denkmal
 //---------------------------------------------------------------------------------
-//Rock & Rock-Classics
+%%Genre Rock & Rock-Classics
 //---------------------------------------------------------------------------------
 4 Non Blondes - What's Up
 AC/DC - Highway To Hell
@@ -421,7 +421,7 @@ Van Halen - Jump
 Wheatus - Teenage Dirt Bag
 ZZ Top - Gimme All Your Lovin’
 //---------------------------------------------------------------------------------
-//80er & Wave-Pop
+%%Genre 80er & Wave-Pop
 //---------------------------------------------------------------------------------
 Anne Clark - Our Darkness
 Bronski Beat - Smalltown Boy
@@ -445,7 +445,7 @@ Visage - Fade To Grey
 Whitney Houston - I Wanna Dance With Somebody
 Yazoo - Don't Go
 //---------------------------------------------------------------------------------
-//Oldies & Evergreens
+%%Genre Oldies & Evergreens
 //---------------------------------------------------------------------------------
 Adriano Celentano - Azurro
 Al Bano & Romina Power - Sempre, Sempre
