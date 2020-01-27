@@ -313,7 +313,8 @@ namespace PlaylistHandler
                                 {
                                     nTitelArtistZeilen++;
                                     bool bFindOK = false;
-                                    
+                                    string mLineArtist = "";
+                                    string mLineTitel = "";
                                     string[] strArr = mArtistTitelValue.Split('-');
                                     List<string> mParseValues = new List<string>();
                                     for (int b = 0; b < strArr.Length; b++)
@@ -325,11 +326,19 @@ namespace PlaylistHandler
                                         }
                                         catch { }
                                     }
+                                    if (mParseValues.Count >= 1)
+                                    {
+                                        mLineArtist = mParseValues[0].ToLower();
+                                    }
+                                    if (mParseValues.Count >= 2)
+                                    {
+                                        mLineTitel = mParseValues[1].ToLower();
+                                    }
                                     for (int b = 0; b < MusicFiles.Count; b++)
                                     {
                                         try
                                         {
-                                            if (CheckTitelArtist(MusicFiles[b], mParseValues, mFileName) == true)
+                                            if (CheckTitelArtist(MusicFiles[b], mLineArtist, mLineTitel) == true)
                                             {
                                                 mPlayInFile = new MusikFilePlaylist(WriteNewLine, MusicFiles[b].File.FullName,null,true, null);
                                                 bFindOK = true;
@@ -384,14 +393,48 @@ namespace PlaylistHandler
             }
             return mMusikInPlaylists;
         }   
-        private bool CheckTitelArtist(MusikMetaData mMusikData, List<string> mExtInfMetaDatas, string mMP3FileName)
+        private bool CheckTitelArtist(MusikMetaData mMusikData, string mLineArtist, string mLineTitel)
+        {
+            string mFileArtist          = "";
+            string mFileTitel           = "";              
+            if (mMusikData.mp3FileTag != null && mMusikData.mp3FileTag.Tag != null)
+            {
+                var mInterpretTag = mMusikData.mp3FileTag.Tag.FirstPerformer;
+                if (mInterpretTag != null)
+                {
+                    mFileArtist = mInterpretTag.ToLower();
+                }
+            }
+            if (mMusikData.Titel != null && mMusikData.Titel.Length > 0)
+            {
+                mFileTitel = mMusikData.Titel.ToLower();
+            }
+            if (mFileTitel.Length > 0 && mFileArtist.Length > 0 && mLineArtist.Length >0 && mLineTitel.Length > 0)
+            {                             
+                if (mFileArtist == mLineArtist && mFileTitel == mLineTitel)
+                {
+                    return true;
+                }               
+                if (mFileTitel == mLineTitel && (mFileArtist.Contains(mLineArtist) == true || mLineArtist.Contains(mFileArtist) == true))
+                {
+                    return true;                   
+                }
+            }
+            return false;
+
+            /*
+             private bool CheckTitelArtist(MusikMetaData mMusikData, List<string> mExtInfMetaDatas, string mMP3FileName)
         {
             string mArtist          = "";
             string mTitel           = "";
             string mName            = "";
-
-            if (mMP3FileName != null && mMP3FileName.Length > 0 && mMP3FileName.Contains(mPlaylistExtInf) == false)
+            bool bArtists           = false;
+            bool bTitel             = false;
+            bool bName              = false;
+            bool bWithFilename      = false;
+            if (mMP3FileName != null && mMP3FileName.Length > 0 && mMP3FileName.Contains("#EXTINF") == false)
             {
+                bWithFilename = true;
                 try
                 {
                     mMP3FileName = new FileInfo(mMP3FileName).Name;
@@ -425,32 +468,39 @@ namespace PlaylistHandler
                 }                
             }
             if (mTitel.Length > 0 && mArtist.Length > 0 && mName.Length > 0)
-            {               
-                string mFileArtist      = mArtist.ToLower();
-                string mFileTitel       = mTitel.ToLower();
-                string mLineArtist      = null; 
-                string mLineTitel       = null ;
-                if (mExtInfMetaDatas.Count <= 1)
+            {
+                for (int f = 0; f < mExtInfMetaDatas.Count; f++)
                 {
-                    mLineArtist         = mExtInfMetaDatas[0].ToLower();
-                }
-                if (mExtInfMetaDatas.Count <= 2)
-                {
-                    mLineArtist         = mExtInfMetaDatas[1].ToLower().ToLower();
-                }
-                if (mLineArtist != null && mLineTitel != null)
-                {
-                    if (mFileArtist == mLineArtist && mFileTitel == mLineTitel)
+                    try
                     {
-                        return true;
+                        var LowParVal = mExtInfMetaDatas[f].ToLower();
+                        var mLowArtists = mArtist.ToLower();
+                        var mLowTitel = mTitel.ToLower();
+                        if (bArtists == false && LowParVal == mLowArtists)
+                        {
+                            bArtists = true;
+                        }
+                        if (bTitel == false && LowParVal == mLowTitel)
+                        {
+                            bTitel = true;
+                        }
+                        if (bName == false && ((bWithFilename == true && mName == mMP3FileName)|| bWithFilename == false))
+                        {
+                            bName = true;
+                        }
                     }
-                    if ((mFileArtist.Contains(mLineArtist) ==true || mLineArtist.Contains(mFileArtist)) && (mFileTitel.Contains(mLineTitel) == true || mLineTitel.Contains(mFileTitel)))
-                    {
-                        return true;
-                    }
+                    catch { }
                 }
             }
+            if (bArtists == true && bTitel == true)
+            {
+                return true;
+            }
             return false;
+        }
+             */
+
+
         }
         public void WriteLog(List<MusikFilePlaylist> mNotFindedFiles, eState mState)
         {
@@ -458,17 +508,28 @@ namespace PlaylistHandler
             {
                 if (mNotFindedFiles != null && mNotFindedFiles.Count > 0)
                 {
-                    var mNotFiles = mNotFindedFiles.Where(x => x.ExistFile == false).Count();
+                    var mNotFiles = mNotFindedFiles.Where(x => x.ExistFile == false).ToList();
+                    int nNotFiles = 0;
+                    if (mNotFiles != null)
+                    {
+                        nNotFiles = mNotFiles.Count;
+                    }
                     mFileWrite.WriteLine("*******************************************************************");
-                    mFileWrite.WriteLine("Status (" + mState + ") -->  Nicht gefunden Musik-Dateien (" + mNotFiles + ")");
+                    mFileWrite.WriteLine("Status (" + mState + ") -->  Nicht gefunden Musik-Dateien (" + nNotFiles + ")");
                     mFileWrite.WriteLine("*******************************************************************");
                     mFileWrite.WriteLine("Anzahl (Artist-Titel) Zeilen (" + nTitelArtistZeilen + ")");
                     mFileWrite.WriteLine("Anzahl Play-/MusicList-Dateien (" + nPlaylistFiles + ")");
                     mFileWrite.WriteLine("Anzahl Musik-Dateien (" + MusicFiles.Count + ")");
                     mFileWrite.WriteLine("*******************************************************************");
-                    for (int i = 0; i < mNotFindedFiles.Count; i++)
+                    if (mNotFiles != null)
                     {
-                        mFileWrite.WriteLine(mNotFindedFiles[i]);
+                        for (int i = 0; i < mNotFiles.Count; i++)
+                        {
+                            if (mNotFiles[i].ExistFile == false)
+                            {
+                                mFileWrite.WriteLine(mNotFiles[i].PlaylistName + "  -  " + mNotFiles[i].ArtistTitleLine + "");
+                            }
+                        }
                     }
                 }
             }
