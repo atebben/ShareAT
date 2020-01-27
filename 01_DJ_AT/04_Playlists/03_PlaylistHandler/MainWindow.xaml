@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:View="clr-namespace:PlaylistHandler.View" x:Class="PlaylistHandler.MainWindow"
         mc:Ignorable="d"
-        Title="Playlist Handler" Height="300" Width="900" WindowStartupLocation="CenterScreen">
+        Title="Playlist Handler" Height="556" Width="900" WindowStartupLocation="CenterScreen">
     <Grid>
         <View:ucMain Height="Auto"/>
     </Grid>

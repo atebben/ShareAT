@@ -3,13 +3,16 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"              
-             mc:Ignorable="d" d:DesignWidth="900" Height="256.859">
+             mc:Ignorable="d" Height="490" Width="840">
     <Grid x:Name="MainGrd">
-        <Button x:Name="btnChange"  Content="Change" ToolTip="Ändert den Musikpfad der Playlist, wenn dieser Dateipfad nicht mehr existiert" HorizontalAlignment="Right" Margin="0,198,22,0" VerticalAlignment="Top" Width="90" Height="30" Click="btnChange_Click"/>
-        <Label x:Name="lblStatus" Content="Status:" VerticalContentAlignment="Center" HorizontalAlignment="Left" Margin="20,191,0,0" VerticalAlignment="Top" Width="324" FontWeight="Bold" FontSize="14" Height="44"/>
-        <ListBox HorizontalAlignment="Left" x:Name="mListPlaylists" Height="139" Margin="10,31,0,0" VerticalAlignment="Top" Width="430" MouseDoubleClick="mListPlaylists_MouseDoubleClick"/>
-        <Label Content="Playlist Pfade:" HorizontalAlignment="Left" Margin="10,4,0,0" VerticalAlignment="Top" Width="84"/>
-        <ListBox Height="139" x:Name="mListMusic" Margin="445,30,10,0" VerticalAlignment="Top" MouseDoubleClick="mListMusic_MouseDoubleClick"/>
-        <Label Content="Musik Pfade:" HorizontalAlignment="Left" Margin="446,4,0,0" VerticalAlignment="Top" Width="76"/>
+        <Button x:Name="btnChangePlaylists"  Content="Überprüfung der Event-Playlists" ToolTip="Ändert den Musikpfad der Playlist, wenn dieser Dateipfad nicht mehr existiert" HorizontalAlignment="Left" Margin="507,236,0,0" VerticalAlignment="Top" Width="300" Height="30" Click="btnChangePlaylists_Click"/>
+        <Label x:Name="lblStatus" Content="Status:" VerticalContentAlignment="Center" HorizontalAlignment="Left" Margin="11,420,0,0" VerticalAlignment="Top" Width="696" FontWeight="Bold" FontSize="14" Height="44"/>
+        <ListBox HorizontalAlignment="Left" x:Name="mListPlaylistFiles" Height="100" Margin="11,166,0,0" VerticalAlignment="Top" Width="481" MouseDoubleClick="mListPlaylists_MouseDoubleClick"/>
+        <Label Content="Vorhandene Event-Playlist-Dateien (Verzeichnisse)" HorizontalAlignment="Left" Margin="11,139,0,0" VerticalAlignment="Top" Width="349"/>
+        <ListBox Height="100" x:Name="mListMusicFiles" Margin="10,32,0,0" VerticalAlignment="Top" MouseDoubleClick="mListMusic_MouseDoubleClick" HorizontalAlignment="Left" Width="482"/>
+        <Label Content="Musik-Dateien (Verzeichnisse)" HorizontalAlignment="Left" Margin="11,6,0,0" VerticalAlignment="Top" Width="349"/>
+        <Button x:Name="btnCreatePlaylists"  Content="Erstellung neuer Playlisten" ToolTip="Ändert den Musikpfad der Playlist, wenn dieser Dateipfad nicht mehr existiert" HorizontalAlignment="Left" Margin="507,370,0,0" VerticalAlignment="Top" Width="300" Height="30" Click="btnCreatePlaylists_Click"/>
+        <ListBox HorizontalAlignment="Left" x:Name="mListExternMusikListFiles" Height="100" Margin="11,300,0,0" VerticalAlignment="Top" Width="481" MouseDoubleClick="mListPlaylists_MouseDoubleClick"/>
+        <Label Content="Externe Kunden-Musik-Liste (Artist - Titel)" HorizontalAlignment="Left" Margin="11,273,0,0" VerticalAlignment="Top" Width="349"/>
     </Grid>
 </UserControl>

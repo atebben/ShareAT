@@ -1,5 +1,4 @@
-﻿using System.Collections.Generic;
-using System.Windows;
+﻿using System.Windows;
 using System.Windows.Controls;
 
 namespace PlaylistHandler.View
@@ -8,80 +7,63 @@ namespace PlaylistHandler.View
     {
         public ucMain()
         {
-            InitializeComponent();     
-            btnChange.IsEnabled             = true;            
+            InitializeComponent();               
             lblStatus.Content               = "Status: Idle";
-            this.IsEnabled                  = false;
-            if (XML.Active != null && XML.Active.Playlists.Count > 0 && XML.Active.Musiclists.Count > 0)
+            
+            for (int i = 0; i < XML.Active.DirectoriesEventMusic.Count; i++)
             {
-                this.IsEnabled = true;
-                for (int i = 0; i < XML.Active.Playlists.Count; i++)
-                {
-                    mListPlaylists.Items.Add(XML.Active.Playlists[i]);
-                }
-                for (int i = 0; i < XML.Active.Musiclists.Count; i++)
-                {
-                    mListMusic.Items.Add(XML.Active.Musiclists[i]);
-                }
+                mListMusicFiles.Items.Add(XML.Active.DirectoriesEventMusic[i]);
+            }
+            for (int i = 0; i < XML.Active.DirectoriesEventPlaylist.Count; i++)
+            {
+                mListPlaylistFiles.Items.Add(XML.Active.DirectoriesEventPlaylist[i]);
+            }
+            for (int i = 0; i < XML.Active.DirectoriesExternMusiclists.Count; i++)
+            {
+                mListExternMusikListFiles.Items.Add(XML.Active.DirectoriesExternMusiclists[i]);
             }
         }
-        private void StartRun()
+        private void ReadEventPLaylistFiles()
         {
-            this.IsEnabled                  = false;
-            lblStatus.Content               = "Status: Running ... ";
-            if (MessageBox.Show("Soll der Prozess ausgeführt werden?","Sicherheitsabfrage", MessageBoxButton.YesNo, MessageBoxImage.Question) == MessageBoxResult.Yes)
-            {              
-                MediaRuntime.Active.Start();
-                lblStatus.Content           = "Status: End ";
+            if (MessageBox.Show("Soll der Prozess ausgeführt werden?", "Sicherheitsabfrage", MessageBoxButton.YesNo, MessageBoxImage.Question) == MessageBoxResult.Yes)
+            {
+                MediaRuntime.Active.ReadMusicDirectories();
+                MediaRuntime.Active.ReadEventPlaylists();
+                lblStatus.Content = "Status: End ";
             }
             else
             {
-                lblStatus.Content           = "Status: Abort ";
-            }
-            this.IsEnabled                  = true;
-        }
-        private void btnChange_Click(object sender, RoutedEventArgs e)
-        {
-            StartRun();
-        }
-
-        private void mAddPlaylists_Click(object sender, RoutedEventArgs e)
-        {
-            var mDir = GetDirectory();
-            if (mDir != null && mDir.Length > 0)
-            {
-                mListPlaylists.Items.Add(mDir);
+                lblStatus.Content = "Status: Abort ";
             }
         }
-        private void mDeletePlaylists_Click(object sender, RoutedEventArgs e)
+        private void ReadExternMusikLists()
         {
-            if (mListPlaylists != null && mListPlaylists.Items != null && mListPlaylists.Items.Count > 0 && mListPlaylists.SelectedItem != null)
+            if (MessageBox.Show("Soll der Prozess ausgeführt werden?", "Sicherheitsabfrage", MessageBoxButton.YesNo, MessageBoxImage.Question) == MessageBoxResult.Yes)
             {
-                mListPlaylists.Items.Remove(mListPlaylists.SelectedItem);
+                MediaRuntime.Active.ReadMusicDirectories();
+                MediaRuntime.Active.ReadExternMusiclists();
+                lblStatus.Content = "Status: End ";
+            }
+            else
+            {
+                lblStatus.Content = "Status: Abort ";
             }
         }
         private void mListPlaylists_MouseDoubleClick(object sender, System.Windows.Input.MouseButtonEventArgs e)
         {
-            mListPlaylists.Items.Clear();
+            mListPlaylistFiles.Items.Clear();
         }
         private void mAddMusic_Click(object sender, RoutedEventArgs e)
         {
             var mDir = GetDirectory();
             if (mDir != null && mDir.Length > 0)
             {
-                mListMusic.Items.Add(mDir);
-            }
-        }
-        private void mDeleteMusic_Click(object sender, RoutedEventArgs e)
-        {
-            if (mListMusic != null && mListMusic.Items != null && mListMusic.Items.Count > 0 && mListMusic.SelectedItem != null)
-            {
-                mListMusic.Items.Remove(mListMusic.SelectedItem);
+                mListMusicFiles.Items.Add(mDir);
             }
         }
         private void mListMusic_MouseDoubleClick(object sender, System.Windows.Input.MouseButtonEventArgs e)
         {
-            mListMusic.Items.Clear();
+            mListMusicFiles.Items.Clear();
         }
         private string  GetDirectory()
         {
@@ -94,6 +76,14 @@ namespace PlaylistHandler.View
                 }
             }
             return null;
+        }
+        private void btnChangePlaylists_Click(object sender, RoutedEventArgs e)
+        {
+            ReadEventPLaylistFiles();
+        }
+        private void btnCreatePlaylists_Click(object sender, RoutedEventArgs e)
+        {
+            ReadExternMusikLists();
         }
     }
 }
