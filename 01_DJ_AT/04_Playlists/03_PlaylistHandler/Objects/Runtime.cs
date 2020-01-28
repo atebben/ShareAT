@@ -335,6 +335,28 @@ namespace PlaylistHandler
             }
             return mMusikInPlaylists;
         }
+        private string ParseDefalt(string mValue)
+        {
+            if (mValue != null && mValue.Length > 0)
+            {
+                mValue = mValue.ToLower();              
+                mValue = mValue.Replace(" ", "");
+                mValue = mValue.Replace("'", "");
+                mValue = mValue.Replace("’", "");
+                mValue = mValue.Replace(",", "");
+                mValue = mValue.Replace("‘", "");
+                mValue = mValue.Replace(".", "");
+                mValue = mValue.Replace("!", "");
+                mValue = mValue.Replace("?", "");                
+            }
+            return mValue;
+        }
+        private string ParseRemoveKlammen(string mValue)
+        {
+            mValue = mValue.TrimEnd('(');
+            mValue = mValue.TrimEnd(')');
+            return mValue;
+        }
         private MusikFilePlaylist CheckTitelArtistFromMusicFiles(string WriteNewLine, string mArtistTitelValue, string mRawFileLine, string mExistPlaylistName, eState mState)
         {           
             string mLowLineArtist      = "";
@@ -343,18 +365,16 @@ namespace PlaylistHandler
             if (strArr.Length >= 1)
             {
                 mLowLineArtist = strArr[0].ToLower();
-                mLowLineArtist = mLowLineArtist.TrimEnd(' ');
-                mLowLineArtist = mLowLineArtist.TrimStart(' ');
             }
             if (strArr.Length >= 2)
             {
                 mLowLineTitel = strArr[1].ToLower();
-                mLowLineTitel = mLowLineTitel.TrimEnd(' ');
-                mLowLineTitel = mLowLineTitel.TrimStart(' ');
             }
             try
             {
-                var mMainSearch     = MusicFiles.Where(x => x.LowInterpret == mLowLineArtist && x.LowTitel == mLowLineTitel);
+                mLowLineArtist  = ParseDefalt(mLowLineArtist);
+                mLowLineTitel   = ParseDefalt(mLowLineTitel);
+                var mMainSearch     = MusicFiles.Where(x => ParseDefalt(x.LowInterpret) == mLowLineArtist && ParseDefalt(x.LowTitel) == mLowLineTitel);
                 int nCount          = mMainSearch.Count();
                 if (nCount > 0)
                 {
@@ -374,15 +394,13 @@ namespace PlaylistHandler
                 try
                 {
                     bool bOnlyTitel     = false;
-                    mLowLineArtist = mLowLineArtist.TrimEnd('(');
-                    mLowLineArtist = mLowLineArtist.TrimEnd(')');
-                    mLowLineTitel = mLowLineTitel.TrimEnd('(');
-                    mLowLineTitel = mLowLineTitel.TrimEnd(')');
-                    var mContainSearch  = MusicFiles.Where(x => x.LowInterpret.Contains(mLowLineArtist) && x.LowTitel.Contains(mLowLineTitel));
+                    mLowLineArtist      = ParseRemoveKlammen(mLowLineArtist);
+                    mLowLineTitel       = ParseRemoveKlammen(mLowLineTitel);
+                    var mContainSearch  = MusicFiles.Where(x => ParseDefalt(x.LowInterpret).Contains(mLowLineArtist) && ParseDefalt(x.LowTitel).Contains(mLowLineTitel));
                     int nCount          = mContainSearch.Count();
                     if (nCount <= 0)
                     {
-                        mContainSearch      = MusicFiles.Where(x => x.LowTitel.Contains(mLowLineTitel));
+                        mContainSearch      = MusicFiles.Where(x => ParseDefalt(x.LowTitel).Contains(mLowLineTitel));
                         nCount              = mContainSearch.Count();
                         bOnlyTitel          = true;
                     }
