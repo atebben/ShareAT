@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PlaylistHandler.View;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -419,17 +420,19 @@ namespace PlaylistHandler
                             }
                             if (mOneEntry != null && mOneEntry.Count > 0)
                             {
-                                List<string> mFiles = new List<string>();
-                                for (int i = 0; i < mOneEntry.Count; i++)
+                                string mCurrentFile     = "";                               
+                                if (bOnlyTitel == true || mOneEntry.Count > 1)
                                 {
-                                    string mFileName = mOneEntry[i].Filename;
-                                    if (bOnlyTitel == true)
-                                    {
-                                        mFileName = "***OnlyTitel***" + mFileName;
-                                    }
-                                    mFiles.Add(mFileName);
+                                    mCurrentFile = new AusWahl(mArtistTitelValue, mOneEntry).CurrentFile;
                                 }
-                                return new MusikFilePlaylist(WriteNewLine, mFiles, null, true, mExistPlaylistName);
+                                else
+                                {
+                                    mCurrentFile = mOneEntry[0].Filename;
+                                }
+                                if (mCurrentFile != null && mCurrentFile.Length > 0)
+                                {
+                                    return new MusikFilePlaylist(WriteNewLine, new List<string>() { mCurrentFile }, null, true, mExistPlaylistName);
+                                }
                             }
                         }
                     }
