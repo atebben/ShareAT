@@ -22,6 +22,7 @@ namespace PlaylistHandler.View
             {
                 ListBoxFiles.SelectedItem = ListBoxFiles.Items[0];
             }
+            mStatus.Content = "Anzahl Dateien ("+ ListBoxFiles.Items.Count + ")";
             ShowDialog();
         }
         private string _CurrentFile = "";
@@ -29,19 +30,39 @@ namespace PlaylistHandler.View
         {
             get { return _CurrentFile; }
         }
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void CloseWithFile()
         {
             _CurrentFile = "";
-            if (ListBoxFiles.SelectedItem != null) 
+            if (ListBoxFiles.SelectedItem != null)
             {
-                _CurrentFile =  ListBoxFiles.SelectedItem.ToString(); 
+                _CurrentFile = ListBoxFiles.SelectedItem.ToString();
             }
             this.Close();
         }
-        private void Button_Click_1(object sender, RoutedEventArgs e)
+        private void CloseWithoutFile()
         {
             _CurrentFile = "";
+            mStatus.Content = "Datei (" + _CurrentFile + ") ausgewählt";
             this.Close();
+        }
+        private void KeyEvent(System.Windows.Input.KeyEventArgs e)
+        {                       
+            if (e.Key == System.Windows.Input.Key.F5 || e.Key == System.Windows.Input.Key.Return)
+            {
+                CloseWithFile();
+            }            
+            if (e.Key == System.Windows.Input.Key.F6 || e.Key == System.Windows.Input.Key.Space)
+            {
+                CloseWithoutFile();
+            }
+        }
+        private void Window_KeyUp(object sender, System.Windows.Input.KeyEventArgs e)
+        {
+            KeyEvent(e);
+        }        
+        private void ListBoxFiles_KeyUp(object sender, System.Windows.Input.KeyEventArgs e)
+        {
+            KeyEvent(e);
         }
     }
 }

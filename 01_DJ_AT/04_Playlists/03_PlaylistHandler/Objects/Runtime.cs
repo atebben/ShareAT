@@ -291,7 +291,7 @@ namespace PlaylistHandler
                                 string mFileName = "";
                                 string mExistPlaylistName = mChangeList[i].Name;                                
                                 bool mLineRead = false;
-                                if (mRawFileLine.StartsWith("//") == false && mRawFileLine.ToLower().Contains(".mp3") == false && mRawFileLine.ToLower().Contains("-") == true)
+                                if (mRawFileLine.StartsWith("//") == false)
                                 {
                                     if (mState == eState.EventPlaylist)                                    
                                     {                                        
@@ -302,7 +302,7 @@ namespace PlaylistHandler
                                             {
                                                 mFileName = mLines[a + 1];
                                                 string mCheckOfFile = mFileName.ToLower();
-                                                if (mCheckOfFile.Contains("NoMusicFile") == false && mFileName.Contains("#EXTINF") && mFileName.ToLower().Contains(".mp3"))
+                                                if (mCheckOfFile.Contains("NoMusicFile") == false && mFileName.Contains("#EXTINF") == false && mFileName.ToLower().Contains(".mp3"))
                                                 {
                                                     if (File.Exists(mFileName) == true)
                                                     {
@@ -390,10 +390,10 @@ namespace PlaylistHandler
             {
                 Console.WriteLine(ex);
             }
-            if (mState == eState.ExternMusiclist)
+            if (mState == eState.ExternMusiclist || mState == eState.EventPlaylist)
             {
                 try
-                {
+                {                    
                     bool bOnlyTitel     = false;
                     mLowLineArtist      = ParseRemoveKlammen(mLowLineArtist);
                     mLowLineTitel       = ParseRemoveKlammen(mLowLineTitel);
@@ -424,13 +424,13 @@ namespace PlaylistHandler
                                 if (bOnlyTitel == true || mOneEntry.Count > 1)
                                 {
                                     mCurrentFile = new AusWahl(mArtistTitelValue, mOneEntry).CurrentFile;
-                                }
+                                    Console.WriteLine("***********************" + mCurrentFile);                                                                }
                                 else
                                 {
                                     mCurrentFile = mOneEntry[0].Filename;
                                 }
                                 if (mCurrentFile != null && mCurrentFile.Length > 0)
-                                {
+                                {                                    
                                     return new MusikFilePlaylist(WriteNewLine, new List<string>() { mCurrentFile }, null, true, mExistPlaylistName);
                                 }
                             }
