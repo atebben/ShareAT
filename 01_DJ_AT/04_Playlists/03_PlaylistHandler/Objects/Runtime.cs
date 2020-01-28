@@ -79,10 +79,10 @@ namespace PlaylistHandler
     }
     public class MusikFilePlaylist
     {
-        public MusikFilePlaylist(string mArtistTitleLine, string mFilePath, string mErrorInfo, bool bIsExist, string mPlaylistName)
+        public MusikFilePlaylist(string mArtistTitleLine, List<string> mFiles, string mErrorInfo, bool bIsExist, string mPlaylistName)
         {
             _ArtistTitleLine    = mArtistTitleLine;
-            _FilePath           = mFilePath;
+            _Files              = mFiles;
             _ErrorInfo          = mErrorInfo;
             _ExistFile          = bIsExist;
             _PlaylistName       = mPlaylistName;
@@ -93,11 +93,11 @@ namespace PlaylistHandler
             get { return _ArtistTitleLine; }
             set { _ArtistTitleLine = value; }
         }
-        private string _FilePath = "";
-        public string FilePath
+        private List<string> _Files = null;
+        public List<string> Files
         {
-            get { return _FilePath; }
-            set { _FilePath = value; }
+            get { return _Files; }
+            set { _Files = value; }
         }
         private string _ErrorInfo = null;
         public string ErrorInfo
@@ -136,6 +136,18 @@ namespace PlaylistHandler
             get { return _mp3FileTag; }
             set { _mp3FileTag = value; }
         }
+        public string LowTitel
+        {
+            get {return Titel.ToLower(); }
+        }
+        public string LowInterpret
+        {
+            get { return Interpret.ToLower(); }
+        }
+        public string LowFilename
+        {
+            get { return Filename.ToLower(); }
+        }
         public string Titel
         {
             get { if (_mp3FileTag != null && _mp3FileTag.Tag != null) return _mp3FileTag.Tag.Title; return ""; }
@@ -162,7 +174,6 @@ namespace PlaylistHandler
         private string mExtMusicFiles = "mp3";
         private string mExtMusicLists = "txt";
         private string mCommentNoFiles = "**NoMusicFile*** ";
-        private int nTitelArtistZeilen  = 0;
         private int nPlaylistFiles      = 0;
         public static MediaRuntime Active
         {
@@ -207,7 +218,6 @@ namespace PlaylistHandler
         }
         public void ReadEventPlaylists()
         {
-            nTitelArtistZeilen = 0;
             nPlaylistFiles = 0;
             if (XML.Active.DirectoriesEventPlaylist != null)
             {
@@ -230,7 +240,6 @@ namespace PlaylistHandler
         }
         public void ReadExternMusiclists()
         {
-            nTitelArtistZeilen = 0;
             nPlaylistFiles = 0;
             if (XML.Active.DirectoriesExternMusiclists != null)
             {
@@ -282,7 +291,7 @@ namespace PlaylistHandler
                                 string mFileName = "";
                                 string mExistPlaylistName = mChangeList[i].Name;                                
                                 bool mLineRead = false;
-                                if (mRawFileLine.StartsWith("//") == false)
+                                if (mRawFileLine.StartsWith("//") == false && mRawFileLine.ToLower().Contains(".mp3") == false && mRawFileLine.ToLower().Contains("-") == true)
                                 {
                                     if (mState == eState.EventPlaylist)                                    
                                     {                                        
@@ -298,7 +307,7 @@ namespace PlaylistHandler
                                                     if (File.Exists(mFileName) == true)
                                                     {
                                                         mLineRead = false;
-                                                        mPlayInFile = new MusikFilePlaylist(WriteNewLine, mFileName, null,true,null);
+                                                        mPlayInFile = new MusikFilePlaylist(WriteNewLine, new List<string>() { mFileName }, null,true,null);
                                                     }
                                                 }
                                             }
@@ -311,46 +320,7 @@ namespace PlaylistHandler
                                 }
                                 if (mLineRead == true && mPlayInFile == null)
                                 {
-                                    nTitelArtistZeilen++;
-                                    bool bFindOK = false;
-                                    string mLineArtist = "";
-                                    string mLineTitel = "";
-                                    string[] strArr = mArtistTitelValue.Split('-');
-                                    List<string> mParseValues = new List<string>();
-                                    for (int b = 0; b < strArr.Length; b++)
-                                    {
-                                        try
-                                        {
-                                            string mtmp = strArr[b].TrimEnd(' ');
-                                            mParseValues.Add(mtmp.TrimStart(' '));
-                                        }
-                                        catch { }
-                                    }
-                                    if (mParseValues.Count >= 1)
-                                    {
-                                        mLineArtist = mParseValues[0].ToLower();
-                                    }
-                                    if (mParseValues.Count >= 2)
-                                    {
-                                        mLineTitel = mParseValues[1].ToLower();
-                                    }
-                                    for (int b = 0; b < MusicFiles.Count; b++)
-                                    {
-                                        try
-                                        {
-                                            if (CheckTitelArtist(MusicFiles[b], mLineArtist, mLineTitel) == true)
-                                            {
-                                                mPlayInFile = new MusikFilePlaylist(WriteNewLine, MusicFiles[b].File.FullName,null,true, null);
-                                                bFindOK = true;
-                                                break;
-                                            }
-                                        }
-                                        catch { }
-                                    }                                    
-                                    if (bFindOK == false)
-                                    {
-                                        mPlayInFile = new MusikFilePlaylist(WriteNewLine,null, mCommentNoFiles + WriteNewLine,false, mExistPlaylistName);
-                                    }
+                                    mPlayInFile = CheckTitelArtistFromMusicFiles(WriteNewLine, mArtistTitelValue, mRawFileLine, mExistPlaylistName, mState);
                                 }
                                 if (mPlayInFile != null)
                                 {
@@ -359,148 +329,90 @@ namespace PlaylistHandler
                             }
                             catch { }
                         }
-                        if (mMusikInPlaylists != null && mMusikInPlaylists.Count > 0)
-                        {
-                            string mListName = mChangeList[i].FullName;
-                            if (mState == eState.ExternMusiclist)
-                            {
-                                mListName = mChangeList[i].FullName + "." + mExtPlaylist;
-                            }
-                            if (File.Exists(mListName))
-                            {
-                                File.Delete(mListName);
-                            }
-                            using (StreamWriter mFileWrite = new StreamWriter(mListName))
-                            {
-                                mFileWrite.WriteLine(mPlaylistStart);
-                                for (int b = 0; b < mMusikInPlaylists.Count; b++)
-                                {
-                                    mFileWrite.WriteLine(mMusikInPlaylists[b].ArtistTitleLine);
-                                    if (mMusikInPlaylists[b].FilePath != null && mMusikInPlaylists[b].FilePath.Length > 0)
-                                    {
-                                        mFileWrite.WriteLine(mMusikInPlaylists[b].FilePath);
-                                    }
-                                    if (mMusikInPlaylists[b].ErrorInfo != null && mMusikInPlaylists[b].ErrorInfo.Length > 0)
-                                    {
-                                        mFileWrite.WriteLine(mMusikInPlaylists[b].ErrorInfo);
-                                    }
-                                }
-                            }
-                        }
+                        WritePlaylistEntries(mMusikInPlaylists, mChangeList[i], mState);
                     }
                 }
                 catch { }
             }
             return mMusikInPlaylists;
-        }   
-        private bool CheckTitelArtist(MusikMetaData mMusikData, string mLineArtist, string mLineTitel)
-        {
-            string mFileArtist          = "";
-            string mFileTitel           = "";              
-            if (mMusikData.mp3FileTag != null && mMusikData.mp3FileTag.Tag != null)
+        }
+        private MusikFilePlaylist CheckTitelArtistFromMusicFiles(string WriteNewLine, string mArtistTitelValue, string mRawFileLine, string mExistPlaylistName, eState mState)
+        {           
+            string mLowLineArtist      = "";
+            string mLowLineTitel       = "";
+            string[] strArr = mArtistTitelValue.Split('-');
+            if (strArr.Length >= 1)
             {
-                var mInterpretTag = mMusikData.mp3FileTag.Tag.FirstPerformer;
-                if (mInterpretTag != null)
-                {
-                    mFileArtist = mInterpretTag.ToLower();
-                }
+                mLowLineArtist = strArr[0].ToLower();
+                mLowLineArtist = mLowLineArtist.TrimEnd(' ');
+                mLowLineArtist = mLowLineArtist.TrimStart(' ');
             }
-            if (mMusikData.Titel != null && mMusikData.Titel.Length > 0)
+            if (strArr.Length >= 2)
             {
-                mFileTitel = mMusikData.Titel.ToLower();
+                mLowLineTitel = strArr[1].ToLower();
+                mLowLineTitel = mLowLineTitel.TrimEnd(' ');
+                mLowLineTitel = mLowLineTitel.TrimStart(' ');
             }
-            if (mFileTitel.Length > 0 && mFileArtist.Length > 0 && mLineArtist.Length >0 && mLineTitel.Length > 0)
-            {                             
-                if (mFileArtist == mLineArtist && mFileTitel == mLineTitel)
-                {
-                    return true;
-                }               
-                if (mFileTitel == mLineTitel && (mFileArtist.Contains(mLineArtist) == true || mLineArtist.Contains(mFileArtist) == true))
-                {
-                    return true;                   
-                }
-            }
-            return false;
-
-            /*
-             private bool CheckTitelArtist(MusikMetaData mMusikData, List<string> mExtInfMetaDatas, string mMP3FileName)
-        {
-            string mArtist          = "";
-            string mTitel           = "";
-            string mName            = "";
-            bool bArtists           = false;
-            bool bTitel             = false;
-            bool bName              = false;
-            bool bWithFilename      = false;
-            if (mMP3FileName != null && mMP3FileName.Length > 0 && mMP3FileName.Contains("#EXTINF") == false)
+            var mMainSearch = MusicFiles.Where(x => x.LowInterpret == mLowLineArtist && x.LowTitel == mLowLineTitel).ToList();            
+            if (mMainSearch != null && mMainSearch.Count > 0)
             {
-                bWithFilename = true;
-                try
-                {
-                    mMP3FileName = new FileInfo(mMP3FileName).Name;
-                }
-                catch (Exception ex)
-                {
-                    MessageBox.Show(mMP3FileName +"\n" + ex.ToString());
-                }                
+                return new MusikFilePlaylist(WriteNewLine, new List<string>() { mMainSearch[0].Filename }, null, true, mExistPlaylistName);
             }
-            if (mMusikData.mp3FileTag != null && mMusikData.mp3FileTag.Tag != null)
+            if (mState == eState.ExternMusiclist)
             {
-                var mInterpretTag = mMusikData.mp3FileTag.Tag.FirstPerformer;
-                if (mInterpretTag != null)
+                mLowLineArtist = mLowLineArtist.TrimEnd('(');
+                mLowLineArtist = mLowLineArtist.TrimEnd(')');
+                mLowLineTitel = mLowLineTitel.TrimEnd('(');
+                mLowLineTitel = mLowLineTitel.TrimEnd(')');
+                var mContainSearch = MusicFiles.Where(x => x.LowInterpret.Contains(mLowLineArtist) && x.LowTitel.Contains(mLowLineTitel)).ToList();
+                if (mContainSearch != null && mContainSearch.Count > 0)
                 {
-                    mArtist = mInterpretTag;
-                }
-            }
-            if (mMusikData.Titel != null && mMusikData.Titel.Length > 0)
-            {
-                mTitel = mMusikData.Titel;
-            }
-            if (mMusikData.Filename != null)
-            {
-                try
-                {
-                    mName = new FileInfo(mMusikData.Filename).Name;
-                }
-                catch (Exception ex)
-                {
-                    MessageBox.Show(mName + "\n" + ex.ToString());
-                }                
-            }
-            if (mTitel.Length > 0 && mArtist.Length > 0 && mName.Length > 0)
-            {
-                for (int f = 0; f < mExtInfMetaDatas.Count; f++)
-                {
-                    try
+                    List<string> mFiles = new List<string>();
+                    for (int i=0; i< mContainSearch.Count; i++)
                     {
-                        var LowParVal = mExtInfMetaDatas[f].ToLower();
-                        var mLowArtists = mArtist.ToLower();
-                        var mLowTitel = mTitel.ToLower();
-                        if (bArtists == false && LowParVal == mLowArtists)
+                        mFiles.Add(mContainSearch[i].Filename);
+                    }
+                    return new MusikFilePlaylist(WriteNewLine, mFiles, null, true, mExistPlaylistName);
+                }
+            }
+            return new MusikFilePlaylist(WriteNewLine, null, mCommentNoFiles + WriteNewLine, false, mExistPlaylistName); ;
+        }
+        private void WritePlaylistEntries(List<MusikFilePlaylist> mMusikInPlaylists, FileInfo mChangeFileInfo, eState mState)
+        {
+            if (mMusikInPlaylists != null && mMusikInPlaylists.Count > 0)
+            {
+                string mListName = mChangeFileInfo.FullName;
+                if (mState == eState.ExternMusiclist)
+                {
+                    mListName = mChangeFileInfo.FullName + "." + mExtPlaylist;
+                }
+                if (File.Exists(mListName))
+                {
+                    File.Delete(mListName);
+                }
+                using (StreamWriter mFileWrite = new StreamWriter(mListName))
+                {
+                    mFileWrite.WriteLine(mPlaylistStart);
+                    for (int b = 0; b < mMusikInPlaylists.Count; b++)
+                    {
+                        mFileWrite.WriteLine(mMusikInPlaylists[b].ArtistTitleLine);
+                        if (mMusikInPlaylists[b].Files != null && mMusikInPlaylists[b].Files.Count > 0)
                         {
-                            bArtists = true;
+                            for (int h=0; h < mMusikInPlaylists[b].Files.Count; h++)
+                            {
+                                if (mMusikInPlaylists[b].Files[h].Length > 0)
+                                {
+                                    mFileWrite.WriteLine(mMusikInPlaylists[b].Files[h]);
+                                }
+                            }                            
                         }
-                        if (bTitel == false && LowParVal == mLowTitel)
+                        if (mMusikInPlaylists[b].ErrorInfo != null && mMusikInPlaylists[b].ErrorInfo.Length > 0)
                         {
-                            bTitel = true;
-                        }
-                        if (bName == false && ((bWithFilename == true && mName == mMP3FileName)|| bWithFilename == false))
-                        {
-                            bName = true;
+                            mFileWrite.WriteLine(mMusikInPlaylists[b].ErrorInfo);
                         }
                     }
-                    catch { }
                 }
             }
-            if (bArtists == true && bTitel == true)
-            {
-                return true;
-            }
-            return false;
-        }
-             */
-
-
         }
         public void WriteLog(List<MusikFilePlaylist> mNotFindedFiles, eState mState)
         {
@@ -516,8 +428,7 @@ namespace PlaylistHandler
                     }
                     mFileWrite.WriteLine("*******************************************************************");
                     mFileWrite.WriteLine("Status (" + mState + ") -->  Nicht gefunden Musik-Dateien (" + nNotFiles + ")");
-                    mFileWrite.WriteLine("*******************************************************************");
-                    mFileWrite.WriteLine("Anzahl (Artist-Titel) Zeilen (" + nTitelArtistZeilen + ")");
+                    mFileWrite.WriteLine("*******************************************************************");                   
                     mFileWrite.WriteLine("Anzahl Play-/MusicList-Dateien (" + nPlaylistFiles + ")");
                     mFileWrite.WriteLine("Anzahl Musik-Dateien (" + MusicFiles.Count + ")");
                     mFileWrite.WriteLine("*******************************************************************");
