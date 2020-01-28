@@ -1,11 +1,11 @@
-﻿
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Windows;
 
 namespace PlaylistHandler.View
 {
     public partial class AusWahl : Window
     {
+        public bool RunNext = true;
         public AusWahl(string mPLaylistEntryItem, List<MusikMetaData> mMusicMetaData)
         {
             InitializeComponent();
@@ -22,7 +22,6 @@ namespace PlaylistHandler.View
             {
                 ListBoxFiles.SelectedItem = ListBoxFiles.Items[0];
             }
-            mStatus.Content = "Anzahl Dateien ("+ ListBoxFiles.Items.Count + ")";
             ShowDialog();
         }
         private string _CurrentFile = "";
@@ -42,7 +41,6 @@ namespace PlaylistHandler.View
         private void CloseWithoutFile()
         {
             _CurrentFile = "";
-            mStatus.Content = "Datei (" + _CurrentFile + ") ausgewählt";
             this.Close();
         }
         private void KeyEvent(System.Windows.Input.KeyEventArgs e)

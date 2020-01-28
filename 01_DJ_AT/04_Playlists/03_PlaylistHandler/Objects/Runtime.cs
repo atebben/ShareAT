@@ -423,8 +423,7 @@ namespace PlaylistHandler
                                 string mCurrentFile     = "";                               
                                 if (bOnlyTitel == true || mOneEntry.Count > 1)
                                 {
-                                    mCurrentFile = new AusWahl(mArtistTitelValue, mOneEntry).CurrentFile;
-                                    Console.WriteLine("***********************" + mCurrentFile);                                                                }
+                                    mCurrentFile = new AusWahl(mArtistTitelValue, mOneEntry).CurrentFile;                                                      }
                                 else
                                 {
                                     mCurrentFile = mOneEntry[0].Filename;

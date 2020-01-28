@@ -8,8 +8,7 @@
         Title="AusWahl" Height="450" Width="1100" WindowStartupLocation="CenterScreen" KeyUp="Window_KeyUp">
     <Grid>
         <Label x:Name="PlaylistItem"  Content="Label" Margin="10,23,10,0" VerticalAlignment="Top" FontWeight="Bold"/>
-        <ListBox x:Name="ListBoxFiles" Margin="10,64,10,52" KeyUp="ListBoxFiles_KeyUp"/>
-        <Label x:Name="mStatus" Content="Label" Margin="10,383,10,0" VerticalAlignment="Top"/>
+        <ListBox x:Name="ListBoxFiles" Margin="10,64,10,10" KeyUp="ListBoxFiles_KeyUp"/>
 
     </Grid>
 </Window>
