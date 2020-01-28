@@ -36,31 +36,27 @@ namespace PlaylistHandler.View
             {
                 _CurrentFile = ListBoxFiles.SelectedItem.ToString();
             }
-            this.Close();
+            if (_CurrentFile != null && _CurrentFile.Length > 0)
+            {
+                this.Close();
+            }
+            else
+            {
+                MessageBox.Show("Keine Datei gefunden. Error ");
+            }                
         }
         private void CloseWithoutFile()
         {
             _CurrentFile = "";
             this.Close();
         }
-        private void KeyEvent(System.Windows.Input.KeyEventArgs e)
-        {                       
-            if (e.Key == System.Windows.Input.Key.F5 || e.Key == System.Windows.Input.Key.Return)
-            {
-                CloseWithFile();
-            }            
-            if (e.Key == System.Windows.Input.Key.F6 || e.Key == System.Windows.Input.Key.Space)
-            {
-                CloseWithoutFile();
-            }
+        private void Abbrechen_Click(object sender, RoutedEventArgs e)
+        {
+            CloseWithoutFile();
         }
-        private void Window_KeyUp(object sender, System.Windows.Input.KeyEventArgs e)
+        private void Übernehmen_Click(object sender, RoutedEventArgs e)
         {
-            KeyEvent(e);
-        }        
-        private void ListBoxFiles_KeyUp(object sender, System.Windows.Input.KeyEventArgs e)
-        {
-            KeyEvent(e);
+            CloseWithFile();
         }
     }
 }

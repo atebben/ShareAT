@@ -348,7 +348,9 @@ namespace PlaylistHandler
                 mValue = mValue.Replace("‘", "");
                 mValue = mValue.Replace(".", "");
                 mValue = mValue.Replace("!", "");
-                mValue = mValue.Replace("?", "");                
+                mValue = mValue.Replace("?", "");
+                mValue = mValue.Replace("_", "");
+                mValue = mValue.Replace("-", "");
             }
             return mValue;
         }
@@ -401,7 +403,7 @@ namespace PlaylistHandler
                     int nCount          = mContainSearch.Count();
                     if (nCount <= 0)
                     {
-                        mContainSearch      = MusicFiles.Where(x => ParseDefalt(x.LowTitel).Contains(mLowLineTitel));
+                        mContainSearch      = MusicFiles.Where(x => ParseDefalt(x.LowTitel).Contains(mLowLineTitel) || ParseDefalt(x.LowFilename).Contains(mLowLineTitel));
                         nCount              = mContainSearch.Count();
                         bOnlyTitel          = true;
                     }
