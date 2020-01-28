@@ -142,23 +142,23 @@ namespace PlaylistHandler
         }
         public string LowInterpret
         {
-            get { return Interpret.ToLower(); }
+            get { if (Interpret != null) { return Interpret.ToLower(); } return ""; }
         }
         public string LowFilename
         {
-            get { return Filename.ToLower(); }
+            get { if (Filename != null) { return Filename.ToLower(); } return ""; }
         }
         public string Titel
         {
-            get { if (_mp3FileTag != null && _mp3FileTag.Tag != null) return _mp3FileTag.Tag.Title; return ""; }
+            get { if (_mp3FileTag != null && _mp3FileTag.Tag != null && _mp3FileTag.Tag.Title != null) return _mp3FileTag.Tag.Title; return ""; }
         }
         public string Interpret
         {
-            get { if (_mp3FileTag != null && _mp3FileTag.Tag != null) return _mp3FileTag.Tag.FirstPerformer; return ""; }
+            get { if (_mp3FileTag != null && _mp3FileTag.Tag != null && _mp3FileTag.Tag.FirstPerformer != null) return _mp3FileTag.Tag.FirstPerformer; return ""; }
         }
         public string Filename
         {
-            get { if (_mp3FileTag != null && _mp3FileTag.Tag != null) return _mp3FileTag.Name; return ""; }
+            get { if (_mp3FileTag != null && _mp3FileTag.Tag != null && _mp3FileTag.Name != null) return _mp3FileTag.Name; return ""; }
         }
     }
     public enum eState {EventMusic, EventPlaylist,ExternMusiclist, None }
@@ -168,7 +168,6 @@ namespace PlaylistHandler
         private static MediaRuntime _Active                     = new MediaRuntime();
 
         private string mPlaylistStart = "EXTM3U";
-
         private string mExtPlaylist = "m3u";
         private string mPlaylistExtInf = "#EXTINF:";
         private string mExtMusicFiles = "mp3";
@@ -353,27 +352,75 @@ namespace PlaylistHandler
                 mLowLineTitel = mLowLineTitel.TrimEnd(' ');
                 mLowLineTitel = mLowLineTitel.TrimStart(' ');
             }
-            var mMainSearch = MusicFiles.Where(x => x.LowInterpret == mLowLineArtist && x.LowTitel == mLowLineTitel).ToList();            
-            if (mMainSearch != null && mMainSearch.Count > 0)
+            try
             {
-                return new MusikFilePlaylist(WriteNewLine, new List<string>() { mMainSearch[0].Filename }, null, true, mExistPlaylistName);
+                var mMainSearch     = MusicFiles.Where(x => x.LowInterpret == mLowLineArtist && x.LowTitel == mLowLineTitel);
+                int nCount          = mMainSearch.Count();
+                if (nCount > 0)
+                {
+                    var mList = mMainSearch.ToList();
+                    if (mList != null && mList.Count > 0)
+                    {
+                        return new MusikFilePlaylist(WriteNewLine, new List<string>() { mList[0].Filename }, null, true, mExistPlaylistName);
+                    }
+                }
+            }
+            catch(Exception ex)
+            {
+                Console.WriteLine(ex);
             }
             if (mState == eState.ExternMusiclist)
             {
-                mLowLineArtist = mLowLineArtist.TrimEnd('(');
-                mLowLineArtist = mLowLineArtist.TrimEnd(')');
-                mLowLineTitel = mLowLineTitel.TrimEnd('(');
-                mLowLineTitel = mLowLineTitel.TrimEnd(')');
-                var mContainSearch = MusicFiles.Where(x => x.LowInterpret.Contains(mLowLineArtist) && x.LowTitel.Contains(mLowLineTitel)).ToList();
-                if (mContainSearch != null && mContainSearch.Count > 0)
+                try
                 {
-                    List<string> mFiles = new List<string>();
-                    for (int i=0; i< mContainSearch.Count; i++)
+                    bool bOnlyTitel     = false;
+                    mLowLineArtist = mLowLineArtist.TrimEnd('(');
+                    mLowLineArtist = mLowLineArtist.TrimEnd(')');
+                    mLowLineTitel = mLowLineTitel.TrimEnd('(');
+                    mLowLineTitel = mLowLineTitel.TrimEnd(')');
+                    var mContainSearch  = MusicFiles.Where(x => x.LowInterpret.Contains(mLowLineArtist) && x.LowTitel.Contains(mLowLineTitel));
+                    int nCount          = mContainSearch.Count();
+                    if (nCount <= 0)
                     {
-                        mFiles.Add(mContainSearch[i].Filename);
+                        mContainSearch      = MusicFiles.Where(x => x.LowTitel.Contains(mLowLineTitel));
+                        nCount              = mContainSearch.Count();
+                        bOnlyTitel          = true;
                     }
-                    return new MusikFilePlaylist(WriteNewLine, mFiles, null, true, mExistPlaylistName);
+                    if (nCount > 0)
+                    {
+                        var mAllList = mContainSearch.ToList();
+                        if (mAllList.Count > 0)
+                        {
+                            List<MusikMetaData> mOneEntry = new List<MusikMetaData>();
+                            for (int i=0; i < mAllList.Count; i++)
+                            {
+                                if (mOneEntry.Where(x=>x.LowInterpret == mAllList[i].LowInterpret && x.LowTitel == mAllList[i].LowTitel).Count() <= 0)
+                                {
+                                    mOneEntry.Add(mAllList[i]);
+                                }
+                            }
+                            if (mOneEntry != null && mOneEntry.Count > 0)
+                            {
+                                List<string> mFiles = new List<string>();
+                                for (int i = 0; i < mOneEntry.Count; i++)
+                                {
+                                    string mFileName = mOneEntry[i].Filename;
+                                    if (bOnlyTitel == true)
+                                    {
+                                        mFileName = "***OnlyTitel***" + mFileName;
+                                    }
+                                    mFiles.Add(mFileName);
+                                }
+                                return new MusikFilePlaylist(WriteNewLine, mFiles, null, true, mExistPlaylistName);
+                            }
+                        }
+                    }
                 }
+                catch (Exception ex)
+                {
+                    Console.WriteLine(ex);
+                }
+
             }
             return new MusikFilePlaylist(WriteNewLine, null, mCommentNoFiles + WriteNewLine, false, mExistPlaylistName); ;
         }
