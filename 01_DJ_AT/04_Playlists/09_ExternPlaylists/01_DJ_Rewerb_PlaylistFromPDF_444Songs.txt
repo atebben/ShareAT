@@ -1,470 +1,467 @@
 //---------------------------------------------------------------------------------
 %%Genre Latino & Reggaeton
 //---------------------------------------------------------------------------------
-Alvaro Soler & Jennifer Lopez - El Mismo Sol
-Bob Marley & The Wailers - Could You Be Loved
-DJ Khaled ft. Rihanna & Bryson Tiller - Wild Thoughts
-Don Omar ft. Lucenzo - Danza Kuduro
-Elvis Crespo - Suavemente
-Enrique Iglesias ft. Descemer Bueno, Zion & Lennox - Súbeme La Radio
-Gloria Estefan & Miami Sound Machine - Conga
-Gypsy Kings - Volare
-J Balvin & Willy William - Mi Gente
-Juanes - La Camisa Negra
-Kaoma - Lambada
-Lucenzo ft. Don Omar - Danza Kuduro
-Luis Fonsi & Demi Lovato - Échame La Culpa
-Luis Fonsi ft. Daddy Yankee - Despacito
-Major Lazer - Light It Up (Remix)
-Major Lazer ft. The Flexican, Busy Signal, FS Green - Watch Out For This (Bumaye)
-Michel Teló - Ai Se Eu Te Pego (Nossa)
-Nicky Jam ft. J-Balvin - X
-Panjabi MC - Mundian To Bach Ke
-Peter André - Mysterious Girl
-Ricky Martin - La Copa De La Vida
-Ricky Martin - Maria
-Serani - No Games
-Sérgio Mendes - Mas Que Nada
-Shakira - Waka Waka (This Time For Africa)
-Shakira ft. Wyclef Jean - Hips Don't Lie
-The Gipsy Kings - Bamboleo
-UB40 - Red Red Wine
-Yoland Be Cool & DCUP - We No Speak Americano
+	Alvaro Soler & Jennifer Lopez - El Mismo Sol
+	Bob Marley & The Wailers - Could You Be Loved
+	DJ Khaled ft. Rihanna & Bryson Tiller - Wild Thoughts
+	Don Omar ft. Lucenzo - Danza Kuduro
+	Elvis Crespo - Suavemente
+	Enrique Iglesias ft. Descemer Bueno, Zion & Lennox - Súbeme La Radio
+	Gloria Estefan & Miami Sound Machine - Conga
+	Gypsy Kings - Volare
+	J Balvin & Willy William - Mi Gente
+	Juanes - La Camisa Negra
+	Kaoma - Lambada
+	Lucenzo ft. Don Omar - Danza Kuduro
+	Luis Fonsi & Demi Lovato - Échame La Culpa
+	Luis Fonsi ft. Daddy Yankee - Despacito
+	Major Lazer - Light It Up (Remix)
+	Major Lazer ft. The Flexican, Busy Signal, FS Green - Watch Out For This (Bumaye)
+	Michel Teló - Ai Se Eu Te Pego (Nossa)
+	Nicky Jam ft. J-Balvin - X
+	Panjabi MC - Mundian To Bach Ke
+	Peter André - Mysterious Girl
+	Ricky Martin - La Copa De La Vida
+	Ricky Martin - Maria
+	Serani - No Games
+	Sérgio Mendes - Mas Que Nada
+	Shakira - Waka Waka (This Time For Africa)
+	Shakira ft. Wyclef Jean - Hips Don't Lie
+	The Gipsy Kings - Bamboleo
+	UB40 - Red Red Wine
+	Yoland Be Cool & DCUP - We No Speak Americano
 //---------------------------------------------------------------------------------
 %%Genre Charts & House
 //---------------------------------------------------------------------------------
-Adele - Set Fire To The Rain (Moto Blanko)
-Alex Gaudino & Crystal Waters - Destination Unknown
-Avicii - Levels
-Avicii - Wake Me Up
-Axwell & Ingrosso - More Than You Know
-Bellini - Samba De Janeiro
-Bob Sinclar & Cutee B - Rock This Party
-Calvin Harris - Summer
-Clean Bandit ft. Sean Paul & Anne-Marie - Rockabye
-David Guetta ft. Sia - Titanium
-David Guetta, Chris Willis & Cedric Gervais - Would I Lie To You
-DNCE - Cake By The Ocean
-Dynoro & Gigi D’Agostino - In My Mind
-Ed Sheeran - Shape Of You
-Energy 52 - Cafe Del Mar
-Eric Prydz - Call On Me
-Eva Simons & Konshens - Policeman
-Feder ft. Lyse - Goodbye
-Fritz Kalkbrenner - Back Home
-Gadjo - So Many Times
-Gestört aber GeiL - Ich & Du
-Gestört aber GeiL ft. Lea - Wohin willst du
-Glasperlenspiel - Geiles Leben (Madizin Club)
-Gregory Porter - Liquid Spirit (Claptone)
-Guru Josh Project - Infinity 2008 (Klaas)
-Ida Corr vs. Fedde Le Grand - Let Me Think About It
-Imagine Dragons - Believer
-Imany - Don't Be So Shy (Filatov & Karas)
-Jennifer Lopez - Ain’t Your Mama
-Jennifer Lopez - Dance Again
-Jennifer Lopez - Let’s Get Loud
-Justin Timberlake - Can't Stop The Feeling
-Justin Timberlake - Sexyback
-Kungs & Cookin' On 3 Burners - This Girl (Kungs vs. Cookin' On 3 Burners)
-Lady Gaga - Poker Face
-Lykke Li - I Follow Rivers (The Magician)
-Martin Garrix - Animals
-Martin Solveig, GTA - Intoxicated
-Modjo - Lady (Hear Me Tonight)
-Moloko - Sing It Back
-Mr. Probz - Waves (Robin Schulz)
-Mylo vs. Miami Sound Machine - Doctor Pressure (Dirty Club)
-Nelly Furtado - Maneater
-Ofenbach - Be Mine (Extended)
-Ofenbach vs. Nick Waterhouse - Katchi
-Omi ft. Nicky Jam - Cheerleader (Felix Jaehn)
-Parra for Cuva ft. Anna Naklab - Wicked Games
-Paul Kalkbrenner - Sky And Sand
-Pitbull - I Know You Want Me (Calle Ocho)
-Pitbull ft. Ne-Yo, Afrojack & Nayer - Give Me Everything (Tonight)
-Rihanna - Don’t Stop The Music
-Robin Schulz ft. James Blunt - OK (Ofenbach)
-Robin Schulz, Francesco Yates - Sugar
-Robin Schulz, Lilly Wood & The Prick - Prayer In C (Robin Schulz)
-Shaggy - Feel The Rush
-Sigala, Bryn Christopher - Sweet Lovin'
-Snoop Dogg & David Guetta - Sweat
-Stereoact - Die immer lacht
-Stromae - Alors On Danse
-Taio Cruz - Dynamite
-The Black Eyed Peas - I Gotta Feeling
-The Disco Boys ft. Manfred Mann's Earth Band - For You
-Will.I.Am ft. Britney Spears - Scream & Shout
-Yves Larock - Rise Up
+	Adele - Set Fire To The Rain (Moto Blanko)
+	Alex Gaudino & Crystal Waters - Destination Unknown
+	Avicii - Levels
+	Avicii - Wake Me Up
+	Axwell & Ingrosso - More Than You Know
+	Bellini - Samba De Janeiro
+	Bob Sinclar & Cutee B - Rock This Party
+	Calvin Harris - Summer
+	Clean Bandit ft. Sean Paul & Anne-Marie - Rockabye
+	David Guetta ft. Sia - Titanium
+	David Guetta, Chris Willis & Cedric Gervais - Would I Lie To You
+	DNCE - Cake By The Ocean
+	Dynoro & Gigi D’Agostino - In My Mind
+	Ed Sheeran - Shape Of You
+	Energy 52 - Cafe Del Mar
+	Eric Prydz - Call On Me
+	Eva Simons & Konshens - Policeman
+	Feder ft. Lyse - Goodbye
+	Fritz Kalkbrenner - Back Home
+	Gadjo - So Many Times
+	Gestört aber GeiL - Ich & Du
+	Gestört aber GeiL ft. Lea - Wohin willst du
+	Glasperlenspiel - Geiles Leben (Madizin Club)
+	Gregory Porter - Liquid Spirit (Claptone)
+	Guru Josh Project - Infinity 2008 (Klaas)
+	Ida Corr vs. Fedde Le Grand - Let Me Think About It
+	Imagine Dragons - Believer
+	Imany - Don't Be So Shy (Filatov & Karas)
+	Jennifer Lopez - Ain’t Your Mama
+	Jennifer Lopez - Dance Again
+	Jennifer Lopez - Let’s Get Loud
+	Justin Timberlake - Can't Stop The Feeling
+	Justin Timberlake - Sexyback
+	Kungs & Cookin' On 3 Burners - This Girl (Kungs vs. Cookin' On 3 Burners)
+	Lady Gaga - Poker Face
+	Lykke Li - I Follow Rivers (The Magician)
+	Martin Garrix - Animals
+	Martin Solveig, GTA - Intoxicated
+	Modjo - Lady (Hear Me Tonight)
+	Moloko - Sing It Back
+	Mr. Probz - Waves (Robin Schulz)
+	Mylo vs. Miami Sound Machine - Doctor Pressure (Dirty Club)
+	Nelly Furtado - Maneater
+	Ofenbach - Be Mine (Extended)
+	Ofenbach vs. Nick Waterhouse - Katchi
+	Omi ft. Nicky Jam - Cheerleader (Felix Jaehn)
+	Parra for Cuva ft. Anna Naklab - Wicked Games
+	Paul Kalkbrenner - Sky And Sand
+	Pitbull - I Know You Want Me (Calle Ocho)
+	Pitbull ft. Ne-Yo, Afrojack & Nayer - Give Me Everything (Tonight)
+	Rihanna - Don’t Stop The Music
+	Robin Schulz ft. James Blunt - OK (Ofenbach)
+	Robin Schulz, Francesco Yates - Sugar
+	Robin Schulz, Lilly Wood & The Prick - Prayer In C (Robin Schulz)
+	Shaggy - Feel The Rush
+	Sigala, Bryn Christopher - Sweet Lovin'
+	Snoop Dogg & David Guetta - Sweat
+	Stereoact - Die immer lacht
+	Stromae - Alors On Danse
+	Taio Cruz - Dynamite
+	The Black Eyed Peas - I Gotta Feeling
+	The Disco Boys ft. Manfred Mann's Earth Band - For You
+	Will.I.Am ft. Britney Spears - Scream & Shout
+	Yves Larock - Rise Up
 //---------------------------------------------------------------------------------
 %%Genre Hip-Hop, RNB & Funk
 //---------------------------------------------------------------------------------
-2Pac ft. Dr. Dre - California Love
-50 Cent - In Da Club
-50 Cent ft. Olivia - Candy Shop
-Beyoncé - Single Ladies (Put A Ring On It)
-Beyoncé ft. Jay Z - Crazy In Love
-Blues Brothers - Everybody Needs Somebody
-Cameo - Word Up!
-Camila Cabello & Young Thug - Havanna
-Chamillionaire ft. Krayzie Bone - Ridin‘
-Commodores - Brick House
-Coolio ft. L. V. - Gangsta’s Paradise
-Daddy Yankee - Gasolina
-Das Bo - Türlich, Türlich (Sicher, Dicker)
-DMX - Party Up (Up In Here)
-Dr. Dre & Snoop Dogg - The Next Episode
-Drake, Wizkid & Kyla - One Dance
-Fifth Harmony ft. Kid Ink - Worth It
-Flo Rida - My House
-Flo Rida ft. T-Pain - Low
-Gwen Stefani - Hollaback Girl
-Ini Kamoze - Here Comes The Hotstepper
-James Brown - Get Up I Feel Like Being A Sex Machine
-Jason Derulo ft. Nicki Minaj & Ty Dolla $ign - Swalla
-Jay-Z & Kayne West - Ni**as in Paris
-Johnny Guitar Watson - Bow Wow
-Kurdo - Ya Salam
-Lil Jon & The East Side Boyz - Get Low
-Macklemore & Ryan Lewis ft. Ray Dalton - Can’t Hold Us
-Macklemore & Ryan Lewis ft. Wanz - Thrift Shop
-Mark Ronson ft. Bruno Mars - Uptown Funk
-Marvin Gaye - Sexual Healing
-OutKast - Hey Ya!
-Peter Fox - Schüttel Dein Speck
-Pharrell Williams - Happy
-Ray Charles - Hit The Road Jack
-Rick James - Superfreak
-Sean Paul - Temperature
-Seeed - Ding
-Sia ft. Sean Paul - Cheap Thrills
-Soul II Soul ft. Caron Wheeler - Back To Life (However Do You Want Me)
-Stereo MC’s - Connected
-Timbaland ft. Keri Hilson - The Way I Are
-Tiziano Ferro - Perdono
-Usher ft. Lil' Jon & Ludacris - Yeah!
+	2Pac ft. Dr. Dre - California Love
+	50 Cent - In Da Club
+	50 Cent ft. Olivia - Candy Shop
+	Beyoncé - Single Ladies (Put A Ring On It)
+	Beyoncé ft. Jay Z - Crazy In Love
+	Blues Brothers - Everybody Needs Somebody
+	Cameo - Word Up!
+	Camila Cabello & Young Thug - Havanna
+	Chamillionaire ft. Krayzie Bone - Ridin‘
+	Commodores - Brick House
+	Coolio ft. L. V. - Gangsta’s Paradise
+	Daddy Yankee - Gasolina
+	Das Bo - Türlich, Türlich (Sicher, Dicker)
+	DMX - Party Up (Up In Here)
+	Dr. Dre & Snoop Dogg - The Next Episode
+	Drake, Wizkid & Kyla - One Dance
+	Fifth Harmony ft. Kid Ink - Worth It
+	Flo Rida - My House
+	Flo Rida ft. T-Pain - Low
+	Gwen Stefani - Hollaback Girl
+	Ini Kamoze - Here Comes The Hotstepper
+	James Brown - Get Up I Feel Like Being A Sex Machine
+	Jason Derulo ft. Nicki Minaj & Ty Dolla $ign - Swalla
+	Jay-Z & Kayne West - Ni**as in Paris
+	Johnny Guitar Watson - Bow Wow
+	Kurdo - Ya Salam
+	Lil Jon & The East Side Boyz - Get Low
+	Macklemore & Ryan Lewis ft. Ray Dalton - Can’t Hold Us
+	Macklemore & Ryan Lewis ft. Wanz - Thrift Shop
+	Mark Ronson ft. Bruno Mars - Uptown Funk
+	Marvin Gaye - Sexual Healing
+	OutKast - Hey Ya!
+	Peter Fox - Schüttel Dein Speck
+	Pharrell Williams - Happy
+	Ray Charles - Hit The Road Jack
+	Rick James - Superfreak
+	Sean Paul - Temperature
+	Seeed - Ding
+	Sia ft. Sean Paul - Cheap Thrills
+	Soul II Soul ft. Caron Wheeler - Back To Life (However Do You Want Me)
+	Stereo MC’s - Connected
+	Timbaland ft. Keri Hilson - The Way I Are
+	Tiziano Ferro - Perdono
+	Usher ft. Lil' Jon & Ludacris - Yeah!
 //---------------------------------------------------------------------------------
 %%Genre Partyhits
 //---------------------------------------------------------------------------------
-2 Unlimited - No Limit
-Ace of Base - All That She Wants
-Aqua - Barbie Girl
-Backstreet Boys - Everybody (Backstreet's Back)
-Backstreet Boys - I Want It That Way
-Backstreet Boys - Quit Playing Games (With My Heart)
-Bloodhound Gang - The Bad Touch
-Britney Spears - Baby One More Time
-C+C Music Factory ft. Freedom Williams - Gonna Make You Sweat (Everybody Dance Now)
-Captain Hollywood Project - More and More
-Captain Jack - Captain Jack
-Ce Ce Peniston - Finally
-Charles & Eddie - Would I Lie to You
-Culture Beat - Mr. Vain
-De La Soul - Ring Ring Ring (Ha Ha Hey)
-Die Fantastischen Vier - Sie ist weg
-Dr. Alban - It’s My Life
-Dr. Alban - Sing Hallelujah!
-E-Rotic - Fred Come To Bed
-Eiffel 65 - Blue (Da Ba Dee)
-Eros Ramazzotti & Tina Turner - Cose Della Vita
-Faithless - Insomnia (Monster)
-Fatboy Slim - Rockafeller Skank
-Fatman Scoop & Crooklyn Clan - Be Faithful
-Fools Garden - Lemon Tree
-Freak Power - Turn On Tune In Cop Out
-Funky Green Dogs - Fired Up!
-Gala - Freed From Desire
-Ginuwine - Pony
-Haddaway - What is love
-Hanson - Mmmbop
-House Of Pain - Jump Around
-Incognito - Always There (David Morales)
-Inner Circle - Sweat (A La La La La Long)
-Johnny O. - Fantasy Girl
-Kate Yanai - Bacardi Feeling (Summer Dreamin')
-Kriss Kross - Jump
-La Bouche - Be My Lover
-Londonbeat - I’ve Been Thinking About You
-Loona - Bailando
-Los Del Rio - Macarena
-Lou Bega - Mambo No. 5 (A Little Bit Of …)
-Luniz - I Got Five On It
-MC Hammer - U Can't Touch This
-Members of Mayday - Sonic Empire
-Modern Talking - You're My Heart, You're My Soul
-Mousse T. vs. Hot ’n‘ Juicy - Horny ’98
-Mr. President - Coco Jambo
-N Sync - I Want You Back
-Nana - Lonely
-Naughty By Nature - Hip Hop Hooray
-New Kids On The Block - Step By Step
-Nightcrawlers - Push The Feeling On
-Nirvana - Smells Like Teen Spirit
-Outhere Brothers - Boom Boom Boom
-Phats & Small - Turn Around
-Rednex - Cotton Eye Joe
-Reel 2 Real ft. The Mad Stuntman - I Like To Move It
-Robbie Williams - Angels
-Robin S - Show Me Love
-Röyksopp - Eple
-Run DMC vs. Jason Nevins - It’s Like That
-Safri Duo - Played Alive
-Salt ’n’ Pepa - Let’s Talk About Sex
-Scatman John - Scatman’s World
-Scooter - Hyper Hyper
-Shabba Ranks - Mr. Loverman
-Shaggy - Mr. Boombastic
-Snap! - Rhythm Is a Dancer
-Snow - Informer
-Spice Girls - Wannabe
-Tag Team - Whoomp There It Is
-Take That - Back for Good
-Tarkan - Simarik
-Technotronic ft. Felly - Pump Up The Jam
-The Original - I Luv U Baby
-Tom Jones & Mousse T. - Sex Bomb
-US3 - Cantaloop
-Vanilla Ice - Ice Ice Baby
-Vengaboys - Going To Ibiza
-Wamdue Project - King Of My Castle
-Whigfield - Saturday Night
-Will Smith - Gettin' Jiggy Wit It
-Will Smith - Men in Black
+	2 Unlimited - No Limit
+	Ace of Base - All That She Wants
+	Aqua - Barbie Girl
+	Backstreet Boys - Everybody (Backstreet's Back)
+	Backstreet Boys - I Want It That Way
+	Backstreet Boys - Quit Playing Games (With My Heart)
+	Bloodhound Gang - The Bad Touch
+	Britney Spears - Baby One More Time
+	C+C Music Factory ft. Freedom Williams - Gonna Make You Sweat (Everybody Dance Now)
+	Captain Hollywood Project - More and More
+	Captain Jack - Captain Jack
+	Ce Ce Peniston - Finally
+	Charles & Eddie - Would I Lie to You
+	Culture Beat - Mr. Vain
+	De La Soul - Ring Ring Ring (Ha Ha Hey)
+	Die Fantastischen Vier - Sie ist weg
+	Dr. Alban - It’s My Life
+	Dr. Alban - Sing Hallelujah!
+	E-Rotic - Fred Come To Bed
+	Eiffel 65 - Blue (Da Ba Dee)
+	Eros Ramazzotti & Tina Turner - Cose Della Vita
+	Faithless - Insomnia (Monster)
+	Fatboy Slim - Rockafeller Skank
+	Fatman Scoop & Crooklyn Clan - Be Faithful
+	Fools Garden - Lemon Tree
+	Freak Power - Turn On Tune In Cop Out
+	Funky Green Dogs - Fired Up!
+	Gala - Freed From Desire
+	Ginuwine - Pony
+	Haddaway - What is love
+	Hanson - Mmmbop
+	House Of Pain - Jump Around
+	Incognito - Always There (David Morales)
+	Inner Circle - Sweat (A La La La La Long)
+	Johnny O. - Fantasy Girl
+	Kate Yanai - Bacardi Feeling (Summer Dreamin')
+	Kriss Kross - Jump
+	La Bouche - Be My Lover
+	Londonbeat - I’ve Been Thinking About You
+	Loona - Bailando
+	Los Del Rio - Macarena
+	Lou Bega - Mambo No. 5 (A Little Bit Of …)
+	Luniz - I Got Five On It
+	MC Hammer - U Can't Touch This
+	Members of Mayday - Sonic Empire
+	Modern Talking - You're My Heart, You're My Soul
+	Mousse T. vs. Hot ’n‘ Juicy - Horny ’98
+	Mr. President - Coco Jambo
+	N Sync - I Want You Back
+	Nana - Lonely
+	Naughty By Nature - Hip Hop Hooray
+	New Kids On The Block - Step By Step
+	Nightcrawlers - Push The Feeling On
+	Nirvana - Smells Like Teen Spirit
+	Outhere Brothers - Boom Boom Boom
+	Phats & Small - Turn Around
+	Rednex - Cotton Eye Joe
+	Reel 2 Real ft. The Mad Stuntman - I Like To Move It
+	Robbie Williams - Angels
+	Robin S - Show Me Love
+	Röyksopp - Eple
+	Run DMC vs. Jason Nevins - It’s Like That
+	Safri Duo - Played Alive
+	Salt ’n’ Pepa - Let’s Talk About Sex
+	Scatman John - Scatman’s World
+	Scooter - Hyper Hyper
+	Shabba Ranks - Mr. Loverman
+	Shaggy - Mr. Boombastic
+	Snap! - Rhythm Is a Dancer
+	Snow - Informer
+	Spice Girls - Wannabe
+	Tag Team - Whoomp There It Is
+	Take That - Back for Good
+	Tarkan - Simarik
+	Technotronic ft. Felly - Pump Up The Jam
+	The Original - I Luv U Baby
+	Tom Jones & Mousse T. - Sex Bomb
+	US3 - Cantaloop
+	Vanilla Ice - Ice Ice Baby
+	Vengaboys - Going To Ibiza
+	Wamdue Project - King Of My Castle
+	Whigfield - Saturday Night
+	Will Smith - Gettin' Jiggy Wit It
+	Will Smith - Men in Black
 //---------------------------------------------------------------------------------
 %%Genre Party, NDW & Schlager
 //---------------------------------------------------------------------------------
-Andrea Berg - Du hast mich 1000x belogen
-Andreas Gabalier - Hulapalu
-Andreas Martin - Mit Dir und für immer
-Aretha Franklin - Think
-Ärzte - Westerland
-Athena (Sirtaki) - Zorba’s Dance
-BAP - Verdammt lang her
-Bill Medley & Jennifer Warnes - (I've Had) The Time of My Life
-Bryan Adams - Summer Of '69
-Cora - Amsterdam
-Die Höhner - Viva Colonia
-Dieter Thomas Kuhn - Über den Wolken
-DJ Ötzi - Ein Stern
-Donikkl (Fliegerlied) - So ein schöner Tag
-Dschinghis Khan - Moskau
-Extrabreit - Flieger, grüß mir die Sonne
-Frauenarzt & Manny Marc - Das geht ab
-Geier Sturzflug - Die Pure Lust am Leben
-Hans Entertainment & Finger & Kadel - Hoch die Hände Wochenende
-Helene Fischer - Atemlos
-Hubert Goisern - Hiata Madl
-Hubert K. - Sternenhimmel
-Ibo - Sieben Wunder
-Icona Pop - I Love It
-Ireen Sheer - Und heute Abend habe ich Kopfweh
-Joachim Witt - Der goldene Reiter
-Jörg Bausch - Cowboy und Indianer
-Kathrina & The Waves - Walking On Sunshine
-Klaus Lage Band - 1000 und 1 Nacht
-LMFAO ft. Lauren Bennet & GoonRock - Party Rock Anthem
-Manuela - Schuld war nur der Bossa Nova
-Marianne Rosenberg - Er gehört zu mir
-Markus Becker - Das rote Pferd
-Matthias Reim - Verdammt, ich lieb’ Dich
-Michael Holm - Mendocino
-Nanno - Corazon
-Nena - 99 Luftballons
-Nena - Irgendwie, Irgendwo, Irgendwann
-Nickerbocker & Biene - Hallo Klaus
-Nicki - Wenn I mit Dir tanz
-Original Nabtalduo - Patrona Bavaria
-Paul Kuhn - Sag mir quando
-Peter Schilling - Major Tom (Völlig losgelöst)
-Prinzen - Alles Nur Geklaut
-Rex Gildo - Fiesta Mexicana
-Robbie Williams - Let Me Entertain You
-Schürzenjäger - Zillertaler Hochzeitsmarsch
-Spider Murphy Gang - Skandal im Sperrbezirk
-STS - Fürstenfeld
-Tony Holiday - Tanze Samba mit mir
-Udo Jürgens - Aber bitte mit Sahne
-Vico Torriani - Caprifischer
-Wildecker Herzbuben - Herzilein
-Wolfgang Petry - Verlieben verloren..
-Zillertaler Schürzenjäger - Sierra MadreAnd
+	Andrea Berg - Du hast mich 1000x belogen
+	Andreas Gabalier - Hulapalu
+	Andreas Martin - Mit Dir und für immer
+	Aretha Franklin - Think
+	Ärzte - Westerland
+	Athena (Sirtaki) - Zorba’s Dance
+	BAP - Verdammt lang her
+	Bill Medley & Jennifer Warnes - (I've Had) The Time of My Life
+	Bryan Adams - Summer Of '69
+	Cora - Amsterdam
+	Die Höhner - Viva Colonia
+	Dieter Thomas Kuhn - Über den Wolken
+	DJ Ötzi - Ein Stern
+	Donikkl (Fliegerlied) - So ein schöner Tag
+	Dschinghis Khan - Moskau
+	Extrabreit - Flieger, grüß mir die Sonne
+	Frauenarzt & Manny Marc - Das geht ab
+	Geier Sturzflug - Die Pure Lust am Leben
+	Hans Entertainment & Finger & Kadel - Hoch die Hände Wochenende
+	Helene Fischer - Atemlos
+	Hubert Goisern - Hiata Madl
+	Hubert K. - Sternenhimmel
+	Ibo - Sieben Wunder
+	Icona Pop - I Love It
+	Ireen Sheer - Und heute Abend habe ich Kopfweh
+	Joachim Witt - Der goldene Reiter
+	Jörg Bausch - Cowboy und Indianer
+	Kathrina & The Waves - Walking On Sunshine
+	Klaus Lage Band - 1000 und 1 Nacht
+	LMFAO ft. Lauren Bennet & GoonRock - Party Rock Anthem
+	Manuela - Schuld war nur der Bossa Nova
+	Marianne Rosenberg - Er gehört zu mir
+	Markus Becker - Das rote Pferd
+	Matthias Reim - Verdammt, ich lieb’ Dich
+	Michael Holm - Mendocino
+	Nanno - Corazon
+	Nena - 99 Luftballons
+	Nena - Irgendwie, Irgendwo, Irgendwann
+	Nickerbocker & Biene - Hallo Klaus
+	Nicki - Wenn I mit Dir tanz
+	Original Nabtalduo - Patrona Bavaria
+	Paul Kuhn - Sag mir quando
+	Peter Schilling - Major Tom (Völlig losgelöst)
+	Prinzen - Alles Nur Geklaut
+	Rex Gildo - Fiesta Mexicana
+	Robbie Williams - Let Me Entertain You
+	Schürzenjäger - Zillertaler Hochzeitsmarsch
+	Spider Murphy Gang - Skandal im Sperrbezirk
+	STS - Fürstenfeld
+	Tony Holiday - Tanze Samba mit mir
+	Udo Jürgens - Aber bitte mit Sahne
+	Vico Torriani - Caprifischer
+	Wildecker Herzbuben - Herzilein
+	Wolfgang Petry - Verlieben verloren..
+	Zillertaler Schürzenjäger - Sierra MadreAnd
 //---------------------------------------------------------------------------------
 %%Genre Pop und Disco
 //---------------------------------------------------------------------------------
-Abba - Dancing Queen
-Amanda ft. Sido - Blau
-Barry White - You’re The First The Last My Everything
-Bee Gees - Stayin' Alive
-Boney M. - Daddy Cool
-Bucketheads - The Bomb (These Sounds Fall Into My Mind)
-Capital Cities - Safe and Sound
-Chaka Khan - Ain’t Nobody
-Cher - Believe
-Chic - Good Times
-Chic - Le Freak
-Coldplay - Adventure Of A Lifetime
-Daft Punk - One More Time
-Daft Punk ft. Pharrell Williams - Get Lucky
-Dan Hartman - Relight My Fire
-Deichkind - Remmidemmi (Yippie Yippie Yeah)
-Delegation - You And I
-Donna Summer - Hot Stuff
-Duffy - Mercy
-Earth, Wind & Fire - Let's Groove
-Earth, Wind & Fire - September
-Evelyn Thomas - High Energy
-Everything But The Girl - Missing (Todd Terry)
-Felix Jaehn ft. Jasmine Thompson - Ain't Nobody (Loves Me Better)
-Gibson Brothers - Cuba
-Gloria Gaynor - I Will Survive
-Harpo - Movie Star
-Jason Derulo ft. Jennifer Lopez & Matoma - Try Me
-John Legend - All Of Me
-John Paul Young - Love Is In The Air
-K-Maro - Femme Like You
-Kay One ft. Pietro Lombardi - Senorita
-KC & The Sunshine Band - That’s The Way (I Like It)
-Kool & The Gang - Celebration
-Kool & The Gang - Fresh
-Las Ketchup - Ketchup Song (Asereje)
-M People - Moving On Up (M People Master)
-Madonna - Holiday
-Michael Jackson - Billie Jean
-Michael Jackson - Don't Stop 'til You Get Enough
-Michael Jackson - Smooth Criminal
-Milk & Sugar und John Paul Young - Love Is In The Air (Vocal Is In The Air)
-Ne-Yo - Closer
-Olexesh ft. Edin - Magisch
-Olly Murs ft. Flo Rida - Troublemaker
-Patrick Hernandez - Born To Be Alive
-Phil Collins - Another Day in Paradise
-Prince - Kiss
-Robin Thicke ft. T.I. & Pharrell - Blurred Lines
-Rufus And Chaka Khan - Ain't Nobody
-Santa Esmeralda - Don’t Let Me Be Misunderstood
-Shakira - Whenever, Wherever
-The B-52s - Love Shack
-The Doobie Bothers - Long Train Running
-The Gap Band - Oops Upside Your Head
-The Weather Girls - It's Raining Men
-The Whispers - And The Beat Goes On
-Toploader - Dancing In The Moonlight
-Toto - Africa
-Village People - Y.M.C.A.
-Walk The Moon - Shut Up And Dance
-Wir sind Helden - Denkmal
+	Abba - Dancing Queen
+	Amanda ft. Sido - Blau
+	Barry White - You’re The First The Last My Everything
+	Bee Gees - Stayin' Alive
+	Boney M. - Daddy Cool
+	Bucketheads - The Bomb (These Sounds Fall Into My Mind)
+	Capital Cities - Safe and Sound
+	Chaka Khan - Ain’t Nobody
+	Cher - Believe
+	Chic - Good Times
+	Chic - Le Freak
+	Coldplay - Adventure Of A Lifetime
+	Daft Punk - One More Time
+	Daft Punk ft. Pharrell Williams - Get Lucky
+	Dan Hartman - Relight My Fire
+	Deichkind - Remmidemmi (Yippie Yippie Yeah)
+	Delegation - You And I
+	Donna Summer - Hot Stuff
+	Duffy - Mercy
+	Earth, Wind & Fire - Let's Groove
+	Earth, Wind & Fire - September
+	Evelyn Thomas - High Energy
+	Everything But The Girl - Missing (Todd Terry)
+	Felix Jaehn ft. Jasmine Thompson - Ain't Nobody (Loves Me Better)
+	Gibson Brothers - Cuba
+	Gloria Gaynor - I Will Survive
+	Harpo - Movie Star
+	Jason Derulo ft. Jennifer Lopez & Matoma - Try Me
+	John Legend - All Of Me
+	John Paul Young - Love Is In The Air
+	K-Maro - Femme Like You
+	Kay One ft. Pietro Lombardi - Senorita
+	KC & The Sunshine Band - That’s The Way (I Like It)
+	Kool & The Gang - Celebration
+	Kool & The Gang - Fresh
+	Las Ketchup - Ketchup Song (Asereje)
+	M People - Moving On Up (M People Master)
+	Madonna - Holiday
+	Michael Jackson - Billie Jean
+	Michael Jackson - Don't Stop 'til You Get Enough
+	Michael Jackson - Smooth Criminal
+	Ne-Yo - Closer
+	Olexesh ft. Edin - Magisch
+	Olly Murs ft. Flo Rida - Troublemaker
+	Patrick Hernandez - Born To Be Alive
+	Phil Collins - Another Day in Paradise
+	Prince - Kiss
+	Robin Thicke ft. T.I. & Pharrell - Blurred Lines
+	Santa Esmeralda - Don’t Let Me Be Misunderstood
+	Shakira - Whenever, Wherever
+	The B-52s - Love Shack
+	The Doobie Bothers - Long Train Running
+	The Gap Band - Oops Upside Your Head
+	The Weather Girls - It's Raining Men
+	The Whispers - And The Beat Goes On
+	Toploader - Dancing In The Moonlight
+	Toto - Africa
+	Village People - Y.M.C.A.
+	Walk The Moon - Shut Up And Dance
+	Wir sind Helden - Denkmal
 //---------------------------------------------------------------------------------
 %%Genre Rock & Rock-Classics
 //---------------------------------------------------------------------------------
-4 Non Blondes - What's Up
-AC/DC - Highway To Hell
-AC/DC - TNT
-Beatsteaks - Hand In Hand
-Billy Talent - Fallen Leaves
-Birth Control - Gamma Ray
-Blur - Song 2
-Bon Jovi - Bed Of Roses
-Bon Jovi - It’s My Life
-Caesars - Jerk It Out
-Chemical Brothers - Galvanize
-Deep Purple - Smoke On The Water
-Die Ärzte - Zu spät
-Dire Straits - Money For Nothing
-Eagles - Hotel California
-Foreigner - Juke Box Hero
-Foreigner - Urgent
-Gary Moore - Walking By Myself
-Golden Earring - Radar Love
-Guns N Roses - November Rain
-Guns N Roses - Paradise City
-Heroes Del Silencio - Entre Dos Tierras
-Iggy Pop - The Passenger
-Ike & Tina Turner - Nutbush City Limits
-Jethro Tull - Locomotive Breath
-Joan Jett & The Blackhearts - I Love Rock 'N Roll
-Journey - Don’t Stop Believin'
-Journey - Wheel In The Sky
-Kaiser Chiefs - Ruby
-Kenny Loggins - Welcome To Heartlight
-Kings Of Leon - Sex On Fire
-Kiss - I Was Made For Lovin’ You
-Liquido - Narcotic
-Lynnard Skynnard - Sweet Home Alabama
-Mando Diao - Dance With Somebody
-Meat Loaf - I’d Do Anything for Love (But I Won’t Do That)
-Melissa Etheridge - Like The Way I Do
-Metallica - Nothing Else Matters
-Mother’s Finest - Baby Love
-Nickelback - Rockstar
-Oasis - Wonderwall
-Offspring - Self-Esteem
-Opus - Life is Life
-Papa Roach - Last Resort
-Placebo - Every You Every Me
-Queen - We Are The Champions
-Queen - We Will Rock You
-Ram Jam - Black Betty
-Red Hot Chili Peppers - Californication
-Red Hot Chili Peppers - Give It Away
-Sniff And The Tears - Drivers Seat
-Spin Doctors - Two Princes
-Steppenwolf - Born To Be Wild
-Survivor - Eye Of The Tiger
-Texas Lightning - No No Never
-The Cranberries - Zombie
-The Police - So Lonely
-The Rolling Stones - I Can't Get No Satisfaction
-The White Stripes - Seven Nation Army
-U2 - Sunday Bloody Sunday
-Van Halen - Jump
-Wheatus - Teenage Dirt Bag
-ZZ Top - Gimme All Your Lovin’
+	4 Non Blondes - What's Up
+	AC/DC - Highway To Hell
+	AC/DC - TNT
+	Beatsteaks - Hand In Hand
+	Billy Talent - Fallen Leaves
+	Birth Control - Gamma Ray
+	Blur - Song 2
+	Bon Jovi - Bed Of Roses
+	Bon Jovi - It’s My Life
+	Caesars - Jerk It Out
+	Chemical Brothers - Galvanize
+	Deep Purple - Smoke On The Water
+	Die Ärzte - Zu spät
+	Dire Straits - Money For Nothing
+	Eagles - Hotel California
+	Foreigner - Juke Box Hero
+	Foreigner - Urgent
+	Gary Moore - Walking By Myself
+	Golden Earring - Radar Love
+	Guns N Roses - November Rain
+	Guns N Roses - Paradise City
+	Heroes Del Silencio - Entre Dos Tierras
+	Iggy Pop - The Passenger
+	Ike & Tina Turner - Nutbush City Limits
+	Jethro Tull - Locomotive Breath
+	Joan Jett & The Blackhearts - I Love Rock 'N Roll
+	Journey - Don’t Stop Believin'
+	Journey - Wheel In The Sky
+	Kaiser Chiefs - Ruby
+	Kenny Loggins - Welcome To Heartlight
+	Kings Of Leon - Sex On Fire
+	Kiss - I Was Made For Lovin’ You
+	Liquido - Narcotic
+	Lynnard Skynnard - Sweet Home Alabama
+	Mando Diao - Dance With Somebody
+	Meat Loaf - I’d Do Anything for Love (But I Won’t Do That)
+	Melissa Etheridge - Like The Way I Do
+	Metallica - Nothing Else Matters
+	Mother’s Finest - Baby Love
+	Nickelback - Rockstar
+	Oasis - Wonderwall
+	Offspring - Self-Esteem
+	Opus - Life is Life
+	Papa Roach - Last Resort
+	Placebo - Every You Every Me
+	Queen - We Are The Champions
+	Queen - We Will Rock You
+	Ram Jam - Black Betty
+	Red Hot Chili Peppers - Californication
+	Red Hot Chili Peppers - Give It Away
+	Sniff And The Tears - Drivers Seat
+	Spin Doctors - Two Princes
+	Steppenwolf - Born To Be Wild
+	Survivor - Eye Of The Tiger
+	Texas Lightning - No No Never
+	The Cranberries - Zombie
+	The Police - So Lonely
+	The Rolling Stones - I Can't Get No Satisfaction
+	The White Stripes - Seven Nation Army
+	U2 - Sunday Bloody Sunday
+	Van Halen - Jump
+	Wheatus - Teenage Dirt Bag
+	ZZ Top - Gimme All Your Lovin’
 //---------------------------------------------------------------------------------
 %%Genre 80er & Wave-Pop
 //---------------------------------------------------------------------------------
-Anne Clark - Our Darkness
-Bronski Beat - Smalltown Boy
-Camouflage - Love Is A Shield
-Dead Or Alive - You Spin Me Right Round(Like A Record)
-Depeche Mode - Just Can’t Get Enough
-Duran Duran - Wild Boys
-Edoardo Bennato - Viva la mama
-Eurythmics - Sweet Dreams (Are Made Of This)
-Imagination - Just An Illusion
-Kajagoogoo - Too Shy
-King - Love & Pride
-Laura Brannigan - Self Control
-Simple Minds - Don't You (Forget About Me)
-Soft Cell - Tainted Love/Where Did Our Love Go
-The Communards - Don't Leave Me This Way
-The Cure - Love Cats
-The Sisters Of Mercy - Temple Of Love '92
-Toto Cotugno - L’italiano
-Visage - Fade To Grey
-Whitney Houston - I Wanna Dance With Somebody
-Yazoo - Don't Go
+	Anne Clark - Our Darkness
+	Bronski Beat - Smalltown Boy
+	Camouflage - Love Is A Shield
+	Dead Or Alive - You Spin Me Right Round(Like A Record)
+	Depeche Mode - Just Can’t Get Enough
+	Duran Duran - Wild Boys
+	Edoardo Bennato - Viva la mama
+	Eurythmics - Sweet Dreams (Are Made Of This)
+	Imagination - Just An Illusion
+	Kajagoogoo - Too Shy
+	King - Love & Pride
+	Laura Brannigan - Self Control
+	Simple Minds - Don't You (Forget About Me)
+	Soft Cell - Tainted Love/Where Did Our Love Go
+	The Communards - Don't Leave Me This Way
+	The Cure - Love Cats
+	The Sisters Of Mercy - Temple Of Love '92
+	Toto Cotugno - L’italiano
+	Visage - Fade To Grey
+	Whitney Houston - I Wanna Dance With Somebody
+	Yazoo - Don't Go
 //---------------------------------------------------------------------------------
 %%Genre Oldies & Evergreens
 //---------------------------------------------------------------------------------
-Adriano Celentano - Azurro
-Al Bano & Romina Power - Sempre, Sempre
-Bob Seger - Old Time Rock’n Roll
-Carlos Santana - Samba Pa Ti
-Chubby Checker - Let's Twist Again
-Dean Martin - That's Amore
-Dean Martin - That’s amore
-Dexys Midnight Runners - Come On Eileen
-Frank Sinatra - My Way
-Frank Sinatra - Theme From New York, New York
-Henry Valentino - Im Wagen vor mir
-John Denver - Leaving On A Jetplane
-Lulu & The Luvvers - Shout
-Miriam Makeba - Pata Pata
-Moody Blues - Nights In White Satin
-Nek - Laura Non Ce
-Ricchi e Poveri - Mamma Mia
-Rocky Sharpe - Rama Lama Ding Dong
-Roy Orbison - Pretty Woman
-Wanda Jackson - Let’s Have A Party
-Yello - The Race
+	Adriano Celentano - Azurro
+	Al Bano & Romina Power - Sempre, Sempre
+	Bob Seger - Old Time Rock’n Roll
+	Carlos Santana - Samba Pa Ti
+	Chubby Checker - Let's Twist Again
+	Dean Martin - That's 
+	Dexys Midnight Runners - Come On Eileen
+	Frank Sinatra - My Way
+	Frank Sinatra - Theme From New York, New York
+	Henry Valentino - Im Wagen vor mir
+	John Denver - Leaving On A Jetplane
+	Lulu & The Luvvers - Shout
+	Miriam Makeba - Pata Pata
+	Moody Blues - Nights In White Satin
+	Nek - Laura Non Ce
+	Ricchi e Poveri - Mamma Mia
+	Rocky Sharpe - Rama Lama Ding Dong
+	Roy Orbison - Pretty Woman
+	Wanda Jackson - Let’s Have A Party
+	Yello - The Race
