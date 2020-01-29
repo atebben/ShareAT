@@ -165,40 +165,41 @@ namespace PlaylistHandler
     public enum eState {EventMusic, EventPlaylist,ExternMusiclist, None }
     public class MediaRuntime
     {         
-        public List<MusikMetaData> MusicFiles                   = new List<MusikMetaData>();        
+        public List<MusikMetaData> MusicFiles                   = new List<MusikMetaData>();
+        private eState _State                                   = eState.None;        
         private static MediaRuntime _Active                     = new MediaRuntime();
-
-        private string mPlaylistStart = "EXTM3U";
-        private string mExtPlaylist = "m3u";
-        private string mPlaylistExtInf = "#EXTINF:";
-        private string mExtMusicFiles = "mp3";
-        private string mExtMusicLists = "txt";
-        private string mCommentNoFiles = "**NoMusicFile*** ";
-        private int nPlaylistFiles      = 0;
+        private string _PlaylistStart                           = "EXTM3U";
+        private string _ExtPlaylist                             = "m3u";
+        private string _PlaylistExtInf                          = "#EXTINF:";
+        private string _ExtMusicFiles                           = "mp3";
+        private string _ExtMusicLists                           = "txt";
+        private string _CommentNoFiles                          = "**NoMusicFile*** ";
+        private int nPlaylistFiles                              = 0;
         public static MediaRuntime Active
         {
             get { return _Active; }
         }
         public void ReadMusicDirectories()
         {
+            _State = eState.EventMusic;
             if (MusicFiles.Count <= 0)
             {
                 for (int i = 0; i < XML.Active.DirectoriesEventMusic.Count; i++)
                 {
-                    RecursiveDirectory(XML.Active.DirectoriesEventMusic[i], eState.EventMusic);
+                    RecursiveDirectory(XML.Active.DirectoriesEventMusic[i]);
                 }
             }
         }
-        public void RecursiveDirectory(string mDirPath, eState mState=eState.None)
+        public void RecursiveDirectory(string mDirPath)
         {
-            if (mState != eState.None)
+            if (_State != eState.None)
             {                
                 foreach (string f in Directory.GetFiles(mDirPath))
                 {
                     FileInfo mInfo = new FileInfo(f);
-                    if (mState == eState.EventMusic)
+                    if (_State == eState.EventMusic)
                     {
-                        if (mInfo.Extension.ToLower().Contains(mExtMusicFiles) == true)
+                        if (mInfo.Extension.ToLower().Contains(_ExtMusicFiles) == true)
                         {
                             try
                             {
@@ -212,13 +213,14 @@ namespace PlaylistHandler
                 }
                 foreach (string d in Directory.GetDirectories(mDirPath))
                 {
-                    RecursiveDirectory(d, mState);
+                    RecursiveDirectory(d);
                 }
             }
         }
         public void ReadEventPlaylists()
         {
             nPlaylistFiles = 0;
+            _State = eState.EventPlaylist;
             if (XML.Active.DirectoriesEventPlaylist != null)
             {
                 List<FileInfo> EventPlayListFiles = new List<FileInfo>();
@@ -227,20 +229,21 @@ namespace PlaylistHandler
                     foreach (string f in Directory.GetFiles(XML.Active.DirectoriesEventPlaylist[i]))
                     {
                         FileInfo mInfo = new FileInfo(f);
-                        if (mInfo.Extension.ToLower().Contains(mExtPlaylist) == true)
+                        if (mInfo.Extension.ToLower().Contains(_ExtPlaylist) == true)
                         {
                             EventPlayListFiles.Add(mInfo);
                         }
                     }
                 }
                 nPlaylistFiles = EventPlayListFiles.Count;
-                List<MusikFilePlaylist> mNotFindedFiles = ChangeCheckArtistTitleMusic(EventPlayListFiles, eState.EventPlaylist);
-                WriteLog(mNotFindedFiles, eState.EventPlaylist);
+                List<MusikFilePlaylist> mNotFindedFiles = ChangeCheckArtistTitleMusic(EventPlayListFiles);
+                WriteLog(mNotFindedFiles);
             }
         }
         public void ReadExternMusiclists()
         {
             nPlaylistFiles = 0;
+            _State = eState.ExternMusiclist;
             if (XML.Active.DirectoriesExternMusiclists != null)
             {
                 List<FileInfo> ExternMusic = new List<FileInfo>();
@@ -249,24 +252,26 @@ namespace PlaylistHandler
                     foreach (string f in Directory.GetFiles(XML.Active.DirectoriesExternMusiclists[i]))
                     {
                         FileInfo mInfo = new FileInfo(f);
-                        if (mInfo.Extension.ToLower().Contains(mExtMusicLists) == true)
+                        if (mInfo.Extension.ToLower().Contains(_ExtMusicLists) == true)
                         {
                             ExternMusic.Add(mInfo);
                         }
                     }
                 }
                 nPlaylistFiles = ExternMusic.Count;
-                List<MusikFilePlaylist> mNotFindedFiles = ChangeCheckArtistTitleMusic(ExternMusic, eState.ExternMusiclist);
-                WriteLog(mNotFindedFiles, eState.ExternMusiclist);
+                List<MusikFilePlaylist> mNotFindedFiles = ChangeCheckArtistTitleMusic(ExternMusic);
+                WriteLog(mNotFindedFiles);
             }
         }
-        public List<MusikFilePlaylist> ChangeCheckArtistTitleMusic(List<FileInfo> mChangeList, eState mState)
+        public List<MusikFilePlaylist> ChangeCheckArtistTitleMusic(List<FileInfo> mChangeList)
         {          
             List<MusikFilePlaylist> mMusikInPlaylists = new List<MusikFilePlaylist>();
             for (int i = 0; i < mChangeList.Count; i++)
             {
                 try
                 {
+                    string mPlaylistRootPath = mChangeList[i].FullName;
+                    DirectoryInfo mPlaylistDir = new FileInfo(mPlaylistRootPath).Directory;
                     string[] mLines = File.ReadAllLines(mChangeList[i].FullName, Encoding.UTF8);
                     if (mLines != null && mLines.Length > 0)
                     {
@@ -278,24 +283,24 @@ namespace PlaylistHandler
                                 string mArtistTitelValue = ""; 
                                 string WriteNewLine = "";
                                 MusikFilePlaylist mPlayInFile = null;
-                                if (mState == eState.EventPlaylist)
+                                if (_State == eState.EventPlaylist)
                                 {
                                     mArtistTitelValue   = mRawFileLine.Substring(mRawFileLine.IndexOf(",") + 1);
                                     WriteNewLine        = mRawFileLine;
                                 }
-                                if (mState == eState.ExternMusiclist)
+                                if (_State == eState.ExternMusiclist)
                                 {
                                     mArtistTitelValue   = mRawFileLine;
-                                    WriteNewLine    = mPlaylistExtInf + a+"," +  mRawFileLine;                                    
+                                    WriteNewLine    = _PlaylistExtInf + a+"," +  mRawFileLine;                                    
                                 }
                                 string mFileName = "";
                                 string mExistPlaylistName = mChangeList[i].Name;                                
                                 bool mLineRead = false;
                                 if (mRawFileLine.StartsWith("//") == false)
                                 {
-                                    if (mState == eState.EventPlaylist)                                    
+                                    if (_State == eState.EventPlaylist)                                    
                                     {                                        
-                                        if (mRawFileLine.StartsWith(mPlaylistExtInf) == true)
+                                        if (mRawFileLine.StartsWith(_PlaylistExtInf) == true)
                                         {
                                             mLineRead = true;
                                             if ((a + 1) < mLines.Length)
@@ -304,23 +309,51 @@ namespace PlaylistHandler
                                                 string mCheckOfFile = mFileName.ToLower();
                                                 if (mCheckOfFile.Contains("NoMusicFile") == false && mFileName.Contains("#EXTINF") == false && mFileName.ToLower().Contains(".mp3"))
                                                 {
-                                                    if (File.Exists(mFileName) == true)
-                                                    {
-                                                        mLineRead = false;
-                                                        mPlayInFile = new MusikFilePlaylist(WriteNewLine, new List<string>() { mFileName }, null,true,null);
+                                                    var mRootDirs           = XML.Active.DirectoriesEventMusic;
+                                                    if (mRootDirs != null && mRootDirs.Count > 0)
+                                                    {                                                      
+                                                        for (int g = 0; g < mRootDirs.Count; g++)
+                                                        {
+                                                            string mFileEntry           = mFileName;
+                                                            if (Path.IsPathRooted(mFileEntry) == false)
+                                                            {
+                                                                mFileEntry = mPlaylistDir.FullName + "\\" + mFileEntry;
+                                                            }
+
+
+
+                                                           
+
+
+                                                            FileInfo mFileInfo      = new FileInfo(mFileEntry);                                                         
+                                                            if (mFileInfo != null && mFileInfo.DirectoryName != null && mFileInfo.DirectoryName.Length > 0 && mFileInfo.Exists == true)
+                                                            {
+                                                                if (mFileInfo.DirectoryName.StartsWith(mRootDirs[g]) && File.Exists(mFileName) == true)
+                                                                {
+                                                                    MessageBox.Show("Drin");
+                                                                    mLineRead = false;
+                                                                    mPlayInFile = new MusikFilePlaylist(WriteNewLine, new List<string>() { mFileName }, null, true, null);
+                                                                    break;
+                                                                }
+                                                                else
+                                                                {
+                                                                    MessageBox.Show("No");
+                                                                }
+                                                            }
+                                                        }
                                                     }
                                                 }
                                             }
                                         }
                                     }
-                                    if (mState == eState.ExternMusiclist)
+                                    if (_State == eState.ExternMusiclist)
                                     {
                                         mLineRead = true;
                                     }
                                 }
                                 if (mLineRead == true && mPlayInFile == null)
                                 {
-                                    mPlayInFile = CheckTitelArtistFromMusicFiles(WriteNewLine, mArtistTitelValue, mRawFileLine, mExistPlaylistName, mState);
+                                    mPlayInFile = CheckTitelArtistFromMusicFiles(WriteNewLine, mArtistTitelValue, mRawFileLine, mExistPlaylistName);
                                 }
                                 if (mPlayInFile != null)
                                 {
@@ -329,7 +362,7 @@ namespace PlaylistHandler
                             }
                             catch { }
                         }
-                        WritePlaylistEntries(mMusikInPlaylists, mChangeList[i], mState);
+                        WritePlaylistEntries(mMusikInPlaylists, mChangeList[i]);
                     }
                 }
                 catch { }
@@ -360,7 +393,7 @@ namespace PlaylistHandler
             mValue = mValue.TrimEnd(')');
             return mValue;
         }
-        private MusikFilePlaylist CheckTitelArtistFromMusicFiles(string WriteNewLine, string mArtistTitelValue, string mRawFileLine, string mExistPlaylistName, eState mState)
+        private MusikFilePlaylist CheckTitelArtistFromMusicFiles(string WriteNewLine, string mArtistTitelValue, string mRawFileLine, string mExistPlaylistName)
         {           
             string mLowLineArtist      = "";
             string mLowLineTitel       = "";
@@ -392,7 +425,7 @@ namespace PlaylistHandler
             {
                 Console.WriteLine(ex);
             }
-            if (mState == eState.ExternMusiclist || mState == eState.EventPlaylist)
+            if (_State == eState.ExternMusiclist || _State == eState.EventPlaylist)
             {
                 try
                 {                    
@@ -444,16 +477,16 @@ namespace PlaylistHandler
                 }
 
             }
-            return new MusikFilePlaylist(WriteNewLine, null, mCommentNoFiles + WriteNewLine, false, mExistPlaylistName); ;
+            return new MusikFilePlaylist(WriteNewLine, null, _CommentNoFiles + WriteNewLine, false, mExistPlaylistName); ;
         }
-        private void WritePlaylistEntries(List<MusikFilePlaylist> mMusikInPlaylists, FileInfo mChangeFileInfo, eState mState)
+        private void WritePlaylistEntries(List<MusikFilePlaylist> mMusikInPlaylists, FileInfo mChangeFileInfo)
         {
             if (mMusikInPlaylists != null && mMusikInPlaylists.Count > 0)
             {
                 string mListName = mChangeFileInfo.FullName;
-                if (mState == eState.ExternMusiclist)
+                if (_State == eState.ExternMusiclist)
                 {
-                    mListName = mChangeFileInfo.FullName + "." + mExtPlaylist;
+                    mListName = mChangeFileInfo.FullName + "." + _ExtPlaylist;
                 }
                 if (File.Exists(mListName))
                 {
@@ -461,7 +494,7 @@ namespace PlaylistHandler
                 }
                 using (StreamWriter mFileWrite = new StreamWriter(mListName))
                 {
-                    mFileWrite.WriteLine(mPlaylistStart);
+                    mFileWrite.WriteLine(_PlaylistStart);
                     for (int b = 0; b < mMusikInPlaylists.Count; b++)
                     {
                         mFileWrite.WriteLine(mMusikInPlaylists[b].ArtistTitleLine);
@@ -483,7 +516,7 @@ namespace PlaylistHandler
                 }
             }
         }
-        public void WriteLog(List<MusikFilePlaylist> mNotFindedFiles, eState mState)
+        public void WriteLog(List<MusikFilePlaylist> mNotFindedFiles)
         {
             using (StreamWriter mFileWrite = new StreamWriter("Info.log"))
             {
@@ -496,7 +529,7 @@ namespace PlaylistHandler
                         nNotFiles = mNotFiles.Count;
                     }
                     mFileWrite.WriteLine("*******************************************************************");
-                    mFileWrite.WriteLine("Status (" + mState + ") -->  Nicht gefunden Musik-Dateien (" + nNotFiles + ")");
+                    mFileWrite.WriteLine("Status (" + _State + ") -->  Nicht gefunden Musik-Dateien (" + nNotFiles + ")");
                     mFileWrite.WriteLine("*******************************************************************");                   
                     mFileWrite.WriteLine("Anzahl Play-/MusicList-Dateien (" + nPlaylistFiles + ")");
                     mFileWrite.WriteLine("Anzahl Musik-Dateien (" + MusicFiles.Count + ")");
