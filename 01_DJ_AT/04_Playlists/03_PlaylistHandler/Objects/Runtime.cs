@@ -317,27 +317,21 @@ namespace PlaylistHandler
                                                             string mFileEntry           = mFileName;
                                                             if (Path.IsPathRooted(mFileEntry) == false)
                                                             {
-                                                                mFileEntry = mPlaylistDir.FullName + "\\" + mFileEntry;
-                                                            }
-
-
-
-                                                           
-
-
-                                                            FileInfo mFileInfo      = new FileInfo(mFileEntry);                                                         
-                                                            if (mFileInfo != null && mFileInfo.DirectoryName != null && mFileInfo.DirectoryName.Length > 0 && mFileInfo.Exists == true)
+                                                                mFileEntry              = Path.Combine(mPlaylistDir.FullName, mFileEntry);
+                                                            }                                                        
+                                                            FileInfo mFileInfo          = new FileInfo(mFileEntry);
+                                                            if (mFileInfo != null && mFileInfo.DirectoryName != null)
                                                             {
-                                                                if (mFileInfo.DirectoryName.StartsWith(mRootDirs[g]) && File.Exists(mFileName) == true)
+                                                                string mRootDir         = mRootDirs[g].ToLower();
+                                                                string mFileDirName     = mFileInfo.DirectoryName.ToLower();
+                                                                if (mFileDirName.StartsWith(mRootDir))
                                                                 {
-                                                                    MessageBox.Show("Drin");
-                                                                    mLineRead = false;
-                                                                    mPlayInFile = new MusikFilePlaylist(WriteNewLine, new List<string>() { mFileName }, null, true, null);
-                                                                    break;
-                                                                }
-                                                                else
-                                                                {
-                                                                    MessageBox.Show("No");
+                                                                    if (File.Exists(mFileInfo.FullName) == true)
+                                                                    {
+                                                                        mLineRead       = false;
+                                                                        mPlayInFile     = new MusikFilePlaylist(WriteNewLine, new List<string>() { mFileName }, null, true, null);
+                                                                        break;
+                                                                    }
                                                                 }
                                                             }
                                                         }
