@@ -168,7 +168,7 @@ namespace PlaylistHandler
         public List<MusikMetaData> MusicFiles                   = new List<MusikMetaData>();
         private eState _State                                   = eState.None;        
         private static MediaRuntime _Active                     = new MediaRuntime();
-        private string _PlaylistStart                           = "EXTM3U";
+        private string _PlaylistStart                           = "#EXTM3U";
         private string _ExtPlaylist                             = "m3u";
         private string _PlaylistExtInf                          = "#EXTINF:";
         private string _ExtMusicFiles                           = "mp3";
@@ -264,12 +264,15 @@ namespace PlaylistHandler
             }
         }
         public List<MusikFilePlaylist> ChangeCheckArtistTitleMusic(List<FileInfo> mChangeList)
-        {          
-            List<MusikFilePlaylist> mMusikInPlaylists = new List<MusikFilePlaylist>();
+        {
+            List<MusikFilePlaylist> mCurrentMusikInPlaylists = new List<MusikFilePlaylist>();
+            List<MusikFilePlaylist> mAllMusikInPlaylists = new List<MusikFilePlaylist>();
             for (int i = 0; i < mChangeList.Count; i++)
             {
                 try
                 {
+                    mAllMusikInPlaylists.AddRange(mCurrentMusikInPlaylists);
+                    mCurrentMusikInPlaylists.Clear();
                     string mPlaylistRootPath = mChangeList[i].FullName;
                     DirectoryInfo mPlaylistDir = new FileInfo(mPlaylistRootPath).Directory;
                     string[] mLines = File.ReadAllLines(mChangeList[i].FullName, Encoding.UTF8);
@@ -351,17 +354,17 @@ namespace PlaylistHandler
                                 }
                                 if (mPlayInFile != null)
                                 {
-                                    mMusikInPlaylists.Add(mPlayInFile);
+                                    mCurrentMusikInPlaylists.Add(mPlayInFile);
                                 }
                             }
                             catch { }
                         }
-                        WritePlaylistEntries(mMusikInPlaylists, mChangeList[i]);
+                        WritePlaylistEntries(mCurrentMusikInPlaylists, mChangeList[i]);
                     }
                 }
                 catch { }
             }
-            return mMusikInPlaylists;
+            return mAllMusikInPlaylists;
         }
         private string ParseDefalt(string mValue)
         {
