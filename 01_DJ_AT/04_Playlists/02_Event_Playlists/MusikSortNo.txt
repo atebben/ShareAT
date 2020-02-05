@@ -57,3 +57,13 @@
 102.Clubbing.TechnoTrance
 	102.01.Clubbing.TechnoTrance
 
+---------------------------------------------------------
+
+01_PaarStyle
+02_RealHits
+03_SoloDance_Club
+04_PartyHits
+05_Rockig
+06_Balladen_Love
+
+---------------------------------------------------------
