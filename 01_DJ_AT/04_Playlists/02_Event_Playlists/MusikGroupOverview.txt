@@ -72,6 +72,6 @@
 101  ElectroHouse
 	10101   				ElectroHouse
 ---------------------------------------------	
-10201   TechnoTrance
+102   TechnoTrance
 	10201   				TechnoTrance
 ---------------------------------------------
