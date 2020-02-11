@@ -1,40 +1,36 @@
------------------------------------------------------------------
-*Schlager	*Classic*Schlager	*Modern*Schlager
------------------------------------------------------------------
-*Walzer		*Classic*Walzer		*Modern*Walzer
-----------------------------------------------------------------
-*Discofox	*Classic*Discofox 	*Middle*Discofox
-		*Modern*Discofox
------------------------------------------------------------------
-*70-80er	*Classic*70-80er	*DiscoGroove*70-80er
------------------------------------------------------------------
-*90-2000er	*Classic*90-2000er	*EuroDance*90-2000er
------------------------------------------------------------------
-*PopRock	*INT.Classic*PopRock	*DE.Classic*PopRock
-		*DE.Modern*PopRock
------------------------------------------------------------------
-*HipHop		*INT.Classic*HipHop	*DE.Classic*HipHop
-		*Solo*HipHop
------------------------------------------------------------------
+---------------------------------------------------------
+*Schlager			*Classic*Schlager			*Modern*Schlager
+---------------------------------------------------------
+*Walzer				*Classic*Walzer				*Modern*Walzer
+---------------------------------------------------------
+*Discofox			*Classic*Discofox 		*Middle*Discofox			
+							*Modern*Discofox
+---------------------------------------------------------
+*70-80er			*Classic*70-80er			*DiscoGroove*70-80er
+---------------------------------------------------------
+*90-2000er		*Classic*90-2000er		*EuroDance*90-2000er
+---------------------------------------------------------
+*PopRock			*INT.Classic*PopRock	*DE.Classic*PopRock		
+							*DE.Modern*PopRock
+---------------------------------------------------------
+*HipHop				*INT.Classic*HipHop		*DE.Classic*HipHop		
+							*Solo*HipHop
+---------------------------------------------------------
 *BlackRnbFunk	*Classic*BlackRnbFunk	*Solo*BlackRnbFunk
------------------------------------------------------------------
-*Charts		*Classic*Charts		*Modern*Charts
-		*ClubDance*Charts
------------------------------------------------------------------
-*PartyHits	*DE.Classic*PartyHits	*DE.Modern*PartyHits
-		*BallerApresSki
------------------------------------------------------------------
-*Rockig		*Classic*Rockig		*Modern*Rockig
------------------------------------------------------------------
-*Oldies		*INT*Oldies		*DE*Oldies
------------------------------------------------------------------
-*NDW		*NDW
------------------------------------------------------------------
-*SlowBallade	*DE*Balladen		*Balladen  *LoveSongs
------------------------------------------------------------------
-*ReggeaLatin	*Classic*Latein		*Soul
------------------------------------------------------------------
-*ElectroHouse	*ElectroHouse
------------------------------------------------------------------
-*TechnoTrance	*TechnoTrance
-------------------------------------------------------------------
+---------------------------------------------------------
+*Charts				*Classic*Charts				*Modern*Charts				
+							*ClubDance*Charts
+---------------------------------------------------------
+*PartyHits		*DE.Classic*PartyHits	*DE.Modern*PartyHits	
+							*BallerApresSki
+---------------------------------------------------------
+*Rockig				*Classic*Rockig				*Modern*Rockig
+---------------------------------------------------------
+*Oldies				*INT*Oldies						*DE*Oldies							
+							*NDW
+---------------------------------------------------------
+*SlowBallade	*DE*Balladen					*Balladen  *LoveSongs
+---------------------------------------------------------
+*ReggeaLatin	*Classic*Latein				*Soul
+---------------------------------------------------------
+*ElectroHouse	*ElectroHouse					*TechnoTrance
