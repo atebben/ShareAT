@@ -21,7 +21,7 @@ namespace PlaylistHandler
             if (File.Exists(mXMLPath) == false)
             {
                 _DirectoriesEventMusic.Add(@"M:\01_Music\01_ActiveEvent\02_PartyRounds");
-                _DirectoriesEventPlaylist.Add(@"M:\01_Music\01_ActiveEvent\01_Playlist");
+                _DirectoriesEventPlaylist.Add(@"M:\01_Music\00_Playlists");
                 _DirectoriesExternMusiclists.Add(@"M:\04_Extern\MusicLists");
                 Deserialize();
                 return;
