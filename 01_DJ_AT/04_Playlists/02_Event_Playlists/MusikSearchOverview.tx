@@ -11,7 +11,7 @@
 *90-2000er		*90-2000er*Classic		*90-2000er*EuroDance
 ---------------------------------------------------------
 *PopRock			*PopRock*Classic*EN		*PopRock*Classic*DE
-							*PopRock*Modern*EN
+							*PopRock*Modern*DE
 ---------------------------------------------------------
 *HipHop				*HipHop*Classic*EN		*HipHop*Classic*DE
 							*HipHop*Solo
@@ -19,17 +19,16 @@
 *BlackRnbFunk	*BlackRnbFunk*Classic	*BlackRnbFunk*Solo
 ---------------------------------------------------------
 *Charts				*ChartsSingle*Classic	*ChartsSingle*Modern
-							*ChartsDance*
+							*ChartsDance
 ---------------------------------------------------------
 *PartyHits		*PartyHits*Classic*DE	*PartyHits*Modern*DE
 							*BallerApresSki
 ---------------------------------------------------------
 *Rockig				*Rockig*Classic				*Rockig*Modern
 ---------------------------------------------------------
-*Oldies				*Oldies*EN						*Oldies*DE
-							*NDW
+*Oldies				*Oldies*EN						*Oldies*DE			*NDW
 ---------------------------------------------------------
-*SlowBallade	*Ballade*DE						*Ballade  *LoveSong
+*Ballade			*Ballade*DE						*Ballade  *LoveSong
 ---------------------------------------------------------
 *ReggeaLatin	*Latein*Classic				*Soul
 ---------------------------------------------------------
