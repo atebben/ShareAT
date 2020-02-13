@@ -1,36 +1,36 @@
 ---------------------------------------------------------
-*Schlager			*Classic*Schlager			*Modern*Schlager
+*Schlager			*Schlager*Classic			*Schlager*Modern
 ---------------------------------------------------------
-*Walzer				*Classic*Walzer				*Modern*Walzer
+*Walzer				*Walzer*Classic				*Walzer*Modern
 ---------------------------------------------------------
-*Discofox			*Classic*Discofox 		*Middle*Discofox			
-							*Modern*Discofox
+*Discofox			*Discofox*Classic 		*Discofox*Middle
+							*Discofox*Modern
 ---------------------------------------------------------
-*70-80er			*Classic*70-80er			*DiscoGroove*70-80er
+*70-80er			*70-80er*Classic			*70-80er*Groove
 ---------------------------------------------------------
-*90-2000er		*Classic*90-2000er		*EuroDance*90-2000er
+*90-2000er		*90-2000er*Classic		*90-2000er*EuroDance
 ---------------------------------------------------------
-*PopRock			*INT.Classic*PopRock	*DE.Classic*PopRock		
-							*DE.Modern*PopRock
+*PopRock			*PopRock*Classic*EN		*PopRock*Classic*DE
+							*PopRock*Modern*EN
 ---------------------------------------------------------
-*HipHop				*INT.Classic*HipHop		*DE.Classic*HipHop		
-							*Solo*HipHop
+*HipHop				*HipHop*Classic*EN		*HipHop*Classic*DE
+							*HipHop*Solo
 ---------------------------------------------------------
-*BlackRnbFunk	*Classic*BlackRnbFunk	*Solo*BlackRnbFunk
+*BlackRnbFunk	*BlackRnbFunk*Classic	*BlackRnbFunk*Solo
 ---------------------------------------------------------
-*Charts				*Classic*Charts				*Modern*Charts				
-							*ClubDance*Charts
+*Charts				*ChartsSingle*Classic	*ChartsSingle*Modern
+							*ChartsDance*
 ---------------------------------------------------------
-*PartyHits		*DE.Classic*PartyHits	*DE.Modern*PartyHits	
+*PartyHits		*PartyHits*Classic*DE	*PartyHits*Modern*DE
 							*BallerApresSki
 ---------------------------------------------------------
-*Rockig				*Classic*Rockig				*Modern*Rockig
+*Rockig				*Rockig*Classic				*Rockig*Modern
 ---------------------------------------------------------
-*Oldies				*INT*Oldies						*DE*Oldies							
+*Oldies				*Oldies*EN						*Oldies*DE
 							*NDW
 ---------------------------------------------------------
-*SlowBallade	*DE*Balladen					*Balladen  *LoveSongs
+*SlowBallade	*Ballade*DE						*Ballade  *LoveSong
 ---------------------------------------------------------
-*ReggeaLatin	*Classic*Latein				*Soul
+*ReggeaLatin	*Latein*Classic				*Soul
 ---------------------------------------------------------
 *ElectroHouse	*ElectroHouse					*TechnoTrance
