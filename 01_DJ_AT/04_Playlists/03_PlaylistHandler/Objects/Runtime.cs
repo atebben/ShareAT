@@ -20,8 +20,8 @@ namespace PlaylistHandler
             mXMLPath = Directory.GetCurrentDirectory() + @"\Lists.xml";
             if (File.Exists(mXMLPath) == false)
             {
-                _DirectoriesEventMusic.Add(@"M:\01_Music\01_ActiveEvent\02_PartyRounds");
-                _DirectoriesEventPlaylist.Add(@"M:\01_Music\00_Playlists");
+                _DirectoriesEventMusic.Add(@"M:\01_Music\11_EventMusic\01_Music\01_RealParty");
+                _DirectoriesEventPlaylist.Add(@"M:\01_Music\11_EventMusic\02_Playlist");
                 _DirectoriesExternMusiclists.Add(@"M:\04_Extern\MusicLists");
                 Deserialize();
                 return;
