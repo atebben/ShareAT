@@ -1,39 +1,41 @@
----------------------------------------------------------
-*Schlager			*Schlager*Classic			*Schlager*Modern		
-							*Schlager*Hits					*Schlager*2020
----------------------------------------------------------
-*Walzer				*Walzer*Classic				*Walzer*Modern			
-							*Walzer*Hits
----------------------------------------------------------
-*Discofox			*Discofox*Classic 		*Discofox*Middle
-							*Discofox*Modern			*Discofox*Hits
----------------------------------------------------------
-*PopRock			*PopRock*Classic*EN		*PopRock*Classic*DE
-							*PopRock*Modern*EN		*PopRock*Modern*DE
----------------------------------------------------------
-*70-80er			*70-80er*Classic			*70-80er*Groove
----------------------------------------------------------
-*90-2000er		*90-2000er*Classic		*90-2000er*EuroDance
----------------------------------------------------------
-*HipHop				*HipHop*Classic*EN		*HipHop*Classic*DE
-							*SoloHipHop
----------------------------------------------------------
-*BlackRnb			*BlackRnb*Classic			*SoloBlackRnb
----------------------------------------------------------
-*Solo					*SoloCharts*Classic		*SoloCharts*Modern
-							*SoloCharts*2020		
-						*SoloClubDance		*SoloClubDance*2020
----------------------------------------------------------
-*PartyHits		*PartyHits*Classic*DE	*PartyHits*Modern*DE
-							*PartyHits*Hits*DE		*BallerApresSki		*BallerApresSki*2020
----------------------------------------------------------
-*Rockig				*Rockig*Classic				*Rockig*Modern
----------------------------------------------------------
-*Oldies				*40-60er		*Oldies*EN						*Oldies*DE			*NDW
-							
----------------------------------------------------------
-*SlowHits			*SlowHits*Ballade		*SlowHits*LoveSong		*SlowHits*Hits
----------------------------------------------------------
-*ReggeaLatin	*ReggeaLatin*Classic				*Soul
----------------------------------------------------------
-*ElectroClubbing	*ElectroHouse					*TechnoTrance
+------------------------------------------------------
+*Schlager		*Schlager*Classic			*Schlager*Modern		
+						*Schlager*Hits				*Schlager*2020
+------------------------------------------------------
+*Walzer			*Walzer*Classic				*Walzer*Modern			
+						*Walzer*Hits
+------------------------------------------------------
+*Discofox		*Discofox*Classic 		*Discofox*Middle
+						*Discofox*Modern			*Discofox*Hits
+------------------------------------------------------
+*PopRock		*PopRock*Classic*EN		*PopRock*Classic*DE
+						*PopRock*Modern*EN		*PopRock*Modern*DE
+------------------------------------------------------
+*70-80er		*70-80er*Classic			*70-80er*Groove
+------------------------------------------------------
+*90-2000er	*90-2000er*Classic		*90-2000er*EuroDance
+------------------------------------------------------
+*HipHop			*HipHop*Classic*EN		*HipHop*Classic*DE
+						*SoloHipHop
+------------------------------------------------------
+*BlackRnb		*BlackRnb*Classic			*SoloBlackRnb
+------------------------------------------------------
+*Solo				*SoloCharts*Classic		*SoloCharts*Modern
+						*SoloCharts*2020		
+						*SoloClubDance				*SoloClubDance*2020
+------------------------------------------------------
+*PartyHits	*PartyHits*Classic*DE	*PartyHits*Modern*DE
+						*PartyHits*Hits*DE		
+						*BallerApresSki				*BallerApresSki*2020
+------------------------------------------------------
+*Rockig			*Rockig*Classic				*Rockig*Modern
+------------------------------------------------------
+*Oldies			*Oldies*EN						*Oldies*DE
+						*40-60er							*NDW						
+------------------------------------------------------
+*SlowHits		*SlowHits*Ballade			*SlowHits*LoveSong
+						*SlowHits*Hits
+------------------------------------------------------
+*ReggeaLat	*ReggeaLatin*Classic	*Soul
+------------------------------------------------------
+*Clubbing		*ElectroHouse					*TechnoTrance
