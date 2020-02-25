@@ -1,6 +1,6 @@
 ---------------------------------------------------------
 *Schlager			*Schlager*Classic			*Schlager*Modern		
-							*Schlager2020					*Schlager*Hits
+							*Schlager*Hits					*Schlager*2020
 ---------------------------------------------------------
 *Walzer				*Walzer*Classic				*Walzer*Modern			
 							*Walzer*Hits
@@ -15,24 +15,25 @@
 ---------------------------------------------------------
 *90-2000er		*90-2000er*Classic		*90-2000er*EuroDance
 ---------------------------------------------------------
-*BlackRnb			*BlackRnb*Classic			*SoloBlackRnb
----------------------------------------------------------
 *HipHop				*HipHop*Classic*EN		*HipHop*Classic*DE
 							*SoloHipHop
 ---------------------------------------------------------
+*BlackRnb			*BlackRnb*Classic			*SoloBlackRnb
+---------------------------------------------------------
 *Solo					*SoloCharts*Classic		*SoloCharts*Modern
-							*SoloClubDance										
+							*SoloCharts*2020		
+						*SoloClubDance		*SoloClubDance*2020
 ---------------------------------------------------------
 *PartyHits		*PartyHits*Classic*DE	*PartyHits*Modern*DE
-							*PartyHits*Hits*DE		*BallerApresSki
+							*PartyHits*Hits*DE		*BallerApresSki		*BallerApresSki*2020
 ---------------------------------------------------------
 *Rockig				*Rockig*Classic				*Rockig*Modern
 ---------------------------------------------------------
-*Oldies				*Oldies*EN						*Oldies*DE			*NDW
-							*40-60er
+*Oldies				*40-60er		*Oldies*EN						*Oldies*DE			*NDW
+							
 ---------------------------------------------------------
-*Ballade			*Ballade*DE						*Ballade  *LoveSong
+*SlowHits			*SlowHits*Ballade		*SlowHits*LoveSong		*SlowHits*Hits
 ---------------------------------------------------------
-*ReggeaLatin	*Latein*Classic				*Soul
+*ReggeaLatin	*ReggeaLatin*Classic				*Soul
 ---------------------------------------------------------
-*ElectroHouse	*ElectroHouse					*TechnoTrance
+*ElectroClubbing	*ElectroHouse					*TechnoTrance
