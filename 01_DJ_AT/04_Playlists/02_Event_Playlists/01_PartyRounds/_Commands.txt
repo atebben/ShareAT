@@ -1,4 +1,35 @@
-Feld Version is --> SUBTITLE
+	Feld Version is --> SUBTITLE
 
+	001.$num(%_counter%,2).Schlager.Classic
+	002.$num(%_counter%,2).Schlager.Modern
 
-0999.$num(%_counter%,2).Demo_Test
+	051.$num(%_counter%,2).Discofox.Classic
+	052.$num(%_counter%,2).Discofox.Middle	
+	053.$num(%_counter%,2).Discofox.Modern
+	
+	101.$num(%_counter%,2).70-80er.Classic		
+	102.$num(%_counter%,2).70-80er.Groove
+	103.$num(%_counter%,2).70-80er.GirlPower
+	104.$num(%_counter%,2).70-80er.FunkyCool
+
+	151.$num(%_counter%,2).90-00er.Classic	
+	152.$num(%_counter%,2).90-00er.EuroDance	
+	
+	201.$num(%_counter%,2).Real.Classic.EN	
+	202.$num(%_counter%,2).Real.Classic.DE	
+	203.$num(%_counter%,2).Real.Modern.DE
+	204.$num(%_counter%,2).Real.Rockig
+
+	251.$num(%_counter%,2).Genre.FunkHipHop.EN
+	252.$num(%_counter%,2).Genre.FunkHipHop.DE
+	253.$num(%_counter%,2).Genre.BlackRNB
+
+	301.$num(%_counter%,2).SoloCharts.Classic
+	351.$num(%_counter%,2).Rockig.Classic	
+	352.$num(%_counter%,2).Rockig.Modern
+	
+	401.$num(%_counter%,2).PartyHits.EN	
+	402.$num(%_counter%,2).PartyHits.DE
+	
+	451.$num(%_counter%,2).Oldies.EN	
+	452.$num(%_counter%,2).Oldies.DE
