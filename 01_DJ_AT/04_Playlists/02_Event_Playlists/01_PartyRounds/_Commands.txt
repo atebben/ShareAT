@@ -25,6 +25,7 @@
 	253.$num(%_counter%,2).Genre.BlackRNB
 
 	301.$num(%_counter%,2).SoloCharts.Classic
+	
 	351.$num(%_counter%,2).Rockig.Classic	
 	352.$num(%_counter%,2).Rockig.Modern
 	
