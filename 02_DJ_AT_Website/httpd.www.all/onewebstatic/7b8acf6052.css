@@ -1,0 +1,12 @@
+
+        @media (max-width: 650px) { body { min-width: 'initial' } body.desktopV { min-width: 1050px } }
+        @media (min-width: 651px) { body { min-width: 1050px } body.mobileV { min-width: initial } }
+                        .bodyBackground {
+                            
+background-image:url('/____impro/1/Resources/Images/Main/Background.jpg?etag=%2221426-5e626882%22&sourceContentType=image%2Fjpeg&quality=80');
+background-repeat:no-repeat;
+background-position:0% 0%;
+background-size:cover;
+background-attachment:fixed;
+background-image-opacity:1;
+                        }
