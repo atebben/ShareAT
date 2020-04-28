@@ -376,8 +376,81 @@
         $.fn.scrollIntoSection(hash);
     });
 }(oneJQuery));
-(function runCrmScript() {
-}());
+function runCrmScript() {
+}
+;
+(function ($) {
+    var cookieBannerContainer = $('#cookieBannerContainer');
+    function getLocalStorageIdForClient() {
+        var lsId = 'oneComWsCb';
+        return lsId;
+    }
+    function isLocalStorageSupported() {
+        var testKey = 'testingOneComKey', storage = window.localStorage;
+        try {
+            storage.setItem(testKey, '1');
+            storage.removeItem(testKey);
+            return true;
+        } catch (error) {
+            return false;
+        }
+    }
+    function setLocalStorageToClient(key, value) {
+        if (window && window.localStorage && isLocalStorageSupported()) {
+            window.localStorage.setItem(key, value);
+        }
+    }
+    function getLocalStorageFromClient() {
+        if (window && window.localStorage) {
+            return JSON.parse(window.localStorage.getItem(getLocalStorageIdForClient()));
+        }
+    }
+    function setExpiryForCookieBanner() {
+        var value = { acceptTs: Date.now() };
+        setLocalStorageToClient(getLocalStorageIdForClient(), JSON.stringify(value));
+    }
+    function isValidCookieBanner() {
+        var ONE_YEAR_TIME = 31536000000;
+        var oneComDomainData = getLocalStorageFromClient();
+        if (oneComDomainData && oneComDomainData['acceptTs']) {
+            var oldTimestamp = oneComDomainData['acceptTs'];
+            var currentTimestamp = Date.now();
+            if (currentTimestamp - oldTimestamp < ONE_YEAR_TIME) {
+                return true;
+            }
+        }
+        return false;
+    }
+    function hideCookieBanner() {
+        cookieBannerContainer.hide();
+    }
+    function showCookieBanner() {
+        cookieBannerContainer.show();
+    }
+    function checkAndRunCrmScript() {
+        try {
+            if (runCrmScript && typeof runCrmScript === 'function') {
+                runCrmScript();
+            }
+        } catch (e) {
+        }
+    }
+    function run() {
+        if (isValidCookieBanner()) {
+            checkAndRunCrmScript();
+            hideCookieBanner();
+        } else {
+            var cookieBannerAcceptBtn = cookieBannerContainer.find('#cookieBannerBtn');
+            cookieBannerAcceptBtn.click(function () {
+                setExpiryForCookieBanner();
+                hideCookieBanner();
+                checkAndRunCrmScript();
+            });
+            showCookieBanner();
+        }
+    }
+    run();
+}(oneJQuery));
 (function ($) {
     $(function () {
         var isDesktopView = $().isDesktopView();
