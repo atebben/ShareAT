@@ -1,4 +1,220 @@
 (function ($) {
+    function fixGalleryCaptionHeights() {
+        $('.gallery').each(function (index, gallery) {
+            var $gallery = $(gallery), galleryCaptionContainers = $gallery.find('.gallery-caption').toArray(), galleryCaptionsHeights = galleryCaptionContainers.map(function (captionContainer) {
+                    return $(captionContainer).height();
+                }), maxGalleryCaptionsHeight = Math.max.apply(null, galleryCaptionsHeights.concat(0)), setCaptionMinHeight = function (captionContainer) {
+                    $(captionContainer).css('min-height', maxGalleryCaptionsHeight);
+                    $(captionContainer).css('height', maxGalleryCaptionsHeight);
+                };
+            if (maxGalleryCaptionsHeight !== 0) {
+                galleryCaptionContainers.forEach(setCaptionMinHeight);
+            }
+        });
+    }
+    $(function () {
+        setTimeout(fixGalleryCaptionHeights, 100);
+    });
+}(oneJQuery));
+(function ($) {
+    $.fn.isMobileWidth = function () {
+        var innerWidth = window.innerWidth;
+        var clientWidth = document.documentElement.clientWidth;
+        var width = innerWidth && clientWidth ? Math.min(innerWidth, clientWidth) : innerWidth || clientWidth;
+        return width <= 650;
+    };
+    $.fn.isDesktopView = function () {
+        var templateElt = $('.template'), isMobileView = $(templateElt).data('mobile-view'), isMobileWidth = $().isMobileWidth();
+        return !isMobileView || !isMobileWidth;
+    };
+    function getStickyElementHeightsUntil(node) {
+        var stickyCmpSelector = 'div.mm-mobile-preview, body:not(.mobileV) div[data-specific-kind="STRIP"]', found;
+        return $(stickyCmpSelector).filter(function () {
+            var dataset = this.dataset;
+            if (found || this === node) {
+                found = true;
+                return;
+            }
+            return (dataset.mobilePin || dataset.pin) > 0;
+        }).toArray().reduce(function (sum, ele) {
+            return sum + ele.offsetHeight;
+        }, 0);
+    }
+    $.fn.scrollIntoSection = function (sectionId, callback) {
+        var element = document.getElementById(sectionId || ''), newTop = getStickyElementHeightsUntil(element);
+        if (element) {
+            $.fn.scrollIntoView(element, newTop, callback);
+        }
+    };
+    $.fn.scrollIntoView = function (element, newTop, callback, duration) {
+        var $ele = $(element), isStickyClass = 'is-sticky', start = $(document).scrollTop(), currentTime = 0, increment = 20, cancelScroll = false, change, target;
+        function easeInOutQuad(t, b, c, d) {
+            t /= d / 2;
+            if (t < 1) {
+                return c / 2 * t * t + b;
+            }
+            t--;
+            return -c / 2 * (t * (t - 2) - 1) + b;
+        }
+        var cancelAnimateScroll = function () {
+                cancelScroll = true;
+                document.removeEventListener('wheel', cancelAnimateScroll);
+            }, getPositionOfStrip = function () {
+                var target, display = element.style.display;
+                element.style.display = 'block';
+                target = $ele.offset().top;
+                if (element.dataset.pin !== 0 && $ele.hasClass(isStickyClass)) {
+                    $ele.removeClass(isStickyClass);
+                    target = $ele.offset().top;
+                    $ele.addClass(isStickyClass);
+                }
+                element.style.display = display;
+                return target;
+            };
+        document.addEventListener('wheel', cancelAnimateScroll);
+        target = getPositionOfStrip();
+        change = target - (start + newTop || 0);
+        duration = !isNaN(duration) ? duration : Math.abs(change) > 1000 ? Math.abs(change / 2) : 500;
+        function animateScroll() {
+            if (cancelScroll)
+                return;
+            currentTime += increment;
+            window.scrollTo(0, easeInOutQuad(currentTime, start, change, duration));
+            if (currentTime < duration) {
+                window.requestAnimationFrame(animateScroll);
+            } else {
+                window.scrollBy(0, element.getBoundingClientRect().top - newTop);
+                document.removeEventListener('wheel', cancelAnimateScroll);
+                if (typeof callback === 'function') {
+                    callback(element, newTop);
+                }
+            }
+        }
+        animateScroll();
+    };
+    $.fn.removeHash = function () {
+        var hash = location.hash, url = location.href.replace(hash, '');
+        history.replaceState(null, null, url);
+    };
+    $.fn.pushHashState = function (value) {
+        if (!value) {
+            return;
+        }
+        if (location.hash.substr(1) !== value) {
+            try {
+                history.pushState(null, null, '#' + value);
+            } catch (e) {
+                console.warn(e.message);
+            }
+        }
+        $.fn.scrollIntoSection(value);
+    };
+    function sectionLinkHandler(e) {
+        var $target = $(e.target), $sectionLink = $target.closest('a[sectionid]'), sectionId = $sectionLink.length ? $sectionLink.attr('sectionid') : null;
+        if (!sectionId) {
+            return;
+        }
+        var strip = document.body.querySelector('div[data-specific-kind=STRIP][data-id="' + sectionId + '"]'), stripId = strip && strip.id;
+        if (stripId) {
+            e.preventDefault();
+            $.fn.pushHashState(stripId);
+        }
+    }
+    $('div.menu.dropdown, a[sectionid], [data-specific-kind="IMAGESLIDER"]').on('click', sectionLinkHandler);
+    function removeBlurImage() {
+        var urls = $('div[data-small-image][data-src]');
+        urls.each(function () {
+            var othis = $(this);
+            var img = new Image();
+            img.onload = function () {
+                othis.remove();
+            };
+            img.src = othis.data('src');
+        });
+    }
+    removeBlurImage();
+}(oneJQuery));
+(function ($) {
+    function initializeStripNames() {
+        var stripSelector = '[data-specific-kind="STRIP"]', pageStripCount = 0, templateStripCount = 0;
+        $(stripSelector).toArray().map(function (ele) {
+            var bound = ele.getBoundingClientRect(), inTemplate = ele.dataset.inTemplate === 'true', zIndex = parseInt($(ele).closest('[style*="z-index"]').css('zIndex')) || 0;
+            return {
+                top: bound.top,
+                zIndex: zIndex,
+                ele: ele,
+                inTemplate: inTemplate
+            };
+        }).sort(function (a, b) {
+            var value = a.top - b.top;
+            if (!value) {
+                return a.zIndex - b.zIndex;
+            }
+            return value;
+        }).forEach(function (obj) {
+            if (!obj.ele.id) {
+                obj.ele.id = obj.inTemplate ? 'TemplateStrip' + ++templateStripCount : 'Strip' + ++pageStripCount;
+            }
+        });
+    }
+    initializeStripNames();
+}(oneJQuery));
+window._mobileEditorData = {
+    'data': {
+        '877CBDD9-8052-4DF2-8CDF-C85CFB21F8EB': [
+            '36FA1F43-A14B-4165-A9F3-DE7B128680A2',
+            'A31FFA4C-78AA-4876-B7B8-25CC825B4413',
+            '150EC73D-0B4D-42BF-9612-DB6F0043C7D3',
+            'ACAF79E0-67CF-4F56-BF00-FE8FAFF5462A',
+            '53806BE5-DAD7-439F-844E-5745AC61B56F',
+            'E57D1F2C-9B5F-45E6-8B22-A3BDC107EA57',
+            'CF3F5A61-FCBD-44B2-A71A-57A748CCA731',
+            'B721FAE3-4E42-4393-976B-7150C847ACC4',
+            '4F7A0DF1-B108-45FD-A15F-874CAAAC98EE',
+            '188B11F4-4709-4019-8E36-67AB58CD9D49',
+            'A1B621BB-E8E2-4964-8BC9-DE1D5EF74CAA',
+            'D5B04D67-B70B-4D36-90E0-304A06E679C0',
+            '008D1489-32B1-4C55-B56A-CA2752DFAF5F',
+            'CE122A7F-7290-4B3E-BF34-978FD15AD2EC',
+            'E768F664-ABF9-4ED2-A337-4101C1450CF0',
+            'B27406C3-F460-408C-B43C-E549478B7C66',
+            '27B45AD4-BBC1-4218-8A98-9A5E22E4C0C5',
+            '3BFD7269-DF74-4DA6-84B7-7ED51F914DA2'
+        ]
+    },
+    'wrappedCmpsMap': {
+        '36FA1F43-A14B-4165-A9F3-DE7B128680A2': [],
+        'A31FFA4C-78AA-4876-B7B8-25CC825B4413': [],
+        'CE122A7F-7290-4B3E-BF34-978FD15AD2EC': []
+    },
+    'root': '877CBDD9-8052-4DF2-8CDF-C85CFB21F8EB',
+    'styles': {
+        'A31FFA4C-78AA-4876-B7B8-25CC825B4413': { 'marginTop': 20 },
+        '150EC73D-0B4D-42BF-9612-DB6F0043C7D3': { 'marginTop': 20 },
+        'ACAF79E0-67CF-4F56-BF00-FE8FAFF5462A': { 'marginTop': 20 },
+        '53806BE5-DAD7-439F-844E-5745AC61B56F': { 'marginTop': 20 },
+        'E57D1F2C-9B5F-45E6-8B22-A3BDC107EA57': { 'marginTop': 20 },
+        'CF3F5A61-FCBD-44B2-A71A-57A748CCA731': { 'marginTop': 20 },
+        'B721FAE3-4E42-4393-976B-7150C847ACC4': { 'marginTop': 20 },
+        '4F7A0DF1-B108-45FD-A15F-874CAAAC98EE': { 'marginTop': 20 },
+        '188B11F4-4709-4019-8E36-67AB58CD9D49': { 'marginTop': 20 },
+        'A1B621BB-E8E2-4964-8BC9-DE1D5EF74CAA': { 'marginTop': 20 },
+        'D5B04D67-B70B-4D36-90E0-304A06E679C0': { 'marginTop': 20 },
+        '008D1489-32B1-4C55-B56A-CA2752DFAF5F': { 'marginTop': 20 },
+        'CE122A7F-7290-4B3E-BF34-978FD15AD2EC': { 'marginTop': 20 },
+        'E768F664-ABF9-4ED2-A337-4101C1450CF0': { 'marginTop': 20 },
+        'B27406C3-F460-408C-B43C-E549478B7C66': { 'marginTop': 20 },
+        '27B45AD4-BBC1-4218-8A98-9A5E22E4C0C5': { 'marginTop': 20 },
+        '3BFD7269-DF74-4DA6-84B7-7ED51F914DA2': {
+            'marginTop': 20,
+            'marginBottom': 35
+        },
+        '36FA1F43-A14B-4165-A9F3-DE7B128680A2': { 'marginTop': 35 }
+    },
+    'groups': {},
+    'settings': {}
+};
+(function ($) {
     function isCopied(id, idsMap) {
         return Object.keys(idsMap).some(function (pId) {
             return pId.split('_copy').length > 1;
@@ -377,6 +593,18 @@
     });
 }(oneJQuery));
 function runCrmScript() {
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments);
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o), m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m);
+    }(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga'));
+    ga('create', 'UA-165680868-2', 'auto');
+    ga('send', 'pageview');
 }
 ;
 (function ($) {

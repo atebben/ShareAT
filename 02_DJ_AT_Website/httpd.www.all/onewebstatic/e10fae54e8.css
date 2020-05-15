@@ -431,3 +431,18 @@ text-decoration: none;
 color: rgba(0,0,0,1);
 letter-spacing: normal;
 line-height: 1.2;}.textlogo-ddo{font-size: 20px !important;}
+                .mobileV div[data-id='E768F664-ABF9-4ED2-A337-4101C1450CF0'] .gallery .gallery-cell:nth-child(2n+1) {
+                    padding: 5px 5px 5px 0 !important;
+                }
+                .mobileV div[data-id='E768F664-ABF9-4ED2-A337-4101C1450CF0'] .gallery .gallery-cell:nth-child(2n+2) {
+                    padding: 5px 0 5px 5px !important;
+                }
+                .mobileV div[data-id='E768F664-ABF9-4ED2-A337-4101C1450CF0'] .gallery .gallery-cell:first-child {
+                    padding: 0 5px 5px 0 !important;
+                }
+                .mobileV div[data-id='E768F664-ABF9-4ED2-A337-4101C1450CF0'] .gallery .gallery-cell:nth-child(2) {
+                    padding: 0 0 5px 5px !important;
+                }
+                .mobileV div[data-id='E768F664-ABF9-4ED2-A337-4101C1450CF0'] .gallery {
+                    margin-bottom: -5px !important;
+                }

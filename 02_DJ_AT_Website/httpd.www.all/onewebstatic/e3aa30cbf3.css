@@ -2122,32 +2122,33 @@ body {
 
 .TabDialog_panel__3SUi8 {
     flex: 0 0 150px;
-    background-color: #F1F1F1;
-    border-right: 1px solid #E5E5E5;
+    padding-top: 10px;
+    background-color: #f9f9f9;
 }
 
 .TabDialog_panelItem__b9fjl:hover {
-    background-color: #E5EDF3;
+    background-color: #eef5fb;
 }
 
 .TabDialog_panelItem__b9fjl {
-    height: 75px;
+    height: 40px;
     display: flex;
     align-items: center;
-    padding-left: 18px;
-    padding-right: 18px;
+    padding-left: 20px;
+    padding-right: 20px;
     cursor: pointer;
-    border-bottom: 1px solid #E5E5E5;
     font-size: 13px;
     box-sizing: content-box;
+    color: #262626;
+}
+
+.TabDialog_panelItem__b9fjl:last-child {
+    border-bottom: none;
 }
 
 .TabDialog_panelItem__b9fjl.TabDialog_active__dDGyD {
-    /* Before modifying the below two properties, please see WBTGEN-10699 */
-    padding-left: 17px;
-    left: 1px;
     /*TODO: Don't use important. Fix it with more specificity. Revisit here if some regression noted.*/
-    background-color: #FFFFFF;
+    background-color: #e5edf3;
     position: relative;
 }
 
@@ -2156,7 +2157,7 @@ body {
 }
 
 .TabDialog_dialog__11zxd .TabDialog_titleBox__28BoP {
-    height: 75px;
+    height: 40px;
 }
 
 .TabDialog_dialog__11zxd .TabDialog_titleBox__28BoP.TabDialog_withSubTitle__1hxqD {
@@ -5691,7 +5692,9 @@ body.mce-content-body {
     position: absolute; /* this hack is added because height: 100% can not be taken from inherit height parent. */
 }
 
-.mobileV .styles_verticalAlignmentWrapper__3SDi2 {
+.mobileV .styles_verticalAlignmentWrapper__3SDi2,
+.extendedPanel .styles_verticalAlignmentWrapper__3SDi2,
+#PushDownOffScreenRenderForBlocksDomId .styles_verticalAlignmentWrapper__3SDi2 {
     position: relative;
 }
 
@@ -6217,8 +6220,8 @@ table.Table_texttable__2GrpI tr td {
 }
 
 .MobileHeader_logo__VBlNX .MobileHeader_logoImage__BZwGs {
-    height: 100%;
-    width: auto;
+    height: auto;
+    width: 100%;
 }
 
 .MobileHeader_logo__VBlNX.MobileHeader_default__3hOlZ {
@@ -6246,7 +6249,6 @@ table.Table_texttable__2GrpI tr td {
     color: #4D4D4D;
     flex: 1;
     font-size: 18px;
-    padding-right: 15px;
     overflow: hidden;
 }
 
@@ -6280,8 +6282,6 @@ table.Table_texttable__2GrpI tr td {
 .MobileHeader_dummyMenuIconContainer__3mfi4, .MobileHeader_menuIconContainer__lc-Zq {
     margin-left: auto;
     position: relative;
-    width: 24px;
-    height: 24px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -6300,7 +6300,11 @@ table.Table_texttable__2GrpI tr td {
 }
 
 .MobileHeader_dummyMenuIconContainer__3mfi4 {
+    width: 24px;
+    height: 24px;
     position: relative;
+    margin-left: 15px;
+    flex: 0 0 auto;
 }
 
 .MobileHeader_menuIconContainer__lc-Zq span {
