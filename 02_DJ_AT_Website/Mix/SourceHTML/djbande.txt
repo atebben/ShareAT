@@ -1,0 +1,2536 @@
+
+ <!DOCTYPE html>
+<html lang="de" dir="ltr">
+<head>
+
+<meta charset="utf-8">
+<!-- 
+	This website is powered by TYPO3 - inspiring people to share!
+	TYPO3 is a free open source Content Management Framework initially created by Kasper Skaarhoj and licensed under GNU/GPL.
+	TYPO3 is copyright 1998-2012 of Kasper Skaarhoj. Extensions are copyright of their respective owners.
+	Information and contribution at http://typo3.org/
+-->
+
+
+
+
+<meta name="generator" content="TYPO3 4.5 CMS">
+<meta name="MSSmartTagsPreventParsing" content="true">
+<meta name="imagetoolbar" content="false">
+<meta name="revisit" content="2">
+<meta name="language" content="de">
+<meta name="author" content="DJ Bande">
+<meta name="publisher" content="DJ Bande">
+<meta name="keywords" content="DJ Osnabrück Hochzeit Hochzeits-DJ mieten mobile Disco mobiler DJ Geburtstag Deejay Discjockey buchen Party Feier Party-DJ Event-DJ Geburtstags-DJ Alleinunterhalter dj-bande" />
+<meta name="creator" content="www.enfaktor.net">
+<meta name="robots" content="Index,Follow">
+<meta name="copyright" content="DJ Bande">
+<meta name="coverage" content="Germany">
+<meta name="description" content="Top-DJs aus Osnabrück ganz einfach buchen. Hier finden Sie DJs für Ihre Party oder Hochzeit. 200.000 begeisterte Gäste haben mit uns getanzt!" />
+<meta name="geo.position" content="52.277;8.05229" />
+<meta name="ICBM" content="52.277, 8.05229" /><meta name="geo.region" content="DE-NI" /><meta name="geo.placename" content="Osnabrück,Niedersachsen" />
+
+<link rel="stylesheet" type="text/css" href="typo3temp/stylesheet_5d370599a3.css?1420553795" media="all">
+<link rel="stylesheet" type="text/css" href="fileadmin/template/css/reset.css?1430771272" media="screen">
+<link rel="stylesheet" type="text/css" href="fileadmin/template/css/old.css?1530058789" media="screen">
+<link rel="stylesheet" type="text/css" href="fileadmin/template/css/sprites.css?1532091311" media="screen">
+<link rel="stylesheet" type="text/css" href="fileadmin/template/css/navigation_new.css?1543501895" media="screen">
+<link rel="stylesheet" type="text/css" href="fileadmin/template/css/jqueryui-editable.css?1432106821" media="screen">
+<link rel="stylesheet" type="text/css" href="fileadmin/template/css/jquery-ui-1.9.2.custom.css?1420553758" media="screen">
+<link rel="stylesheet" type="text/css" href="fileadmin/template/css/modal.css?1531928155" media="screen">
+<link rel="stylesheet" type="text/css" href="fileadmin/template/css/print.css?1420553758" media="print">
+<link rel="stylesheet" type="text/css" href="fileadmin/template/css/enLoader.css?1441743441" media="screen">
+<link rel="stylesheet" type="text/css" href="fileadmin/template/css/jquery-ui-1.10.3.smoothness.css?1420553758" media="screen">
+<link rel="stylesheet" type="text/css" href="fileadmin/template/css/bootstrap-theme.min.css?1532618173" media="screen">
+<link rel="stylesheet" type="text/css" href="fileadmin/template/css/bootstrap.min.css?1543528846" media="screen">
+<link rel="stylesheet" type="text/css" href="fileadmin/template/css/space.css?1532623637" media="screen">
+<link rel="stylesheet" type="text/css" href="fileadmin/template/css/styles_new.css?1578657247" media="screen">
+<link rel="stylesheet" type="text/css" href="fileadmin/template/css/bootstrap_killer.css?1574625475" media="screen">
+
+
+
+<script src="typo3temp/javascript_757c080409.js?1400804575" type="text/javascript"></script>
+
+
+<title>DJ-Bande Osnabrück – Top-DJs mieten für Hochzeit und Party</title><script type="text/javascript" src="portal20/js/LAB-debug.min.js"></script><script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script><script defer src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script><script defer type="text/javascript" src="fileadmin/template/js/bootstrap.min.js"></script><script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js"></script><script defer type="text/javascript" src="portal20/js/jRespond.min.js"></script><script defer type="text/javascript" src="portal20/js/hoverIntent.js"></script><script defer type="text/javascript" src="portal20/js/superfish.js"></script><script defer type="text/javascript" src="portal20/js/enModal.js"></script><script defer type="text/javascript" src="portal20/js/main_Bootstrap_xxxxx.js"></script><meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png"><link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png"><link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png"><link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png"><link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png"><link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png"><link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png"><link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png"><link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png"><link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"><link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png"><link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="manifest" href="/manifest.json"><meta name="msapplication-TileColor" content="#ffffff"><meta name="msapplication-TileImage" content="/ms-icon-144x144.png"><meta name="theme-color" content="#ffffff"><!-- Facebook Pixel Code --> <script> !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod? n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n; n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0; t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window, document,'script','https://connect.facebook.net/en_US/fbevents.js'); fbq('init', '120747211787958'); /* Insert your pixel ID here. */ fbq('track', 'PageView'); </script> <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=120747211787958&ev=PageView&noscript=1" /></noscript> <!-- DO NOT MODIFY --> <!-- End Facebook Pixel Code --><!-- Google Tag Manager --><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-5KFD5QF');</script><!-- End Google Tag Manager --><meta property="og:description" content="Finden Sie Ihren Wunsch-DJ bei der dj-bande ganz einfach online. Alle DJs aus der Nähe sofort auf einen Blick - Profis für Hochzeiten & Events oder Spezialisten für Club-Gigs" /><meta property="og:title" content="DJ für Hochzeiten & Partys deutschlandweit von der dj-bande" /><meta property="og:site_name" content="www.dj-bande.de" /><meta property="og:type" content="Website" /><meta property="og:url" content="https://dj-bande.de"/><meta property="fb:admins" content="214900915550985"/><meta property="og:image" content="http://www.dj-bande.de/fileadmin/template/image/logo.png"><meta property="og:image:type" content="image/png"><meta property="og:image:width" content="257"><meta property="og:image:height" content="87"><meta name="p:domain_verify" content="0656e4e29038ed5b65039bd1610c65c6"/>
+
+
+</head>
+<body>
+
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5KFD5QF"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<!-- Modal -->
+<div id="modalUniversalDismiss" class="modal fade" role="dialog">
+  <div class="modal-dialog" id="modalUniversalDismissInnerBox">
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close btn-responsive" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title" id="modalTitleDismiss">Info</h4>
+      </div>
+      <div class="modal-body" id="modalBodyDismiss">
+        <p>Meldung ... !</p>
+      </div>
+      <div class="modal-footer" id="modalFooterDismiss">
+        <button type="button" class="btn btn-default btn-responsive" data-dismiss="modal" id="modalClose">Weiter</button>
+      </div>
+    </div>
+  </div>
+</div>  
+<div id="modalUniversal" class="modal fade" role="dialog">
+  <div class="modal-dialog" id="modalUniversalInnerBox">
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="modalTitle">Info</h4>
+      </div>
+      <div class="modal-body" id="modalBody">
+        <p>Meldung ...</p>
+      </div>
+      <div class="modal-footer" id="modalFooter">
+      </div>
+    </div>
+  </div>
+</div>
+<noscript>
+  <div class="wrapper_full bg_aubergine_polygon">
+    <div class="wrapper">
+      <h1 class="fontcol_light padding-xs-all-xxl">Achtung: Ihr Browser unterstützt kein JavaScript.</h1>
+      <p class="fontcol_light">Um unser Angebot nutzen zu können, benötigen Sie JavaScript.</p>
+      <p class="fontcol_light">Wenn Sie Hilfe brauchen, rufen Sie uns an: 02 51/52 25 80!</p>
+    </div>
+  </div>
+</noscript>
+  <script type="text/javascript">
+  var strSlide = "uploads/media/nopic_54.png";
+  var arrLABQueue = [];
+   var $LABQUEUE = $LAB.setGlobalDefaults({"CacheBust":false,"Debug":true})
+
+
+
+
+  .wait(function(){
+    var isTouchable = 'ontouchstart' in window || navigator.maxTouchPoints > 0 || navigator.msMaxTouchPoints > 0;
+  });
+  </script>
+    <header>
+      <div class="wrapper_full navheight">
+        <nav id="mainNav" class="cf navbar xxxnavbar-default navbar-fixed-top bg_weiss bg_nav apadding-xs-all-xxl">
+    <div class="container-fluid wrapper navheight_in">
+      <div class="navbar-header margin-xs-b-l margin-sm-b-xl margin-md-b-xxl">
+        <button type="button" class="navbar-toggle navbar-toggle-korrektur collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Navigation ein-/ausblenden</span>
+          <span class="glyphicon glyphicon-th-list" ></span>
+        </button>
+        <a class="navbar-brand  margin-xs-r-xxl" href="index.php" title="Link zur Startseitaae">
+        <img src="fileadmin/template/image/logo.png" id="logo" class="logosize" alt="aaa">
+        </a>
+
+      </div>
+      <div class="collapse navbar-collapse col-sm-6 col-md-8 col-lg-10" id="bs-example-navbar-collapse-1" aria-expanded="false">
+               <ul id="navi" class="nav navbar-nav"><li class="nav81"><a href="dj_finden.html"  >DJ Finden</a><ul><li  class=""><a href="dj_referenzen.html" onfocus="blurLink(this);"  >Referenzen</a></li><li  class=""><a href="dj_bande.html" onfocus="blurLink(this);"  >DJ Bande</a></li><li  class=""><a href="dj_hochzeit.html" onfocus="blurLink(this);"  >DJ Hochzeit</a></li></ul></li><li class="nav132"><a href="party_planung.html"  >Party Planung</a><ul><li  class=""><a href="musik_genre.html" onfocus="blurLink(this);"  >Musik Genre</a></li><li  class=""><a href="party_planen.html" onfocus="blurLink(this);"  >Party ABC</a></li><li  class=""><a href="musik_planen.html" onfocus="blurLink(this);"  >Musik ABC</a></li><li  class=""><a href="hochzeit_planen.html" onfocus="blurLink(this);"  >Hochzeit ABC</a></li></ul></li><li class="nav133"><a href="djs_musik.html"  >DJs & Musik</a><ul><li  class=""><a href="dj_musik_video_tipp.html" onfocus="blurLink(this);"  >Musik Tipps</a></li><li  class=""><a href="dj_backstage.html" onfocus="blurLink(this);"  >DJ Backstage</a></li><li  class=""><a href="dj_schmiede.html" onfocus="blurLink(this);"  >DJ Schmiede</a></li><li  class=""><a href="dj_charts.html" onfocus="blurLink(this);"  >DJ Charts</a></li><li  class=""><a href="dj_perfect_playlist.html" onfocus="blurLink(this);"  >DJ Playlist</a></li><li  class=""><a href="dj_mixtipps.html" onfocus="blurLink(this);"  >DJ Mix Tipps</a></li><li  class=""><a href="dj_kickoff.html" onfocus="blurLink(this);"  >DJ Kick Off</a></li><li  class=""><a href="dj_bei_der_djbande.html" onfocus="blurLink(this);"  >Du bist DJ?</a></li><li  class=""><a href="djbande_partner_werden.html" onfocus="blurLink(this);"  >Partner werden</a></li><li  class=""><a href="dj_anmeldung.html" onfocus="blurLink(this);"  >DJ Anmeldung</a></li></ul></li><li  class="nav336"><a href="wunsch_dj_buchen.html"  >DJ Buchen</a></li><li  class="nav425"><a href="anmeldung.html"  >Anmeldung</a></li></ul>
+      </div>
+      
+      
+            <div id="login" class="cf">
+               <form action="https://www.dj-bande.de/anmeldung.html" id="formlogin" target="_self" method="post" onSubmit="">
+                <a id="c1491"></a>
+                </form>
+           </div>
+      <div class="col-sm-offset-2 col-sm-8">
+        <p class="text-right fsize_s"><span class="glyphicon glyphicon-earphone"></span> 0251-522580</p>
+      </div>        
+      
+      
+      
+      
+      
+           </div>    
+         </nav>
+      </div>
+    </header>
+    
+    <section class="wrapper_padding cf">
+      
+    </section>
+    <a id="c311"></a><section class="bg1">		<div class="wrapper_full border_aubergine1 hidden-xs bg_aubergine01">
+				<img src="/images/HP/dj_bande_djs_bundesweit_finden_und_buchen_286.png" width="100%">
+			</div>
+			<div class="wrapper_full border_aubergine1 visible-xs bg_aubergine01">
+				<img src="/images/HP/dj_bande_djs_bundesweit_finden_und_buchen_286_5.png" width="100%">
+			</div>
+			<div class="row wrapper visible-xs">
+				<div class="col-xs-12 margin-xs-t-l padding-xs-all-l">
+					<h1 class="fsize_xl bold lower center">TOP-DJ<span class="fsize_xl">s </span> in Osnabrück<br /><span class="fsize_l"> finden, kennenlernen & buchen</span></h1>
+				</div> 
+			</div> <script type="text/javascript">
+var datTermin ="";
+
+arrLABQueue.push("portal20/js/tpl/searchAndContact.tpl.js");
+</script><div class="rowFlex  arget_Auswahl xxxbg_orange AktionForm">
+
+	<script> 
+
+		//kapseln, bis alles geladen ist
+
+		$(function(){
+
+			//wenn das formular abgeschickt wird, mach was
+
+				$("#DJs_4_Kunden_Form").submit(function(){
+
+						//hol dir das Datum, schneid es an den Punkten in ein array
+
+						var aDate = $("#arrSearch_datTermin_").val().split(".");
+
+						//alert(aDate);
+
+						//puzzle das geschnittene Datum neu zusammen und schreib es in ein hidden form field
+
+						$("#arrSearch_datTerminYmd_").val(aDate[2]+"-"+aDate[1]+"-"+aDate[0]);
+
+						//jetzt nix mehr: das modifizierte Formular soll wie vorgesehen abgeschhickt werden
+
+					})
+
+				});
+
+	</script>
+
+	<div class="wrapper_full bg_aubergine">
+
+		<div class="wrapper row padding-sm-all-l padding-md-all-xl ">	
+
+			<div class="col-sm-1 hidden-xs text-left padding-md-t-xl">
+
+				<span class="xxxglyphicon xxxglyphicon-forward fsize_xxl fontcol_light" aria-hidden="true"></span>
+
+			</div>
+
+			
+
+			<div class="col-sm-10 col-xs-12 border_all bg_orange padding-sm-all-l"> 
+
+				<div class="hidden-xs col-sm-12 form-group  xxxmargin-sm-t-m">
+
+					<p class="fsize_l af_bold fontcol_light bold aupper center">Finden Sie den Wunsch-DJ für Ihre Hochzeit, Feier, Party oder Ihr Event</p>	
+
+				</div>
+
+				<div class="col-xs-12 visible-xs form-group  margin-sm-t-m">
+
+					<p class="fsize_l fontcol_light center">Finden Sie hier Ihren Wunsch-DJ!</p>	
+
+				</div>
+
+				<form action="index.php" name="DJs_4_Kunden_Form" id="DJs_4_Kunden_Form" method="get" class="form-inline">
+
+					<input type="hidden" id="id" name="id" value="13"/>
+
+					<input type="hidden" id="arrSearch_datTerminYmd_" name="arrSearch[datTerminYmd]" value="Test"/>
+
+					<div class="col-xs-12 col-sm-4 margin-sm-t-m form-group">
+
+						<label for="arrSearch_datTermin_" class="col-xs-3 control-label fontcol_light padding-lg-t-s  padding-sm-t-m padding-xs-r-xl af_right">Termin: </label><div class="col-xs-9"><input type="text" id="arrSearch_datTermin_" name="arrSearch[datTermin]" value="" accesskey="" tabindex="" class="datepicker form-control form-anfrage" placeholder="hier Termin der Feier eintragen"  /></div>
+
+					</div>
+
+					<div class="col-xs-12 col-sm-4 margin-sm-t-m form-group ">
+
+						<label for="arrSearch_strOrt_" class="col-xs-3 control-label fontcol_light padding-lg-t-s  padding-sm-t-m padding-xs-r-xl  af_right">Ort: </label><div class="col-xs-9"><input type="text" id="arrSearch_strOrt_" name="arrSearch[strOrt]" value="Osnabrück" accesskey="" tabindex="" class="locautocomplete form-control form-anfrage" placeholder="hier Ort der Feier eintragen"   autocomplete="off"/></div>
+
+					</div>
+
+					<div class="col-xs-12  col-sm-3 col-sm-offset-1 form-group margin-sm-t-m padding-xs-hor-xxl padding-sm-hor-s padding-sm-r-xxl "> 
+
+						<button type="submit" id="arrSearch_butSubmitSuchen_" name="arrSearch[butSubmitSuchen]" value="DJs suchen" accesskey="" tabindex="" class="btn btn-default btn-lg btnwidth btn-responsive btndj btn-bold"  ><span class="glyphicon glyphicon-search" aria-hidden="true"></span>  Suche starten</button>
+
+					</div> 
+
+				</form>
+
+			</div>
+
+			
+
+			<div class="col-sm-1 hidden-xs text-right padding-md-t-xl">
+
+				<span class="xxxglyphicon xxxglyphicon-backward fsize_xxl fontcol_light" aria-hidden="true"></span>
+
+			</div>						
+
+		</div>			
+
+	</div>			
+
+	<div class="wrapper_full">
+
+		<div class="wrapper row oggler_Anfrage profil_cursor center-block col_pad_clear padding-xs-all-xl"> 
+
+			<div class="col-lg-6 col-lg-offset-3 col-sm-8 col-sm-offset-2 hidden-xs text-center">
+
+				<button class="btn btn-primary btn-lg sbtnwidth btndj btn-responsive btn-bold "><span class="glyphicon glyphicon-list fontcol_light" aria-hidden="true"></span> Oder lassen Sie sich hier Ihr persönliches Angebot senden!</button>
+
+			</div> 
+
+			<div class="col-xs-12 visible-xs margin-xs-t-xl text-center">
+
+				<button class="btn btn-primary btn-lg sbtnwidth btndj btn-responsive text-center"><span class="glyphicon glyphicon-list fontcol_light" aria-hidden="true"></span> Oder persönliches Angebot anfordern!</button>
+
+			</div> 
+
+		<!--	<div class="col-xs-4 text-center oggler_Auswahl">
+
+					<button class="btn btn-default btn-lg btnwidth btn-responsive "><span class="glyphicon glyphicon-search" aria-hidden="true"></span> Zur DJ-Suche</button>
+
+				</div> 
+
+				<div class="col-xs-4 text-center oggler_Anfrage profil_cursor">
+
+					<button class="btn btn-default btn-lg btnwidth btn-responsive "><span class="glyphicon glyphicon-list" aria-hidden="true"></span> Angebot anfordern</button>
+
+				</div> 
+
+	-->
+
+		</div>
+
+	</div>	
+
+</div><div class="wrapper_full rowFlex arget_Anfrage hidden _form AktionForm aaminHeader aabgimage1 abottom-xs acenter-xs apadding-sm-t-xxl">
+
+<!--<div class="col-md-12 xxxcol-md-offset-1 col-xs-12 xxxbg_aubergine padding-lg-hor-xl padding-md-hor-xl padding-sm-hor-xxl">	-->	
+
+
+
+	<div class="wrapper_full bg_aubergine">
+
+		<form id="contactForm" action="dj-osnabrueck.html" method="post" class="form-horizontal">		
+
+		<div class="wrapper row  padding-sm-all-l padding-md-all-xl">
+
+
+
+			<div class="col-xs-12 col-sm-10 col-sm-offset-1 aborder_grau2 xxxbg_aubergine_form border_all bg_orange 
+
+			 xxxborder_grau2 xxxbg_aubergine_form border_all xxxbg_weiss xxxpadding-xs-all-xxl">
+
+				<input type="hidden" id="id" name="id" value="154"/>
+
+				<input type="hidden" id="lngAktionID2send" name="arrData[lngAktionID]" value="676"/>
+
+				<input type="hidden" id="fid_fromSO" name="arrData[fid_fromSO]" value=""/>
+
+				<input type="hidden" id="enuFromSO" name="arrData[enuFromSO]" value="Erstkontakt"/>
+
+				<input type="hidden" id="fid_2SO" name="arrData[fid_2SO]" value=""/>
+
+				<input type="hidden" id="enu2SO" name="arrData[enu2SO]" value=""/>
+
+				<div class="col-xs-12 padding-sm-t-xl padding-xs-t-xl">
+
+					<h1 class="fsize_l fontcol_light bold aupper center  margin-xs-b-xl">Meine DJ-Anfrage</h1>
+
+				</div>
+
+<div class="importantemail">
+
+<input type="text" id="arrData_dadkjfZTR_mjh_" name="arrData[dadkjfZTR-mjh]" value="" accesskey="" tabindex="" class="form-control importantemail" placeholder="Ihre Daten"  />
+
+</div>
+
+				<div class="col-lg-4 xxxcol-lg-offset-1 col-sm-4 col-xs-12  form-horizontal">
+
+					
+
+						<div class="form-group arow apadding-xs-all-s apadding-sm-all-m"><label for="arrData_enuAnrede_" class="col-xs-3 control-label fontcol_light padding-xs-t-l">Anrede: </label><div class="col-xs-9"><select id="arrData_enuAnrede_" name="arrData[enuAnrede]" class="form-control "   ><option id="arrData[enuAnrede]_0" value="0" class="opt">bitte wählen</option><option id="arrData[enuAnrede]_1" value="Frau" class="opt">Frau</option><option id="arrData[enuAnrede]_2" value="Herr" class="opt">Herr</option><option id="arrData[enuAnrede]_3" value="Firma" class="opt">Firma</option></select></div></div>
+
+					
+
+						<div class="form-group arow apadding-xs-all-s apadding-sm-all-m"><label for="arrData_strName_" class="col-xs-3 control-label  fontcol_light padding-xs-t-l">Name*: </label><div class="col-xs-9"><input type="text" id="arrData_strName_" name="arrData[strName]" value="" accesskey="" tabindex="" class="form-control  " placeholder="Ihr Name"  /></div></div>
+
+					
+
+						<div class="form-group arow apadding-xs-all-s apadding-sm-all-m"><label for="arrData_strTel_" class="col-xs-3 control-label  fontcol_light padding-xs-t-l">Telefon: </label><div class="col-xs-9"><input type="tel" id="arrData_strTel_" name="arrData[strTel]" value="" accesskey="" tabindex="" class="form-control " placeholder="Ihre Telefonnummer"  /></div></div>
+
+					
+
+						<div class="form-group arow apadding-xs-all-s apadding-sm-all-m"><label for="arrData_strOrt_" class="col-xs-3 control-label  fontcol_light padding-xs-t-l">Ort*: </label><div class="col-xs-9"><input type="text" id="arrData_strOrt_" name="arrData[strOrt]" value="Osnabrück" accesskey="" tabindex="" class="form-control  locautocomplete" placeholder="Ort der Feier"  /></div></div>
+
+					
+
+						<div class="form-group arow apadding-xs-all-s apadding-sm-all-m"><label for="arrData_strDatum_" class="col-xs-3 control-label  fontcol_light padding-xs-t-l">Termin*: </label><div class="col-xs-9"><input type="text" id="arrData_strDatum_" name="arrData[strDatum]" value="" accesskey="" tabindex="" class="form-control  datepicker" placeholder="Datum der Feier"  /></div></div>
+
+					
+
+						<div class="form-group arow apadding-xs-all-s apadding-sm-all-m"><label for="arrData_strLiame_" class="col-xs-3 control-label  fontcol_light padding-xs-t-l">Email*: </label><div class="col-xs-9"><input type="text" id="arrData_strLiame_" name="arrData[strLiame]" value="" accesskey="" tabindex="" class="form-control " placeholder="Ihre Emailadresse"  /></div></div>
+
+					
+
+				</div>
+
+				<div class="col-lg-4 col-sm-4 col-xs-12 aform-horizontal">
+
+					<div class="form-group arow  padding-xs-hor-xl padding-sm-hor-s"><textarea id="strNotiz" name="arrData[strNotiz]" accesskey="" tabindex="" class="form-control w100 aah33 h_Anfrage padding-xs-all-l" placeholder="Fragen und Details zu Ihrer Anfrage hier hinein schreiben"  ></textarea></div>
+
+				</div>
+
+				<div class="col-lg-4 col-sm-4 col-xs-12">
+
+					<div class="form-group">
+
+						<div class="col-sm-12">
+
+							<div class="checkbox">
+
+								<label class="cleanlabel fontcol_light">
+
+						  <input type="checkbox" id="arrData_blnCheck_" name="arrData[blnCheck]" value="1" class="box_form" /> Die <a href="datenschutzerklaerung.html" target="_blank"><span class="fontcol_light"><strong>Datenschutzerklärung</strong></span></a> habe ich zur Kenntnis genommen und bin damit einverstanden, dass die von mir angegebenen Daten elektronisch erhoben
+
+							und gespeichert und nur streng zweckgebunden genutzt werden. Mit Absenden des Formulars erkläre ich mich damit einverstanden.
+
+								</label>
+
+							</div>
+
+						</div>
+
+					</div>
+
+					<div class="form-group">
+
+						<div class="col-sm-offset-1 col-sm-10 text-center">
+
+							<button type="submit" id="submit_speichern" name="arrData[strSubmitAktion]" value="speichern" accesskey="" tabindex="" class="btn btn-default btn-lg btnwidth  btn-responsive btndj btn-bold"  ><span class="glyphicon glyphicon-send" aria-hidden="true"></span>  Anfrage senden</button> 
+
+						</div>
+
+					</div>						
+
+				</div>
+
+
+
+
+
+			</div>
+
+		</form>
+
+		</div>
+
+	</div>
+
+
+
+
+
+	<div class="wrapper_full">
+
+		<div class="wrapper row oggler_Auswahl profil_cursor xxxborder_grau2 xxxbg_orange_form xxxborder_all aamargin-xs-t-xl padding-xs-all-xl"> 
+
+			<div class="col-lg-6 col-lg-offset-3 col-sm-8 col-sm-offset-2 hidden-xs text-center">
+
+				<button class="btn btn-primary btn-lg sbtnwidth btndj btn-responsive btn-bold"><span class="glyphicon glyphicon-search fontcol_light"></span> ... oder zurück zur DJ-Suche - Klick hier!!</button>
+
+			</div> 
+
+			<div class="col-xs-12 visible-xs text-center">
+
+				<button class="btn btn-primary btn-lg sbtnwidth btndj btn-responsive "><span class="glyphicon glyphicon-search fontcol_light"></span> ... oder zurück zur DJ-Suche - Klick hier!!</button>
+
+			</div> 
+
+		</div>
+
+	</div>	
+
+</div>
+
+
+
+
+		<div class="wrapper_full border_aubergine1 visible-xs bg_aubergine01">
+				<img src="/images/HP/dj_bande_djs_bundesweit_finden_und_buchen_286_6.png" width="100%">
+			</div>
+			<div class="row wrapper hidden-xs padding-xs-all-xxl">
+				<div class="col-sm-12 margin-xs-t-xl padding-lg-all-l">
+					<h1 class="fsize_xl afontcol_light abold lower aupper center">
+						TOP-DJ<span class="fsize_xl afontcol_light abold">s </span> in Osnabrück finden, kennenlernen & buchen
+					</h1>
+					<p class="fsize_m center">
+						Rufen Sie uns jetzt an! Wir beraten Sie gerne und senden Ihnen ein passendes Angebot!<br /><span class="fsize_l"> 0251-522580</span>
+					</p>
+				</div>
+			</div><script type="text/javascript" defer src="portal20/js/tpl/DJQuickSearchActive.tpl.js"></script>
+
+
+<div class="wrapper_full">
+<article class="wrapper row">
+		<div class="col-xs-12 col-sm-offset-2 col-sm-8 padding-xs-all-xxl text-center">
+				<h2 class="fsize_l">Sie kennen Ihren Wunsch DJ schon?<br />Sie suchen einen ganz speziellen DJ?</h2>
+				<p class="fsize_gb">Einfach hier im Suchfeld eingeben, finden & klicken - schon landen Sie auf der Homepage des DJs.</p>
+		</div>
+		<div class="col-xs-10 col-xs-offset-1 col-sm-offset-4 col-sm-4 padding-xs-ver-l">
+			<input type="text" class="text-center form-control inputDjSearch" id="dj" placeholder="Finden Sie hier ihren Wunsch DJ!" />
+		</div>
+		<div class="col-xs-12 col-sm-offset-2 col-sm-8 padding-xs-all-xxl text-center margin-sm-b-xl">
+				<p class="fsize_gb">Mögliche Suchkriterien sind DJ-Name, Vor-, Nachname, Alter, Wohnort.</p>
+		</div>
+</article>
+</div><br />	<div class="wrapper_full border_grau1 bg1 padding-sm-ver-xxl">
+
+		<div class="row wrapper_full_1980 hidden-xs  padding-xs-all-xl">
+
+
+
+
+
+
+
+				<div class="col-sm-2 padding-xs-all-xl">
+
+						<a href="DJ-Sascha" titel="Interner Link zu DJ Sascha" target="_self" width="100%">
+
+							<img src="/images/djs/thumb_DJ_Hochzeit_Muenster_Westfalen_Sascha_2.png"  class="actionClickPic borderAll border_all" alt="DJ Sascha Münster Westfalen" title="DJ Sascha Münster Westfalen" width="100%" />
+
+							<span class=""><strong>DJ Sascha</strong> aus Münster Westfalen</span>
+
+						</a>
+
+				</div>
+
+
+
+				<div class="col-sm-2 padding-xs-all-xl">
+
+						<a href="DJ-RoughRooster" titel="Interner Link zu DJ Rough Rooster" target="_self" width="100%">
+
+							<img src="/images/djs/thumb_DJ_Hochzeit_Muenster_Westfalen_Rough_Rooster_4.png"  class="actionClickPic borderAll border_all" alt="DJ Rough Rooster Münster Westfalen" title="DJ Rough Rooster Münster Westfalen" width="100%" />
+
+							<span class=""><strong>DJ Rough Rooster</strong> aus Münster Westfalen</span>
+
+						</a>
+
+				</div>
+
+
+
+
+
+				<div class="col-sm-2 acol-sm-3 padding-xs-all-xl">
+
+						<a href="DJ--Thomas-" titel="Interner Link zu DJ -Thomas-" target="_self" width="100%">
+
+							<img src="/images/djs/thumb_DJ_Hochzeit_Greven_Westfalen__Thomas__3.png"  class="actionClickPic  borderAll border_all" alt="DJ -Thomas- Greven Westfalen" title="DJ -Thomas- Greven Westfalen" width="100%" />
+
+							<span class=""><strong>DJ -Thomas-</strong> aus Greven Westfalen</span>
+
+						</a>
+
+				</div>
+
+
+
+				<div class="col-sm-2 acol-sm-3 padding-xs-all-xl">
+
+						<a href="DJ-Danny" titel="Interner Link zu DJ Danny" target="_self" width="100%">
+
+							<img src="/images/djs/thumb_DJ_Hochzeit_Greven_Westfalen_Danny_9.png"  class="actionClickPic  borderAll border_all" alt="DJ Danny Greven Westfalen" title="DJ Danny Greven Westfalen" width="100%" />
+
+							<span class=""><strong>DJ Danny</strong> aus Greven Westfalen</span>
+
+						</a>
+
+				</div>
+
+	
+
+
+
+				<div class="col-sm-2 acol-sm-3 padding-xs-all-xl">
+
+						<a href="DJ-MixMax" titel="Interner Link zu DJ Mix Max" target="_self" width="100%">
+
+							<img src="/images/djs/thumb_DJ_Hochzeit_Dortmund_Mix_Max_31.png"  class="actionClickPic  borderAll border_all" alt="DJ Mix Max Dortmund" title="DJ Mix Max Dortmund" width="100%" />
+
+							<span class=""><strong>DJ Mix Max</strong> aus Dortmund</span>
+
+						</a>
+
+				</div>
+
+
+
+				<div class="col-sm-2 acol-sm-3 padding-xs-all-xl">
+
+						<a href="DJ-Rosi" titel="Interner Link zu DJ Rosi" target="_self" width="100%">
+
+							<img src="/images/djs/thumb_DJ_Hochzeit_Everswinkel_Rosi_7.png"  class="actionClickPic  borderAll border_all" alt="DJ Rosi Everswinkel" title="DJ Rosi Everswinkel" width="100%" />
+
+							<span class=""><strong>DJ Rosi</strong> aus Everswinkel</span>
+
+						</a>
+
+				</div>
+
+
+
+		
+
+		</div>
+
+		
+
+		<div class="row wrapper">
+
+			<div class="col-xs-12 padding-xs-all-xxl">
+
+				<h2 class="fsize_xl  fcolor_orange center">
+
+					So einfach kommen sie zu Ihrem Wunsch-DJ
+
+				</h2>
+
+			</div>
+
+			<div class="col-xs-12 col-sm-4 padding-sm-all-xl  padding-xs-all-l">
+
+				<div class="borderAll border_all djcoll2   padding-xs-all-l  padding-sm-all-xl">
+
+					<h3 class="fsize_l  center">
+
+						DJ finden
+
+					</h3>
+
+					<p class="text-justify fsize_gb">Sie sollen sich mit Ihrem DJ 100% wohl fühlen. Wählen Sie Ihren Wunsch-DJ bequem selbst aus. Sie bekommen hier online aktuell und transparent Informationen zu Preis und Verfügbarkeit jedes einzelnen DJs. Und Sie können sich in den ausführlichen Profilen von jedem DJ ein genaues Bild machen.</p>
+
+				</div>
+
+			</div>
+
+			<div class="col-xs-12 col-sm-4  padding-sm-all-xll padding-xs-all-l">
+
+				<div class="borderAll border_all djcoll2   padding-xs-all-l  padding-sm-all-xl">
+
+					<h3 class="fsize_l  center">
+
+						DJ sprechen
+
+					</h3>
+
+					<p class="text-justify fsize_gb">Lernen Sie Ihren Wunsch DJ erst kennen, bevor Sie Ihn buchen. Eine DJ Buchung ist nichts Alltägliches. Das wissen wir. Die Chemie sollte zwischen Ihnen und Ihrem DJ stimmen. Das finden Sie am besten heraus in einem ersten orientierenden Gespräch. Mit einem Klick können Sie einen oder auch mehrere DJs um ein erstes unverbindliches Infogespräch bitten.
+
+					</p>
+
+				</div>
+
+			</div>
+
+			<div class="col-xs-12 col-sm-4  padding-sm-all-xl padding-xs-all-l"> 
+
+				<div class="borderAll border_all djcoll2  padding-xs-all-l  padding-sm-all-xl">
+
+					<h3 class="fsize_l  center">
+
+						DJ buchen
+
+					</h3>
+
+					<p class="text-justify fsize_gb">Erst in Ruhe informieren, dann aussuchen, miteinander sprechen, schließlich entscheiden & buchen. Natürlich sollen Sie sich die nötige Zeit nehmen für Ihre Entscheidung. Aber! Wenn Sie Ihre Auswahl getroffen haben, dann geht es schnell. Spätestens 24h nach Ihrer Zusage ist die Buchung perfekt, manchmal schon nach 2 Minuten.</p>
+
+				</div>
+
+			</div>
+
+		</div>
+
+		
+
+		
+
+	</div>
+<br /><style type="text/css">
+	div.bgimage
+	{
+		background-image: url(../images/djs/head000.png);
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+	div.bgimage1
+	{
+		background-image: url(../images/djs/head001.png); 
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+	
+div.bgimage_hp
+{
+	background-image: url(../images/HP/dj_bande_djs_bundesweit_finden_und_buchen_xs039.png);
+}
+div.bgimage_hp
+{
+	background-size: cover;
+	background-repeat: no-repeat; 
+}			
+	
+	
+@media (min-width: 768px)
+{
+	div.bgimage_hp
+	{
+		background-image: url(../images/HP/dj_bande_djs_bundesweit_finden_und_buchen_sm039.png);
+	}
+}
+@media (min-width: 992px)
+{
+	div.bgimage_hp
+	{
+		background-image: url(../images/HP/dj_bande_djs_bundesweit_finden_und_buchen_md039.png);
+	}
+
+}
+@media (min-width: 1200px)
+{
+	div.bgimage_hp
+	{
+		background-image: url(../images/HP/dj_bande_djs_bundesweit_finden_und_buchen_039.png);
+	}
+
+}	
+
+	</style>
+	<section class="wrapper_full padding-xs-ver-xxl aborder_aubergine1 bg_orange hidden-xs">
+						<div class="row wrapper">
+							<div class="col-xs-12 amargin-xs-t-xxl apadding-xs-all-xxl">
+								<h2 class="fsize_xl fontcol_light abold aupper center margin-xs-ver-xl">
+									Das Video des Tages
+								</h2>
+							</div> 
+							<div class="col-xs-12 col-sm-6 col-sm-offset-3 padding-xs-all-xxl">
+								<video width="" height="320"  class="center" poster="/videos/DJ_Video_Des_Tages.png"  controls preload="none">
+								<source src="/videos/Referenz_45415_DJ_mEGGs.mp4" type="video/mp4">
+								Your browser does not support HTML5 video.
+								</video>
+							</div>
+							<div class="col-xs-12 col-sm-8 col-sm-offset-2 borderTop padding-xs-all-xxl">
+								<h3 class="fsize_ref fontcol_light center margin-xs-t-xl">
+									DJ mEGGs aus Sankt Augustin über sich selbst:
+								</h3>	
+								<p class="fsize_l bold fontcol_light center margin-xs-t-xl">
+									DJ aus Leidenschaft
+								</p>		
+								<p class="fsize_ref  fontcol_light  text-justify  margin-xs-t-xl">
+									Ich bin DJ weil es mir Spaß macht. Musik fasziniert mich schon mein ganzes Leben und das gebe ich so ans Publikum weiter. Mir ist es wichtig als DJ mit dem Publikum zu kommunizieren und zu agieren. Dabei gehe ich sehr gerne auf Musikwünsche ein. Für mich war eine Feier erfolgreich, wenn die Gäste mit einem Lächeln zufrieden nach Hause gehen.
+								</p>	
+								<p class="fsize_ref fontcol_light  margin-xs-t-xl">
+									<a href="DJ-mEGGs"><span class="fontcol_light">direkt zum Profil von mEGGs</span></a>
+								</p>	
+							</div>									
+						</div>
+					</section><div class="wrapper_full padding-xs-all-xl border_aubergine1 abg_aubergine01 bg1">
+
+	<div class="wrapper">
+
+		<div class="row">
+
+			<div class="col-xs-12 center-xs padding-xs-all-xl xbg_grau3">
+
+				<h2 class="fsize_xl afontcol_light abold aupper center margin-xs-ver-xxl">die dj-bande aus Osnabrück und Umgebung</h2>
+
+			<p class="center">Hier finden Sie eine erste kleine Auswahl von DJs. Noch mehr Top-DJs finden Sie, wenn Sie Termin und Ort Ihrer Feier eingeben!</p>  
+
+			</div>
+
+			
+
+			<div class="col-xs-12 center-xs padding-xs-all-xl">
+
+				<div itemscope="itemscope" itemtype="http://schema.org/Product">
+
+					<meta itemprop="name" content="dj-bande.de - DJs buchen in Osnabrück" />
+
+					<div itemscope="itemscope" itemtype="http://schema.org/AggregateRating" itemprop="aggregateRating" class="center  afontcol_light fsize_l">
+
+						<span class="afontcol_light fsize_l" itemprop="ratingCount">3960</span>
+
+						<meta itemprop="reviewCount" content="2661" />
+
+						Bewertungen mit durchschnittlich  
+
+						<meta itemprop="worstRating" content="1" />
+
+						<meta itemprop="ratingValue" content="4.7" />
+
+						<span class="icon_5star_big_13">&nbsp;</span>
+
+						von 
+
+						<span class="fsize_l afontcol_light" itemprop="bestRating">5</span>
+
+						Sternen
+
+					</div>
+
+				</div>
+
+			</div>				
+
+		
+
+		</div>
+
+	</div>
+
+
+
+	<section class="wrapper"> 
+
+		<div class="row">
+
+			
+
+				
+
+					<article class="col-xs-12 col-sm-10 col-sm-offset-1 margin-sm-ver-xxl margin-xs-ver-xl borderDJ_aubergine border_all">
+
+						<a href="DJ-Yugeen" titel="Interner Link zu DJ Yugeen" target="_self">
+
+							<div itemscope itemtype="http://schema.org/Person" class="row aborderAll aborderAll adj_stadt" >
+
+								<div class="col-sm-3 col-xs-6 pad_stop">
+
+									<img src="/images/djs/thumb_DJ_Hochzeit_Osnabrueck_Yugeen_7.png" class="actionClickPic  border_left" alt="Bild von DJ Yugeen" title="Bild von DJ Yugeen" width="100%" />
+
+								</div>
+
+								<div class="col-sm-3 col-xs-6 abg_grau_profil_2 abg_weiss">
+
+									<p class="fsize_m acenter  padding-sm-t-xl padding-xs-t-xl padding-xs-hor-xl">
+
+										<span class="acenter abold">
+
+											<span itemprop="jobTitle" class="fsize_l abold ">DJ </span>
+
+											<span itemprop="name" class="fsize_l  abold">Yugeen</span><br />
+
+											<span  itemprop="address" itemscope itemtype="http://schema.org/PostalAddress" class="fsize_m abold acenter">
+
+												<span itemprop="addressLocality" class="fsize_m abold acenter">
+
+													Osnabrück
+
+												</span>
+
+											</span>
+
+											<br />
+
+											<span class="icon_5star_big_13">&nbsp;</span><br />
+
+											
+
+											DJ online hier buchen	
+
+										</span>
+
+									</p>	
+
+								</div>
+
+								<div class="col-sm-6 col-xs-12 abg_grau_profil">
+
+									<p class="fsize_m  padding-sm-t-xl padding-xs-t-xl padding-xs-hor-xl">Party On! until the early morn'!<br />
+
+										<span class="fsize_gb" itemprop="description">Warum ich für dich der richtige DJ für deine Feier bin?
+
+Ich bin dein Spezialist für eine wunderbare und harmonische Partystimmung auf jeder Feier. ...</span>
+
+										<span class="">[mehr]</span> 
+
+									</p>
+
+								</div>
+
+							</div>
+
+						</a>	
+
+					</article>
+
+				
+
+							
+
+				
+
+				
+
+			
+
+				
+
+					<article class="col-xs-12 col-sm-10 col-sm-offset-1 margin-sm-ver-xxl margin-xs-ver-xl borderDJ_aubergine border_all">
+
+						<a href="DJ--Thomas-" titel="Interner Link zu DJ -Thomas-" target="_self">
+
+							<div itemscope itemtype="http://schema.org/Person" class="row aborderAll aborderAll adj_stadt" >
+
+								<div class="col-sm-3 col-xs-6 pad_stop">
+
+									<img src="/images/djs/thumb_DJ_Hochzeit_Greven_Westfalen__Thomas__3.png" class="actionClickPic  border_left" alt="Bild von DJ -Thomas-" title="Bild von DJ -Thomas-" width="100%" />
+
+								</div>
+
+								<div class="col-sm-3 col-xs-6 abg_grau_profil_2 abg_weiss">
+
+									<p class="fsize_m acenter  padding-sm-t-xl padding-xs-t-xl padding-xs-hor-xl">
+
+										<span class="acenter abold">
+
+											<span itemprop="jobTitle" class="fsize_l abold ">DJ </span>
+
+											<span itemprop="name" class="fsize_l  abold">-Thomas-</span><br />
+
+											<span  itemprop="address" itemscope itemtype="http://schema.org/PostalAddress" class="fsize_m abold acenter">
+
+												<span itemprop="addressLocality" class="fsize_m abold acenter">
+
+													Greven Westfalen
+
+												</span>
+
+											</span>
+
+											<br />
+
+											<span class="icon_5star_big_13">&nbsp;</span><br />
+
+											
+
+											Alle Details zum DJ	
+
+										</span>
+
+									</p>	
+
+								</div>
+
+								<div class="col-sm-6 col-xs-12 abg_grau_profil">
+
+									<p class="fsize_m  padding-sm-t-xl padding-xs-t-xl padding-xs-hor-xl">Because a perfect day needs a perfect sound<br />
+
+										<span class="fsize_gb" itemprop="description">Es ist ein großer Reiz den Spannungsbogen auf einer Feier mitzugestalten. Genau zu registrieren wann die Gäste welche Musik wollen. Menschen auf der ...</span>
+
+										<span class="">[mehr]</span> 
+
+									</p>
+
+								</div>
+
+							</div>
+
+						</a>	
+
+					</article>
+
+				
+
+							
+
+				
+
+				
+
+			
+
+				
+
+				
+
+					<article class="col-sm-12 col-sm-10 col-sm-offset-1 hidden-xs margin-sm-ver-xxl margin-xs-ver-xl border_all borderDJ_orange">
+
+						<a itemprop="review" itemscope itemtype="http://schema.org/Review" href="DJane-Doro" titel="Interner Link zu DJ Doro" target="_self">
+
+							<div itemscope itemtype="http://schema.org/Product"  class="row abg_orange_polygon aborderAll aflexbox_clear_mar">
+
+								<meta itemprop="name" content="30 Jahre MedNet am 18.01.2020 von MedNet GmbH in Münster Westfalen mit DJ Doro" />
+
+									<div class="col-sm-3 col-xs-12 pad_stop">
+
+										<img src="/images/auftrag/Kundenreferenz_DJ_Auftrag_10.png" class="actionClickPic border_left" alt="Bild von DJ Doro" title="Bild von DJ Doro" width="100%" />
+
+									</div>		
+
+									<div class="col-sm-9 col-xs-12 gb abg_grau_profil_2">
+
+										<p class="fsize_gb afontcol_light padding-sm-t-xl padding-xs-hor-xl">
+
+											<span class="afontcol_light fsize_l">Kundenreferenz über DJ Doro<br /></span>
+
+											<span itemprop="description" class="fsize_gb">Liebe Doro, ganz lieben Dank für deinen tollen und bemerkenswerten Einsatz auf unserer Firmenveranstaltung am 18.01.20 in Münster. Bestimmt keine ganz einfache Aufgabe  mit sehr unterschiedlichen Gästen aus dem ...</span>
+
+											<span class=""> [zum Profil von DJ Doro klick hier]</span> 
+
+										</p>
+
+										<p class="fsize_s afontcol_light padding-xs-t-xxl padding-xs-hor-xl">
+
+											<span itemprop="author" class="fsize_s">MedNet GmbH</span>
+
+											- 
+
+											<span itemprop="name" class="afontcol_light fsize_s">30 Jahre MedNet</span>
+
+											am 
+
+											<meta itemprop="datePublished" content="2020-01-18"  class="afontcol_light fsize_s">18.01.2020 
+
+											 in Münster Westfalen
+
+										</p>
+
+
+
+									</div>
+
+
+
+									
+
+<!--								<div class="col-sm-3 col-xs-12 gb2 abg_orange">
+
+										<p class="fsize_m afontcol_light abold acenter  padding-xs-t-xxl padding-xs-hor-xl">
+
+											<span class="afontcol_light fsize_l bold">DJ Doro<br /></span>
+
+											<span class="afontcol_light fsize_m">Kundenreferenz<br /></span>
+
+											<span itemprop="name" class="afontcol_light fsize_m acenter abold">30 Jahre MedNet</span>
+
+											<br /> am 
+
+											<meta itemprop="datePublished" content="2020-01-18"  class="afontcol_light fsize_m acenter abold">18.01.2020 
+
+											<br /> in Münster Westfalen<br />
+
+											zum Profil klick hier 
+
+										</p>
+
+									</div>
+
+									<div class="col-sm-6 col-xs-12 gb abg_grau_profil_2">
+
+										<p class="fsize_gb afontcol_light  padding-xs-t-xxl padding-xs-hor-xl">
+
+										<span itemprop="author" class="fsize_m bold">MedNet GmbH über DJ Doro<br /></span>
+
+										<span itemprop="description" class="fsize_gb">Liebe Doro, ganz lieben Dank für deinen tollen und bemerkenswerten Einsatz auf unserer Firmenveranstaltung am 18.01.20 in Münster. Bestimmt keine ganz einfache Aufgabe  mit sehr unterschiedlichen Gästen aus dem ...</span>
+
+										</p>
+
+									</div>
+
+-->							</div>
+
+						</a>
+
+					</article>
+
+							
+
+				
+
+				
+
+			
+
+				
+
+					<article class="col-xs-12 col-sm-10 col-sm-offset-1 margin-sm-ver-xxl margin-xs-ver-xl borderDJ_aubergine border_all">
+
+						<a href="DJ-Danny" titel="Interner Link zu DJ Danny" target="_self">
+
+							<div itemscope itemtype="http://schema.org/Person" class="row aborderAll aborderAll adj_stadt" >
+
+								<div class="col-sm-3 col-xs-6 pad_stop">
+
+									<img src="/images/djs/thumb_DJ_Hochzeit_Greven_Westfalen_Danny_9.png" class="actionClickPic  border_left" alt="Bild von DJ Danny" title="Bild von DJ Danny" width="100%" />
+
+								</div>
+
+								<div class="col-sm-3 col-xs-6 abg_grau_profil_2 abg_weiss">
+
+									<p class="fsize_m acenter  padding-sm-t-xl padding-xs-t-xl padding-xs-hor-xl">
+
+										<span class="acenter abold">
+
+											<span itemprop="jobTitle" class="fsize_l abold ">DJ </span>
+
+											<span itemprop="name" class="fsize_l  abold">Danny</span><br />
+
+											<span  itemprop="address" itemscope itemtype="http://schema.org/PostalAddress" class="fsize_m abold acenter">
+
+												<span itemprop="addressLocality" class="fsize_m abold acenter">
+
+													Greven Westfalen
+
+												</span>
+
+											</span>
+
+											<br />
+
+											<span class="icon_5star_big_13">&nbsp;</span><br />
+
+											
+
+											Alle Details zum DJ	
+
+										</span>
+
+									</p>	
+
+								</div>
+
+								<div class="col-sm-6 col-xs-12 abg_grau_profil">
+
+									<p class="fsize_m  padding-sm-t-xl padding-xs-t-xl padding-xs-hor-xl">I was born for music<br />
+
+										<span class="fsize_gb" itemprop="description">Man muss das Rad nicht neu erfinden, um ein perfektes Ergebnis zu bekommen. So ist das auch bei der Musik ! Die passende Musik zur richtigen Zeit. </span>
+
+										<span class="">[mehr]</span> 
+
+									</p>
+
+								</div>
+
+							</div>
+
+						</a>	
+
+					</article>
+
+				
+
+							
+
+				
+
+				
+
+			
+
+				
+
+					<article class="col-xs-12 col-sm-10 col-sm-offset-1 margin-sm-ver-xxl margin-xs-ver-xl borderDJ_aubergine border_all">
+
+						<a href="DJ-Rosi" titel="Interner Link zu DJ Rosi" target="_self">
+
+							<div itemscope itemtype="http://schema.org/Person" class="row aborderAll aborderAll adj_stadt" >
+
+								<div class="col-sm-3 col-xs-6 pad_stop">
+
+									<img src="/images/djs/thumb_DJ_Hochzeit_Everswinkel_Rosi_7.png" class="actionClickPic  border_left" alt="Bild von DJ Rosi" title="Bild von DJ Rosi" width="100%" />
+
+								</div>
+
+								<div class="col-sm-3 col-xs-6 abg_grau_profil_2 abg_weiss">
+
+									<p class="fsize_m acenter  padding-sm-t-xl padding-xs-t-xl padding-xs-hor-xl">
+
+										<span class="acenter abold">
+
+											<span itemprop="jobTitle" class="fsize_l abold ">DJ </span>
+
+											<span itemprop="name" class="fsize_l  abold">Rosi</span><br />
+
+											<span  itemprop="address" itemscope itemtype="http://schema.org/PostalAddress" class="fsize_m abold acenter">
+
+												<span itemprop="addressLocality" class="fsize_m abold acenter">
+
+													Everswinkel
+
+												</span>
+
+											</span>
+
+											<br />
+
+											<span class="icon_5star_big_13">&nbsp;</span><br />
+
+											
+
+											Direkt Kontakt aufnehmen	
+
+										</span>
+
+									</p>	
+
+								</div>
+
+								<div class="col-sm-6 col-xs-12 abg_grau_profil">
+
+									<p class="fsize_m  padding-sm-t-xl padding-xs-t-xl padding-xs-hor-xl">Der frühe Vogel hört den letzten Ton<br />
+
+										<span class="fsize_gb" itemprop="description">Der richtige professionelle und persönliche  Umgang  mit feierwütigen Gästen, nervösen Gastgebern, gestressten Gastronomen gehört für mich, neben ...</span>
+
+										<span class="">[mehr]</span> 
+
+									</p>
+
+								</div>
+
+							</div>
+
+						</a>	
+
+					</article>
+
+				
+
+							
+
+				
+
+				
+
+			
+
+				
+
+					<article class="col-xs-12 col-sm-10 col-sm-offset-1 margin-sm-ver-xxl margin-xs-ver-xl borderDJ_aubergine border_all">
+
+						<a href="DJ-StefanHaarstick" titel="Interner Link zu DJ Stefan Haarstick" target="_self">
+
+							<div itemscope itemtype="http://schema.org/Person" class="row aborderAll aborderAll adj_stadt" >
+
+								<div class="col-sm-3 col-xs-6 pad_stop">
+
+									<img src="/images/djs/thumb_DJ_Hochzeit_Muenster_Westfalen_Stefan_Haarstick_3.png" class="actionClickPic  border_left" alt="Bild von DJ Stefan Haarstick" title="Bild von DJ Stefan Haarstick" width="100%" />
+
+								</div>
+
+								<div class="col-sm-3 col-xs-6 abg_grau_profil_2 abg_weiss">
+
+									<p class="fsize_m acenter  padding-sm-t-xl padding-xs-t-xl padding-xs-hor-xl">
+
+										<span class="acenter abold">
+
+											<span itemprop="jobTitle" class="fsize_l abold ">DJ </span>
+
+											<span itemprop="name" class="fsize_l  abold">Stefan Haarstick</span><br />
+
+											<span  itemprop="address" itemscope itemtype="http://schema.org/PostalAddress" class="fsize_m abold acenter">
+
+												<span itemprop="addressLocality" class="fsize_m abold acenter">
+
+													Münster Westfalen
+
+												</span>
+
+											</span>
+
+											<br />
+
+											<span class="icon_5star_big_13">&nbsp;</span><br />
+
+											
+
+											DJ online hier buchen	
+
+										</span>
+
+									</p>	
+
+								</div>
+
+								<div class="col-sm-6 col-xs-12 abg_grau_profil">
+
+									<p class="fsize_m  padding-sm-t-xl padding-xs-t-xl padding-xs-hor-xl">Denn die Füsse sind zum Tanzen da....<br />
+
+										<span class="fsize_gb" itemprop="description">Ich bin immer sehr nahe an den Wünschen und Bedürfnissen der Gäste und der Gastgeber dran. Mir entgeht fast nichts und ich liebe es, meinen Kunden eine ...</span>
+
+										<span class="">[mehr]</span> 
+
+									</p>
+
+								</div>
+
+							</div>
+
+						</a>	
+
+					</article>
+
+				
+
+							
+
+				
+
+				
+
+			
+
+				
+
+				
+
+					<article class="col-sm-12 col-sm-10 col-sm-offset-1 hidden-xs margin-sm-ver-xxl margin-xs-ver-xl border_all borderDJ_orange">
+
+						<a itemprop="review" itemscope itemtype="http://schema.org/Review" href="DJ-Sascha" titel="Interner Link zu DJ Sascha" target="_self">
+
+							<div itemscope itemtype="http://schema.org/Product"  class="row abg_aubergine_polygon aborderAll aflexbox_clear_mar">
+
+								<meta itemprop="name" content="Betriebsfeier am 17.01.2020 von Kothes GmbH in Kempen Niederrhein mit DJ Sascha" />
+
+									<div class="col-sm-3 col-xs-12 pad_stop">
+
+										<img src="/images/auftrag/Kundenreferenz_DJ_Auftrag_14.png" class="actionClickPic border_left" alt="Bild von DJ Sascha" title="Bild von DJ Sascha" width="100%" />
+
+									</div>		
+
+									<div class="col-sm-9 col-xs-12 gb abg_grau_profil_2">
+
+										<p class="fsize_gb afontcol_light padding-sm-t-xl padding-xs-hor-xl">
+
+											<span class="afontcol_light fsize_l">Kundenreferenz über DJ Sascha<br /></span>
+
+											<span itemprop="description" class="fsize_gb">Lieber Sascha, herzlichen Dank für Deinen Einsatz auf unserer Firmenfeier. Es ist ja nicht selbstverständlich, dass sich ein DJ bereit erklärt, im Team mit dem Auftraggeber (der selbst DJ bei der Bande ist) ...</span>
+
+											<span class=""> [zum Profil von DJ Sascha klick hier]</span> 
+
+										</p>
+
+										<p class="fsize_s afontcol_light padding-xs-t-xxl padding-xs-hor-xl">
+
+											<span itemprop="author" class="fsize_s">Kothes GmbH</span>
+
+											- 
+
+											<span itemprop="name" class="afontcol_light fsize_s">Betriebsfeier</span>
+
+											am 
+
+											<meta itemprop="datePublished" content="2020-01-17"  class="afontcol_light fsize_s">17.01.2020 
+
+											 in Kempen Niederrhein
+
+										</p>
+
+
+
+									</div>
+
+
+
+									
+
+<!--								<div class="col-sm-3 col-xs-12 gb2 abg_aubergine">
+
+										<p class="fsize_m afontcol_light abold acenter  padding-xs-t-xxl padding-xs-hor-xl">
+
+											<span class="afontcol_light fsize_l bold">DJ Sascha<br /></span>
+
+											<span class="afontcol_light fsize_m">Kundenreferenz<br /></span>
+
+											<span itemprop="name" class="afontcol_light fsize_m acenter abold">Betriebsfeier</span>
+
+											<br /> am 
+
+											<meta itemprop="datePublished" content="2020-01-17"  class="afontcol_light fsize_m acenter abold">17.01.2020 
+
+											<br /> in Kempen Niederrhein<br />
+
+											zum Profil klick hier 
+
+										</p>
+
+									</div>
+
+									<div class="col-sm-6 col-xs-12 gb abg_grau_profil_2">
+
+										<p class="fsize_gb afontcol_light  padding-xs-t-xxl padding-xs-hor-xl">
+
+										<span itemprop="author" class="fsize_m bold">Kothes GmbH über DJ Sascha<br /></span>
+
+										<span itemprop="description" class="fsize_gb">Lieber Sascha, herzlichen Dank für Deinen Einsatz auf unserer Firmenfeier. Es ist ja nicht selbstverständlich, dass sich ein DJ bereit erklärt, im Team mit dem Auftraggeber (der selbst DJ bei der Bande ist) ...</span>
+
+										</p>
+
+									</div>
+
+-->							</div>
+
+						</a>
+
+					</article>
+
+							
+
+				
+
+				
+
+			
+
+				
+
+					<article class="col-xs-12 col-sm-10 col-sm-offset-1 margin-sm-ver-xxl margin-xs-ver-xl borderDJ_aubergine border_all">
+
+						<a href="DJane-FunkyD" titel="Interner Link zu DJ FunkyD" target="_self">
+
+							<div itemscope itemtype="http://schema.org/Person" class="row aborderAll aborderAll adj_stadt" >
+
+								<div class="col-sm-3 col-xs-6 pad_stop">
+
+									<img src="/images/djs/thumb_DJ_Hochzeit_Muenster_Westfalen_FunkyD_10.jpg" class="actionClickPic  border_left" alt="Bild von DJ FunkyD" title="Bild von DJ FunkyD" width="100%" />
+
+								</div>
+
+								<div class="col-sm-3 col-xs-6 abg_grau_profil_2 abg_weiss">
+
+									<p class="fsize_m acenter  padding-sm-t-xl padding-xs-t-xl padding-xs-hor-xl">
+
+										<span class="acenter abold">
+
+											<span itemprop="jobTitle" class="fsize_l abold ">DJ </span>
+
+											<span itemprop="name" class="fsize_l  abold">FunkyD</span><br />
+
+											<span  itemprop="address" itemscope itemtype="http://schema.org/PostalAddress" class="fsize_m abold acenter">
+
+												<span itemprop="addressLocality" class="fsize_m abold acenter">
+
+													Münster Westfalen
+
+												</span>
+
+											</span>
+
+											<br />
+
+											<span class="icon_5star_big_13">&nbsp;</span><br />
+
+											
+
+											Persönlicher Kontakt zum DJ	
+
+										</span>
+
+									</p>	
+
+								</div>
+
+								<div class="col-sm-6 col-xs-12 abg_grau_profil">
+
+									<p class="fsize_m  padding-sm-t-xl padding-xs-t-xl padding-xs-hor-xl">GROOVE IS IN MY HEART<br />
+
+										<span class="fsize_gb" itemprop="description">Ich liebe Musik in all ihren Facetten. Wenn ich Musik höre, MUSS ich tanzen und bin glücklich! Das ist auch beim DJing so. Mit meiner Musik möchte ich ...</span>
+
+										<span class="">[mehr]</span> 
+
+									</p>
+
+								</div>
+
+							</div>
+
+						</a>	
+
+					</article>
+
+				
+
+							
+
+				
+
+				
+
+			
+
+				
+
+					<article class="col-xs-12 col-sm-10 col-sm-offset-1 margin-sm-ver-xxl margin-xs-ver-xl borderDJ_aubergine border_all">
+
+						<a href="DJ-Mentaflex" titel="Interner Link zu DJ Mentaflex" target="_self">
+
+							<div itemscope itemtype="http://schema.org/Person" class="row aborderAll aborderAll adj_stadt" >
+
+								<div class="col-sm-3 col-xs-6 pad_stop">
+
+									<img src="/images/djs/thumb_DJ_Hochzeit_Muenster_Westfalen_Mentaflex_1.png" class="actionClickPic  border_left" alt="Bild von DJ Mentaflex" title="Bild von DJ Mentaflex" width="100%" />
+
+								</div>
+
+								<div class="col-sm-3 col-xs-6 abg_grau_profil_2 abg_weiss">
+
+									<p class="fsize_m acenter  padding-sm-t-xl padding-xs-t-xl padding-xs-hor-xl">
+
+										<span class="acenter abold">
+
+											<span itemprop="jobTitle" class="fsize_l abold ">DJ </span>
+
+											<span itemprop="name" class="fsize_l  abold">Mentaflex</span><br />
+
+											<span  itemprop="address" itemscope itemtype="http://schema.org/PostalAddress" class="fsize_m abold acenter">
+
+												<span itemprop="addressLocality" class="fsize_m abold acenter">
+
+													Münster Westfalen
+
+												</span>
+
+											</span>
+
+											<br />
+
+											<span class="icon_5star_big_13">&nbsp;</span><br />
+
+											
+
+											Direkter Kontakt zum DJ	
+
+										</span>
+
+									</p>	
+
+								</div>
+
+								<div class="col-sm-6 col-xs-12 abg_grau_profil">
+
+									<p class="fsize_m  padding-sm-t-xl padding-xs-t-xl padding-xs-hor-xl">Mit Sicherheit ein Glücksfall für ihre Feier!<br />
+
+										<span class="fsize_gb" itemprop="description">Die Gäste sind der Star! Mit dieser Losung bin ich seit über 20 Jahren Woche für Woche auf Hochzeits-,  Firmen und Geburtstagsfeiern und in den Clubs ...</span>
+
+										<span class="">[mehr]</span> 
+
+									</p>
+
+								</div>
+
+							</div>
+
+						</a>	
+
+					</article>
+
+				
+
+							
+
+				
+
+				
+
+			
+
+				
+
+				
+
+					<article class="col-sm-12 col-sm-10 col-sm-offset-1 hidden-xs margin-sm-ver-xxl margin-xs-ver-xl border_all borderDJ_orange">
+
+						<a itemprop="review" itemscope itemtype="http://schema.org/Review" href="DJ-MikeB." titel="Interner Link zu DJ Mike B." target="_self">
+
+							<div itemscope itemtype="http://schema.org/Product"  class="row abg_orange_polygon aborderAll aflexbox_clear_mar">
+
+								<meta itemprop="name" content="Hochzeit am 07.12.2019 von Kim Orthen in Münster Westfalen mit DJ Mike B." />
+
+									<div class="col-sm-3 col-xs-12 pad_stop">
+
+										<img src="/images/auftrag/Kundenreferenz_DJ_Auftrag_2.png" class="actionClickPic border_left" alt="Bild von DJ Mike B." title="Bild von DJ Mike B." width="100%" />
+
+									</div>		
+
+									<div class="col-sm-9 col-xs-12 gb abg_grau_profil_2">
+
+										<p class="fsize_gb afontcol_light padding-sm-t-xl padding-xs-hor-xl">
+
+											<span class="afontcol_light fsize_l">Kundenreferenz über DJ Mike B.<br /></span>
+
+											<span itemprop="description" class="fsize_gb">Eine absolute Empfehlung!!! Wir sind ganz begeistert von Mike B und würden ihn bei jeder Feier wieder buchen! 
+All unsere Gäste waren genauso begeistert wie wir. Es hat einfach alles gestimmt!  Die Abstimmung vorab ...</span>
+
+											<span class=""> [zum Profil von DJ Mike B. klick hier]</span> 
+
+										</p>
+
+										<p class="fsize_s afontcol_light padding-xs-t-xxl padding-xs-hor-xl">
+
+											<span itemprop="author" class="fsize_s">Kim Orthen</span>
+
+											- 
+
+											<span itemprop="name" class="afontcol_light fsize_s">Hochzeit</span>
+
+											am 
+
+											<meta itemprop="datePublished" content="2019-12-07"  class="afontcol_light fsize_s">07.12.2019 
+
+											 in Münster Westfalen
+
+										</p>
+
+
+
+									</div>
+
+
+
+									
+
+<!--								<div class="col-sm-3 col-xs-12 gb2 abg_orange">
+
+										<p class="fsize_m afontcol_light abold acenter  padding-xs-t-xxl padding-xs-hor-xl">
+
+											<span class="afontcol_light fsize_l bold">DJ Mike B.<br /></span>
+
+											<span class="afontcol_light fsize_m">Kundenreferenz<br /></span>
+
+											<span itemprop="name" class="afontcol_light fsize_m acenter abold">Hochzeit</span>
+
+											<br /> am 
+
+											<meta itemprop="datePublished" content="2019-12-07"  class="afontcol_light fsize_m acenter abold">07.12.2019 
+
+											<br /> in Münster Westfalen<br />
+
+											zum Profil klick hier 
+
+										</p>
+
+									</div>
+
+									<div class="col-sm-6 col-xs-12 gb abg_grau_profil_2">
+
+										<p class="fsize_gb afontcol_light  padding-xs-t-xxl padding-xs-hor-xl">
+
+										<span itemprop="author" class="fsize_m bold">Kim Orthen über DJ Mike B.<br /></span>
+
+										<span itemprop="description" class="fsize_gb">Eine absolute Empfehlung!!! Wir sind ganz begeistert von Mike B und würden ihn bei jeder Feier wieder buchen! 
+All unsere Gäste waren genauso begeistert wie wir. Es hat einfach alles gestimmt!  Die Abstimmung vorab ...</span>
+
+										</p>
+
+									</div>
+
+-->							</div>
+
+						</a>
+
+					</article>
+
+							
+
+				
+
+				
+
+			
+
+				
+
+					<article class="col-xs-12 col-sm-10 col-sm-offset-1 margin-sm-ver-xxl margin-xs-ver-xl borderDJ_aubergine border_all">
+
+						<a href="DJ-Tommyk" titel="Interner Link zu DJ Tommyk" target="_self">
+
+							<div itemscope itemtype="http://schema.org/Person" class="row aborderAll aborderAll adj_stadt" >
+
+								<div class="col-sm-3 col-xs-6 pad_stop">
+
+									<img src="/images/djs/thumb_DJ_Hochzeit_Muenster_Westfalen_Tommyk_0.png" class="actionClickPic  border_left" alt="Bild von DJ Tommyk" title="Bild von DJ Tommyk" width="100%" />
+
+								</div>
+
+								<div class="col-sm-3 col-xs-6 abg_grau_profil_2 abg_weiss">
+
+									<p class="fsize_m acenter  padding-sm-t-xl padding-xs-t-xl padding-xs-hor-xl">
+
+										<span class="acenter abold">
+
+											<span itemprop="jobTitle" class="fsize_l abold ">DJ </span>
+
+											<span itemprop="name" class="fsize_l  abold">Tommyk</span><br />
+
+											<span  itemprop="address" itemscope itemtype="http://schema.org/PostalAddress" class="fsize_m abold acenter">
+
+												<span itemprop="addressLocality" class="fsize_m abold acenter">
+
+													Münster Westfalen
+
+												</span>
+
+											</span>
+
+											<br />
+
+											<span class="icon_5star_big_13">&nbsp;</span><br />
+
+											
+
+											Alle Details zum DJ	
+
+										</span>
+
+									</p>	
+
+								</div>
+
+								<div class="col-sm-6 col-xs-12 abg_grau_profil">
+
+									<p class="fsize_m  padding-sm-t-xl padding-xs-t-xl padding-xs-hor-xl">Music Sounds Better With You<br />
+
+										<span class="fsize_gb" itemprop="description"> ...</span>
+
+										<span class="">[mehr]</span> 
+
+									</p>
+
+								</div>
+
+							</div>
+
+						</a>	
+
+					</article>
+
+				
+
+							
+
+				
+
+				
+
+			
+
+				
+
+				
+
+					<article class="col-sm-12 col-sm-10 col-sm-offset-1 hidden-xs margin-sm-ver-xxl margin-xs-ver-xl border_all borderDJ_orange">
+
+						<a itemprop="review" itemscope itemtype="http://schema.org/Review" href="DJ-Tommyk" titel="Interner Link zu DJ Tommyk" target="_self">
+
+							<div itemscope itemtype="http://schema.org/Product"  class="row abg_aubergine_polygon aborderAll aflexbox_clear_mar">
+
+								<meta itemprop="name" content="70. Geburtstag am 01.02.2020 von Elisabteh Kitzmann in Münster Westfalen mit DJ Tommyk" />
+
+									<div class="col-sm-3 col-xs-12 pad_stop">
+
+										<img src="/images/auftrag/Kundenreferenz_DJ_Auftrag_10.png" class="actionClickPic border_left" alt="Bild von DJ Tommyk" title="Bild von DJ Tommyk" width="100%" />
+
+									</div>		
+
+									<div class="col-sm-9 col-xs-12 gb abg_grau_profil_2">
+
+										<p class="fsize_gb afontcol_light padding-sm-t-xl padding-xs-hor-xl">
+
+											<span class="afontcol_light fsize_l">Kundenreferenz über DJ Tommyk<br /></span>
+
+											<span itemprop="description" class="fsize_gb">Sehr geehrte Damen und Herren der DJ- Bande!
+Wir waren überaus zufrieden mit Tommyk und dem Abend und bedanken uns sehr herzlich bei ihm und dem Organisationsteam.
+Herzlichst! Elisabeth Kitzmann
+</span>
+
+											<span class=""> [zum Profil von DJ Tommyk klick hier]</span> 
+
+										</p>
+
+										<p class="fsize_s afontcol_light padding-xs-t-xxl padding-xs-hor-xl">
+
+											<span itemprop="author" class="fsize_s">Elisabteh Kitzmann</span>
+
+											- 
+
+											<span itemprop="name" class="afontcol_light fsize_s">70. Geburtstag</span>
+
+											am 
+
+											<meta itemprop="datePublished" content="2020-02-01"  class="afontcol_light fsize_s">01.02.2020 
+
+											 in Münster Westfalen
+
+										</p>
+
+
+
+									</div>
+
+
+
+									
+
+<!--								<div class="col-sm-3 col-xs-12 gb2 abg_aubergine">
+
+										<p class="fsize_m afontcol_light abold acenter  padding-xs-t-xxl padding-xs-hor-xl">
+
+											<span class="afontcol_light fsize_l bold">DJ Tommyk<br /></span>
+
+											<span class="afontcol_light fsize_m">Kundenreferenz<br /></span>
+
+											<span itemprop="name" class="afontcol_light fsize_m acenter abold">70. Geburtstag</span>
+
+											<br /> am 
+
+											<meta itemprop="datePublished" content="2020-02-01"  class="afontcol_light fsize_m acenter abold">01.02.2020 
+
+											<br /> in Münster Westfalen<br />
+
+											zum Profil klick hier 
+
+										</p>
+
+									</div>
+
+									<div class="col-sm-6 col-xs-12 gb abg_grau_profil_2">
+
+										<p class="fsize_gb afontcol_light  padding-xs-t-xxl padding-xs-hor-xl">
+
+										<span itemprop="author" class="fsize_m bold">Elisabteh Kitzmann über DJ Tommyk<br /></span>
+
+										<span itemprop="description" class="fsize_gb">Sehr geehrte Damen und Herren der DJ- Bande!
+Wir waren überaus zufrieden mit Tommyk und dem Abend und bedanken uns sehr herzlich bei ihm und dem Organisationsteam.
+Herzlichst! Elisabeth Kitzmann
+</span>
+
+										</p>
+
+									</div>
+
+-->							</div>
+
+						</a>
+
+					</article>
+
+							
+
+				
+
+				
+
+			
+
+				
+
+					<article class="col-xs-12 col-sm-10 col-sm-offset-1 margin-sm-ver-xxl margin-xs-ver-xl borderDJ_aubergine border_all">
+
+						<a href="DJ-Sawy" titel="Interner Link zu DJ Sawy" target="_self">
+
+							<div itemscope itemtype="http://schema.org/Person" class="row aborderAll aborderAll adj_stadt" >
+
+								<div class="col-sm-3 col-xs-6 pad_stop">
+
+									<img src="/images/djs/thumb_DJ_Hochzeit_Muenster_Westfalen_Sawy_2.png" class="actionClickPic  border_left" alt="Bild von DJ Sawy" title="Bild von DJ Sawy" width="100%" />
+
+								</div>
+
+								<div class="col-sm-3 col-xs-6 abg_grau_profil_2 abg_weiss">
+
+									<p class="fsize_m acenter  padding-sm-t-xl padding-xs-t-xl padding-xs-hor-xl">
+
+										<span class="acenter abold">
+
+											<span itemprop="jobTitle" class="fsize_l abold ">DJ </span>
+
+											<span itemprop="name" class="fsize_l  abold">Sawy</span><br />
+
+											<span  itemprop="address" itemscope itemtype="http://schema.org/PostalAddress" class="fsize_m abold acenter">
+
+												<span itemprop="addressLocality" class="fsize_m abold acenter">
+
+													Münster Westfalen
+
+												</span>
+
+											</span>
+
+											<br />
+
+											<span class="icon_5star_big_13">&nbsp;</span><br />
+
+											
+
+											Direkter Kontakt zum DJ	
+
+										</span>
+
+									</p>	
+
+								</div>
+
+								<div class="col-sm-6 col-xs-12 abg_grau_profil">
+
+									<p class="fsize_m  padding-sm-t-xl padding-xs-t-xl padding-xs-hor-xl">Erfahrenes Auflegen mit Niveau<br />
+
+										<span class="fsize_gb" itemprop="description">Als Musikwissenschaftler und Gitarrenlehrer ist mir ein gewisses musikalisches Niveau sehr wichtig. Hierbei ist es mir aus der Leidenschaft zur Musik lieber, ...</span>
+
+										<span class="">[mehr]</span> 
+
+									</p>
+
+								</div>
+
+							</div>
+
+						</a>	
+
+					</article>
+
+				
+
+							
+
+				
+
+				
+
+			
+
+				
+
+					<article class="col-xs-12 col-sm-10 col-sm-offset-1 margin-sm-ver-xxl margin-xs-ver-xl borderDJ_aubergine border_all">
+
+						<a href="DJane-Doro" titel="Interner Link zu DJ Doro" target="_self">
+
+							<div itemscope itemtype="http://schema.org/Person" class="row aborderAll aborderAll adj_stadt" >
+
+								<div class="col-sm-3 col-xs-6 pad_stop">
+
+									<img src="/images/djs/thumb_DJ_Muenster_Westfalen_Doro_1.png" class="actionClickPic  border_left" alt="Bild von DJ Doro" title="Bild von DJ Doro" width="100%" />
+
+								</div>
+
+								<div class="col-sm-3 col-xs-6 abg_grau_profil_2 abg_weiss">
+
+									<p class="fsize_m acenter  padding-sm-t-xl padding-xs-t-xl padding-xs-hor-xl">
+
+										<span class="acenter abold">
+
+											<span itemprop="jobTitle" class="fsize_l abold ">DJ </span>
+
+											<span itemprop="name" class="fsize_l  abold">Doro</span><br />
+
+											<span  itemprop="address" itemscope itemtype="http://schema.org/PostalAddress" class="fsize_m abold acenter">
+
+												<span itemprop="addressLocality" class="fsize_m abold acenter">
+
+													Münster Westfalen
+
+												</span>
+
+											</span>
+
+											<br />
+
+											<span class="icon_5star_big_13">&nbsp;</span><br />
+
+											
+
+											Direkt Kontakt aufnehmen	
+
+										</span>
+
+									</p>	
+
+								</div>
+
+								<div class="col-sm-6 col-xs-12 abg_grau_profil">
+
+									<p class="fsize_m  padding-sm-t-xl padding-xs-t-xl padding-xs-hor-xl">Love To See YOU Dance!<br />
+
+										<span class="fsize_gb" itemprop="description">Erst kam das Tanzen, dann das Auflegen. Warum also nicht beides verbinden. So habe ich das DJing begonnen und bis heute lässt mich die Begeisterung nicht ...</span>
+
+										<span class="">[mehr]</span> 
+
+									</p>
+
+								</div>
+
+							</div>
+
+						</a>	
+
+					</article>
+
+				
+
+							
+
+				
+
+				
+
+			
+
+				
+
+				
+
+					<article class="col-sm-12 col-sm-10 col-sm-offset-1 hidden-xs margin-sm-ver-xxl margin-xs-ver-xl border_all borderDJ_orange">
+
+						<a itemprop="review" itemscope itemtype="http://schema.org/Review" href="DJ-Sascha" titel="Interner Link zu DJ Sascha" target="_self">
+
+							<div itemscope itemtype="http://schema.org/Product"  class="row abg_orange_polygon aborderAll aflexbox_clear_mar">
+
+								<meta itemprop="name" content="50. Geburtstag am 14.12.2019 von Andrea Witte in Münster Westfalen mit DJ Sascha" />
+
+									<div class="col-sm-3 col-xs-12 pad_stop">
+
+										<img src="/images/auftrag/Kundenreferenz_DJ_Auftrag_15.png" class="actionClickPic border_left" alt="Bild von DJ Sascha" title="Bild von DJ Sascha" width="100%" />
+
+									</div>		
+
+									<div class="col-sm-9 col-xs-12 gb abg_grau_profil_2">
+
+										<p class="fsize_gb afontcol_light padding-sm-t-xl padding-xs-hor-xl">
+
+											<span class="afontcol_light fsize_l">Kundenreferenz über DJ Sascha<br /></span>
+
+											<span itemprop="description" class="fsize_gb">Lieber Sascha, 
+ganz lieben Dank für einen extrem gelungenen 50. Geburtstag! 
+Die Party war vorallem auch wegen der guten Musik und Dir ein voller Erfolg! Die Stimmung war super und sehr viele meiner Gäste haben ...</span>
+
+											<span class=""> [zum Profil von DJ Sascha klick hier]</span> 
+
+										</p>
+
+										<p class="fsize_s afontcol_light padding-xs-t-xxl padding-xs-hor-xl">
+
+											<span itemprop="author" class="fsize_s">Andrea Witte</span>
+
+											- 
+
+											<span itemprop="name" class="afontcol_light fsize_s">50. Geburtstag</span>
+
+											am 
+
+											<meta itemprop="datePublished" content="2019-12-14"  class="afontcol_light fsize_s">14.12.2019 
+
+											 in Münster Westfalen
+
+										</p>
+
+
+
+									</div>
+
+
+
+									
+
+<!--								<div class="col-sm-3 col-xs-12 gb2 abg_orange">
+
+										<p class="fsize_m afontcol_light abold acenter  padding-xs-t-xxl padding-xs-hor-xl">
+
+											<span class="afontcol_light fsize_l bold">DJ Sascha<br /></span>
+
+											<span class="afontcol_light fsize_m">Kundenreferenz<br /></span>
+
+											<span itemprop="name" class="afontcol_light fsize_m acenter abold">50. Geburtstag</span>
+
+											<br /> am 
+
+											<meta itemprop="datePublished" content="2019-12-14"  class="afontcol_light fsize_m acenter abold">14.12.2019 
+
+											<br /> in Münster Westfalen<br />
+
+											zum Profil klick hier 
+
+										</p>
+
+									</div>
+
+									<div class="col-sm-6 col-xs-12 gb abg_grau_profil_2">
+
+										<p class="fsize_gb afontcol_light  padding-xs-t-xxl padding-xs-hor-xl">
+
+										<span itemprop="author" class="fsize_m bold">Andrea Witte über DJ Sascha<br /></span>
+
+										<span itemprop="description" class="fsize_gb">Lieber Sascha, 
+ganz lieben Dank für einen extrem gelungenen 50. Geburtstag! 
+Die Party war vorallem auch wegen der guten Musik und Dir ein voller Erfolg! Die Stimmung war super und sehr viele meiner Gäste haben ...</span>
+
+										</p>
+
+									</div>
+
+-->							</div>
+
+						</a>
+
+					</article>
+
+							
+
+				
+
+				
+
+			
+
+				
+
+					<article class="col-xs-12 col-sm-10 col-sm-offset-1 margin-sm-ver-xxl margin-xs-ver-xl borderDJ_aubergine border_all">
+
+						<a href="DJ-Marco" titel="Interner Link zu DJ Marco" target="_self">
+
+							<div itemscope itemtype="http://schema.org/Person" class="row aborderAll aborderAll adj_stadt" >
+
+								<div class="col-sm-3 col-xs-6 pad_stop">
+
+									<img src="/images/djs/thumb_DJ_Hochzeit_Muenster_Westfalen_Marco_23.png" class="actionClickPic  border_left" alt="Bild von DJ Marco" title="Bild von DJ Marco" width="100%" />
+
+								</div>
+
+								<div class="col-sm-3 col-xs-6 abg_grau_profil_2 abg_weiss">
+
+									<p class="fsize_m acenter  padding-sm-t-xl padding-xs-t-xl padding-xs-hor-xl">
+
+										<span class="acenter abold">
+
+											<span itemprop="jobTitle" class="fsize_l abold ">DJ </span>
+
+											<span itemprop="name" class="fsize_l  abold">Marco</span><br />
+
+											<span  itemprop="address" itemscope itemtype="http://schema.org/PostalAddress" class="fsize_m abold acenter">
+
+												<span itemprop="addressLocality" class="fsize_m abold acenter">
+
+													Münster Westfalen
+
+												</span>
+
+											</span>
+
+											<br />
+
+											<span class="icon_5star_big_13">&nbsp;</span><br />
+
+											
+
+											Direkter Kontakt zum DJ	
+
+										</span>
+
+									</p>	
+
+								</div>
+
+								<div class="col-sm-6 col-xs-12 abg_grau_profil">
+
+									<p class="fsize_m  padding-sm-t-xl padding-xs-t-xl padding-xs-hor-xl">Die besten Tage sind die Nächte<br />
+
+										<span class="fsize_gb" itemprop="description">Neben der  passenden Musik des DJs spielt auch sein Charakter eine große Rolle für das Gelingen einer Party. Nur ein DJ, der wirklich Spaß an seiner ...</span>
+
+										<span class="">[mehr]</span> 
+
+									</p>
+
+								</div>
+
+							</div>
+
+						</a>	
+
+					</article>
+
+				
+
+							
+
+				
+
+				
+
+			
+
+		</div>
+
+	</section>
+
+
+
+</div><div class="wrapper_full padding-xs-all-xl aborder_grau1 bg_grau05"><section class="wrapper"><div class="row"><div class="col-xs-12 col-md-12 pad_2rem borderbottom_orange padding-lg-ver-xxl padding-sm-ver-xxl padding-xs-all-xl"><article class="xxxbox_stadt_white_border row"><div class="col-xs-12 col-sm-6 col-sm-push-6  padding-sm-hor-xxl padding-xs-all-xxl"><h2 class="fsize_l">Hochzeits-DJ buchen– professionell, stilvoll und passend</h2><p class="fsize_gb">Sie planen Ihre Hochzeit in Osnabrück und es soll ein rauschendes Fest werden (z.B. in der Gastronomie Zum Alten Kloster)? Dann benötigen Sie einen stilvollen Hochzeits-DJ. Ihr mobiler Hochzeits-DJ sollte zu Ihnen und Ihren Gästen passen.  Ausgebildet, professionell, mit viel Erfahrung und immer mit sehr viel Leidenschaft -  diesen Anspruch sollten Sie an Ihren mobilen Discjockey stellen. Diesen Anspruch haben wir nämlich an unsere Deejays. </p></div><div class="col-xs-12 col-sm-6 col-sm-pull-6  padding-sm-hor-xxl padding-xs-hor-xxl"><img src="/images/stadt/hochzeits_dj/DJ_Bande_buchen_Hochzeit_111.png" alt="Feiern mit DJ in Osnabrück" title="Feiern mit DJ in Osnabrück" width="100%"/></div></article></div><div class="col-xs-12 col-md-12 pad_2rem borderbottom_orange padding-lg-ver-xxl padding-sm-ver-xxl padding-xs-all-xl"><article class="xxxbox_stadt_white_border row"><div class="col-xs-12 col-md-6 padding-sm-hor-xxl padding-xs-all-xxl"><h2 class="fsize_l">Für jeden Anlass der passende mobile Event-DJ</h2><p class="fsize_gb">In Osnabrück lassen sich tolle Feste feiern. Warum nicht in der Gastronomie Zum Alten Kloster in Osnabrück. Der richtige Anlass, die passende Location, der perfekte Event-DJ. Mit dieser Kombination wird Ihre Feier ein voller Erfolg. Ob Sie einen Geburtstags-DJ, einen Party-DJ oder einen Event-DJ buchen oder mieten - Deejays  und Alleinunterhalter der dj-bande wissen sich auf jedes Format professionell und engagiert einzustellen.</p></div><div class="col-xs-12 col-md-6 padding-sm-hor-xxl padding-xs-hor-xxl"><img src="/images/stadt/party_feiern/DJ_Bande_buchen_Party_und_Event_130.png" alt="Feiern mit DJ in Osnabrück" title="Feiern mit DJ in Osnabrück" width="100%"/></div></article></div><div class="col-xs-12 col-md-12 pad_2rem borderbottom_orange padding-lg-ver-xxl padding-sm-ver-xxl padding-xs-all-xl"><article class="xxxbox_stadt_white_border row"><div class="col-xs-12 col-sm-6 col-sm-push-6  padding-sm-hor-xxl padding-xs-all-xxl"><h2 class="fsize_l">Ihre Feier – Ihre Veranstaltungsort – Unsere Empfehlung</h2><p class="fsize_gb">Auch bei der Wahl Ihres Veranstaltungsortes sollten Sie sorgfältig sein. Ihre Gäste und Sie wollen sich schließlich wohl fühlen. Im Laufe der Jahre haben unsere Deejays die unterschiedlichsten Gastronomien und Veranstaltungsorte kennen gelernt.  Diese Gastronomien haben wir besonders schätzen gelernt: Busch Atter, Zum Alten Kloster, Hotel-Restaurant Fromme. Hier weiß man sich um seine Gäste und deren Bedürfnisse zu kümmern.</p></div><div class="col-xs-12 col-sm-6 col-sm-pull-6  padding-sm-hor-xxl padding-xs-hor-xxl"><img src="/images/stadt/gastronomie/DJ_Bande_Party_Gastronomie_102.png" alt="Feiern mit DJ in Osnabrück" title="Feiern mit DJ in Osnabrück" width="100%"/></div></article></div><div class="col-xs-12 col-md-12 pad_2rem borderbottom_orange padding-lg-ver-xxl padding-sm-ver-xxl padding-xs-all-xl"><article class="xxxbox_stadt_white_border row"><div class="col-xs-12 col-md-6 padding-sm-hor-xxl padding-xs-all-xxl"><h2 class="fsize_l">Perfekten Discjockey in Osnabrück sicher buchen</h2><p class="fsize_gb">Machen Sie sich ein Bild unserer Event-DJs, Party-DJs und Geburtstags-DJs. Lernen Sie Ihren  gewünschten Discjockey oder Alleinunterhalter persönlich kennen. Buchen Sie erst wenn Sie sicher sind. So finden Sie den perfekt zu Ihnen passenden Party-DJ, Event-DJ oder Geburtstags-DJ. Beim gesamten Ablauf rund ums Buchen und Mieten Ihres Hochzeits-DJs, Geburtstags-DJs oder Party-DJs in Osnabrück stehen wir Ihnen helfend zur Seite.</p></div><div class="col-xs-12 col-md-6 padding-sm-hor-xxl padding-xs-hor-xxl"><img src="/images/stadt/dj_buchen/DJ_Bande_aussuchen_und_mieten_113.png" alt="Feiern mit DJ in Osnabrück" title="Feiern mit DJ in Osnabrück" width="100%"/></div></article></div><div class="col-xs-12 col-md-12 pad_2rem borderbottom_orange padding-lg-ver-xxl padding-sm-ver-xxl padding-xs-all-xl"><article class="xxxbox_stadt_white_border row"><div class="col-xs-12 col-sm-6 col-sm-push-6  padding-sm-hor-xxl padding-xs-all-xxl"><h2 class="fsize_l">Deejay-Service mit  der dj-bande Garantie in Osnabrück</h2><p class="fsize_gb">Jeder Mensch kann erkranken. Für einen Deejay oder Alleinunterhalter ganz besonders ärgerlich. Aber nicht für Sie! Fällt Ihr Deejay in Osnabrück aus, so lassen wir Sie nicht allein. Unsere dj-bande Garantie hilft. Ein qualifizierter garantierter Event-DJ übernimmt. Wir speichern alle Informationen zu Ihrer Feier zentral ab und übermitteln im Notfall alle Information an den Garantie-DJ. Buchen Sie ohne Risiko mit der dj-bande.</p></div><div class="col-xs-12 col-sm-6 col-sm-pull-6  padding-sm-hor-xxl padding-xs-hor-xxl"><img src="/images/stadt/entspannt_feiern/DJ_Bande_garantiert_entspannt_feiern_102.png" alt="Feiern mit DJ in Osnabrück" title="Feiern mit DJ in Osnabrück" width="100%"/></div></article></div></div></section></div>
+
+
+
+
+<section class="wrapper_full bg_orange">
+	<div class="wrapper row padding-xs-ver-xxl" id="">
+
+			<div class="col-xs-12 col-md-12 pad_2rem borderBottom padding-lg-ver-xxl padding-sm-ver-xxl padding-xs-all-xl">
+				<article class="row">
+					<div class="col-xs-12 col-md-6 padding-sm-hor-xxl padding-xs-all-xxl">
+						<h2 class="fsize_l fontcol_light">Der richtige Sound - das richtige Licht</h2>
+						<p class="fsize_gb fontcol_light">
+					Professionelles Equipment ist das A und O. Was gilt es zu beachten? Wieviel Technik brauche ich? Wann macht es Sinn Zusatztechnik zu bestellen – wann nicht? „Der Ton macht eben die Musik!“. In diesem Fall ist es aber die perfekte Kombination aus Ton UND Licht. Mit der richtigen Lichtatmosphäre machen Sie aus Ihrer Feier ein unvergessliches Ereignis. Lassen Sie sich in einem ausführlichen Vorgespräch von Ihrem DJ oder direkt von uns beraten. 
+						</p>	
+					</div> 	
+					<div class="col-xs-12 col-md-6 padding-sm-hor-xxl padding-xs-hor-xxl">
+						<img src="/images/stadt/party_feiern/DJ_Bande_buchen_Party_und_Event_104.jpg"  class="border_all"  alt="" title="" width="100%"/>
+					</div>	
+				</article>
+			</div>	
+	
+
+			<div class="col-xs-12 col-md-12 pad_2rem  borderBottom  padding-lg-ver-xxl padding-sm-ver-xxl padding-xs-all-xl">
+				<article class="xxxbox_stadt_white_border row">
+					<div class="col-xs-12 col-sm-6 col-sm-push-6 padding-sm-hor-xxl padding-xs-all-xxl">
+						<h2 class="fsize_l fontcol_light">Unsere DJ-Standards</h2>
+						<p class="fsize_gb  fontcol_light">
+						Eine Feier fängt mit guter Vorbereitung an und diese Vorbereitung soll bereits soviel Spaß machen, wie die Feier selbst - Entspannt besprechen ...
+						</p>	
+					</div> 	
+					<div class="col-xs-12 col-sm-6 col-sm-pull-6 padding-sm-hor-xxl padding-xs-hor-xxl">
+						<img src="/images/stadt/party_feiern/DJ_Bande_buchen_Party_und_Event_123.jpg"  class="border_all"  alt="" title="" width="100%"/>
+					</div>	
+				</article>
+			</div>	
+	
+			<div class="col-xs-12 col-md-12 pad_2rem  borderBottom  padding-lg-ver-xxl padding-sm-ver-xxl padding-xs-all-xl">
+				<article class="xxxbox_stadt_white_border row">
+					<div class="col-xs-12 col-md-6  padding-sm-hor-xxl padding-xs-all-xxl">
+						<h2 class="fsize_l fontcol_light">Die DJ „Chemie“ </h2>
+						<p class="fsize_gb fontcol_light">
+							Ihr Wunsch-DJ soll nicht nur musikalisch zu Ihnen passen. Die „Chemie“ muss stimmen. Intuition und Sympathie sind die ersten wichtigen Zutaten dafür, dass Ihre Feier ein Erfolg wird. Deshalb lernen Sie Ihren DJ vorher persönlich kennen. 
+						</p>	
+					</div> 	
+					<div class="col-xs-12 col-md-6  padding-sm-hor-xxl padding-xs-hor-xxl">
+						<img src="/images/stadt/party_feiern/DJ_Bande_buchen_Party_und_Event_114.jpg"  class="border_all"  alt="" title="" width="100%"/>
+					</div>	
+				</article>
+			</div>	
+	
+	
+			<div class="col-xs-12 col-md-12 pad_2rem borderBottom  padding-lg-ver-xxl padding-sm-ver-xxl padding-xs-all-xl">
+				<article class="xxxbox_stadt_white_border row">
+					<div class="col-xs-12 col-sm-6 col-sm-push-6  padding-sm-hor-xxl padding-xs-all-xxl">
+						<h2 class="fsize_l fontcol_light">DJ-Bande Garantie</h2>
+						<p class="fsize_gb fontcol_light">
+					Wir lassen Sie nicht allein! Fällt Ihr DJ aus, greift unsere dj-bande Garantie.
+					Ein anderer DJ übernimmt professionell den Auftrag, ausgestattet mit allen Informationen,
+					die es zu Ihrer Feier gibt. So kann alles genauso stattfinden, wie Sie es sich vorgestellt haben. 
+						</p>	
+					</div> 	
+					<div class="col-xs-12 col-sm-6 col-sm-pull-6  padding-sm-hor-xxl padding-xs-hor-xxl">
+						<img src="/images/stadt/party_feiern/DJ_Bande_buchen_Party_und_Event_107.jpg"  class="border_all" alt="" title="" width="100%"/>
+					</div>	
+				</article>
+			</div>	
+	
+			<div class="col-xs-12 pad_2rem  padding-lg-ver-xxl padding-sm-ver-xxl padding-xs-all-xl">
+				<article class="xxxbox_stadt_white_border row">
+					<div class="col-xs-12 col-sm-6  padding-sm-hor-xxl padding-xs-all-xxl">
+						<h2 class="fsize_l fontcol_light"> DJ Akademie</h2>
+						<p class="fsize_gb fontcol_light">
+						Wir bilden unsere DJs professionell aus und checken alle, die neu dazu kommen. Bevor jemand bei der dj-bande dabei sein kann, muss er vor erfahrenen DJs zeigen was er kann. So kommen DJs zusammen mit ganz unterschiedlichen Ausrichtungen, aber einem gemeinsamen professionellen Selbstverständnis. 
+						</p>	
+					</div> 	
+					<div class="col-xs-12 col-sm-6  padding-sm-hor-xxl padding-xs-hor-xxl">
+						<img src="/images/stadt/party_feiern/DJ_Bande_buchen_Party_und_Event_102.jpg" class="border_all" alt="" title="" width="100%"/>
+					</div>	
+				</article>
+			</div>	
+	</div>
+</section>
+
+
+
+
+
+
+
+<section class="wrapper_full bg_grau">
+	<div class="wrapper row padding-xs-ver-xxl" id="">
+
+			<div class="col-xs-12 col-md-12 pad_2rem borderbottom_orange padding-lg-ver-xxl padding-sm-ver-xxl padding-xs-all-xl">
+				<article class="xxxbox_stadt_white_border row">
+					<div class="col-xs-12 col-sm-6 col-sm-push-6  padding-sm-hor-xxl padding-xs-all-xxl">
+						<h2 class="fsize_l ">Wer ist DJ-Bandit?</h2>
+						<p class="fsize_gb ">
+						Wenn ein DJ richtig Lust auf Musik UND auf sein Publikum hat, wenn er beim Musikmachen mit 100% Engagement und Elan dabei ist, wenn er sich selbst zu seiner Musik auch mal bewegt und wenn er jedem Musikwunsch mit einem offenen Ohr begegnet - dann ist er einer von der dj-bande. 
+						</p>	
+					</div> 	
+					<div class="col-xs-12 col-sm-6 col-sm-pull-6  padding-sm-hor-xxl padding-xs-hor-xxl">
+						<img src="/images/stadt/party_feiern/DJ_Bande_buchen_Party_und_Event_119.jpg"   class="border_all" alt="" title="" width="100%"/>
+					</div>	
+				</article>
+			</div>	
+
+			<div class="col-xs-12 col-md-12 pad_2rem borderbottom_orange padding-lg-ver-xxl padding-sm-ver-xxl padding-xs-all-xl">
+				<article class="xxxbox_stadt_white_border row">
+					<div class="col-xs-12 col-md-6 padding-sm-hor-xxl padding-xs-all-xxl">
+						<h2 class="fsize_l ">Kunde.entspannt</h2>
+						<p class="fsize_gb ">
+						Der Name ist Programm! Unsere Philosophie: Das perfekte Zusammenspiel zwischen Gastronomie und DJ sorgt für einen begeisterten Kunden. Deswegen stehen wir in ständigem engen Kontakt mit unseren Partnern aus der Gastronomie.
+						</p>	
+					</div> 	
+					<div class="col-xs-12 col-md-6 padding-sm-hor-xxl padding-xs-hor-xxl">
+						<img src="/images/stadt/party_feiern/DJ_Bande_buchen_Party_und_Event_121.jpg"   class="border_all" alt="" title="" width="100%"/>
+					</div>	
+				</article>
+			</div>	
+	
+
+			<div class="col-xs-12 col-md-12 pad_2rem borderbottom_orange padding-lg-ver-xxl padding-sm-ver-xxl padding-xs-all-xl">
+				<article class="xxxbox_stadt_white_border row">
+					<div class="col-xs-12 col-sm-6 col-sm-push-6  padding-sm-hor-xxl padding-xs-all-xxl">
+						<h2 class="fsize_l ">Die DJ „Chemie“ </h2>
+						<p class="fsize_gb  ">
+							Ihr Wunsch-DJ soll nicht nur musikalisch zu Ihnen passen. Die „Chemie“ muss stimmen. Intuition und Sympathie sind die ersten wichtigen Zutaten dafür, dass Ihre Feier ein Erfolg wird. Deshalb lernen Sie Ihren DJ vorher persönlich kennen. 
+						</p>	
+					</div> 	
+					<div class="col-xs-12 col-sm-6 col-sm-pull-6  padding-sm-hor-xxl padding-xs-hor-xxl">
+						<img src="/images/stadt/party_feiern/DJ_Bande_buchen_Party_und_Event_115.jpg"   class="border_all" alt="" title="" width="100%"/>
+					</div>	
+				</article>
+			</div>	
+	
+<!--		<div class="col-xs-12 col-md-12 pad_2rem borderbottom_orange padding-lg-ver-xxl padding-sm-ver-xxl padding-xs-all-xl">
+				<article class="xxxbox_stadt_white_border row">
+					<div class="col-xs-12 col-md-6 padding-sm-hor-xxl padding-xs-all-xxl">
+						<h2 class="fsize_l ">Unsere DJ-Standards</h2>
+						<p class="fsize_gb ">
+						Eine Feier fängt mit guter Vorbereitung an und diese Vorbereitung soll bereits soviel Spaß machen, wie die Feier selbst - Entspannt besprechen ...
+						</p>	
+					</div> 	
+					<div class="col-xs-12 col-md-6 padding-sm-hor-xxl padding-xs-hor-xxl">
+						<img src="/images/stadt/party_feiern/DJ_Bande_buchen_Party_und_Event_115.jpg"  class="border_all"  alt="" title="" width="100%"/>
+					</div>	
+				</article>
+			</div>	
+	
+	
+			<div class="col-xs-12 col-md-12 pad_2rem padding-lg-ver-xxl padding-sm-ver-xxl padding-xs-all-xl">
+				<article class="xxxbox_stadt_white_border row">
+					<div class="col-xs-12 col-sm-6 col-sm-push-6  padding-sm-hor-xxl padding-xs-all-xxl">
+						<h2 class="fsize_l ">DJ-Bande Garantie</h2>
+						<p class="fsize_gb ">
+					Wir lassen Sie nicht allein! Fällt Ihr DJ aus, greift unsere dj-bande Garantie.
+					Ein anderer DJ übernimmt professionell den Auftrag, ausgestattet mit allen Informationen,
+					die es zu Ihrer Feier gibt. So kann alles genauso stattfinden, wie Sie es sich vorgestellt haben. 
+						</p>	
+					</div> 	
+					<div class="col-xs-12 col-sm-6 col-sm-pull-6  padding-sm-hor-xxl padding-xs-hor-xxl">
+						<img src="/images/stadt/party_feiern/DJ_Bande_buchen_Party_und_Event_104.jpg"  class="border_all"  alt="" title="" width="100%"/>
+					</div>	
+				</article>
+			</div>	
+-->	
+
+	</div>
+</section>
+</section><section class="wrapper_full bg_orange_polygon cf">
+	<div class="wrapper">
+		<div class="row">
+			<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 center-xs">
+				<article class="pad_4rem">
+					<a class="" href="dj_anmeldung.html">
+						<span class="icon_headsetdj_knopf_weiss_xl">&nbsp;</span>
+						<h3 class="h4_style fontcol_light">
+							Du bist DJ?
+						</h3>
+						<p class="fsize_s fontcol_light">
+							Du bist DJ und möchtest bei der<br>
+							dj-bande dabei sein - wir freuen uns!<br>
+							Melde Dich hier an - wir kontaktieren Dich.
+						</p>
+					</a>
+				</article>		
+			</div>			
+			<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 center-xs">
+				<article class="pad_4rem">
+					<a class="" href="info_djbande.html">
+						<span class="icon_headset_knopf_weiss_xl">&nbsp;</span>
+						<h3 class="h4_style fontcol_light">
+							Dein Profil als DJ
+						</h3>
+						<p class="fsize_s fontcol_light">
+							Wir sind mehr als ein Portal.<br>
+							Der direkte und persönliche Kontakt unter uns DJs<br>
+							und zu unseren Kunden steht an erster Stelle!
+						</p>
+					</a>
+				</article>				
+			</div>			
+				
+		<div class="col-lg-4 col-md-4 col-xs-12 center-xs">
+				<article class="pad_4rem">
+				<!--<a class="" href="dj_akademie.html">-->
+						<span class="icon_akademie_knopf_weiss_xl">&nbsp;</span>
+						<h3 class="h4_style fontcol_light">
+							DJ Bande Akademie
+						</h3>
+						<p class="fsize_s fontcol_light">
+							Du bist DJ und bist neugierig?<br>
+							Austauschen, üben, dazulernen und weitergeben.<br>
+							Bei unseren Workshops und Treffen lernt man nie aus!<br>
+						</p>
+				<!--</a>-->
+				</article>				
+			</div>			
+		</div>
+	</div>
+</section>
+    
+    <footer>
+  <div class="wrapper_padding row display-flex">
+      <section class="cf margin-xs-b-xxl col-xs-12">
+      <nav>
+        <ul id="footerNav"><li class=""><a href="dj_finden.html"  >DJ Finden</a><ul><li  class=""><a href="dj_referenzen.html"  >Referenzen</a></li><li  class=""><a href="dj_bande.html"  >DJ Bande</a></li><li  class=""><a href="dj_hochzeit.html"  >DJ Hochzeit</a></li></ul></li><li class=""><a href="party_planung.html"  >Party Planung</a><ul><li  class=""><a href="musik_genre.html"  >Musik Genre</a></li><li  class=""><a href="party_planen.html"  >Party ABC</a></li><li  class=""><a href="musik_planen.html"  >Musik ABC</a></li><li  class=""><a href="hochzeit_planen.html"  >Hochzeit ABC</a></li></ul></li><li class=""><a href="djs_musik.html"  >DJs & Musik</a><ul><li  class=""><a href="dj_musik_video_tipp.html"  >Musik Tipps</a></li><li  class=""><a href="dj_backstage.html"  >DJ Backstage</a></li><li  class=""><a href="dj_schmiede.html"  >DJ Schmiede</a></li><li  class=""><a href="dj_charts.html"  >DJ Charts</a></li><li  class=""><a href="dj_perfect_playlist.html"  >DJ Playlist</a></li><li  class=""><a href="dj_mixtipps.html"  >DJ Mix Tipps</a></li><li  class=""><a href="dj_kickoff.html"  >DJ Kick Off</a></li><li  class=""><a href="dj_bei_der_djbande.html"  >Du bist DJ?</a></li><li  class=""><a href="djbande_partner_werden.html"  >Partner werden</a></li><li  class=""><a href="dj_anmeldung.html"  >DJ Anmeldung</a></li></ul></li><li  class=""><a href="wunsch_dj_buchen.html"  >DJ Buchen</a></li><li  class=""><a href="anmeldung.html"  >Anmeldung</a></li></ul>
+      </nav>
+      <article id="fr">
+        <p class="fontcol_light">Nehmen Sie Kontakt auf</p>
+        <a href="kontakt.html" title="Link zum Kontaktformular"><span class="icon_brief_knopf_braun_l">&nbsp;</span></a>
+        <p class="fontcol_light">Folgen Sie uns auch auf<br /> den sozialen Netzwerken</p>
+        <a href="https://www.facebook.com/Dj-bande-214900915550985" title="Link zu facebook dj-bande" target="_blank"><span class="icon_facebook_knopf_braun_l">&nbsp;</span></a>
+         <span class="icon_twitter_knopf_braun_l">&nbsp;</span>
+      </article>
+      </section>    
+      <p class="col-xs-12 fontcol_light">
+        dj-bande / never mind! music | Hammerstraße 37 | 48153 Münster | Telefon: 0251-522 580 | Mail: info@dj-bande.de
+       </p>
+    <p class="col-xs-12 fontcol_light">
+      <a href="impressum.html" title="Link zum Impressum">Impressum</a>
+    </p>
+    <p class="col-xs-12 fontcol_light">
+      <a href="datenschutzerklaerung.html" title="Link zu den Datenschutzerklärungen">Datenschutzerklärung</a>
+    </p>
+    <p class="col-xs-12 fontcol_light">
+      <a href="widerrufsbedingungen.html" title="Link zur Widerrufsbelehrung">Widerrufsbelehrung</a>
+    </p>
+    <p class="col-xs-12 fontcol_light">
+      <a href="agb.html" title="Link zu den Allgemeinen Geschäftsbedingungen">AGB</a>
+    </p>
+    <a id="c229"></a><h3>DJs in benachbarten Städten</h3>
+
+<ul class="stadtlinks cf">
+
+	
+
+		<li><a href="dj-wallenhorst.html" target="_self" title="Interner Link zu DJs aus Wallenhorst">Wallenhorst</a>   </li>
+
+	
+
+		<li><a href="dj-lotte.html" target="_self" title="Interner Link zu DJs aus Lotte">Lotte</a>   </li>
+
+	
+
+		<li><a href="dj-georgsmarienhuette.html" target="_self" title="Interner Link zu DJs aus Georgsmarienhütte">Georgsmarienhütte</a>   </li>
+
+	
+
+		<li><a href="dj-bramsche.html" target="_self" title="Interner Link zu DJs aus Bramsche">Bramsche</a>   </li>
+
+	
+
+		<li><a href="dj-lengerich.html" target="_self" title="Interner Link zu DJs aus Lengerich">Lengerich</a>   </li>
+
+	
+
+		<li><a href="dj-melle.html" target="_self" title="Interner Link zu DJs aus Melle">Melle</a>   </li>
+
+	
+
+		<li><a href="dj-ibbenbueren.html" target="_self" title="Interner Link zu DJs aus Ibbenbüren">Ibbenbüren</a>   </li>
+
+	
+
+		<li><a href="dj-versmold.html" target="_self" title="Interner Link zu DJs aus Versmold">Versmold</a>   </li>
+
+	
+
+		<li><a href="dj-stemwede.html" target="_self" title="Interner Link zu DJs aus Stemwede">Stemwede</a>   </li>
+
+	
+
+		<li><a href="dj-halle-westfalen.html" target="_self" title="Interner Link zu DJs aus Halle Westfalen">Halle Westfalen</a>   </li>
+
+	
+
+		<li><a href="dj-harsewinkel.html" target="_self" title="Interner Link zu DJs aus Harsewinkel">Harsewinkel</a>   </li>
+
+	
+
+		<li><a href="dj-buende.html" target="_self" title="Interner Link zu DJs aus Bünde">Bünde</a>   </li>
+
+	
+
+	
+
+	<li><a href="djs-osnabrücker-land" target="_self" title="Interner Link zu DJs in der Region Osnabrücker Land">Osnabrücker Land</a>   </li>
+
+	
+
+	
+
+	
+
+		
+
+			<li><a href="djs-niedersachsen" target="_self" title="Interner Link zu DJs im Bundesland Niedersachsen">Niedersachsen</a>   </li>
+
+	
+
+	
+
+</ul>
+
+    </div>
+  </footer>
+  <script type="text/javascript">
+  var arrLABQueued = new Object();
+  for (var i=0, len=arrLABQueue.length; i<len; i++)
+  {
+    if (typeof arrLABQueue[i] === "function")
+    {
+      $LABQUEUE = $LABQUEUE.wait(arrLABQueue[i]);
+    }
+    else if(typeof arrLABQueued[arrLABQueue[i]] != "boolean")
+    {
+      $LABQUEUE = $LABQUEUE.script(arrLABQueue[i]);
+      arrLABQueued[arrLABQueue[i]] = true;
+    }
+  }
+ /*
+Wenn <fb:like> benutzt wird:: einkommentieren*/
+ $LABQUEUE.script("https://connect.facebook.net/de_DE/all.js#xfbml=1");
+
+ </script>
+  <!-- Google Code für ein Remarketing-Tag -->
+  <!--------------------------------------------------
+  Remarketing-Tags dürfen nicht mit personenbezogenen Daten verknüpft oder auf Seiten platziert werden, die sensiblen Kategorien angehören. Weitere Informationen und Anleitungen zur Einrichtung des Tags erhalten Sie unter: http://google.com/ads/remarketingsetup
+  --------------------------------------------------->
+  <script type="text/javascript">
+  /* <![CDATA[ */
+  var google_conversion_id = 940969224;
+  var google_custom_params = window.google_tag_params;
+  var google_remarketing_only = true;
+  var google_conversion_format = 3;
+  /* ]]> */
+  </script>
+  <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+  </script>
+  <noscript>
+  <div style="display:inline;">
+  <img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/940969224/?value=0&amp;guid=ON&amp;script=0"/>
+  </div>
+  </noscript>
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="de"  ><head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# business: http://ogp.me/ns/business#">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="generator" content="1&amp;1 IONOS MyWebsite"/>
+        
+    <link rel="dns-prefetch" href="//cdn.website-start.de/"/>
+    <link rel="dns-prefetch" href="//104.mod.mywebsite-editor.com"/>
+    <link rel="dns-prefetch" href="https://104.sb.mywebsite-editor.com/"/>
+    <link rel="shortcut icon" href="//cdn.website-start.de/favicon.ico"/>
+        <title>DJ Osnabrück - Thomas Michel - Veranstaltungen</title>
+    <style type="text/css">@media screen and (max-device-width: 1024px) {.diyw a.switchViewWeb {display: inline !important;}}</style>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimal-ui"/>
+
+<meta name="format-detection" content="telephone=no"/>
+        <meta name="keywords" content="DJ Osnabrück, DJ Thomas, Thomas Michel, Video Beamer, Leinwand, Veranstaltungstechnik, Musik Osnabrück, Party Osnabrück, DJ, Osnabrück, Musik, Party, mieten, verleih, Vermietung"/>
+            <meta name="description" content="Damit eine Party zum Erfolg wird, ist neben gutem Essen und feinen Getränken vor allem eines wichtig: ein DJ, der für die passende Stimmung sorgt! Musik und Humor gehören hier selbstverständlich dazu. DJ Osnabrück, Deine Adresse für gute Musik."/>
+            <meta name="robots" content="index,follow"/>
+        <link href="//cdn.website-start.de/templates/2040/style.css?1584518999472" rel="stylesheet" type="text/css"/>
+    <link href="https://www.djosnabrueck.de/s/style/theming.css?1573124700" rel="stylesheet" type="text/css"/>
+    <link href="//cdn.website-start.de/app/cdn/min/group/web.css?1584518999472" rel="stylesheet" type="text/css"/>
+<link href="//cdn.website-start.de/app/cdn/min/moduleserver/css/de_DE/common,shoppingbasket?1584518999472" rel="stylesheet" type="text/css"/>
+    <link href="//cdn.website-start.de/app/cdn/min/group/mobilenavigation.css?1584518999472" rel="stylesheet" type="text/css"/>
+    <link href="https://104.sb.mywebsite-editor.com/app/logstate2-css.php?site=938613713&amp;t=1590219116" rel="stylesheet" type="text/css"/>
+
+<script type="text/javascript">
+    /* <![CDATA[ */
+var stagingMode = '';
+    /* ]]> */
+</script>
+<script src="https://104.sb.mywebsite-editor.com/app/logstate-js.php?site=938613713&amp;t=1590219116"></script>
+
+    <link href="//cdn.website-start.de/templates/2040/print.css?1584518999472" rel="stylesheet" media="print" type="text/css"/>
+    <script type="text/javascript">
+    /* <![CDATA[ */
+    var systemurl = 'https://104.sb.mywebsite-editor.com/';
+    var webPath = '/';
+    var proxyName = '';
+    var webServerName = 'www.djosnabrueck.de';
+    var sslServerUrl = 'https://www.djosnabrueck.de';
+    var nonSslServerUrl = 'http://www.djosnabrueck.de';
+    var webserverProtocol = 'http://';
+    var nghScriptsUrlPrefix = '//104.mod.mywebsite-editor.com';
+    var sessionNamespace = 'DIY_SB';
+    var jimdoData = {
+        cdnUrl:  '//cdn.website-start.de/',
+        messages: {
+            lightBox: {
+    image : 'Bild',
+    of: 'von'
+}
+
+        },
+        isTrial: 0,
+        pageId: 919749722    };
+    var script_basisID = "938613713";
+
+    diy = window.diy || {};
+    diy.web = diy.web || {};
+
+        diy.web.jsBaseUrl = "//cdn.website-start.de/s/build/";
+
+    diy.context = diy.context || {};
+    diy.context.type = diy.context.type || 'web';
+    /* ]]> */
+</script>
+
+<script type="text/javascript" src="//cdn.website-start.de/app/cdn/min/group/web.js?1584518999472" crossorigin="anonymous"></script><script type="text/javascript" src="//cdn.website-start.de/s/build/web.bundle.js?1584518999472" crossorigin="anonymous"></script><script type="text/javascript" src="//cdn.website-start.de/app/cdn/min/group/mobilenavigation.js?1584518999472" crossorigin="anonymous"></script><script src="//cdn.website-start.de/app/cdn/min/moduleserver/js/de_DE/common,shoppingbasket?1584518999472"></script>
+<script type="text/javascript" src="https://cdn.website-start.de/proxy/apps/static/resource/dependencies/"></script><script type="text/javascript">
+                    if (typeof require !== 'undefined') {
+                        require.config({
+                            waitSeconds : 10,
+                            baseUrl : 'https://cdn.website-start.de/proxy/apps/static/js/'
+                        });
+                    }
+                </script><script type="text/javascript">if (window.jQuery) {window.jQuery_1and1 = window.jQuery;}</script>
+<meta name="google-site-verification" content="Svn4X9Y8asPV_n5YOApcZ7GdTQ1vBO0wig5I5Sjvz5k"/>
+<script type="text/javascript">if (window.jQuery_1and1) {window.jQuery = window.jQuery_1and1;}</script>
+<script type="text/javascript" src="//cdn.website-start.de/app/cdn/min/group/pfcsupport.js?1584518999472" crossorigin="anonymous"></script>    <meta property="og:type" content="business.business"/>
+    <meta property="og:url" content="https://www.djosnabrueck.de/"/>
+    <meta property="og:title" content="DJ Osnabrück - Thomas Michel - Veranstaltungen"/>
+            <meta property="og:description" content="Damit eine Party zum Erfolg wird, ist neben gutem Essen und feinen Getränken vor allem eines wichtig: ein DJ, der für die passende Stimmung sorgt! Musik und Humor gehören hier selbstverständlich dazu. DJ Osnabrück, Deine Adresse für gute Musik."/>
+                <meta property="og:image" content="https://www.djosnabrueck.de/s/img/emotionheader.jpg"/>
+        <meta property="business:contact_data:country_name" content="Deutschland"/>
+    <meta property="business:contact_data:street_address" content="Am Wulfekamp 25"/>
+    <meta property="business:contact_data:locality" content="Osnabrück"/>
+    
+    <meta property="business:contact_data:email" content="thomasmichel.info@me.com"/>
+    <meta property="business:contact_data:postal_code" content="49082"/>
+    <meta property="business:contact_data:phone_number" content="+49 176 23936561"/>
+    
+    
+</head>
+
+
+<body class="body   startpage cc-pagemode-default diyfeSidebarLeft diy-market-de_DE" data-pageid="919749722" id="page-919749722">
+    
+    <div class="diyw">
+        <div class="diyweb diywebSingleNav">
+	<div class="diywebContainer">
+		<div class="diyfeMobileNav">
+		
+<nav id="diyfeMobileNav" class="diyfeCA diyfeCA1" role="navigation">
+    <a title="Navigation aufklappen/zuklappen">Navigation aufklappen/zuklappen</a>
+    <ul class="mainNav1"><li class="current hasSubNavigation"><a data-page-id="919749722" href="https://www.djosnabrueck.de/" class="current level_1"><span>Home</span></a></li><li class=" hasSubNavigation"><a data-page-id="919749723" href="https://www.djosnabrueck.de/über-mich/" class=" level_1"><span>Über mich</span></a></li><li class=" hasSubNavigation"><a data-page-id="923376726" href="https://www.djosnabrueck.de/verleih/" class=" level_1"><span>Verleih</span></a></li><li class=" hasSubNavigation"><a data-page-id="919749727" href="https://www.djosnabrueck.de/dj/" class=" level_1"><span>DJ</span></a></li><li class=" hasSubNavigation"><a data-page-id="923597692" href="https://www.djosnabrueck.de/gästebuch/" class=" level_1"><span>Gästebuch</span></a></li><li class=" hasSubNavigation"><a data-page-id="919749729" href="https://www.djosnabrueck.de/kontakt/" class=" level_1"><span>Kontakt</span></a></li><li class=" hasSubNavigation"><a data-page-id="924023743" href="https://www.djosnabrueck.de/allg-geschäftsbedingungen/" class=" level_1"><span>Allg. Geschäftsbedingungen</span></a></li><li class=" hasSubNavigation"><a data-page-id="924048392" href="https://www.djosnabrueck.de/impressum/" class=" level_1"><span>Impressum</span></a></li><li class=" hasSubNavigation"><a data-page-id="924048393" href="https://www.djosnabrueck.de/datenschutz/" class=" level_1"><span>Datenschutz</span></a></li></ul></nav>
+	</div>
+		<div class="diywebEmotionHeader diyfeCA diyfeCA2">
+			<div class="diywebLiveArea">
+				
+<style type="text/css" media="all">
+.diyw div#emotion-header {
+        max-width: 960px;
+        max-height: 187px;
+                background: #EEEEEE;
+    }
+
+.diyw div#emotion-header-title-bg {
+    left: 0%;
+    top: 10%;
+    width: 100%;
+    height: 14%;
+
+    background-color: #FFFFFF;
+    opacity: 0.50;
+    filter: alpha(opacity = 50);
+    display: none;}
+.diyw img#emotion-header-logo {
+    left: 1.00%;
+    top: 0.00%;
+    background: transparent;
+                border: 1px solid #CCCCCC;
+        padding: 0px;
+                display: none;
+    }
+
+.diyw div#emotion-header strong#emotion-header-title {
+    left: 17%;
+    top: 11%;
+    color: #000000;
+    display: none;    font: normal normal 24px/120% Verdana, Geneva, sans-serif;
+}
+
+.diyw div#emotion-no-bg-container{
+    max-height: 187px;
+}
+
+.diyw div#emotion-no-bg-container .emotion-no-bg-height {
+    margin-top: 19.48%;
+}
+</style>
+<div id="emotion-header" data-action="loadView" data-params="active" data-imagescount="1">
+            <img src="https://www.djosnabrueck.de/s/img/emotionheader.jpg?1586589063.960px.187px" id="emotion-header-img" alt=""/>
+            
+        <div id="ehSlideshowPlaceholder">
+            <div id="ehSlideShow">
+                <div class="slide-container">
+                                        <div style="background-color: #EEEEEE">
+                            <img src="https://www.djosnabrueck.de/s/img/emotionheader.jpg?1586589063.960px.187px" alt=""/>
+                        </div>
+                                    </div>
+            </div>
+        </div>
+
+
+        <script type="text/javascript">
+        //<![CDATA[
+                diy.module.emotionHeader.slideShow.init({ slides: [{"url":"https:\/\/www.djosnabrueck.de\/s\/img\/emotionheader.jpg?1586589063.960px.187px","image_alt":"","bgColor":"#EEEEEE"}] });
+        //]]>
+        </script>
+
+    
+            
+        
+            
+    
+    
+    
+    <script type="text/javascript">
+    //<![CDATA[
+    (function ($) {
+        function enableSvgTitle() {
+                        var titleSvg = $('svg#emotion-header-title-svg'),
+                titleHtml = $('#emotion-header-title'),
+                emoWidthAbs = 960,
+                emoHeightAbs = 187,
+                offsetParent,
+                titlePosition,
+                svgBoxWidth,
+                svgBoxHeight;
+
+                        if (titleSvg.length && titleHtml.length) {
+                offsetParent = titleHtml.offsetParent();
+                titlePosition = titleHtml.position();
+                svgBoxWidth = titleHtml.width();
+                svgBoxHeight = titleHtml.height();
+
+                                titleSvg.get(0).setAttribute('viewBox', '0 0 ' + svgBoxWidth + ' ' + svgBoxHeight);
+                titleSvg.css({
+                   left: Math.roundTo(100 * titlePosition.left / offsetParent.width(), 3) + '%',
+                   top: Math.roundTo(100 * titlePosition.top / offsetParent.height(), 3) + '%',
+                   width: Math.roundTo(100 * svgBoxWidth / emoWidthAbs, 3) + '%',
+                   height: Math.roundTo(100 * svgBoxHeight / emoHeightAbs, 3) + '%'
+                });
+
+                titleHtml.css('visibility','hidden');
+                titleSvg.css('visibility','visible');
+            }
+        }
+
+        
+            var posFunc = function($, overrideSize) {
+                var elems = [], containerWidth, containerHeight;
+                                    elems.push({
+                        selector: '#emotion-header-title',
+                        overrideSize: true,
+                        horPos: 0,
+                        vertPos: 0                    });
+                    lastTitleWidth = $('#emotion-header-title').width();
+                                                elems.push({
+                    selector: '#emotion-header-title-bg',
+                    horPos: 0,
+                    vertPos: 0                });
+                                
+                containerWidth = parseInt('960');
+                containerHeight = parseInt('187');
+
+                for (var i = 0; i < elems.length; ++i) {
+                    var el = elems[i],
+                        $el = $(el.selector),
+                        pos = {
+                            left: el.horPos,
+                            top: el.vertPos
+                        };
+                    if (!$el.length) continue;
+                    var anchorPos = $el.anchorPosition();
+                    anchorPos.$container = $('#emotion-header');
+
+                    if (overrideSize === true || el.overrideSize === true) {
+                        anchorPos.setContainerSize(containerWidth, containerHeight);
+                    } else {
+                        anchorPos.setContainerSize(null, null);
+                    }
+
+                    var pxPos = anchorPos.fromAnchorPosition(pos),
+                        pcPos = anchorPos.toPercentPosition(pxPos);
+
+                    var elPos = {};
+                    if (!isNaN(parseFloat(pcPos.top)) && isFinite(pcPos.top)) {
+                        elPos.top = pcPos.top + '%';
+                    }
+                    if (!isNaN(parseFloat(pcPos.left)) && isFinite(pcPos.left)) {
+                        elPos.left = pcPos.left + '%';
+                    }
+                    $el.css(elPos);
+                }
+
+                // switch to svg title
+                enableSvgTitle();
+            };
+
+                        var $emotionImg = jQuery('#emotion-header-img');
+            if ($emotionImg.length > 0) {
+                // first position the element based on stored size
+                posFunc(jQuery, true);
+
+                // trigger reposition using the real size when the element is loaded
+                var ehLoadEvTriggered = false;
+                $emotionImg.one('load', function(){
+                    posFunc(jQuery);
+                    ehLoadEvTriggered = true;
+                                        diy.module.emotionHeader.slideShow.start();
+                                    }).each(function() {
+                                        if(this.complete || typeof this.complete === 'undefined') {
+                        jQuery(this).load();
+                    }
+                });
+
+                                noLoadTriggeredTimeoutId = setTimeout(function() {
+                    if (!ehLoadEvTriggered) {
+                        posFunc(jQuery);
+                    }
+                    window.clearTimeout(noLoadTriggeredTimeoutId)
+                }, 5000);//after 5 seconds
+            } else {
+                jQuery(function(){
+                    posFunc(jQuery);
+                });
+            }
+
+                        if (jQuery.isBrowser && jQuery.isBrowser.ie8) {
+                var longTitleRepositionCalls = 0;
+                longTitleRepositionInterval = setInterval(function() {
+                    if (lastTitleWidth > 0 && lastTitleWidth != jQuery('#emotion-header-title').width()) {
+                        posFunc(jQuery);
+                    }
+                    longTitleRepositionCalls++;
+                    // try this for 5 seconds
+                    if (longTitleRepositionCalls === 5) {
+                        window.clearInterval(longTitleRepositionInterval);
+                    }
+                }, 1000);//each 1 second
+            }
+
+            }(jQuery));
+    //]]>
+    </script>
+
+    </div>
+
+			</div>
+		</div>
+		<div class="diywebContent">
+			<div class="diywebLiveArea diyfeCA diyfeCA1">
+				<div class="diywebNav diywebNav123">
+					<div class="diywebGutter">
+						<div class="webnavigation"><ul id="mainNav1" class="mainNav1"><li class="navTopItemGroup_1"><a data-page-id="919749722" href="https://www.djosnabrueck.de/" class="current level_1"><span>Home</span></a></li><li class="navTopItemGroup_2"><a data-page-id="919749723" href="https://www.djosnabrueck.de/über-mich/" class="level_1"><span>Über mich</span></a></li><li class="navTopItemGroup_3"><a data-page-id="923376726" href="https://www.djosnabrueck.de/verleih/" class="level_1"><span>Verleih</span></a></li><li class="navTopItemGroup_4"><a data-page-id="919749727" href="https://www.djosnabrueck.de/dj/" class="level_1"><span>DJ</span></a></li><li class="navTopItemGroup_5"><a data-page-id="923597692" href="https://www.djosnabrueck.de/gästebuch/" class="level_1"><span>Gästebuch</span></a></li><li class="navTopItemGroup_6"><a data-page-id="919749729" href="https://www.djosnabrueck.de/kontakt/" class="level_1"><span>Kontakt</span></a></li><li class="navTopItemGroup_7"><a data-page-id="924023743" href="https://www.djosnabrueck.de/allg-geschäftsbedingungen/" class="level_1"><span>Allg. Geschäftsbedingungen</span></a></li><li class="navTopItemGroup_8"><a data-page-id="924048392" href="https://www.djosnabrueck.de/impressum/" class="level_1"><span>Impressum</span></a></li><li class="navTopItemGroup_9"><a data-page-id="924048393" href="https://www.djosnabrueck.de/datenschutz/" class="level_1"><span>Datenschutz</span></a></li></ul></div>
+					</div>
+				</div>
+				<div class="diywebMain">
+					<div class="diywebGutter">
+						
+        <div id="content_area">
+        	<div id="content_start"></div>
+        	
+        
+        <div id="matrix_1023908866" class="sortable-matrix" data-matrixId="1023908866"><div class="n module-type-header diyfeLiveArea "> <h1><span class="diyfeDecoration">Thomas Michel - DJ aus Osnabrück</span></h1> </div><div class="n module-type-header diyfeLiveArea "> <h2><span class="diyfeDecoration">Events - Verleih - Audio &amp; Video Technik - Service</span></h2> </div><div class="n module-type-text diyfeLiveArea "> <p> </p>
+<p><span style="color:#353535;"><span style="font-size:16px;">Damit eine Party zum Erfolg wird, ist neben gutem Essen und feinen Getränken vor allem eines wichtig: ein DJ, der für die passende
+Stimmung sorgt!</span></span></p>
+<p> </p>
+<p><span style="color:#353535;"><span style="font-size:16px;">Musik und Humor gehören hier selbstverständlich dazu. Bei Hochzeiten, Firmenfeiern oder Geburtstagen sorge ich für das richtige
+Ambiente.</span></span></p>
+<p> </p>
+<p><span style="color:#353535;"><span style="font-size:16px;">Wenn Sie bereits einen DJ zur Hand haben, sind Sie auch hier an der richtigen Adresse. Ich verleihe Profi Audio- und Video Equipment an
+Selbstabholer.</span></span></p>
+<p><span style="color:#353535;"><span style="font-size:16px;">Mieten Sie sich einfach die passende Beschallungsanlage, Video Beamer mit mobiler Leinwand oder eine Lichtanlage für Ihre
+Veranstaltung.</span></span></p>
+<p> </p>
+<p><span style="color:#353535;"><span style="font-size:16px;">Ich freue mich, dass Sie den Weg auf meine Homepage gefunden haben. Bitte sehen Sie sich um und erfahren Sie, welches Programm ich Ihnen
+bieten kann. </span></span></p> </div></div>
+        
+        
+        </div>
+					</div>
+				</div>
+				<div class="diywebSecondary diyfeCA diyfeCA3">
+					<div class="diywebSidebar">
+						<div class="diywebGutter">
+							<div id="matrix_1023908864" class="sortable-matrix" data-matrixId="1023908864"></div>
+						</div>
+					</div><!-- .diywebSidebar -->
+				</div>
+			</div>
+		</div><!-- .diywebContent -->
+		<div class="diywebFooter">
+			<div class="diywebLiveArea">
+				<div class="diywebGutter">
+					<div id="contentfooter">
+    <div class="leftrow">
+                        <a rel="nofollow" href="javascript:window.print();">
+                    <img class="inline" height="14" width="18" src="//cdn.website-start.de/s/img/cc/printer.gif" alt="Druckversion"/>
+                    Druckversion                </a> <span class="footer-separator">|</span>
+                <a href="https://www.djosnabrueck.de/sitemap/">Sitemap</a>
+                        <br/> © Thomas Michel - Veranstaltungen - DJ Osnabrück
+            </div>
+    <script type="text/javascript">
+        window.diy.ux.Captcha.locales = {
+            generateNewCode: 'Neuen Code generieren',
+            enterCode: 'Bitte geben Sie den Code ein'
+        };
+        window.diy.ux.Cap2.locales = {
+            generateNewCode: 'Neuen Code generieren',
+            enterCode: 'Bitte geben Sie den Code ein'
+        };
+    </script>
+    <div class="rightrow">
+                    <span class="loggedout">
+                <a rel="nofollow" id="login" href="https://login.1and1-editor.com/938613713/www.djosnabrueck.de/de?pageId=919749722">
+                    Login                </a>
+            </span>
+                <p><a class="diyw switchViewWeb" href="javascript:switchView('desktop');">Webansicht</a><a class="diyw switchViewMobile" href="javascript:switchView('mobile');">Mobile-Ansicht</a></p>
+                <span class="loggedin">
+            <a rel="nofollow" id="logout" href="https://104.sb.mywebsite-editor.com/app/cms/logout.php">Logout</a> <span class="footer-separator">|</span>
+            <a rel="nofollow" id="edit" href="https://104.sb.mywebsite-editor.com/app/938613713/919749722/">Seite bearbeiten</a>
+        </span>
+    </div>
+</div>
+            <div id="loginbox" class="hidden">
+                <script type="text/javascript">
+                    /* <![CDATA[ */
+                    function forgotpw_popup() {
+                        var url = 'https://passwort.1und1.de/xml/request/RequestStart';
+                        fenster = window.open(url, "fenster1", "width=600,height=400,status=yes,scrollbars=yes,resizable=yes");
+                        // IE8 doesn't return the window reference instantly or at all.
+                        // It may appear the call failed and fenster is null
+                        if (fenster && fenster.focus) {
+                            fenster.focus();
+                        }
+                    }
+                    /* ]]> */
+                </script>
+                                <a href="http://ionos.de/" target="_blank">
+                    <img class="logo" src="//cdn.website-start.de/s/img/logo.gif" alt="1&amp;1 IONOS" title="1&amp;1 IONOS"/>
+                </a>
+
+                <div id="loginboxOuter"></div>
+            </div>
+        
+
+				</div>
+			</div>
+		</div><!-- .diywebFooter -->
+	</div><!-- .diywebContainer -->
+</div><!-- .diyweb -->    </div>
+
+    
+    </body>
+
+
+<!-- rendered at Sat, 11 Apr 2020 09:11:19 +0200 -->
+</html>
