@@ -1,3 +1,1 @@
 User-agent: *
-
-Sitemap: https://www.dj-at-osnabrueck.de/sitemap.xml
