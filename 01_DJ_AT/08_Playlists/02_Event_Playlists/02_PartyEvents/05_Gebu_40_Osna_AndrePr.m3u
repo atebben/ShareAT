@@ -1,8 +1,6 @@
 #EXTM3U
 #EXTINF:207,ABBA - Summer Night City
 ..\..\01_Music\01_RealParty\01_Paar_Tanzstile\Abba - Summer Night City.mp3
-#EXTINF:346,Boney M - Disco Mega Mix
-**NoMusicFile*** #EXTINF:346,Boney M - Disco Mega Mix
 #EXTINF:215,Dan Hartman - Relight My Fire
 ..\..\01_Music\01_RealParty\01_Paar_Tanzstile\Dan Hartman - Relight My Fire.mp3
 #EXTINF:164,Cabin Crew - Star to Fall
@@ -11,8 +9,8 @@
 ..\..\01_Music\01_RealParty\01_Paar_Tanzstile\Daft Punk - One More Time.mp3
 #EXTINF:225,Die Fantastischen Vier - Zusammen (feat. Clueso)
 ..\..\01_Music\01_RealParty\04_Decaden_Genres\79. Die Fantastischen Vier - Zusammen (feat. Clueso).mp3
-#EXTINF:156,Mark Forster - ChÃ¶re
-..\..\01_Music\01_RealParty\03_Realhits_Partyhits\02. Mark Forster - ChÃ¶re.mp3
+#EXTINF:156,Mark Forster - Chöre
+..\..\01_Music\01_RealParty\03_PartyHits_RealHits\02. Mark Forster - Chöre.mp3
 #EXTINF:231,Daft Punk - Get Lucky
 ..\..\01_Music\01_RealParty\01_Paar_Tanzstile\Daft Punk - Get Lucky (Official Audio) ft. Pharrell Williams, Nile Rodgers.mp3
 #EXTINF:200,Alvaro Soler - Sofia
@@ -22,11 +20,9 @@
 #EXTINF:150,El Profesor - Bella ciao
 ..\..\01_Music\01_RealParty\05_SoloDance\03. El Profesor, Hugel - Bella ciao (HUGEL Remix).mp3
 #EXTINF:185,Dynoro & Gigi D'Agostino - In My Mind
-M:\01_Music\11_EventMusic\01_Music\01_RealParty\05_SoloDance\02. Dynoro & Gigi D'Agostino - In My Mind.mp3
+..\..\01_Music\01_RealParty\05_SoloDance\02. Dynoro & Gigi D'Agostino - In My Mind.mp3
 #EXTINF:133,Ofenbach - Katchi
 ..\..\01_Music\01_RealParty\01_Paar_Tanzstile\12. Ofenbach vs. Nick Waterhouse - Katchi.mp3
-#EXTINF:206,DNCE - Cake By The Ocean
-..\..\01_Music\01_RealParty\04_Decaden_Genres\20. DNCE - Cake By The Ocean - Kopie.mp3
 #EXTINF:211,Earth, Wind & Fire - September
 ..\..\01_Music\01_RealParty\04_Decaden_Genres\earth_wind_and_fire_-_september.mp3
 #EXTINF:223,Kool & the Gang - Celebration
@@ -47,12 +43,10 @@ M:\01_Music\11_EventMusic\01_Music\01_RealParty\05_SoloDance\02. Dynoro & Gigi D
 ..\..\01_Music\01_RealParty\06_Rockig\02 Under Pressure - Kopie.mp3
 #EXTINF:182,INXS - Need you tonight
 ..\..\01_Music\01_RealParty\06_Rockig\106 Thin Lizzy - Whiskey in the jar.mp3
-#EXTINF:255,Simple Minds - Dont You Forget About Me
-M:\01_Music\11_EventMusic\01_Music\01_RealParty\06_Rockig\10 - Simple Minds - Don't You Forget About Me.mp3
+#EXTINF:253,Simple Minds - Dont You Forget About Me
+..\..\01_Music\01_RealParty\06_Rockig\10 - Simple Minds - Don't You Forget About Me.mp3
 #EXTINF:174,Spice Girls - Wannabe
 ..\..\01_Music\01_RealParty\04_Decaden_Genres\Spice Girls - Wannabe.mp3
-#EXTINF:217,Tic Tac Toe - Mr wichtig
-..\..\01_Music\01_RealParty\03_Realhits_Partyhits\Tic Tac Toe - Mr wichtig (Original Video 1997).mp3
 #EXTINF:192,East 17 - Its Alright
 ..\..\01_Music\01_RealParty\04_Decaden_Genres\15 - East 17 - It's Alright.mp3
 #EXTINF:185,Backstreet Boys - Everybody
@@ -62,11 +56,9 @@ M:\01_Music\11_EventMusic\01_Music\01_RealParty\06_Rockig\10 - Simple Minds - Do
 #EXTINF:209,The B52's - Love Shack
 ..\..\01_Music\01_RealParty\04_Decaden_Genres\The B-52's - Love Shack.mp3
 #EXTINF:223,Vengaboys - We Like To Party
-..\..\01_Music\01_RealParty\03_Realhits_Partyhits\16 - Vengaboys - We Like To Party.mp3
+..\..\01_Music\01_RealParty\03_PartyHits_RealHits\16 - Vengaboys - We Like To Party.mp3
 #EXTINF:244,Eiffel 65 - Blue (Da Ba Dee)
 ..\..\01_Music\01_RealParty\04_Decaden_Genres\Eiffel 65 - Blue (Da Ba Dee).mp3
-#EXTINF:174,Gigi DAgostino - The Riddle
-**NoMusicFile*** #EXTINF:174,Gigi DAgostino - The Riddle
 #EXTINF:212,Daddy DJ - Daddy DJ
 ..\..\01_Music\01_RealParty\05_SoloDance\Daddy DJ - Daddy DJ (Official Video) [HD 720p].mp3
 #EXTINF:160,Rednex - Cotton Eye Joe
@@ -74,37 +66,29 @@ M:\01_Music\11_EventMusic\01_Music\01_RealParty\06_Rockig\10 - Simple Minds - Do
 #EXTINF:138,Bellini - Samba De Janeiro
 ..\..\01_Music\01_RealParty\01_Paar_Tanzstile\Bellini - Samba De Janeiro.mp3
 #EXTINF:158,Lou Bega - Mambo No. 5
-..\..\01_Music\01_RealParty\03_Realhits_Partyhits\212_lou_bega_-_mambo_no._5.mp3
-#EXTINF:186,Vengaboys - Boom boom boom
-..\..\01_Music\01_RealParty\03_Realhits_Partyhits\Vengaboys - Boom boom boom(www.webmarder.de).mp3
-#EXTINF:218,Vengaboys - Mamboleo
-..\..\01_Music\01_RealParty\03_Realhits_Partyhits\Vengaboys - Mamboleo(www.webmarder.de).mp3
-#EXTINF:169,Peter Fox - SchÃ¼ttel deinen Speck
+..\..\01_Music\01_RealParty\03_PartyHits_RealHits\212_lou_bega_-_mambo_no._5.mp3
+#EXTINF:169,Peter Fox - Schüttel deinen Speck
 ..\..\01_Music\01_RealParty\04_Decaden_Genres\peter_fox_-_schuettel_deinen_speck.mp3
-#EXTINF:183,Fettes Brot - Schwule MÃ¤dchen
-..\..\01_Music\01_RealParty\04_Decaden_Genres\Fettes Brot - Schwule MÃ¤dchen.mp3
-#EXTINF:246,Deichkind - BÃ¼ck Dich Hoch
+#EXTINF:183,Fettes Brot - Schwule Mädchen
+..\..\01_Music\01_RealParty\04_Decaden_Genres\Fettes Brot - Schwule Mädchen.mp3
+#EXTINF:246,Deichkind - Bück Dich Hoch
 ..\..\01_Music\01_RealParty\04_Decaden_Genres\012-deichkind_-_bueck_dich_hoch.mp3
-#EXTINF:264,Herbert GrÃ¶nemeyer - Alkohol
-..\..\01_Music\01_RealParty\03_Realhits_Partyhits\04 - Herbert GrÃ¶nemeyer - Alkohol.mp3
-#EXTINF:259,Die Ã„rzte - Westerland
-..\..\01_Music\01_RealParty\03_Realhits_Partyhits\09 - Westerland.mp3
+#EXTINF:264,Herbert Grönemeyer - Alkohol
+..\..\01_Music\01_RealParty\03_PartyHits_RealHits\04 - Herbert Grönemeyer - Alkohol.mp3
+#EXTINF:259,Die Ärzte - Westerland
+..\..\01_Music\01_RealParty\03_PartyHits_RealHits\09 - Westerland.mp3
 #EXTINF:234,Die Toten Hosen - Hier Kommt Alex
-..\..\01_Music\01_RealParty\03_Realhits_Partyhits\12 - Die toten Hosen - Hier kommt Alex.mp3
-#EXTINF:160,Die Ã„rzte - Zu spÃ¤t
-..\..\01_Music\01_RealParty\03_Realhits_Partyhits\Die Ã„rzte - Zu spÃ¤t.mp3
+..\..\01_Music\01_RealParty\03_PartyHits_RealHits\12 - Die toten Hosen - Hier kommt Alex.mp3
+#EXTINF:160,Die Ärzte - Zu spät
+..\..\01_Music\01_RealParty\03_PartyHits_RealHits\Die Ärzte - Zu spät.mp3
 #EXTINF:543,Pur - Party Long Hitmix
 ..\..\01_Music\01_RealParty\01_Paar_Tanzstile\Pur - Party Hitmix.mp3
-#EXTINF:216,Udo JÃ¼rgens - Aber bitte mit Sahne
-..\..\01_Music\01_RealParty\03_Realhits_Partyhits\Udo JÃ¼rgens - Aber bitte mit Sahne.mp3
-#EXTINF:213,D.J. Ã–tzi - Sweet Caroline 2009
-..\..\01_Music\01_RealParty\03_Realhits_Partyhits\D.J. Ã–tzi - Sweet Caroline 2009.mp3
+#EXTINF:216,Udo Jürgens - Aber bitte mit Sahne
+..\..\01_Music\01_RealParty\03_PartyHits_RealHits\Udo Jürgens - Aber bitte mit Sahne.mp3
+#EXTINF:213,D.J. Ötzi - Sweet Caroline 2009
+..\..\01_Music\01_RealParty\03_PartyHits_RealHits\D.J. Ötzi - Sweet Caroline 2009.mp3
 #EXTINF:182,Andreas Gabalier - Hulapalu
-..\..\01_Music\01_RealParty\03_Realhits_Partyhits\Andreas Gabalier - Hulapalu.mp3
-#EXTINF:224,Lorenz BÃ¼ffel - Johnny DÃ¤pp
-..\..\01_Music\01_RealParty\02_Schlager_Fetenhits\83. Lorenz BÃ¼ffel - Johnny DÃ¤pp.mp3
-#EXTINF:241,Axel Fischer - Amsterdam
-..\..\01_Music\01_RealParty\02_Schlager_Fetenhits\10-axel_fischer_-_amsterdam_(_reloaded_party-mix_).mp3
+..\..\01_Music\01_RealParty\03_PartyHits_RealHits\Andreas Gabalier - Hulapalu.mp3
 #EXTINF:220,Ed Sheeran - Shape of You
 ..\..\01_Music\01_RealParty\04_Decaden_Genres\29. Ed Sheeran - Shape of You - Kopie.mp3
 #EXTINF:259,Robin Thicke - Blurred Lines
@@ -123,42 +107,34 @@ M:\01_Music\11_EventMusic\01_Music\01_RealParty\06_Rockig\10 - Simple Minds - Do
 ..\..\01_Music\01_RealParty\06_Rockig\Beatsteaks - Hand in Hand (Vidio Version).mp3
 #EXTINF:288,Bloodhound Gang - Fire water burn
 ..\..\01_Music\01_RealParty\06_Rockig\108 INXS - Need you tonight.mp3
-#EXTINF:183,Felix Jaehn Ft ALMA - Bonfire
-**NoMusicFile*** #EXTINF:183,Felix Jaehn Ft ALMA - Bonfire
-#EXTINF:205,Alice Merton - No Roots
-..\..\01_Music\01_RealParty\04_Decaden_Genres\45. Alice Merton - No Roots.mp3
 #EXTINF:205,Sigala - Easy Love
 ..\..\01_Music\01_RealParty\05_SoloDance\Sigala - Easy Love (Lyrics).mp3
 #EXTINF:146,Katy Perry - I Kissed A Girl
 ..\..\01_Music\01_RealParty\05_SoloDance\4. Katy Perry - I Kissed A Girl.mp3
 #EXTINF:217,Roland Kaiser - Warum hast du nicht nein gesagt
-..\..\01_Music\01_RealParty\02_Schlager_Fetenhits\Roland Kaiser, Maite Kelly - Warum hast du nicht nein gesagt (Club Mix - Videoclip).mp3
+..\..\01_Music\01_RealParty\02_Schlager\Roland Kaiser, Maite Kelly - Warum hast du nicht nein gesagt (Club Mix - Videoclip).mp3
 #EXTINF:189,KLUBBB3 - Du schaffst das schon
-..\..\01_Music\01_RealParty\03_Realhits_Partyhits\KLUBBB3 - Du schaffst das schon (Offizielles Video).mp3
+..\..\01_Music\01_RealParty\03_PartyHits_RealHits\KLUBBB3 - Du schaffst das schon (Offizielles Video).mp3
 #EXTINF:190,Die Draufgaenger - Cordula Gruen
-..\..\01_Music\01_RealParty\03_Realhits_Partyhits\07._die_draufgaenger_-_cordula_gruen.mp3
-#EXTINF:210,Die Jungen Zillertaler - So A SchÃ¶ner Tag (Fliegerlied)
-..\..\01_Music\01_RealParty\03_Realhits_Partyhits\111_die_jungen_zillertaler_-_so_a_schoener_tag_(fliegerlied).mp3
+..\..\01_Music\01_RealParty\03_PartyHits_RealHits\07._die_draufgaenger_-_cordula_gruen.mp3
 #EXTINF:206,Boots - Sieben Tage lang
-..\..\01_Music\01_RealParty\03_Realhits_Partyhits\Boots - Sieben Tage lang(www.webmarder.de).mp3
-#EXTINF:232,Udo JÃ¼rgens - Griechischer Wein
-..\..\01_Music\01_RealParty\03_Realhits_Partyhits\Udo JÃ¼rgens - Griechischer Wein(www.webmarder.de).mp3
-#EXTINF:246,Brings - KÃ¶lsche Jung
-..\..\01_Music\01_RealParty\03_Realhits_Partyhits\304_brings_-_koelsche_jung_(apres_ski_version_2015) (2).mp3
+..\..\01_Music\01_RealParty\03_PartyHits_RealHits\Boots - Sieben Tage lang(www.webmarder.de).mp3
+#EXTINF:232,Udo Jürgens - Griechischer Wein
+..\..\01_Music\01_RealParty\03_PartyHits_RealHits\Udo Jürgens - Griechischer Wein(www.webmarder.de).mp3
+#EXTINF:246,Brings - Kölsche Jung
+..\..\01_Music\01_RealParty\03_PartyHits_RealHits\304_brings_-_koelsche_jung_(apres_ski_version_2015) (2).mp3
 #EXTINF:219,Holga Krueger - Aloha Heja He 2011
-..\..\01_Music\01_RealParty\03_Realhits_Partyhits\18-holga_krueger_-_aloha_heja_he_2011.mp3
+..\..\01_Music\01_RealParty\03_PartyHits_RealHits\18-holga_krueger_-_aloha_heja_he_2011.mp3
 #EXTINF:170,Stereoact - Die immer lacht
-..\..\01_Music\01_RealParty\03_Realhits_Partyhits\37. Stereoact - Die immer lacht (feat. Kerstin Ott) [Party Mix] (2).mp3
+..\..\01_Music\01_RealParty\03_PartyHits_RealHits\37. Stereoact - Die immer lacht (feat. Kerstin Ott) [Party Mix] (2).mp3
 #EXTINF:210,Glasperlenspiel - Geiles Leben
-..\..\01_Music\01_RealParty\03_Realhits_Partyhits\05. Glasperlenspiel - Geiles Leben (Madizin Single Mix) (2).mp3
+..\..\01_Music\01_RealParty\03_PartyHits_RealHits\05. Glasperlenspiel - Geiles Leben (Madizin Single Mix) (2).mp3
 #EXTINF:207,Britney Spears - Baby One More Time
 ..\..\01_Music\01_RealParty\05_SoloDance\7. Britney Spears - ...Baby One More Time.mp3
 #EXTINF:187,Vanilla Ice - Ice Ice Baby
 ..\..\01_Music\01_RealParty\04_Decaden_Genres\Vanilla Ice - Ice Ice Baby.mp3
 #EXTINF:191,Britney Spears - OopsI Did It Again
 ..\..\01_Music\01_RealParty\05_SoloDance\Britney Spears - Oops!.I Did It Again (Official Video).mp3
-#EXTINF:184,Shakira - Whenever, Wherever
-**NoMusicFile*** #EXTINF:184,Shakira - Whenever, Wherever
 #EXTINF:199,Die Fantastischen Vier - Die Da
 ..\..\01_Music\01_RealParty\04_Decaden_Genres\Die Fantastischen Vier - Die Da -! (Original HQ).mp3
 #EXTINF:203,Shakira_feat. Wyclef Jean - Hips Don't Lie

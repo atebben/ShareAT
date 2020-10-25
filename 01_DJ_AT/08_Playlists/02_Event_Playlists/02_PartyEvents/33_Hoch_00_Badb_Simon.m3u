@@ -1,14 +1,12 @@
 #EXTM3U
 #EXTINF:191,Capital Cities - Safe And Sound
 ..\..\01_Music\01_RealParty\01_Paar_Tanzstile\Capital Cities - Safe And Sound (Official Video).mp3
-#EXTINF:248,Daft Punk feat. Pharrell & Nile Rodgers - Get Lucky
-M:\01_Music\11_EventMusic\01_Music\01_RealParty\01_Paar_Tanzstile\Daft Punk - Get Lucky (Official Audio) ft. Pharrell Williams, Nile Rodgers.mp3
+#EXTINF:231,Daft Punk - Get Lucky
+..\..\01_Music\01_RealParty\01_Paar_Tanzstile\Daft Punk - Get Lucky (Official Audio) ft. Pharrell Williams, Nile Rodgers.mp3
 #EXTINF:250,Mark Ronson feat. Bruno Mars - Uptown Funk
 ..\..\01_Music\01_RealParty\01_Paar_Tanzstile\99. Mark Ronson feat. Bruno Mars - Uptown Funk!.mp3
 #EXTINF:137,Robin Schulz - SUN GOES DOWN
 ..\..\01_Music\01_RealParty\05_SoloDance\ROBIN SCHULZ - SUN GOES DOWN feat. Jasmine Thompson (Official Music Video).mp3
-#EXTINF:178,Calvin Harris - My Way
-..\..\01_Music\01_RealParty\01_Paar_Tanzstile\78. Calvin Harris - My Way.mp3
 #EXTINF:218,Jennifer Lopez - Ain't Your Mama
 ..\..\01_Music\01_RealParty\05_SoloDance\11. Jennifer Lopez - Ain't Your Mama.mp3
 #EXTINF:200,Alvaro Soler - Sofia
@@ -18,7 +16,7 @@ M:\01_Music\11_EventMusic\01_Music\01_RealParty\01_Paar_Tanzstile\Daft Punk - Ge
 #EXTINF:174,Spice Girls - Wannabe
 ..\..\01_Music\01_RealParty\04_Decaden_Genres\Spice Girls - Wannabe.mp3
 #EXTINF:223,Vengaboys - We Like To Party
-..\..\01_Music\01_RealParty\03_Realhits_Partyhits\16 - Vengaboys - We Like To Party.mp3
+..\..\01_Music\01_RealParty\03_PartyHits_RealHits\16 - Vengaboys - We Like To Party.mp3
 #EXTINF:193,The Dandy Warhols - Bohemian Like You
 ..\..\01_Music\01_RealParty\04_Decaden_Genres\The Dandy Warhols - Bohemian Like You.mp3
 #EXTINF:259,Robin Thicke - Blurred Lines
@@ -35,36 +33,28 @@ M:\01_Music\11_EventMusic\01_Music\01_RealParty\01_Paar_Tanzstile\Daft Punk - Ge
 ..\..\01_Music\01_RealParty\05_SoloDance\Jennifer Lopez - Let's get loud.mp3
 #EXTINF:232,Gloria Estefan - Conga
 ..\..\01_Music\01_RealParty\04_Decaden_Genres\Gloria Estefan - 19 - Conga.mp3
-#EXTINF:164,Herbert GrÃ¶nemeyer - Mambo
-..\..\01_Music\01_RealParty\03_Realhits_Partyhits\Herbert GrÃ¶nemeyer - Mambo.mp3
+#EXTINF:164,Herbert Grönemeyer - Mambo
+..\..\01_Music\01_RealParty\03_PartyHits_RealHits\Herbert Grönemeyer - Mambo.mp3
 #EXTINF:226,La Belle - Lady Marmalade
 ..\..\01_Music\01_RealParty\04_Decaden_Genres\20 - La Belle - Lady Marmalade.mp3
 #EXTINF:250,Peter Gabriel - Sledgehammer
 ..\..\01_Music\01_RealParty\06_Rockig\PETER GABRIEL  - SLEDGEHAMMER.MP3
-#EXTINF:188,Andreas Gabalier - I Sing A Liad FÃ¼r Di
-..\..\01_Music\01_RealParty\02_Schlager_Fetenhits\082. Andreas Gabalier - I Sing A Liad FÃ¼r Di.mp3
-#EXTINF:164,Voxxclub - Rock Mi
-..\..\01_Music\01_RealParty\03_Realhits_Partyhits\087. Voxxclub - Rock Mi.mp3
 #EXTINF:182,Andreas Gabalier - Hulapalu
-..\..\01_Music\01_RealParty\03_Realhits_Partyhits\Andreas Gabalier - Hulapalu.mp3
+..\..\01_Music\01_RealParty\03_PartyHits_RealHits\Andreas Gabalier - Hulapalu.mp3
 #EXTINF:219,Holga Krueger - Aloha Heja He 2011
-..\..\01_Music\01_RealParty\03_Realhits_Partyhits\18-holga_krueger_-_aloha_heja_he_2011.mp3
+..\..\01_Music\01_RealParty\03_PartyHits_RealHits\18-holga_krueger_-_aloha_heja_he_2011.mp3
 #EXTINF:158,Beyonce - Single Ladies
 ..\..\01_Music\01_RealParty\04_Decaden_Genres\BEYONCE - SINGLE LADIES (PUT A RING ON IT).MP3
 #EXTINF:171,Jennifer Lopez - Im into you
 ..\..\01_Music\01_RealParty\04_Decaden_Genres\JENNIFER LOPEZ FT LIL WAYNE - IM INTO YOU.MP3
 #EXTINF:146,Katy Perry - I Kissed A Girl
 ..\..\01_Music\01_RealParty\05_SoloDance\4. Katy Perry - I Kissed A Girl.mp3
-#EXTINF:163,David Guetta - Sexy Bitch
-..\..\01_Music\01_RealParty\01_Paar_Tanzstile\Sexy Bitch (feat. Akon).mp3
 #EXTINF:229,LMFAO FtLauren Bennett - Party Rock Anthem
 ..\..\01_Music\01_RealParty\05_SoloDance\LMFAO Ft. Lauren Bennett & Goon Rock - Party Rock Anthem.mp3
 #EXTINF:199,Salt N Pepa - Push It
 ..\..\01_Music\01_RealParty\04_Decaden_Genres\7. Salt N Pepa - Push It.mp3
-#EXTINF:174,Avicii - I Could Be The One
-**NoMusicFile*** #EXTINF:174,Avicii - I Could Be The One
-#EXTINF:105,Wise Guys - StÃ¤ndchen
-..\..\01_Music\01_RealParty\03_Realhits_Partyhits\23 StÃ¤ndchen.mp3
+#EXTINF:105,Wise Guys - Ständchen
+..\..\01_Music\01_RealParty\03_PartyHits_RealHits\23 Ständchen.mp3
 #EXTINF:252,The Verve - Bitter Sweet Symphony
 ..\..\01_Music\01_RealParty\05_SoloDance\The Verve - Bitter Sweet Symphony.mp3
 #EXTINF:234,Foo Fighters - Wheels
@@ -72,7 +62,7 @@ M:\01_Music\11_EventMusic\01_Music\01_RealParty\01_Paar_Tanzstile\Daft Punk - Ge
 #EXTINF:277,Mando Diao - Dance with Somebody
 ..\..\01_Music\01_RealParty\05_SoloDance\mando_diao_-_dance_with_somebody.mp3
 #EXTINF:178,Sportfreunde Stiller - Ein Kompliment
-..\..\01_Music\01_RealParty\03_Realhits_Partyhits\Sportfreunde Stiller - Ein Kompliment.mp3
+..\..\01_Music\01_RealParty\03_PartyHits_RealHits\Sportfreunde Stiller - Ein Kompliment.mp3
 #EXTINF:230,Wheatus - Teenage Dirtbag
 ..\..\01_Music\01_RealParty\06_Rockig\03 - Wheatus - Teenage Dirtbag.mp3
 #EXTINF:222,Foo Fighters - Learn To Fly
@@ -101,8 +91,6 @@ M:\01_Music\11_EventMusic\01_Music\01_RealParty\01_Paar_Tanzstile\Daft Punk - Ge
 ..\..\01_Music\01_RealParty\06_Rockig\Red Hot Chili Peppers - Californication  .mp3
 #EXTINF:213,Sum - Sum
 ..\..\01_Music\01_RealParty\06_Rockig\Sum 41 - 88.mp3
-#EXTINF:176,September - Cant Get Over
-**NoMusicFile*** #EXTINF:176,September - Cant Get Over
 #EXTINF:211,Earth, Wind & Fire - September
 ..\..\01_Music\01_RealParty\04_Decaden_Genres\earth_wind_and_fire_-_september.mp3
 #EXTINF:223,Kool & the Gang - Celebration
@@ -123,8 +111,6 @@ M:\01_Music\11_EventMusic\01_Music\01_RealParty\01_Paar_Tanzstile\Daft Punk - Ge
 ..\..\01_Music\01_RealParty\07_Oldies\Status Quo - Rockin' all over the world.mp3
 #EXTINF:214,Europe - Rock The Night
 ..\..\01_Music\01_RealParty\06_Rockig\607-europe-rock_the_night.mp3
-#EXTINF:286,Michael Jackson - Billie Jean
-..\..\01_Music\01_RealParty\03_Realhits_Partyhits\Michael Jachson - Billie Jean.mp3
 #EXTINF:296,Deep Purple - Smoke On The Water
 ..\..\01_Music\01_RealParty\06_Rockig\04 - Deep Purple - Smoke On The Water.mp3
 #EXTINF:217,Queen - I Want It All
@@ -139,22 +125,18 @@ M:\01_Music\11_EventMusic\01_Music\01_RealParty\01_Paar_Tanzstile\Daft Punk - Ge
 ..\..\01_Music\01_RealParty\06_Rockig\07 - Coldplay - Speed Of Sound.mp3
 #EXTINF:213,Kings Of Leon - Use Somebody
 ..\..\01_Music\01_RealParty\06_Rockig\093. Kings Of Leon - Use Somebody.mp3
-#EXTINF:187,Kraftklub - Songs FÃ¼r Liam
-..\..\01_Music\01_RealParty\06_Rockig\039. Kraftklub - Songs FÃ¼r Liam.mp3
+#EXTINF:187,Kraftklub - Songs Für Liam
+..\..\01_Music\01_RealParty\06_Rockig\039. Kraftklub - Songs Für Liam.mp3
 #EXTINF:202,The Disco Boys - For You
 ..\..\01_Music\01_RealParty\01_Paar_Tanzstile\204_the_disco_boys_feat._manfreds_mann_earth_band_-_for_you.mp3
 #EXTINF:185,Kool & the Gang - Ladies night
 ..\..\01_Music\01_RealParty\04_Decaden_Genres\Kool And The Gang - Ladies night.mp3
 #EXTINF:150,Olly Murs - Heart Skips A Beat
 ..\..\01_Music\01_RealParty\05_SoloDance\003-olly_murs_feat._rizzle_kicks_-_heart_skips_a_beat.mp3
-#EXTINF:143,Follow Your Instinct FeatAlexandra Stan - Baby Its Ok
-**NoMusicFile*** #EXTINF:143,Follow Your Instinct FeatAlexandra Stan - Baby Its Ok
-#EXTINF:192,Boney M - Ma Baker
-M:\01_Music\11_EventMusic\01_Music\01_RealParty\04_Decaden_Genres\5) Boney M. - Ma Baker.mp3
 #EXTINF:258,George Michael - Papa was a rolling stone
-..\..\01_Music\01_RealParty\03_Realhits_Partyhits\George Michael - Papa was a rolling stone.MP3
+..\..\01_Music\01_RealParty\03_PartyHits_RealHits\George Michael - Papa was a rolling stone.MP3
 #EXTINF:316,Melissa Etheridge - Like the way I Do
-..\..\01_Music\01_RealParty\03_Realhits_Partyhits\Melissa Etheridge - Like the way I do.mp3
+..\..\01_Music\01_RealParty\03_PartyHits_RealHits\Melissa Etheridge - Like the way I do.mp3
 #EXTINF:185,Backstreet Boys - Everybody
 ..\..\01_Music\01_RealParty\04_Decaden_Genres\backstreet boys - everybody (backstreet' s back).mp3
 #EXTINF:184,Dr Alban - Its My Life
@@ -173,23 +155,15 @@ M:\01_Music\11_EventMusic\01_Music\01_RealParty\04_Decaden_Genres\5) Boney M. - 
 ..\..\01_Music\01_RealParty\06_Rockig\06 - INXS - Suicide Blonde.mp3
 #EXTINF:238,BROILERS - Ist Da Jemand
 ..\..\01_Music\01_RealParty\06_Rockig\BROILERS - Ist Da Jemand- (OFFICIAL VIDEO).mp3
-#EXTINF:217,Tic Tac Toe - Mr wichtig
-..\..\01_Music\01_RealParty\03_Realhits_Partyhits\Tic Tac Toe - Mr wichtig (Original Video 1997).mp3
-#EXTINF:205,Alice Merton - No Roots
-..\..\01_Music\01_RealParty\04_Decaden_Genres\45. Alice Merton - No Roots.mp3
-#EXTINF:204,The Strumbellas - Spirits
-M:\01_Music\11_EventMusic\01_Music\01_RealParty\03_Realhits_Partyhits\01-40- Spirits.mp3
-#EXTINF:253,Die Ã„rzte - Schrei Nach Liebe
-..\..\01_Music\01_RealParty\03_Realhits_Partyhits\001-die_aerzte_-_schrei_nach_liebe.mp3
+#EXTINF:253,Die Ärzte - Schrei Nach Liebe
+..\..\01_Music\01_RealParty\03_PartyHits_RealHits\001-die_aerzte_-_schrei_nach_liebe.mp3
 #EXTINF:215,Limp Bizkit - My Way
 ..\..\01_Music\01_RealParty\06_Rockig\05-My Way.mp3
 #EXTINF:172,Billy Talent - Fallen Leaves
 ..\..\01_Music\01_RealParty\06_Rockig\06-Fallen Leaves.mp3
 #EXTINF:393,Red Hot Chilli Peppers - Otherside
 ..\..\01_Music\01_RealParty\06_Rockig\Red Hot Chilli Peppers - Otherside.mp3
-#EXTINF:217,Udo Lindenberg featJan Delay - Reeperbahn  (What Its Like)
-**NoMusicFile*** #EXTINF:217,Udo Lindenberg featJan Delay - Reeperbahn  (What Its Like)
 #EXTINF:326,Phil Collins - The Very Best Of Phil Collins
-..\..\01_Music\01_RealParty\03_Realhits_Partyhits\17.MP3
+..\..\01_Music\01_RealParty\03_PartyHits_RealHits\17.MP3
 #EXTINF:297,Genesis - In too deep
-..\..\01_Music\01_RealParty\03_Realhits_Partyhits\Genesis - In too deep.mp3
+..\..\01_Music\01_RealParty\03_PartyHits_RealHits\Genesis - In too deep.mp3
