@@ -1,0 +1,120 @@
+<QTEffects Version="1.0">
+  <DescriptionIdEffect>
+		eID_fxBasic = 0,
+
+		//Curve
+		eID_fxCurve = 1,
+		eID_fxCurveDoublePulse,
+		eID_fxCurveInversedRamp,
+		eID_fxCurvePulse,
+		eID_fxCurveRamp,
+		eID_fxCurveRandom,
+		eID_fxCurveSine,
+		eID_fxCurveSine3,
+		eID_fxCurveSquare,
+		eID_fxCurveStrobe,
+		eID_fxCurveTangent,
+		eID_fxCurveTriangle,
+
+		//Mapping
+		eID_fxMapping = 20,
+		eID_fxMappingBounce,
+		eID_fxMappingBurst,
+		eID_fxMappingButterfly,
+		eID_fxMappingChaser1,
+		eID_fxMappingChaser2,
+		eID_fxMappingChaser3,
+		eID_fxMappingEffect1,
+		eID_fxMappingEffect2,
+		eID_fxMappingFire,
+		eID_fxMappingKnightRider,
+		eID_fxMappingLines,
+		eID_fxMappingPerlin,
+		eID_fxMappingPicture,
+		eID_fxMappingPlasma,
+		eID_fxMappingRain,
+		eID_fxMappingRainbow,
+		eID_fxMappingRandomFill,
+		eID_fxMappingLinearFill,
+		eID_fxMappingSine,
+		eID_fxMappingSparkle,
+		eID_fxMappingSparkleTube,
+		eID_fxMappingSpiral,
+		eID_fxMappingSquare,
+		eID_fxMappingSweep,
+		eID_fxMappingText,
+		eID_fxMappingVideo,
+		eID_fxMappingExplosion,
+		eID_fxMappingStarfield,
+		eID_fxMappingGraph,
+		eID_fxMappingGrid,
+		//eID_fxMappingCircle,
+		
+		//Pixel
+		eID_fxPixel = 50,
+		eID_fxPixelBurst,
+		eID_fxPixelChaser1,
+		eID_fxPixelChaser2,
+		eID_fxPixelChaser3,
+		eID_fxPixelEffect1,
+		eID_fxPixelEffect2,
+		eID_fxPixelKnightRider,
+		eID_fxPixelPerlin,
+		eID_fxPixelPlasma,
+		eID_fxPixelRainbow,
+		eID_fxPixelRandomFill,
+		eID_fxPixelLinearFill,
+		eID_fxPixelSparkle,
+		eID_fxPixelSweep,
+
+		//Position
+		eID_fxPosition = 100,
+		eID_fxPositionCircle,
+		eID_fxPositionCurve,
+		eID_fxPositionLine,
+		eID_fxPositionPolygon,
+		eID_fxPositionPoints,
+
+		//Chaser
+		eID_fxChaser = 150,
+		eID_fxChaserType1,
+		eID_fxChaserType2,
+		eID_fxChaserType3,
+		eID_fxChaserType4,
+
+		eID_fxReserved1 =200,
+		eID_fxReserved2,
+		eID_fxReserved3  
+  </DescriptionIdEffect>
+
+
+  <QTEffectParamColor Name="2Colors">
+    <Color c="#ff0000"/>
+    <Color r="0" g="255" b="0"/>
+  </QTEffectParamColor>
+  <QTEffectParamColor Name="Full">
+    <Color c="#ff00ff"/>
+    <Color c="#00ffff"/>
+    <Color c="#ffff00"/>
+  </QTEffectParamColor>
+  <QTEffectParamColor Name="4col">
+    <Color c="#ff00ff"/>
+    <Color c="#00ffff"/>
+    <Color c="#ffff00"/>
+    <Color c="#ffffff"/>
+  </QTEffectParamColor>
+
+  <QTEffect EffectID="60" Name="Rainbow full">
+	<EffectParam ID="10" L="0.0" />
+	<EffectParam ID="11" L="0" />
+	<EffectParam ID="12" L="0.0" />
+  </QTEffect>
+  <QTEffect EffectID="60" Name="Color mixing">
+	<EffectParam ID="10" L="0.0" />
+	<EffectParam ID="11" L="90" />
+	<EffectParam ID="12" L="0.0" />
+  </QTEffect>
+  <QTEffect EffectID="60" Name="Reverse">
+	<EffectParam ID="11" L="180" />
+  </QTEffect>
+</QTEffects>

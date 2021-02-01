@@ -1,0 +1,45 @@
+<ZoneParam Author="dylan" Version="1.0">
+  <Zone Type="0" ID="200">
+    <Button Name="_ALL ACTIVE 02 FLASH 01" Index="0" />
+    <Button Name="_ALL ACTIVE 03  FLASH 02" Index="0" />
+    <Button Name="_ALL ACTIVE 04 FLASH 03" Index="0" />
+    <Button Name="_ALL ACTIVE 05 FLASH 04" Index="0" />
+    <Button Name="_ALL ACTIVE 10 COLOR 01 WHITE" Index="0" />
+    <Button Name="_ALL ACTIVE 11 COLOR 02 BLUE" Index="0" />
+    <Button Name="_ALL ACTIVE 12 COLOR 03 RED" Index="0" />
+    <Button Name="_ALL ACTIVE 13 COLOR 04 YELLOW" Index="0" />
+    <Group Name="_ALL RESET" Index="1" />
+    <Button Name="ZYKLUS" Index="-1" />
+  </Zone>
+  <Zone Type="0" ID="201">
+    <Group Name="_MH-X25 DIMMER" Index="0" />
+    <Group Name="_MH-X25 COLOR" Index="1" />
+    <Group Name="_MH-X25 GOBO" Index="2" />
+    <Group Name="_MH-X25 SHAKE" Index="3" />
+    <Group Name="_MH-X25 POS" Index="4" />
+    <Group Name="_MH-X25 MOVE" Index="5" />
+    <Button Name="_MH-X25 POS 01" Index="4" />
+    <Button Name="_MH-X25 COLOR 10 CLOCKWISE ROTATION" Index="1" />
+    <Button Name="_MH-X25 COLOR 11 ANTI CLOCKWISE ROTATION" Index="1" />
+    <Button Name="_MH-X25 GOBO 20 ROTATEALL CLOCKWISE" Index="2" />
+    <Button Name="_MH-X25 GOBO 21 ROTATEALL ANTI CLOCKWISE" Index="2" />
+  </Zone>
+  <Zone Type="0" ID="202">
+    <Group Name="_CLS3 DIMMER" Index="0" />
+    <Group Name="_CLS3 COLOR" Index="1" />
+    <Group Name="_CLS3 COLOR EFFECTS" Index="2" />
+  </Zone>
+  <Zone Type="0" ID="203">
+    <Group Name="_PAR64 COLOR" Index="0" />
+    <Group Name="_PAR56 COLOR" Index="1" />
+  </Zone>
+  <Zone Type="2" ID="204">
+    <Group Name="_MH-X25 VAR" Index="0" />
+  </Zone>
+  <Zone Type="0" ID="205">
+    <Button Name="SHOW ALL" Index="0" />
+  </Zone>
+  <Zone Type="0" ID="206">
+    <Button Name="SCENE MAIN" Index="0" />
+  </Zone>
+</ZoneParam>

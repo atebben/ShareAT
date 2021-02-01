@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DockingPaneLayouts CompactMode="1">
+	<Common>
+		<Summary Panes="25" TopContainer="17" Client="21"/>
+		<Pane-1 Type="0" DockingCX="200" DockingCY="120" Title="Areas" ID="100" Options="7" DockingHolder="19" FloatingHolder="7" LastHolder="19" MinTrackX="160" MinTrackY="95"/>
+		<Pane-2 Type="0" DockingCX="200" DockingCY="120" Title="Scene" ID="101" Options="7" DockingHolder="22" FloatingHolder="10" LastHolder="22" MinTrackX="160" MinTrackY="118"/>
+		<Pane-3 Type="0" DockingCX="200" DockingCY="120" Title="Date picker" ID="104" Options="7" DockingHolder="24" FloatingHolder="13" LastHolder="24"/>
+		<Pane-4 Type="0" DockingCX="200" DockingCY="120" Title="Calendar" ID="105" Options="7" DockingHolder="25" FloatingHolder="16" LastHolder="25"/>
+		<Pane-5 Type="3" WindowRectTopPos="150" WindowRectBottomPos="350" WindowRectLeftPos="100" WindowRectRightPos="400" TopContaner="6"/>
+		<Pane-6 Type="2" DockingCX="200" DockingCY="120" Horiz="1" Panes="1" Pane-1="7"/>
+		<Pane-7 Type="1" DockingCX="200" DockingCY="120" Panes="0"/>
+		<Pane-8 Type="3" WindowRectTopPos="150" WindowRectBottomPos="350" WindowRectLeftPos="100" WindowRectRightPos="400" TopContaner="9"/>
+		<Pane-9 Type="2" DockingCX="200" DockingCY="120" Horiz="1" Panes="1" Pane-1="10"/>
+		<Pane-10 Type="1" DockingCX="200" DockingCY="120" Panes="0"/>
+		<Pane-11 Type="3" WindowRectTopPos="150" WindowRectBottomPos="350" WindowRectLeftPos="100" WindowRectRightPos="400" TopContaner="12"/>
+		<Pane-12 Type="2" DockingCX="200" DockingCY="120" Horiz="1" Panes="1" Pane-1="13"/>
+		<Pane-13 Type="1" DockingCX="200" DockingCY="120" Panes="0"/>
+		<Pane-14 Type="3" WindowRectTopPos="150" WindowRectBottomPos="550" WindowRectLeftPos="100" WindowRectRightPos="340" TopContaner="15"/>
+		<Pane-15 Type="2" DockingCX="200" DockingCY="120" Horiz="1" Panes="1" Pane-1="16"/>
+		<Pane-16 Type="1" DockingCX="200" DockingCY="120" Panes="0"/>
+		<Pane-17 Type="2" DockingCY="1272" Panes="2" Pane-1="18" Pane-2="23"/>
+		<Pane-18 Type="2" DockingCY="620" Horiz="1" Panes="3" Pane-1="19" Pane-2="20" Pane-3="22"/>
+		<Pane-19 Type="1" DockingCX="200" DockingCY="120" Panes="1" Selected="1" Pane-1="1"/>
+		<Pane-20 Type="2" DockingCX="2360" Panes="1" Pane-1="21"/>
+		<Pane-21 Type="4"/>
+		<Pane-22 Type="1" DockingCX="200" DockingCY="120" Panes="1" Selected="2" Pane-1="2"/>
+		<Pane-23 Type="2" DockingCX="2556" DockingCY="648" Horiz="1" Panes="2" Pane-1="24" Pane-2="25"/>
+		<Pane-24 Type="1" DockingCX="519" DockingCY="361" Panes="1" Selected="3" Pane-1="3"/>
+		<Pane-25 Type="1" DockingCX="2033" DockingCY="120" Panes="1" Selected="4" Pane-1="4"/>
+	</Common>
+	<PosFrame x="-8" y="-8" cx="2576" cy="1416"/>
+	<ToolbarOptions Schema="32" AlwaysShowFullMenus="1" ShowFullAfterDelay="1" ToolBarScreenTips="1" ToolBarAccelTips="0" LargeIcons="1" Animation="0"/>
+	<Layout>
+		<DockState Version="32" ScreenSize="2560, 1440" Count="2">
+			<BarInfo0 BarId="1756" MRUWidth="32767"/>
+			<BarInfo1 BarId="1757" MRUWidth="32767" PointPos="0, 51"/>
+		</DockState>
+		<DockBars>
+			<DockBar0 Count="5" Id1="1756" Id3="1757"/>
+		</DockBars>
+	</Layout>
+</DockingPaneLayouts>

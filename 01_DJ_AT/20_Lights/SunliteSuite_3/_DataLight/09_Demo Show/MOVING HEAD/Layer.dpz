@@ -1,0 +1,34 @@
+<ZoneParam Author="dylan" Version="1.0">
+  <Zone Type="0" ID="200">
+    <Button Name="I N I T" Index="0" />
+    <Button Name="FAN" Index="1" />
+    <Button Name="COLOR EFFECTSRAINBOW" Index="2" />
+    <Group Name="POSITION" Index="3" />
+    <Group Name="DIMMER" Index="4" />
+    <Group Name="IRIS" Index="5" />
+    <Group Name="SHUTTER" Index="6" />
+    <Group Name="ZOOM" Index="7" />
+    <Group Name="COLOR" Index="8" />
+    <Group Name="GOBO" Index="9" />
+    <Group Name="GOBO 2" Index="10" />
+    <Group Name="ROTGOBO" Index="11" />
+    <Group Name="ROTGOBO 2" Index="12" />
+    <Group Name="PRISM" Index="13" />
+    <Group Name="PRISM ROTATION" Index="14" />
+    <Button Name="COLOR OFF" Index="8" />
+  </Zone>
+  <Zone Type="1" ID="201">
+    <Button Name="COLOR MIXING ALL" Index="0" />
+  </Zone>
+  <Zone Type="2" ID="202">
+    <Button Name="X-Y MOVING HEAD  1" Index="0" />
+    <Button Name="X-Y MOVING HEAD  2" Index="0" />
+    <Button Name="X-Y MOVING HEAD  3" Index="0" />
+    <Button Name="X-Y MOVING HEAD  4" Index="0" />
+    <Button Name="X-Y MOVING HEAD  5" Index="0" />
+    <Button Name="X-Y MOVING HEAD  6" Index="0" />
+    <Button Name="X-Y MOVING HEAD  7" Index="0" />
+    <Button Name="X-Y MOVING HEAD  8" Index="0" />
+    <Button Name="X-Y ALL" Index="0" />
+  </Zone>
+</ZoneParam>

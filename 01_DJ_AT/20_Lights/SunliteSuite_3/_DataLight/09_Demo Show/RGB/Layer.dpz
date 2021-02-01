@@ -1,0 +1,12 @@
+<ZoneParam Author="dylan" Version="1.0">
+  <Zone Type="0" ID="200">
+    <Button Name="I N I T" Index="0" />
+    <Button Name="SWITCH" Index="1" />
+    <Button Name="MAGENTA SWEEP" Index="2" />
+    <Button Name="LINES" Index="3" />
+    <Button Name="COLOR EFFECTSRAINBOW" Index="4" />
+  </Zone>
+  <Zone Type="1" ID="201">
+    <Button Name="COLOR MIXING ALL" Index="0" />
+  </Zone>
+</ZoneParam>

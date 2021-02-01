@@ -1,0 +1,33 @@
+<cycle Author="dylan" Version="1.0" TypeButton="2" IconTxtOver="0" Icon="Scanlibrary\icon\ZSceneCenter.ico" InvertFugitif="0" Shortcut="0" ShortcutFugitif="0" Port="-1" PortFugitif="0" PortAllwaysSameState="0" RestartOn="0" AutoSave="0" LoadWhenActivate="0" Loop="1" StopByScene="0" StopMultimedia="0" Pause="0" RestaureSwitch="0" MTCIn="0" MTCOut="0" EndTime="12004">
+  <Tab Name="_ALL" Index="1" />
+  <Tab Name="_MH-X25 Dimmer" Index="2" />
+  <Tab Name="_CLS3 Dimmer" Index="3" />
+  <Tab Name="_PAR64 Color" Index="4" />
+  <Tab Name="_PAR56 Color" Index="5" />
+  <Tab Name="_MH-X25 Pos" Index="6" />
+  <Tab Name="_MH-X25 Color" Index="7" />
+  <Tab Name="_MH-X25 Gobo" Index="8" />
+  <Tab Name="_MH-X25 Shake" Index="9" />
+  <Tab Name="_CLS3 Color" Index="10" />
+  <Button Name="_CLS3 Dimmer 01" Page="_MASTER" IndexTab="3" Time="0" State="0" Go="0" GoPR="0" ActionPlayPauseSeq="0" />
+  <Button Name="_PAR64 Color 02 Blue" Page="_MASTER" IndexTab="4" Time="0" State="0" Go="0" GoPR="0" ActionPlayPauseSeq="0" />
+  <Button Name="_PAR56 Color 02 Blue" Page="_MASTER" IndexTab="5" Time="0" State="0" Go="0" GoPR="0" ActionPlayPauseSeq="0" />
+  <Button Name="_MH-X25 Color 04 Yellow" Page="_MASTER" IndexTab="7" Time="0" State="0" Go="0" GoPR="0" ActionPlayPauseSeq="0" />
+  <Button Name="_MH-X25 Dimmer 01" Page="_MASTER" IndexTab="2" Time="0" State="0" Go="0" GoPR="0" ActionPlayPauseSeq="0" />
+  <Button Name="_CLS3 Color 02 Blue" Page="_MASTER" IndexTab="10" Time="0" State="0" Go="0" GoPR="0" ActionPlayPauseSeq="0" />
+  <Button Name="_MH-X25 Gobo 04" Page="_MASTER" IndexTab="8" Time="0" State="0" Go="0" GoPR="0" ActionPlayPauseSeq="0" />
+  <Button Name="_MH-X25 Pos 02" Page="_MASTER" IndexTab="6" Time="1000" State="0" Go="0" GoPR="0" ActionPlayPauseSeq="0" />
+  <Button Name="_MH-X25 Pos 03" Page="_MASTER" IndexTab="6" Time="2000" State="0" Go="0" GoPR="0" ActionPlayPauseSeq="0" />
+  <Button Name="_MH-X25 Pos 04" Page="_MASTER" IndexTab="6" Time="3000" State="0" Go="0" GoPR="0" ActionPlayPauseSeq="0" />
+  <Button Name="_MH-X25 Dimmer 03 Pair" Page="_MASTER" IndexTab="2" Time="3000" State="0" Go="0" GoPR="0" ActionPlayPauseSeq="0" />
+  <Button Name="_MH-X25 Pos 05" Page="_MASTER" IndexTab="6" Time="4000" State="0" Go="0" GoPR="0" ActionPlayPauseSeq="0" />
+  <Button Name="_MH-X25 Pos 06" Page="_MASTER" IndexTab="6" Time="5000" State="0" Go="0" GoPR="0" ActionPlayPauseSeq="0" />
+  <Button Name="_MH-X25 Pos 07" Page="_MASTER" IndexTab="6" Time="6000" State="0" Go="0" GoPR="0" ActionPlayPauseSeq="0" />
+  <Button Name="_MH-X25 Dimmer 01" Page="_MASTER" IndexTab="2" Time="6000" State="0" Go="0" GoPR="0" ActionPlayPauseSeq="0" />
+  <Button Name="_MH-X25 Pos 08" Page="_MASTER" IndexTab="6" Time="7000" State="0" Go="0" GoPR="0" ActionPlayPauseSeq="0" />
+  <Button Name="_MH-X25 Pos 12" Page="_MASTER" IndexTab="6" Time="8000" State="0" Go="0" GoPR="0" ActionPlayPauseSeq="0" />
+  <Button Name="_MH-X25 Pos 11" Page="_MASTER" IndexTab="6" Time="9000" State="0" Go="0" GoPR="0" ActionPlayPauseSeq="0" />
+  <Button Name="_MH-X25 Dimmer 03 Pair" Page="_MASTER" IndexTab="2" Time="9000" State="0" Go="0" GoPR="0" ActionPlayPauseSeq="0" />
+  <Button Name="_MH-X25 Pos 10" Page="_MASTER" IndexTab="6" Time="10000" State="0" Go="0" GoPR="0" ActionPlayPauseSeq="0" />
+  <Button Name="_MH-X25 Pos 09" Page="_MASTER" IndexTab="6" Time="11000" State="0" Go="0" GoPR="0" ActionPlayPauseSeq="0" />
+</cycle>

@@ -1,0 +1,53 @@
+<Page Author="dylan" Version="1.0">
+  <Global InMaster="1" DmxSend="1" Freeze="0" Lock="0" SceneFadeManual="0" SceneFadeEnable="1" Icon="" ID="113" Currentlayer="1" ShowTab="1" Zoom="1" Image="" ImageCoef="100">
+    <Shortcut Key="0" Flag="1" />
+    <ShortcutFreeze Key="0" Flag="1" />
+    <ShortcutSendDmx Key="0" Flag="1" />
+  </Global>
+  <Lock AskPassword="1" PageRename="1" PageDelete="1" PageSettings="1" PageExport="1" PageFreeze="1" PageDmx="1" PageLock="1" PageAddInMaster="1" FxLiveMode="1" FxEmbeddedMode="1" FxAddEditDeleteRenameGroup="1" FxMove="1" Dimmer="0" Speed="0" ButtonsLayersChange="1" ButtonsLayersModif="1" ButtonsLayerOrder="1" ButtonsActivation="0" ButtonsOrder="1" ButtonsCreate="1" ButtonsEdit="1" ButtonsSettings="1" ButtonsRename="1" ButtonsDelete="1" ButtonsLinkKeyboard="1" ButtonsDimmer="0" ButtonsSpeed="0" ButtonsPhasing="0" ButtonsSize="0" />
+  <SwitchBeamOn Switch="SHUTTER SHUTTER OPEN" />
+  <SwitchBeamOn Switch="SHUTTER SHUTTER OPEN2" />
+  <SwitchBeamOn Switch="SHUTTER SHUTTER OPEN3" />
+  <SwitchBeamOn Switch="SHUTTER SHUTTER OPEN4" />
+  <SwitchBeamOn Switch="DIMMER INTENSITY" />
+  <SwitchBeamOn Switch="IRIS IRISLINEAR" />
+  <SwitchBeamOff Switch="SHUTTER CLOSE" />
+  <Group Name="1, 3, 5...">
+    <Shortcut Key="0" Flag="1" />
+    <Fx ID="93" IdBeam="-1" />
+    <Fx ID="95" IdBeam="-1" />
+    <Fx ID="97" IdBeam="-1" />
+    <Fx ID="99" IdBeam="-1" />
+  </Group>
+  <Group Name="2, 4, 6...">
+    <Shortcut Key="0" Flag="1" />
+    <Fx ID="94" IdBeam="-1" />
+    <Fx ID="96" IdBeam="-1" />
+    <Fx ID="98" IdBeam="-1" />
+    <Fx ID="100" IdBeam="-1" />
+  </Group>
+  <Compress Name="X-Y " SwitchOneIsOn="0" Sort="0" ModeApplication="Switch" Type="SplashPanTiltIco" Icon="pantilt.png" PX="0" PY="0" SX="0" SY="0" Flag="36" />
+  <Compress Name="Shutter" SwitchOneIsOn="0" Sort="0" ModeApplication="Switch" Type="Icon" Icon="shutter.png" PX="0" PY="0" SX="0" SY="0" Flag="36" />
+  <Compress Name="Prism rotation" SwitchOneIsOn="0" Sort="0" ModeApplication="Switch" Type="Icon" Icon="" PX="0" PY="0" SX="0" SY="0" Flag="36" />
+  <Compress Name="Prism" SwitchOneIsOn="0" Sort="0" ModeApplication="Switch" Type="Icon" Icon="" PX="0" PY="0" SX="0" SY="0" Flag="36" />
+  <Compress Name="Macro colors CMY" SwitchOneIsOn="0" Sort="0" ModeApplication="Switch" Type="Icon" Icon="color.png" PX="0" PY="0" SX="0" SY="0" Flag="36" />
+  <Compress Name="Iris" SwitchOneIsOn="0" Sort="0" ModeApplication="Switch" Type="Icon" Icon="iris.png" PX="0" PY="0" SX="0" SY="0" Flag="36" />
+  <Compress Name="Gobo 2" SwitchOneIsOn="0" Sort="0" ModeApplication="Switch" Type="Icon" Icon="gobo.png" PX="0" PY="0" SX="0" SY="0" Flag="36" />
+  <Compress Name="Gobo" SwitchOneIsOn="0" Sort="0" ModeApplication="Switch" Type="Icon" Icon="gobo.png" PX="0" PY="0" SX="0" SY="0" Flag="36" />
+  <Compress Name="GobRot 2" SwitchOneIsOn="0" Sort="0" ModeApplication="Switch" Type="Icon" Icon="goborot.png" PX="0" PY="0" SX="0" SY="0" Flag="36" />
+  <Compress Name="GobRot" SwitchOneIsOn="0" Sort="0" ModeApplication="Switch" Type="Icon" Icon="goborot.png" PX="0" PY="0" SX="0" SY="0" Flag="36" />
+  <Compress Name="Frost" SwitchOneIsOn="0" Sort="0" ModeApplication="Switch" Type="Icon" Icon="frost.png" PX="0" PY="0" SX="0" SY="0" Flag="36" />
+  <Compress Name="Color mixing " SwitchOneIsOn="0" Sort="0" ModeApplication="Switch" Type="SplashTrichro" Icon="trichro.png" PX="1067" PY="489" SX="0" SY="0" Flag="4" />
+  <Compress Name="Color" SwitchOneIsOn="0" Sort="0" ModeApplication="Switch" Type="Icon" Icon="color.png" PX="0" PY="0" SX="0" SY="0" Flag="36" />
+  <Compress Name="@@@" SwitchOneIsOn="0" Sort="0" ModeApplication="Switch" Type="Icon" Icon="" PX="0" PY="0" SX="0" SY="0" Flag="36" />
+  <Fxs>
+    <Fx ID="93" LibName="_GENERIC\DEMO MOVING HEAD 575.SSL2" Mode="0" DmxA="216" DmxU="2" />
+    <Fx ID="94" LibName="_GENERIC\DEMO MOVING HEAD 575.SSL2" Mode="0" DmxA="236" DmxU="2" />
+    <Fx ID="95" LibName="_GENERIC\DEMO MOVING HEAD 575.SSL2" Mode="0" DmxA="256" DmxU="2" />
+    <Fx ID="96" LibName="_GENERIC\DEMO MOVING HEAD 575.SSL2" Mode="0" DmxA="276" DmxU="2" />
+    <Fx ID="97" LibName="_GENERIC\DEMO MOVING HEAD 575.SSL2" Mode="0" DmxA="296" DmxU="2" />
+    <Fx ID="98" LibName="_GENERIC\DEMO MOVING HEAD 575.SSL2" Mode="0" DmxA="316" DmxU="2" />
+    <Fx ID="99" LibName="_GENERIC\DEMO MOVING HEAD 575.SSL2" Mode="0" DmxA="336" DmxU="2" />
+    <Fx ID="100" LibName="_GENERIC\DEMO MOVING HEAD 575.SSL2" Mode="0" DmxA="380" DmxU="2" />
+  </Fxs>
+</Page>

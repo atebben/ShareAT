@@ -1,0 +1,9 @@
+<ZoneParam Author="dylan" Version="1.0">
+  <Zone ID="200">
+    <Button Name="COLOR ALL 1 FADE" Index="-2" />
+    <Button Name="COLOR ALL 1 FADE" Index="-2" />
+    <Button Name="COLOR ALL 1 FADE" Index="-2" />
+    <Button Name="COLOR ALL 1 FADE" Index="-2" />
+    <Button Name="VIDEO AVI2" Index="-2" />
+  </Zone>
+</ZoneParam>

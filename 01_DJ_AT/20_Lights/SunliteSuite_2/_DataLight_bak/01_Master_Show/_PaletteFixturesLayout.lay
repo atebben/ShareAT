@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DockingPaneLayouts CompactMode="1">
+	<Common>
+		<Summary Panes="6" TopContainer="3" Client="5"/>
+		<Pane-1 Type="0" DockingCX="200" DockingCY="122" Title="Gruppe" ID="200" Options="7" DockingHolder="4" LastHolder="4"/>
+		<Pane-2 Type="0" DockingCX="200" DockingCY="122" Title="Geräte" ID="201" Options="7" DockingHolder="6" LastHolder="6"/>
+		<Pane-3 Type="2" Horiz="1" Panes="3" Pane-1="4" Pane-2="5" Pane-3="6"/>
+		<Pane-4 Type="1" DockingCX="200" DockingCY="122" Panes="1" Selected="1" Pane-1="1"/>
+		<Pane-5 Type="4"/>
+		<Pane-6 Type="1" DockingCX="200" DockingCY="122" Panes="1" Selected="2" Pane-1="2"/>
+	</Common>
+</DockingPaneLayouts>

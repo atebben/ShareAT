@@ -1,0 +1,7 @@
+<SA Author="dylan" Version="1.0">
+  <Interface Name="USB Suite2" Type="3" DMXUModeOut="0" DMXUModeOut2="1">
+    <Area Name="_MASTER">
+      <Page Name="_MASTER" />
+    </Area>
+  </Interface>
+</SA>

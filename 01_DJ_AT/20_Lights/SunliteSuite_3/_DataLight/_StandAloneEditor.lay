@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DockingPaneLayouts CompactMode="1">
+	<Common>
+		<Summary Panes="12" TopContainer="5" Client="9"/>
+		<Pane-1 Type="0" DockingCX="200" DockingCY="120" Title="Areas" ID="100" Options="7" DockingHolder="8" LastHolder="8"/>
+		<Pane-2 Type="0" DockingCX="200" DockingCY="120" Title="Scene" ID="101" Options="7" DockingHolder="10" LastHolder="10"/>
+		<Pane-3 Type="0" DockingCX="200" DockingCY="120" Title="Date picker" ID="104" Options="7" DockingHolder="11" LastHolder="11"/>
+		<Pane-4 Type="0" DockingCX="200" DockingCY="120" Title="Calendar" ID="105" Options="7" DockingHolder="12" LastHolder="12"/>
+		<Pane-5 Type="2" Horiz="1" Panes="2" Pane-1="6" Pane-2="12"/>
+		<Pane-6 Type="2" DockingCX="2360" Panes="2" Pane-1="7" Pane-2="11"/>
+		<Pane-7 Type="2" DockingCY="1156" Horiz="1" Panes="3" Pane-1="8" Pane-2="9" Pane-3="10"/>
+		<Pane-8 Type="1" DockingCX="200" DockingCY="120" Panes="1" Selected="1" Pane-1="1"/>
+		<Pane-9 Type="4"/>
+		<Pane-10 Type="1" DockingCX="200" DockingCY="120" Panes="1" Selected="2" Pane-1="2"/>
+		<Pane-11 Type="1" DockingCX="200" DockingCY="120" Panes="0"/>
+		<Pane-12 Type="1" DockingCX="200" DockingCY="120" Panes="0"/>
+	</Common>
+	<PosFrame x="-8" y="-8" cx="2576" cy="1416"/>
+	<ToolbarOptions Schema="32" AlwaysShowFullMenus="1" ShowFullAfterDelay="1" ToolBarScreenTips="1" ToolBarAccelTips="0" LargeIcons="1" Animation="0"/>
+	<Layout>
+		<DockState Version="32" ScreenSize="2560, 1440" Count="2">
+			<BarInfo0 BarId="1756" MRUWidth="32767"/>
+			<BarInfo1 BarId="1757" MRUWidth="32767" PointPos="0, 51"/>
+		</DockState>
+		<DockBars>
+			<DockBar0 Count="5" Id1="1756" Id3="1757"/>
+		</DockBars>
+	</Layout>
+</DockingPaneLayouts>

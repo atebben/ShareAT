@@ -1,0 +1,246 @@
+<GeneratedProg Author="dylan" Version="1.0">
+
+  <Effect Name="RGB red" IdName="0" NameCompress="RGB " IdNameCompress="0" Type="1" Info="" IconName="cred304.ico">
+    <QEffect ID="60" Name="Rainbow">
+      <EffectParam1>
+        <Color L="#FF0000" />
+      </EffectParam1>
+      <EffectParam2 L="0.000000000000000000" />
+      <EffectParam3 L="0" />
+      <EffectParam4 L="0.000000000000000000" />
+    </QEffect>
+  </Effect >
+  <Effect Name="RGB blue" IdName="0" NameCompress="RGB " IdNameCompress="0" Type="1" Info="" IconName="cblue105.ico">
+    <QEffect ID="60" Name="Rainbow">
+      <EffectParam1>
+        <Color L="#0000FF" />
+      </EffectParam1>
+      <EffectParam2 L="0.000000000000000000" />
+      <EffectParam3 L="0" />
+      <EffectParam4 L="0.000000000000000000" />
+    </QEffect>
+  </Effect >
+  <Effect Name="RGB green" IdName="0" NameCompress="RGB " IdNameCompress="0" Type="1" Info="" IconName="cgreen206.ico">
+    <QEffect ID="60" Name="Rainbow">
+      <EffectParam1>
+        <Color L="#00FF00" />
+      </EffectParam1>
+      <EffectParam2 L="0.000000000000000000" />
+      <EffectParam3 L="0" />
+      <EffectParam4 L="0.000000000000000000" />
+    </QEffect>
+  </Effect >
+  <Effect Name="RGB cyan" IdName="0" NameCompress="RGB " IdNameCompress="0" Type="1" Info="" IconName="ccyan104.ico">
+    <QEffect ID="60" Name="Rainbow">
+      <EffectParam1>
+        <Color L="#00FFFF" />
+      </EffectParam1>
+      <EffectParam2 L="0.000000000000000000" />
+      <EffectParam3 L="0" />
+      <EffectParam4 L="0.000000000000000000" />
+    </QEffect>
+  </Effect >
+  <Effect Name="RGB magenta" IdName="0" NameCompress="RGB " IdNameCompress="0" Type="1" Info="" IconName="cmagenta501.ico">
+    <QEffect ID="60" Name="Rainbow">
+      <EffectParam1>
+        <Color L="#FF00FF" />
+      </EffectParam1>
+      <EffectParam2 L="0.000000000000000000" />
+      <EffectParam3 L="0" />
+      <EffectParam4 L="0.000000000000000000" />
+    </QEffect>
+  </Effect >
+  <Effect Name="RGB yellow" IdName="0" NameCompress="RGB " IdNameCompress="0" Type="1" Info="" IconName="cyellow603.ico">
+    <QEffect ID="60" Name="Rainbow">
+      <EffectParam1>
+        <Color L="#FFFF00" />
+      </EffectParam1>
+      <EffectParam2 L="0.000000000000000000" />
+      <EffectParam3 L="0" />
+      <EffectParam4 L="0.000000000000000000" />
+    </QEffect>
+  </Effect >
+  <Effect Name="Circle" IdName="0" NameCompress="Position" IdNameCompress="0" Type="2" Info="Circle" IconName="ZSceneCircle.ico" FadeTime="200">
+    <QEffect ID="101" Name="Circle">
+      <EffectParam1>
+        <Point Pan="0.250000000000000000" Tilt="0.500000000000000000" />
+        <Point Pan="0.500000000000000000" Tilt="0.750000000000000000" />
+        <Point Pan="0.750000000000000000" Tilt="0.500000000000000000" />
+        <Point Pan="0.500000000000000000" Tilt="0.250000000000000000" />
+      </EffectParam1>
+      <EffectParam2 L="0.000000000000000000" />
+      <EffectParam ID="102" L="8000" />
+    </QEffect>
+  </Effect>
+
+  <Effect Name="Circle phasing" IdName="0" NameCompress="Position" IdNameCompress="0" Type="2" Info="Circle with Phasing" IconName="ZSceneCircle2.ico" FadeTime="200">
+    <QEffect ID="101" Name="Circle">
+      <EffectParam1>
+        <Point Pan="0.250000000000000000" Tilt="0.500000000000000000" />
+        <Point Pan="0.500000000000000000" Tilt="0.750000000000000000" />
+        <Point Pan="0.750000000000000000" Tilt="0.500000000000000000" />
+        <Point Pan="0.500000000000000000" Tilt="0.250000000000000000" />
+      </EffectParam1>
+      <EffectParam2 L="0.000000000000000000" />
+      <EffectParam ID="102" L="8000" />
+      <EffectParam ID="103" L="1" />
+    </QEffect>
+  </Effect>
+
+  <Effect Name="Center" IdName="0" NameCompress="Position" IdNameCompress="0" Type="2" Info="Center" IconName="ZSceneCenter.ico" FadeTime="200">
+    <QEffect ID="105" Name="Points">
+      <EffectParam1>
+        <Point Pan="0.500000000000000000" Tilt="0.500000000000000000" />
+        <Point Pan="0.500000000000000000" Tilt="0.500000000000000000" />
+      </EffectParam1>
+      <EffectParam2 L="0.000000000000000000" />
+      <EffectParam ID="102" L="1000" />
+    </QEffect>
+  </Effect>
+
+  <Effect Name="Eight" IdName="0" NameCompress="Position" IdNameCompress="0" Type="2" Info="Curve" IconName="ZSceneEight.ico" FadeTime="200">
+    <QEffect ID="102" Name="Curve">
+      <EffectParam1>
+        <Point Pan="0.360173940658569340" Tilt="0.587731719017028810" />
+        <Point Pan="0.329869538545608520" Tilt="0.730815589427948000" />
+        <Point Pan="0.498542755842208860" Tilt="0.843671321868896480" />
+        <Point Pan="0.674403011798858640" Tilt="0.741191744804382320" />
+        <Point Pan="0.645456612110137940" Tilt="0.590020596981048580" />
+        <Point Pan="0.500129699707031250" Tilt="0.503776609897613530" />
+        <Point Pan="0.359563589096069340" Tilt="0.405462741851806640" />
+        <Point Pan="0.331883728504180910" Tilt="0.264164179563522340" />
+        <Point Pan="0.496757447719573970" Tilt="0.171694517135620120" />
+        <Point Pan="0.665354371070861820" Tilt="0.265293359756469730" />
+        <Point Pan="0.641611337661743160" Tilt="0.409918367862701420" />
+        <Point Pan="0.500129699707031250" Tilt="0.503776609897613530" />
+      </EffectParam1>
+      <EffectParam2 L="0.000000000000000000" />
+      <EffectParam ID="102" L="8000" />
+    </QEffect>
+  </Effect>
+
+  <Effect Name="PanMove" IdName="0" NameCompress="Position" IdNameCompress="0" Type="2" Info="pan move" IconName="ZScenePanMove.ico" FadeTime="200">
+    <QEffect ID="103" Name="Line">
+      <EffectParam1>
+        <Point Pan="0.250000000000000000" Tilt="0.500000000000000000" />
+        <Point Pan="0.750000000000000000" Tilt="0.500000000000000000" />
+      </EffectParam1>
+      <EffectParam2 L="0.000000000000000000" />
+      <EffectParam ID="102" L="8000" />
+    </QEffect>
+  </Effect>
+  
+  <Effect Name="PanMovePhi" IdName="0" NameCompress="Position" IdNameCompress="0" Type="2" Info="pan move" IconName="ZScenePanMove2.ico" FadeTime="200">
+    <QEffect ID="103" Name="Line">
+      <EffectParam1>
+        <Point Pan="0.250000000000000000" Tilt="0.500000000000000000" />
+        <Point Pan="0.750000000000000000" Tilt="0.500000000000000000" />
+      </EffectParam1>
+      <EffectParam2 L="0.000000000000000000" />
+      <EffectParam ID="102" L="8000" />
+      <EffectParam ID="103" L="1" />
+    </QEffect>
+  </Effect>
+
+  <Effect Name="TiltMove" IdName="0" NameCompress="Position" IdNameCompress="0" Type="2" Info="tilt move" IconName="ZSceneTiltMove.ico" FadeTime="200">
+    <QEffect ID="103" Name="Line">
+      <EffectParam1>
+        <Point Pan="0.500000000000000000" Tilt="0.250000000000000000" />
+        <Point Pan="0.500000000000000000" Tilt="0.750000000000000000" />
+      </EffectParam1>
+      <EffectParam2 L="0.000000000000000000" />
+      <EffectParam ID="102" L="8000" />
+    </QEffect>
+  </Effect>
+
+  <Effect Name="TiltMovePhi" IdName="0" NameCompress="Position" IdNameCompress="0" Type="2" Info="tilt move" IconName="ZSceneTiltMove2.ico" FadeTime="200">
+    <QEffect ID="103" Name="Line">
+      <EffectParam1>
+        <Point Pan="0.500000000000000000" Tilt="0.250000000000000000" />
+        <Point Pan="0.500000000000000000" Tilt="0.750000000000000000" />
+      </EffectParam1>
+      <EffectParam2 L="0.000000000000000000" />
+      <EffectParam ID="102" L="8000" />
+      <EffectParam ID="103" L="1" />
+    </QEffect>
+  </Effect>
+
+  <Effect Name="Rainbow" IdName="0" NameCompress="Color Effects" IdNameCompress="0" Type="1" Info="rainbow effect" IconName="presets\Color\ColorMixing.png" FadeTime="100">
+    <QEffect ID="201" Name="Gradient Color">
+      <EffectParam1>
+        <Color L="#0000FF" />
+        <Color L="#0000FF" />
+      </EffectParam1>
+      <EffectParam2 L="3" />
+      <EffectParam3 L="0" />
+      <EffectParam4 L="0.000000000000000000" />
+      <EffectParam5>
+        <Point Pan="0.000000000000000000" Tilt="0.000000000000000000" />
+        <Point Pan="1.000000000000000000" Tilt="0.000000000000000000" />
+      </EffectParam5>
+      <EffectParam6 L="0" />
+      <EffectParam7 L="0" />
+      <EffectParam ID="102" L="8000" />
+    </QEffect>
+  </Effect >
+
+  <Effect Name="Rainbow phasing" IdName="0" NameCompress="Color Effects" IdNameCompress="0" Type="1" Info="rainbow effect" IconName="presets\Color\ColorMixing1.png" FadeTime="100">
+    <QEffect ID="201" Name="Gradient Color">
+      <EffectParam1>
+        <Color L="#0000FF" />
+        <Color L="#0000FF" />
+      </EffectParam1>
+      <EffectParam2 L="3" />
+      <EffectParam3 L="0" />
+      <EffectParam4 L="0.000000000000000000" />
+      <EffectParam5>
+        <Point Pan="0.000000000000000000" Tilt="0.000000000000000000" />
+        <Point Pan="1.000000000000000000" Tilt="0.000000000000000000" />
+      </EffectParam5>
+      <EffectParam6 L="0" />
+      <EffectParam7 L="0" />
+      <EffectParam ID="102" L="8000" />
+      <EffectParam ID="103" L="1" />
+    </QEffect>
+  </Effect >
+
+  <Effect Name="Line BPM" IdName="0" NameCompress="Position" IdNameCompress="0" Type="2" Info="rainbow effect" IconName="ZSceneMusicBPM.ico" EasyTimeModeTempo="1" EasyTimeMesures="1" EasyTimeMesureTimer="25">
+    <QEffect ID="102" Name="Curve">
+      <EffectParam1>
+        <Point Pan="0.084840163588523865" Tilt="0.245899140834808350" />
+        <Point Pan="0.179598689079284670" Tilt="0.753673613071441650" />
+        <Point Pan="0.273350119590759280" Tilt="0.245899140834808350" />
+        <Point Pan="0.367101550102233890" Tilt="0.753673613071441650" />
+        <Point Pan="0.460852980613708500" Tilt="0.245899140834808350" />
+        <Point Pan="0.554604411125183110" Tilt="0.753673613071441650" />
+        <Point Pan="0.645380318164825440" Tilt="0.245899140834808350" />
+        <Point Pan="0.738261997699737550" Tilt="0.753627836704254150" />
+        <Point Pan="0.835202574729919430" Tilt="0.245899140834808350" />
+        <Point Pan="0.925703823566436770" Tilt="0.753627836704254150" />
+      </EffectParam1>
+      <EffectParam2 L="0.000000000000000000" />
+      <EffectParam ID="102" L="18000" />
+    </QEffect>
+  </Effect >
+  
+  <Effect Name="Chaser" IdName="0" NameCompress="DImmer" IdNameCompress="0" Type="0" Info="Chaser effect" IconName="presets\dimmer\dimmerChase.png" PhasingNbFx="1" WorkAllBeam="1" EasyTimeModeTempo="1" EasyTimeMesures="1" EasyTimeMesureTimerAllSeq="1">
+  <QEffect ID="151" Name="Chaser flash">
+    <EffectParam1 L="1" />
+    <EffectParam2 L="1" />
+    <EffectParam3 L="0.230000004172325130" />
+    <EffectParam ID="104" L="7" />
+    <EffectParam ID="105" L="4" />
+  </QEffect>
+  </Effect>
+  
+  <Effect Name="Flash All" IdName="0" NameCompress="DImmer" IdNameCompress="0" Type="0" Info="Chaser effect" IconName="presets\dimmer\dimmerFlash.png" PhasingNbFx="0" WorkAllBeam="1" EasyTimeModeTempo="1" EasyTimeMesures="1" EasyTimeMesureTimerAllSeq="1">
+  <QEffect ID="151" Name="Chaser flash">
+    <EffectParam1 L="1" />
+    <EffectParam2 L="1" />
+    <EffectParam3 L="0.230000004172325130" />
+    <EffectParam ID="104" L="7" />
+    <EffectParam ID="105" L="4" />
+  </QEffect>
+  </Effect>
+
+</GeneratedProg>

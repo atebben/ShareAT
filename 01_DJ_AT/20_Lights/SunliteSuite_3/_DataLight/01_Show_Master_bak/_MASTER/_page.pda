@@ -1,0 +1,53 @@
+<Page Author="dylan" Version="1.0">
+  <Global Name="_MASTER" Selected="1" InMaster="0" DmxSend="1" Freeze="0" Lock="0" SceneFadeManual="1" SceneFadeEnable="1" Icon="" ID="125" Currentlayer="2" ShowTab="1" Zoom="0" Image="" ImageCoef="100" ZoomFixture="500">
+    <DataColDesign Default="5" Color="#000000" />
+    <Shortcut Key="0" Flag="1" />
+    <ShortcutFreeze Key="0" Flag="1" />
+    <ShortcutSendDmx Key="0" Flag="1" />
+  </Global>
+  <Lock AskPassword="1" PageRename="1" PageDelete="1" PageSettings="1" PageExport="1" PageFreeze="1" PageDmx="1" PageLock="1" PageAddInMaster="1" FxLiveMode="1" FxEmbeddedMode="1" FxAddEditDeleteRenameGroup="1" FxMove="1" Dimmer="0" Speed="0" ButtonsLayersChange="1" ButtonsLayersModif="1" ButtonsLayerOrder="1" ButtonsActivation="0" ButtonsOrder="1" ButtonsCreate="1" ButtonsEdit="1" ButtonsSettings="1" ButtonsRename="1" ButtonsDelete="1" ButtonsLinkKeyboard="1" ButtonsDimmer="0" ButtonsSpeed="0" ButtonsPhasing="0" ButtonsSize="0" />
+  <SwitchOn>
+    <Switch Name="_ALL Reset 02 Pos MovingHeadsDefault" />
+    <Switch Name="_CLS3 Color 04 Yellow" />
+    <Switch Name="_PAR64 Color 04 Yellow" />
+  </SwitchOn>
+  <FxOrder ID="-1" Name="Par-56" Index="0" UID="{6ae907dd-33f8-4035-9cba-314b3d687ae1}">
+    <SKey Key="0" Flag="1" />
+  </FxOrder>
+  <FxOrder ID="-1" Name="Par-64" Index="1" UID="{8627b4f6-f0b1-4aea-9aa6-7e03f3680ae8}">
+    <SKey Key="0" Flag="1" />
+  </FxOrder>
+  <FxOrder ID="-1" Name="MH-X25" Index="2" UID="{885e1fd2-f302-4ae1-82cb-5b3946a44d69}">
+    <SKey Key="0" Flag="1" />
+  </FxOrder>
+  <FxOrder ID="-1" Name="CLS-3" Index="3" UID="{da24026f-76a2-44d6-9c69-bb1dc7a08273}">
+    <SKey Key="0" Flag="1" />
+  </FxOrder>
+  <Compress Name="_Zyklus" SwitchOneIsOn="0" SwitchOnlyOneIsOn="0" Sort="1" ModeApplication="All" Type="Icon" Icon="CYCLE.PNG" PX="0" PY="0" SX="0" SY="0" Flag="36" />
+  <Compress Name="_Scenes" SwitchOneIsOn="0" SwitchOnlyOneIsOn="0" Sort="1" ModeApplication="All" Type="Icon" Icon="FOCUS.PNG" PX="942" PY="463" SX="205" SY="216" Flag="36" />
+  <Compress Name="_PAR64 Color" SwitchOneIsOn="0" SwitchOnlyOneIsOn="0" Sort="1" ModeApplication="All" Type="Icon" Icon="COLOR.PNG" PX="0" PY="0" SX="0" SY="0" Flag="36" />
+  <Compress Name="_PAR56 Color" SwitchOneIsOn="0" SwitchOnlyOneIsOn="0" Sort="1" ModeApplication="All" Type="Icon" Icon="COLOR.PNG" PX="0" PY="0" SX="0" SY="0" Flag="36" />
+  <Compress Name="_MH-X25 Var" SwitchOneIsOn="0" SwitchOnlyOneIsOn="0" Sort="1" ModeApplication="All" Type="Icon" Icon="PANTILT.PNG" PX="0" PY="0" SX="0" SY="0" Flag="36" />
+  <Compress Name="_MH-X25 Shake" SwitchOneIsOn="0" SwitchOnlyOneIsOn="0" Sort="1" ModeApplication="All" Type="Icon" Icon="GOBOROT.PNG" PX="1301" PY="423" SX="205" SY="216" Flag="36" />
+  <Compress Name="_MH-X25 Pos" SwitchOneIsOn="0" SwitchOnlyOneIsOn="0" Sort="1" ModeApplication="All" Type="Icon" Icon="PANTILT.PNG" PX="0" PY="0" SX="0" SY="0" Flag="36" />
+  <Compress Name="_MH-X25 Move" SwitchOneIsOn="0" SwitchOnlyOneIsOn="0" Sort="1" ModeApplication="All" Type="Icon" Icon="CYCLE.PNG" PX="0" PY="0" SX="0" SY="0" Flag="36" />
+  <Compress Name="_MH-X25 Gobo" SwitchOneIsOn="0" SwitchOnlyOneIsOn="0" Sort="1" ModeApplication="All" Type="Icon" Icon="GOBO.PNG" PX="0" PY="0" SX="0" SY="0" Flag="36" />
+  <Compress Name="_MH-X25 Dimmer" SwitchOneIsOn="0" SwitchOnlyOneIsOn="0" Sort="1" ModeApplication="All" Type="Icon" Icon="SHUTTER.PNG" PX="0" PY="0" SX="0" SY="0" Flag="36" />
+  <Compress Name="_MH-X25 Default" SwitchOneIsOn="0" SwitchOnlyOneIsOn="0" Sort="1" ModeApplication="All" Type="Icon" Icon="PRISME.PNG" PX="0" PY="0" SX="0" SY="0" Flag="36" />
+  <Compress Name="_MH-X25 Color" SwitchOneIsOn="0" SwitchOnlyOneIsOn="0" Sort="1" ModeApplication="All" Type="Icon" Icon="COLOR.PNG" PX="0" PY="0" SX="0" SY="0" Flag="36" />
+  <Compress Name="_Intros" SwitchOneIsOn="0" SwitchOnlyOneIsOn="0" Sort="1" ModeApplication="All" Type="Icon" Icon="FOCUS.PNG" PX="0" PY="0" SX="0" SY="0" Flag="36" />
+  <Compress Name="_CLS3 Dimmer" SwitchOneIsOn="0" SwitchOnlyOneIsOn="0" Sort="1" ModeApplication="All" Type="Icon" Icon="SHUTTER.PNG" PX="0" PY="0" SX="0" SY="0" Flag="36" />
+  <Compress Name="_CLS3 Color Effects" SwitchOneIsOn="0" SwitchOnlyOneIsOn="0" Sort="1" ModeApplication="All" Type="Icon" Icon="COLORROT.PNG" PX="0" PY="0" SX="0" SY="0" Flag="36" />
+  <Compress Name="_CLS3 Color" SwitchOneIsOn="0" SwitchOnlyOneIsOn="0" Sort="1" ModeApplication="All" Type="Icon" Icon="COLOR.PNG" PX="0" PY="0" SX="0" SY="0" Flag="36" />
+  <Compress Name="_ALL Reset" SwitchOneIsOn="0" SwitchOnlyOneIsOn="0" Sort="1" ModeApplication="All" Type="Icon" Icon="PANTILT.PNG" PX="0" PY="0" SX="0" SY="0" Flag="36" />
+  <Compress Name="_ALL Active" SwitchOneIsOn="0" SwitchOnlyOneIsOn="0" Sort="1" ModeApplication="All" Type="Icon" Icon="SHUTTER.PNG" PX="0" PY="0" SX="0" SY="0" Flag="36" />
+  <Fxs />
+  <VisuDmx _VisuDmxAllFxNameShow="0" _VisuDmxAllFxNameFontCustom="0" _VisuDmxAllFxNameFontclrCustom="0" _VisuDmxAllFxNameZoneclrCustom="0" _VisuDmxAllFxChannelsNameShow="0" _VisuDmxAllFxChannelsNameFontCustom="0" _VisuDmxAllFxChannelsNameFontclrCustom="0" _VisuDmxAllFxChannelsNameZoneclrCustom="0" _VisuDmxAllFxPresetsImageShow="0">
+    <_VisuDmxAllFxNameFont lfHeight="12" lfWidth="0" lfEscapement="0" lfOrientation="0" lfWeight="400" lfItalic="0" lfUnderline="0" lfStrikeOut="0" lfCharSet="1" lfOutPrecision="0" lfClipPrecision="0" lfQuality="0" lfPitchAndFamily="32" lfFaceName="Arial" />
+    <_VisuDmxAllFxNameFontclrArray data0="-1" data1="-1" data2="-1" data3="-1" data4="-1" data5="-1" data6="-1" data7="-1" data8="-1" data9="-1" />
+    <_VisuDmxAllFxNameZoneclrArray data0="-1" data1="-1" data2="-1" data3="-1" data4="-1" data5="-1" data6="-1" data7="-1" data8="-1" data9="-1" />
+    <_VisuDmxAllFxChannelsNameFont lfHeight="12" lfWidth="0" lfEscapement="0" lfOrientation="0" lfWeight="400" lfItalic="0" lfUnderline="0" lfStrikeOut="0" lfCharSet="1" lfOutPrecision="0" lfClipPrecision="0" lfQuality="0" lfPitchAndFamily="32" lfFaceName="Arial" />
+    <_VisuDmxAllFxChannelsNameFontclrArray data0="-1" data1="-1" data2="-1" data3="-1" data4="-1" data5="-1" data6="-1" data7="-1" data8="-1" data9="-1" />
+    <_VisuDmxAllFxChannelsNameZoneclrArray data0="-1" data1="-1" data2="-1" data3="-1" data4="-1" data5="-1" data6="-1" data7="-1" data8="-1" data9="-1" />
+  </VisuDmx>
+</Page>

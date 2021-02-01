@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DockingPaneLayouts CompactMode="1">
+	<Common>
+		<Summary Panes="8" TopContainer="6" Client="7"/>
+		<Pane-1 Type="0" DockingCX="300" DockingCY="120" Title="_MASTER" ID="125" Options="18" DockingHolder="8" LastHolder="8" MinTrackX="154" MinTrackY="300"/>
+		<Pane-2 Type="0" DockingCX="300" DockingCY="120" Title="LED PAR 56" ID="123" Options="18" DockingHolder="8" LastHolder="8" MinTrackX="154" MinTrackY="300"/>
+		<Pane-3 Type="0" DockingCX="300" DockingCY="120" Title="LED PAR 64" ID="124" Options="18" DockingHolder="8" LastHolder="8" MinTrackX="154" MinTrackY="300"/>
+		<Pane-4 Type="0" DockingCX="300" DockingCY="120" Title="MH-X25" ID="121" Options="18" DockingHolder="8" LastHolder="8" MinTrackX="154" MinTrackY="300"/>
+		<Pane-5 Type="0" DockingCX="300" DockingCY="120" Title="Platinum Line CLS-3" ID="122" Options="18" DockingHolder="8" LastHolder="8" MinTrackX="154" MinTrackY="300"/>
+		<Pane-6 Type="2" Horiz="1" Panes="2" Pane-1="7" Pane-2="8"/>
+		<Pane-7 Type="4"/>
+		<Pane-8 Type="1" DockingCX="300" DockingCY="120" Panes="5" Selected="1" Pane-1="1" Pane-2="4" Pane-3="5" Pane-4="3" Pane-5="2"/>
+	</Common>
+	<Custom Panes="5">
+		<Pane-1 ID="125" Name="_MASTER"/>
+		<Pane-2 ID="123" Name="LED PAR 56"/>
+		<Pane-3 ID="124" Name="LED PAR 64"/>
+		<Pane-4 ID="121" Name="MH-X25"/>
+		<Pane-5 ID="122" Name="Platinum Line CLS-3"/>
+	</Custom>
+</DockingPaneLayouts>

@@ -1,0 +1,44 @@
+<ZoneParam Author="dylan" Version="1.0">
+  <Zone Type="0" ID="200">
+    <Group Name="ALL" Index="0" />
+    <Group Name="SHOW" Index="1" />
+    <Group Name="INTRO" Index="2" />
+  </Zone>
+  <Zone Type="0" ID="201">
+    <Button Name="MH-X25_LIVE 00 ON" Index="0" />
+    <Button Name="MH-X25_LIVE 10 SINGLE ON" Index="0" />
+    <Button Name="MH-X25_LIVE 11 PAIR" Index="0" />
+    <Button Name="MH-X25_COLOR 00 WHITE" Index="1" />
+    <Button Name="MH-X25_COLOR 01 BLUE" Index="1" />
+    <Button Name="MH-X25_COLOR 02 RED" Index="1" />
+    <Button Name="MH-X25_COLOR 03 YELLOW" Index="1" />
+    <Group Name="MH-X25_GOBO" Index="2" />
+    <Group Name="MH-X25_POSFIX" Index="3" />
+    <Group Name="MH-X25_MOVEFIX" Index="4" />
+  </Zone>
+  <Zone Type="0" ID="202">
+    <Button Name="CLS3_DIMMER 00 ON" Index="0" />
+    <Button Name="CLS3_DIMMER 12 FADE PAIR" Index="0" />
+    <Button Name="CLS3_DIMMER 13 FADE SINGLE" Index="0" />
+    <Button Name="CLS3_COLOR 00 WHITE" Index="1" />
+    <Button Name="CLS3_COLOR 01 BLUE" Index="1" />
+    <Button Name="CLS3_COLOR 02 RED" Index="1" />
+    <Button Name="CLS3_COLOR 03 YELLOW" Index="1" />
+    <Button Name="CLS3_COLOR EFFECTS 10 METEOR" Index="2" />
+    <Button Name="CLS3_COLOR EFFECTS 12 DREAM" Index="2" />
+    <Button Name="CLS3_COLOR EFFECTS 17 FLOW 8" Index="2" />
+    <Button Name="CLS3_COLOR EFFECTS 14 FLOW 3" Index="2" />
+  </Zone>
+  <Zone Type="0" ID="203">
+    <Button Name="PAR64_COLOR 00 WHITE" Index="0" />
+    <Button Name="PAR64_COLOR 01 BLUE" Index="0" />
+    <Button Name="PAR64_COLOR 02 RED" Index="0" />
+    <Button Name="PAR64_COLOR 03 YELLOW" Index="0" />
+  </Zone>
+  <Zone Type="2" ID="204">
+    <Button Name="MH-X25_POSVAR 001" Index="0" />
+    <Button Name="MH-X25_POSVAR 002" Index="0" />
+    <Button Name="MH-X25_POSVAR 003" Index="0" />
+    <Button Name="MH-X25_POSVAR 004" Index="0" />
+  </Zone>
+</ZoneParam>

@@ -1,0 +1,6 @@
+<EasyShowCycle Author="dylan" Version="1.1" EndTime="100" TypeButton="4" IconTxtOver="0" InvertFugitif="0" Shortcut="0" ShortcutFugitif="0" ReleaseOther="0" AutoSave="1" LoadWhenActivate="1" Loop="1" MTCIn="0" MTCOut="0" BpmMode="0">
+  <TriggerPort Interface="0" PortFugitif="0" />
+  <sBPMSynchro />
+  <TimeLine Name="TL 0" ID="0" Mode="1" />
+  <TimeLine Name="TL 1" ID="1" Mode="0" />
+</EasyShowCycle>

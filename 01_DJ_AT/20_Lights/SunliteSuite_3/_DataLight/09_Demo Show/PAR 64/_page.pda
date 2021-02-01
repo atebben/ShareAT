@@ -1,0 +1,88 @@
+<Page Author="dylan" Version="1.0">
+  <Global Name="PAR 64" InMaster="1" DmxSend="1" Freeze="0" Lock="0" SceneFadeManual="0" SceneFadeEnable="1" Icon="" ID="123" Currentlayer="0" ShowTab="1" Zoom="0" Image="" ImageCoef="100" ZoomFixture="225">
+    <DataColDesign Default="3" Color="#000000" />
+    <Shortcut Key="0" Flag="1" />
+    <ShortcutFreeze Key="0" Flag="1" />
+    <ShortcutSendDmx Key="0" Flag="1" />
+  </Global>
+  <Lock AskPassword="1" PageRename="1" PageDelete="1" PageSettings="1" PageExport="1" PageFreeze="1" PageDmx="1" PageLock="1" PageAddInMaster="1" FxLiveMode="1" FxEmbeddedMode="1" FxAddEditDeleteRenameGroup="1" FxMove="1" Dimmer="0" Speed="0" ButtonsLayersChange="1" ButtonsLayersModif="1" ButtonsLayerOrder="1" ButtonsActivation="0" ButtonsOrder="1" ButtonsCreate="1" ButtonsEdit="1" ButtonsSettings="1" ButtonsRename="1" ButtonsDelete="1" ButtonsLinkKeyboard="1" ButtonsDimmer="0" ButtonsSpeed="0" ButtonsPhasing="0" ButtonsSize="0" />
+  <SwitchBeamOn Switch="DIMMER INTENSITY" />
+  <SwitchBeamOff Switch="DIMMER INTENSITY" />
+  <FxOrder ID="1" Name="1, 3, 5..." Index="-1" UID="{52ebc2df-b468-46a7-85ca-76f45155c232}">
+    <SKey Key="0" Flag="1" />
+    <Group>
+      <Fx ID="45" />
+    </Group>
+    <Group>
+      <Fx ID="47" />
+    </Group>
+    <Group>
+      <Fx ID="49" />
+    </Group>
+    <Group>
+      <Fx ID="51" />
+    </Group>
+  </FxOrder>
+  <FxOrder ID="2" Name="2, 4, 6..." Index="-1" UID="{69e18baa-70db-45fd-b03b-63889afd21bd}">
+    <SKey Key="0" Flag="1" />
+    <Group>
+      <Fx ID="46" />
+    </Group>
+    <Group>
+      <Fx ID="48" />
+    </Group>
+    <Group>
+      <Fx ID="50" />
+    </Group>
+    <Group>
+      <Fx ID="52" />
+    </Group>
+  </FxOrder>
+  <FxOrder ID="0" Name="All" Index="-1" UID="{aa100890-bdd7-4f56-a0a9-df265e500703}">
+    <SKey Key="0" Flag="1" />
+    <Group>
+      <Fx ID="45" />
+    </Group>
+    <Group>
+      <Fx ID="46" />
+    </Group>
+    <Group>
+      <Fx ID="47" />
+    </Group>
+    <Group>
+      <Fx ID="48" />
+    </Group>
+    <Group>
+      <Fx ID="49" />
+    </Group>
+    <Group>
+      <Fx ID="50" />
+    </Group>
+    <Group>
+      <Fx ID="51" />
+    </Group>
+    <Group>
+      <Fx ID="52" />
+    </Group>
+  </FxOrder>
+  <Compress Name="Shutter" SwitchOneIsOn="0" SwitchOnlyOneIsOn="0" Sort="0" ModeApplication="Switch" Type="Icon" Icon="" PX="0" PY="0" SX="0" SY="0" Flag="36" />
+  <Compress Name="Dimmer" SwitchOneIsOn="0" SwitchOnlyOneIsOn="0" Sort="0" ModeApplication="Switch" Type="Icon" Icon="dimmer.png" PX="0" PY="0" SX="0" SY="0" Flag="36" />
+  <Fxs>
+    <Fx ID="45" LibName="\_GENERIC\PAR 64.SSL2" Mode="0" DmxA="252" DmxU="0" />
+    <Fx ID="46" LibName="\_GENERIC\PAR 64.SSL2" Mode="0" DmxA="253" DmxU="0" />
+    <Fx ID="47" LibName="\_GENERIC\PAR 64.SSL2" Mode="0" DmxA="254" DmxU="0" />
+    <Fx ID="48" LibName="\_GENERIC\PAR 64.SSL2" Mode="0" DmxA="255" DmxU="0" />
+    <Fx ID="49" LibName="\_GENERIC\PAR 64.SSL2" Mode="0" DmxA="256" DmxU="0" />
+    <Fx ID="50" LibName="\_GENERIC\PAR 64.SSL2" Mode="0" DmxA="257" DmxU="0" />
+    <Fx ID="51" LibName="\_GENERIC\PAR 64.SSL2" Mode="0" DmxA="258" DmxU="0" />
+    <Fx ID="52" LibName="\_GENERIC\PAR 64.SSL2" Mode="0" DmxA="259" DmxU="0" />
+  </Fxs>
+  <VisuDmx _VisuDmxAllFxNameShow="2" _VisuDmxAllFxNameFontCustom="0" _VisuDmxAllFxNameFontclrCustom="0" _VisuDmxAllFxNameZoneclrCustom="0" _VisuDmxAllFxChannelsNameShow="2" _VisuDmxAllFxChannelsNameFontCustom="0" _VisuDmxAllFxChannelsNameFontclrCustom="0" _VisuDmxAllFxChannelsNameZoneclrCustom="0" _VisuDmxAllFxPresetsImageShow="2">
+    <_VisuDmxAllFxNameFont lfHeight="12" lfWidth="0" lfEscapement="0" lfOrientation="0" lfWeight="400" lfItalic="0" lfUnderline="0" lfStrikeOut="0" lfCharSet="1" lfOutPrecision="0" lfClipPrecision="0" lfQuality="0" lfPitchAndFamily="32" lfFaceName="Arial" />
+    <_VisuDmxAllFxNameFontclrArray data0="-1" data1="-1" data2="-1" data3="-1" data4="-1" data5="-1" data6="-1" data7="-1" data8="-1" data9="-1" />
+    <_VisuDmxAllFxNameZoneclrArray data0="-1" data1="-1" data2="-1" data3="-1" data4="-1" data5="-1" data6="-1" data7="-1" data8="-1" data9="-1" />
+    <_VisuDmxAllFxChannelsNameFont lfHeight="12" lfWidth="0" lfEscapement="0" lfOrientation="0" lfWeight="400" lfItalic="0" lfUnderline="0" lfStrikeOut="0" lfCharSet="1" lfOutPrecision="0" lfClipPrecision="0" lfQuality="0" lfPitchAndFamily="32" lfFaceName="Arial" />
+    <_VisuDmxAllFxChannelsNameFontclrArray data0="-1" data1="-1" data2="-1" data3="-1" data4="-1" data5="-1" data6="-1" data7="-1" data8="-1" data9="-1" />
+    <_VisuDmxAllFxChannelsNameZoneclrArray data0="-1" data1="-1" data2="-1" data3="-1" data4="-1" data5="-1" data6="-1" data7="-1" data8="-1" data9="-1" />
+  </VisuDmx>
+</Page>

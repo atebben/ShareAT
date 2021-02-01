@@ -1,0 +1,456 @@
+<PagesFixtures Author="dylan" Version="1.1">
+  <Fxs>
+    <Fx LibName="\_GENERIC\MOVING HEAD.SSL2" IdLib="3" Mode="0" Name="MOVING HEAD  1" ID="1" DmxA="0" DmxU="0" PX="1" PY="1" MasterPosX="5" MasterPosY="4" SX="2" SY="2" Rotation="0">
+      <ColorFilter Color="-1" Name="" Manufacturer="" />
+      <Ch Flag="29" />
+      <Ch Flag="29" />
+      <Ch Flag="29" />
+      <Ch Flag="29" />
+      <Ch Flag="15" />
+      <Ch Flag="15" />
+      <Ch Flag="15" />
+      <Ch Flag="15" />
+      <Ch Flag="15" />
+      <Ch Flag="47" />
+      <Ch Flag="9" />
+      <Ch Flag="9" />
+      <Ch Flag="9" />
+      <Ch Flag="9" />
+      <Ch Flag="9" />
+      <Ch Flag="9" />
+      <Ch Flag="0" />
+      <Ch Flag="0" />
+    </Fx>
+    <Fx LibName="\_GENERIC\MOVING HEAD.SSL2" IdLib="3" Mode="0" Name="MOVING HEAD  2" ID="2" DmxA="18" DmxU="0" PX="3" PY="1" MasterPosX="8" MasterPosY="4" SX="2" SY="2" Rotation="0">
+      <ColorFilter Color="-1" Name="" Manufacturer="" />
+      <Ch Flag="29" />
+      <Ch Flag="29" />
+      <Ch Flag="29" />
+      <Ch Flag="29" />
+      <Ch Flag="15" />
+      <Ch Flag="15" />
+      <Ch Flag="15" />
+      <Ch Flag="15" />
+      <Ch Flag="15" />
+      <Ch Flag="47" />
+      <Ch Flag="9" />
+      <Ch Flag="9" />
+      <Ch Flag="9" />
+      <Ch Flag="9" />
+      <Ch Flag="9" />
+      <Ch Flag="9" />
+      <Ch Flag="0" />
+      <Ch Flag="0" />
+    </Fx>
+    <Fx LibName="\_GENERIC\MOVING HEAD.SSL2" IdLib="3" Mode="0" Name="MOVING HEAD  3" ID="3" DmxA="36" DmxU="0" PX="5" PY="1" MasterPosX="11" MasterPosY="4" SX="2" SY="2" Rotation="0">
+      <ColorFilter Color="-1" Name="" Manufacturer="" />
+      <Ch Flag="29" />
+      <Ch Flag="29" />
+      <Ch Flag="29" />
+      <Ch Flag="29" />
+      <Ch Flag="15" />
+      <Ch Flag="15" />
+      <Ch Flag="15" />
+      <Ch Flag="15" />
+      <Ch Flag="15" />
+      <Ch Flag="47" />
+      <Ch Flag="9" />
+      <Ch Flag="9" />
+      <Ch Flag="9" />
+      <Ch Flag="9" />
+      <Ch Flag="9" />
+      <Ch Flag="9" />
+      <Ch Flag="0" />
+      <Ch Flag="0" />
+    </Fx>
+    <Fx LibName="\_GENERIC\MOVING HEAD.SSL2" IdLib="3" Mode="0" Name="MOVING HEAD  4" ID="4" DmxA="54" DmxU="0" PX="7" PY="1" MasterPosX="14" MasterPosY="4" SX="2" SY="2" Rotation="0">
+      <ColorFilter Color="-1" Name="" Manufacturer="" />
+      <Ch Flag="29" />
+      <Ch Flag="29" />
+      <Ch Flag="29" />
+      <Ch Flag="29" />
+      <Ch Flag="15" />
+      <Ch Flag="15" />
+      <Ch Flag="15" />
+      <Ch Flag="15" />
+      <Ch Flag="15" />
+      <Ch Flag="47" />
+      <Ch Flag="9" />
+      <Ch Flag="9" />
+      <Ch Flag="9" />
+      <Ch Flag="9" />
+      <Ch Flag="9" />
+      <Ch Flag="9" />
+      <Ch Flag="0" />
+      <Ch Flag="0" />
+    </Fx>
+    <Fx LibName="\_GENERIC\MOVING HEAD.SSL2" IdLib="3" Mode="0" Name="MOVING HEAD  5" ID="5" DmxA="72" DmxU="0" PX="1" PY="4" MasterPosX="5" MasterPosY="13" SX="2" SY="2" Rotation="0">
+      <ColorFilter Color="-1" Name="" Manufacturer="" />
+      <Ch Flag="29" />
+      <Ch Flag="29" />
+      <Ch Flag="29" />
+      <Ch Flag="29" />
+      <Ch Flag="15" />
+      <Ch Flag="15" />
+      <Ch Flag="15" />
+      <Ch Flag="15" />
+      <Ch Flag="15" />
+      <Ch Flag="47" />
+      <Ch Flag="9" />
+      <Ch Flag="9" />
+      <Ch Flag="9" />
+      <Ch Flag="9" />
+      <Ch Flag="9" />
+      <Ch Flag="9" />
+      <Ch Flag="0" />
+      <Ch Flag="0" />
+    </Fx>
+    <Fx LibName="\_GENERIC\MOVING HEAD.SSL2" IdLib="3" Mode="0" Name="MOVING HEAD  6" ID="6" DmxA="90" DmxU="0" PX="3" PY="4" MasterPosX="8" MasterPosY="13" SX="2" SY="2" Rotation="0">
+      <ColorFilter Color="-1" Name="" Manufacturer="" />
+      <Ch Flag="29" />
+      <Ch Flag="29" />
+      <Ch Flag="29" />
+      <Ch Flag="29" />
+      <Ch Flag="15" />
+      <Ch Flag="15" />
+      <Ch Flag="15" />
+      <Ch Flag="15" />
+      <Ch Flag="15" />
+      <Ch Flag="47" />
+      <Ch Flag="9" />
+      <Ch Flag="9" />
+      <Ch Flag="9" />
+      <Ch Flag="9" />
+      <Ch Flag="9" />
+      <Ch Flag="9" />
+      <Ch Flag="0" />
+      <Ch Flag="0" />
+    </Fx>
+    <Fx LibName="\_GENERIC\MOVING HEAD.SSL2" IdLib="3" Mode="0" Name="MOVING HEAD  7" ID="7" DmxA="108" DmxU="0" PX="5" PY="4" MasterPosX="11" MasterPosY="13" SX="2" SY="2" Rotation="0">
+      <ColorFilter Color="-1" Name="" Manufacturer="" />
+      <Ch Flag="29" />
+      <Ch Flag="29" />
+      <Ch Flag="29" />
+      <Ch Flag="29" />
+      <Ch Flag="15" />
+      <Ch Flag="15" />
+      <Ch Flag="15" />
+      <Ch Flag="15" />
+      <Ch Flag="15" />
+      <Ch Flag="47" />
+      <Ch Flag="9" />
+      <Ch Flag="9" />
+      <Ch Flag="9" />
+      <Ch Flag="9" />
+      <Ch Flag="9" />
+      <Ch Flag="9" />
+      <Ch Flag="0" />
+      <Ch Flag="0" />
+    </Fx>
+    <Fx LibName="\_GENERIC\MOVING HEAD.SSL2" IdLib="3" Mode="0" Name="MOVING HEAD  8" ID="8" DmxA="126" DmxU="0" PX="7" PY="4" MasterPosX="14" MasterPosY="13" SX="2" SY="2" Rotation="0">
+      <ColorFilter Color="-1" Name="" Manufacturer="" />
+      <Ch Flag="29" />
+      <Ch Flag="29" />
+      <Ch Flag="29" />
+      <Ch Flag="29" />
+      <Ch Flag="15" />
+      <Ch Flag="15" />
+      <Ch Flag="15" />
+      <Ch Flag="15" />
+      <Ch Flag="15" />
+      <Ch Flag="47" />
+      <Ch Flag="9" />
+      <Ch Flag="9" />
+      <Ch Flag="9" />
+      <Ch Flag="9" />
+      <Ch Flag="9" />
+      <Ch Flag="9" />
+      <Ch Flag="0" />
+      <Ch Flag="0" />
+    </Fx>
+    <Fx LibName="\_GENERIC\RGB.SSL2" IdLib="1" Mode="0" Name="RGB  1" ID="9" DmxA="144" DmxU="0" PX="3" PY="8" MasterPosX="3" MasterPosY="8" SX="1" SY="1" Rotation="0">
+      <ColorFilter Color="-1" Name="" Manufacturer="" />
+      <Ch Flag="47" />
+      <Ch Flag="47" />
+      <Ch Flag="47" />
+      <Ch Flag="0" />
+    </Fx>
+    <Fx LibName="\_GENERIC\RGB.SSL2" IdLib="1" Mode="0" Name="RGB  2" ID="10" DmxA="147" DmxU="0" PX="4" PY="8" MasterPosX="4" MasterPosY="8" SX="1" SY="1" Rotation="0">
+      <ColorFilter Color="-1" Name="" Manufacturer="" />
+      <Ch Flag="47" />
+      <Ch Flag="47" />
+      <Ch Flag="47" />
+      <Ch Flag="0" />
+    </Fx>
+    <Fx LibName="\_GENERIC\RGB.SSL2" IdLib="1" Mode="0" Name="RGB  3" ID="11" DmxA="150" DmxU="0" PX="5" PY="8" MasterPosX="5" MasterPosY="8" SX="1" SY="1" Rotation="0">
+      <ColorFilter Color="-1" Name="" Manufacturer="" />
+      <Ch Flag="47" />
+      <Ch Flag="47" />
+      <Ch Flag="47" />
+      <Ch Flag="0" />
+    </Fx>
+    <Fx LibName="\_GENERIC\RGB.SSL2" IdLib="1" Mode="0" Name="RGB  4" ID="12" DmxA="153" DmxU="0" PX="3" PY="9" MasterPosX="3" MasterPosY="9" SX="1" SY="1" Rotation="0">
+      <ColorFilter Color="-1" Name="" Manufacturer="" />
+      <Ch Flag="47" />
+      <Ch Flag="47" />
+      <Ch Flag="47" />
+      <Ch Flag="0" />
+    </Fx>
+    <Fx LibName="\_GENERIC\RGB.SSL2" IdLib="1" Mode="0" Name="RGB  5" ID="13" DmxA="156" DmxU="0" PX="4" PY="9" MasterPosX="4" MasterPosY="9" SX="1" SY="1" Rotation="0">
+      <ColorFilter Color="-1" Name="" Manufacturer="" />
+      <Ch Flag="47" />
+      <Ch Flag="47" />
+      <Ch Flag="47" />
+      <Ch Flag="0" />
+    </Fx>
+    <Fx LibName="\_GENERIC\RGB.SSL2" IdLib="1" Mode="0" Name="RGB  6" ID="14" DmxA="159" DmxU="0" PX="5" PY="9" MasterPosX="5" MasterPosY="9" SX="1" SY="1" Rotation="0">
+      <ColorFilter Color="-1" Name="" Manufacturer="" />
+      <Ch Flag="47" />
+      <Ch Flag="47" />
+      <Ch Flag="47" />
+      <Ch Flag="0" />
+    </Fx>
+    <Fx LibName="\_GENERIC\RGB.SSL2" IdLib="1" Mode="0" Name="RGB  7" ID="15" DmxA="162" DmxU="0" PX="3" PY="10" MasterPosX="3" MasterPosY="10" SX="1" SY="1" Rotation="0">
+      <ColorFilter Color="-1" Name="" Manufacturer="" />
+      <Ch Flag="47" />
+      <Ch Flag="47" />
+      <Ch Flag="47" />
+      <Ch Flag="0" />
+    </Fx>
+    <Fx LibName="\_GENERIC\RGB.SSL2" IdLib="1" Mode="0" Name="RGB  8" ID="16" DmxA="165" DmxU="0" PX="4" PY="10" MasterPosX="4" MasterPosY="10" SX="1" SY="1" Rotation="0">
+      <ColorFilter Color="-1" Name="" Manufacturer="" />
+      <Ch Flag="47" />
+      <Ch Flag="47" />
+      <Ch Flag="47" />
+      <Ch Flag="0" />
+    </Fx>
+    <Fx LibName="\_GENERIC\RGB.SSL2" IdLib="1" Mode="0" Name="RGB  9" ID="17" DmxA="168" DmxU="0" PX="5" PY="10" MasterPosX="5" MasterPosY="10" SX="1" SY="1" Rotation="0">
+      <ColorFilter Color="-1" Name="" Manufacturer="" />
+      <Ch Flag="47" />
+      <Ch Flag="47" />
+      <Ch Flag="47" />
+      <Ch Flag="0" />
+    </Fx>
+    <Fx LibName="\_GENERIC\RGB.SSL2" IdLib="1" Mode="0" Name="RGB 10" ID="18" DmxA="171" DmxU="0" PX="7" PY="8" MasterPosX="7" MasterPosY="8" SX="1" SY="1" Rotation="0">
+      <ColorFilter Color="-1" Name="" Manufacturer="" />
+      <Ch Flag="47" />
+      <Ch Flag="47" />
+      <Ch Flag="47" />
+      <Ch Flag="0" />
+    </Fx>
+    <Fx LibName="\_GENERIC\RGB.SSL2" IdLib="1" Mode="0" Name="RGB 11" ID="19" DmxA="174" DmxU="0" PX="8" PY="8" MasterPosX="8" MasterPosY="8" SX="1" SY="1" Rotation="0">
+      <ColorFilter Color="-1" Name="" Manufacturer="" />
+      <Ch Flag="47" />
+      <Ch Flag="47" />
+      <Ch Flag="47" />
+      <Ch Flag="0" />
+    </Fx>
+    <Fx LibName="\_GENERIC\RGB.SSL2" IdLib="1" Mode="0" Name="RGB 12" ID="20" DmxA="177" DmxU="0" PX="9" PY="8" MasterPosX="9" MasterPosY="8" SX="1" SY="1" Rotation="0">
+      <ColorFilter Color="-1" Name="" Manufacturer="" />
+      <Ch Flag="47" />
+      <Ch Flag="47" />
+      <Ch Flag="47" />
+      <Ch Flag="0" />
+    </Fx>
+    <Fx LibName="\_GENERIC\RGB.SSL2" IdLib="1" Mode="0" Name="RGB 13" ID="21" DmxA="180" DmxU="0" PX="7" PY="9" MasterPosX="7" MasterPosY="9" SX="1" SY="1" Rotation="0">
+      <ColorFilter Color="-1" Name="" Manufacturer="" />
+      <Ch Flag="47" />
+      <Ch Flag="47" />
+      <Ch Flag="47" />
+      <Ch Flag="0" />
+    </Fx>
+    <Fx LibName="\_GENERIC\RGB.SSL2" IdLib="1" Mode="0" Name="RGB 14" ID="22" DmxA="183" DmxU="0" PX="8" PY="9" MasterPosX="8" MasterPosY="9" SX="1" SY="1" Rotation="0">
+      <ColorFilter Color="-1" Name="" Manufacturer="" />
+      <Ch Flag="47" />
+      <Ch Flag="47" />
+      <Ch Flag="47" />
+      <Ch Flag="0" />
+    </Fx>
+    <Fx LibName="\_GENERIC\RGB.SSL2" IdLib="1" Mode="0" Name="RGB 15" ID="23" DmxA="186" DmxU="0" PX="9" PY="9" MasterPosX="9" MasterPosY="9" SX="1" SY="1" Rotation="0">
+      <ColorFilter Color="-1" Name="" Manufacturer="" />
+      <Ch Flag="47" />
+      <Ch Flag="47" />
+      <Ch Flag="47" />
+      <Ch Flag="0" />
+    </Fx>
+    <Fx LibName="\_GENERIC\RGB.SSL2" IdLib="1" Mode="0" Name="RGB 16" ID="24" DmxA="189" DmxU="0" PX="7" PY="10" MasterPosX="7" MasterPosY="10" SX="1" SY="1" Rotation="0">
+      <ColorFilter Color="-1" Name="" Manufacturer="" />
+      <Ch Flag="47" />
+      <Ch Flag="47" />
+      <Ch Flag="47" />
+      <Ch Flag="0" />
+    </Fx>
+    <Fx LibName="\_GENERIC\RGB.SSL2" IdLib="1" Mode="0" Name="RGB 17" ID="25" DmxA="192" DmxU="0" PX="8" PY="10" MasterPosX="8" MasterPosY="10" SX="1" SY="1" Rotation="0">
+      <ColorFilter Color="-1" Name="" Manufacturer="" />
+      <Ch Flag="47" />
+      <Ch Flag="47" />
+      <Ch Flag="47" />
+      <Ch Flag="0" />
+    </Fx>
+    <Fx LibName="\_GENERIC\RGB.SSL2" IdLib="1" Mode="0" Name="RGB 18" ID="26" DmxA="195" DmxU="0" PX="9" PY="10" MasterPosX="9" MasterPosY="10" SX="1" SY="1" Rotation="0">
+      <ColorFilter Color="-1" Name="" Manufacturer="" />
+      <Ch Flag="47" />
+      <Ch Flag="47" />
+      <Ch Flag="47" />
+      <Ch Flag="0" />
+    </Fx>
+    <Fx LibName="\_GENERIC\RGB.SSL2" IdLib="1" Mode="0" Name="RGB 19" ID="27" DmxA="198" DmxU="0" PX="11" PY="8" MasterPosX="11" MasterPosY="8" SX="1" SY="1" Rotation="0">
+      <ColorFilter Color="-1" Name="" Manufacturer="" />
+      <Ch Flag="47" />
+      <Ch Flag="47" />
+      <Ch Flag="47" />
+      <Ch Flag="0" />
+    </Fx>
+    <Fx LibName="\_GENERIC\RGB.SSL2" IdLib="1" Mode="0" Name="RGB 20" ID="28" DmxA="201" DmxU="0" PX="12" PY="8" MasterPosX="12" MasterPosY="8" SX="1" SY="1" Rotation="0">
+      <ColorFilter Color="-1" Name="" Manufacturer="" />
+      <Ch Flag="47" />
+      <Ch Flag="47" />
+      <Ch Flag="47" />
+      <Ch Flag="0" />
+    </Fx>
+    <Fx LibName="\_GENERIC\RGB.SSL2" IdLib="1" Mode="0" Name="RGB 21" ID="29" DmxA="204" DmxU="0" PX="13" PY="8" MasterPosX="13" MasterPosY="8" SX="1" SY="1" Rotation="0">
+      <ColorFilter Color="-1" Name="" Manufacturer="" />
+      <Ch Flag="47" />
+      <Ch Flag="47" />
+      <Ch Flag="47" />
+      <Ch Flag="0" />
+    </Fx>
+    <Fx LibName="\_GENERIC\RGB.SSL2" IdLib="1" Mode="0" Name="RGB 22" ID="30" DmxA="207" DmxU="0" PX="11" PY="9" MasterPosX="11" MasterPosY="9" SX="1" SY="1" Rotation="0">
+      <ColorFilter Color="-1" Name="" Manufacturer="" />
+      <Ch Flag="47" />
+      <Ch Flag="47" />
+      <Ch Flag="47" />
+      <Ch Flag="0" />
+    </Fx>
+    <Fx LibName="\_GENERIC\RGB.SSL2" IdLib="1" Mode="0" Name="RGB 23" ID="31" DmxA="210" DmxU="0" PX="12" PY="9" MasterPosX="12" MasterPosY="9" SX="1" SY="1" Rotation="0">
+      <ColorFilter Color="-1" Name="" Manufacturer="" />
+      <Ch Flag="47" />
+      <Ch Flag="47" />
+      <Ch Flag="47" />
+      <Ch Flag="0" />
+    </Fx>
+    <Fx LibName="\_GENERIC\RGB.SSL2" IdLib="1" Mode="0" Name="RGB 24" ID="32" DmxA="213" DmxU="0" PX="13" PY="9" MasterPosX="13" MasterPosY="9" SX="1" SY="1" Rotation="0">
+      <ColorFilter Color="-1" Name="" Manufacturer="" />
+      <Ch Flag="47" />
+      <Ch Flag="47" />
+      <Ch Flag="47" />
+      <Ch Flag="0" />
+    </Fx>
+    <Fx LibName="\_GENERIC\RGB.SSL2" IdLib="1" Mode="0" Name="RGB 25" ID="33" DmxA="216" DmxU="0" PX="11" PY="10" MasterPosX="11" MasterPosY="10" SX="1" SY="1" Rotation="0">
+      <ColorFilter Color="-1" Name="" Manufacturer="" />
+      <Ch Flag="47" />
+      <Ch Flag="47" />
+      <Ch Flag="47" />
+      <Ch Flag="0" />
+    </Fx>
+    <Fx LibName="\_GENERIC\RGB.SSL2" IdLib="1" Mode="0" Name="RGB 26" ID="34" DmxA="219" DmxU="0" PX="12" PY="10" MasterPosX="12" MasterPosY="10" SX="1" SY="1" Rotation="0">
+      <ColorFilter Color="-1" Name="" Manufacturer="" />
+      <Ch Flag="47" />
+      <Ch Flag="47" />
+      <Ch Flag="47" />
+      <Ch Flag="0" />
+    </Fx>
+    <Fx LibName="\_GENERIC\RGB.SSL2" IdLib="1" Mode="0" Name="RGB 27" ID="35" DmxA="222" DmxU="0" PX="13" PY="10" MasterPosX="13" MasterPosY="10" SX="1" SY="1" Rotation="0">
+      <ColorFilter Color="-1" Name="" Manufacturer="" />
+      <Ch Flag="47" />
+      <Ch Flag="47" />
+      <Ch Flag="47" />
+      <Ch Flag="0" />
+    </Fx>
+    <Fx LibName="\_GENERIC\RGB.SSL2" IdLib="1" Mode="0" Name="RGB 28" ID="36" DmxA="225" DmxU="0" PX="15" PY="8" MasterPosX="15" MasterPosY="8" SX="1" SY="1" Rotation="0">
+      <ColorFilter Color="-1" Name="" Manufacturer="" />
+      <Ch Flag="47" />
+      <Ch Flag="47" />
+      <Ch Flag="47" />
+      <Ch Flag="0" />
+    </Fx>
+    <Fx LibName="\_GENERIC\RGB.SSL2" IdLib="1" Mode="0" Name="RGB 29" ID="37" DmxA="228" DmxU="0" PX="16" PY="8" MasterPosX="16" MasterPosY="8" SX="1" SY="1" Rotation="0">
+      <ColorFilter Color="-1" Name="" Manufacturer="" />
+      <Ch Flag="47" />
+      <Ch Flag="47" />
+      <Ch Flag="47" />
+      <Ch Flag="0" />
+    </Fx>
+    <Fx LibName="\_GENERIC\RGB.SSL2" IdLib="1" Mode="0" Name="RGB 30" ID="38" DmxA="231" DmxU="0" PX="17" PY="8" MasterPosX="17" MasterPosY="8" SX="1" SY="1" Rotation="0">
+      <ColorFilter Color="-1" Name="" Manufacturer="" />
+      <Ch Flag="47" />
+      <Ch Flag="47" />
+      <Ch Flag="47" />
+      <Ch Flag="0" />
+    </Fx>
+    <Fx LibName="\_GENERIC\RGB.SSL2" IdLib="1" Mode="0" Name="RGB 31" ID="39" DmxA="234" DmxU="0" PX="15" PY="9" MasterPosX="15" MasterPosY="9" SX="1" SY="1" Rotation="0">
+      <ColorFilter Color="-1" Name="" Manufacturer="" />
+      <Ch Flag="47" />
+      <Ch Flag="47" />
+      <Ch Flag="47" />
+      <Ch Flag="0" />
+    </Fx>
+    <Fx LibName="\_GENERIC\RGB.SSL2" IdLib="1" Mode="0" Name="RGB 32" ID="40" DmxA="237" DmxU="0" PX="16" PY="9" MasterPosX="16" MasterPosY="9" SX="1" SY="1" Rotation="0">
+      <ColorFilter Color="-1" Name="" Manufacturer="" />
+      <Ch Flag="47" />
+      <Ch Flag="47" />
+      <Ch Flag="47" />
+      <Ch Flag="0" />
+    </Fx>
+    <Fx LibName="\_GENERIC\RGB.SSL2" IdLib="1" Mode="0" Name="RGB 33" ID="41" DmxA="240" DmxU="0" PX="17" PY="9" MasterPosX="17" MasterPosY="9" SX="1" SY="1" Rotation="0">
+      <ColorFilter Color="-1" Name="" Manufacturer="" />
+      <Ch Flag="47" />
+      <Ch Flag="47" />
+      <Ch Flag="47" />
+      <Ch Flag="0" />
+    </Fx>
+    <Fx LibName="\_GENERIC\RGB.SSL2" IdLib="1" Mode="0" Name="RGB 34" ID="42" DmxA="243" DmxU="0" PX="15" PY="10" MasterPosX="15" MasterPosY="10" SX="1" SY="1" Rotation="0">
+      <ColorFilter Color="-1" Name="" Manufacturer="" />
+      <Ch Flag="47" />
+      <Ch Flag="47" />
+      <Ch Flag="47" />
+      <Ch Flag="0" />
+    </Fx>
+    <Fx LibName="\_GENERIC\RGB.SSL2" IdLib="1" Mode="0" Name="RGB 35" ID="43" DmxA="246" DmxU="0" PX="16" PY="10" MasterPosX="16" MasterPosY="10" SX="1" SY="1" Rotation="0">
+      <ColorFilter Color="-1" Name="" Manufacturer="" />
+      <Ch Flag="47" />
+      <Ch Flag="47" />
+      <Ch Flag="47" />
+      <Ch Flag="0" />
+    </Fx>
+    <Fx LibName="\_GENERIC\RGB.SSL2" IdLib="1" Mode="0" Name="RGB 36" ID="44" DmxA="249" DmxU="0" PX="17" PY="10" MasterPosX="17" MasterPosY="10" SX="1" SY="1" Rotation="0">
+      <ColorFilter Color="-1" Name="" Manufacturer="" />
+      <Ch Flag="47" />
+      <Ch Flag="47" />
+      <Ch Flag="47" />
+      <Ch Flag="0" />
+    </Fx>
+    <Fx LibName="\_GENERIC\PAR 64.SSL2" IdLib="2" Mode="0" Name="PAR 64  1" ID="45" DmxA="252" DmxU="0" PX="2" PY="4" MasterPosX="2" MasterPosY="4" SX="1" SY="1" Rotation="0">
+      <ColorFilter Color="-1" Name="" Manufacturer="" />
+      <Ch Flag="47" />
+    </Fx>
+    <Fx LibName="\_GENERIC\PAR 64.SSL2" IdLib="2" Mode="0" Name="PAR 64  2" ID="46" DmxA="253" DmxU="0" PX="3" PY="3" MasterPosX="3" MasterPosY="3" SX="1" SY="1" Rotation="0">
+      <ColorFilter Color="-1" Name="" Manufacturer="" />
+      <Ch Flag="47" />
+    </Fx>
+    <Fx LibName="\_GENERIC\PAR 64.SSL2" IdLib="2" Mode="0" Name="PAR 64  3" ID="47" DmxA="254" DmxU="0" PX="4" PY="2" MasterPosX="4" MasterPosY="2" SX="1" SY="1" Rotation="0">
+      <ColorFilter Color="-1" Name="" Manufacturer="" />
+      <Ch Flag="47" />
+    </Fx>
+    <Fx LibName="\_GENERIC\PAR 64.SSL2" IdLib="2" Mode="0" Name="PAR 64  4" ID="48" DmxA="255" DmxU="0" PX="5" PY="1" MasterPosX="5" MasterPosY="1" SX="1" SY="1" Rotation="0">
+      <ColorFilter Color="-1" Name="" Manufacturer="" />
+      <Ch Flag="47" />
+    </Fx>
+    <Fx LibName="\_GENERIC\PAR 64.SSL2" IdLib="2" Mode="0" Name="PAR 64  5" ID="49" DmxA="256" DmxU="0" PX="18" PY="4" MasterPosX="18" MasterPosY="4" SX="1" SY="1" Rotation="0">
+      <ColorFilter Color="-1" Name="" Manufacturer="" />
+      <Ch Flag="47" />
+    </Fx>
+    <Fx LibName="\_GENERIC\PAR 64.SSL2" IdLib="2" Mode="0" Name="PAR 64  6" ID="50" DmxA="257" DmxU="0" PX="17" PY="3" MasterPosX="17" MasterPosY="3" SX="1" SY="1" Rotation="0">
+      <ColorFilter Color="-1" Name="" Manufacturer="" />
+      <Ch Flag="47" />
+    </Fx>
+    <Fx LibName="\_GENERIC\PAR 64.SSL2" IdLib="2" Mode="0" Name="PAR 64  7" ID="51" DmxA="258" DmxU="0" PX="16" PY="2" MasterPosX="16" MasterPosY="2" SX="1" SY="1" Rotation="0">
+      <ColorFilter Color="-1" Name="" Manufacturer="" />
+      <Ch Flag="47" />
+    </Fx>
+    <Fx LibName="\_GENERIC\PAR 64.SSL2" IdLib="2" Mode="0" Name="PAR 64  8" ID="52" DmxA="259" DmxU="0" PX="15" PY="1" MasterPosX="15" MasterPosY="1" SX="1" SY="1" Rotation="0">
+      <ColorFilter Color="-1" Name="" Manufacturer="" />
+      <Ch Flag="47" />
+    </Fx>
+  </Fxs>
+</PagesFixtures>

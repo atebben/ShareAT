@@ -1,0 +1,17 @@
+<ZoneParam Author="dylan" Version="1.0">
+  <Zone Type="0" ID="200">
+    <Button Name="I N I T" Index="0" />
+    <Button Name="COLOR EFFECTSRAINBOW" Index="1" />
+    <Group Name="SPEED" Index="2" />
+    <Group Name="MODE" Index="3" />
+  </Zone>
+  <Zone Type="1" ID="201">
+    <Button Name="PAR64_COLOR ALL" Index="0" />
+    <Button Name="PAR64_COLOR L1" Index="0" />
+    <Button Name="PAR64_COLOR L2" Index="0" />
+    <Button Name="PAR64_COLOR L3" Index="0" />
+    <Button Name="PAR64_COLOR L4" Index="0" />
+    <Button Name="PAR64_COLOR L5" Index="0" />
+    <Button Name="PAR64_COLOR L6" Index="0" />
+  </Zone>
+</ZoneParam>

@@ -1,0 +1,17 @@
+<ZoneParam Author="dylan" Version="1.0">
+  <Zone Type="0" ID="200">
+    <Button Name="I N I T" Index="0" />
+    <Group Name="POSITION" Index="1" />
+    <Group Name="DIMMER" Index="2" />
+    <Group Name="P_T SPEED" Index="3" />
+    <Group Name="COLOR" Index="4" />
+    <Group Name="SHUTTER" Index="5" />
+    <Group Name="GOBO" Index="6" />
+    <Group Name="GOBO ROTATION" Index="7" />
+    <Group Name="FUNCTION" Index="8" />
+    <Group Name="PROGRAM BUILT-IN" Index="9" />
+  </Zone>
+  <Zone Type="2" ID="201">
+    <Group Name="X-Y " Index="0" />
+  </Zone>
+</ZoneParam>

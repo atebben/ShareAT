@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DockingPaneLayouts CompactMode="1">
+	<Common>
+		<Summary Panes="19" TopContainer="13" Client="17"/>
+		<Pane-1 Type="0" DockingCX="11" DockingCY="11" Title="Ansicht" ID="200" Options="23" DockingHolder="15" FloatingHolder="6" LastHolder="15"/>
+		<Pane-2 Type="0" DockingCX="11" DockingCY="11" Title="Vorschau" ID="201" Options="22" DockingHolder="18" FloatingHolder="9" LastHolder="18"/>
+		<Pane-3 Type="0" DockingCX="11" DockingCY="11" Title="Liste" ID="202" Options="23" DockingHolder="19" FloatingHolder="12" LastHolder="19"/>
+		<Pane-4 Type="3" WindowRectTopPos="0" WindowRectBottomPos="10" WindowRectLeftPos="0" WindowRectRightPos="10" TopContaner="5"/>
+		<Pane-5 Type="2" DockingCX="11" DockingCY="11" Horiz="1" Panes="1" Pane-1="6"/>
+		<Pane-6 Type="1" DockingCX="11" DockingCY="11" Panes="0"/>
+		<Pane-7 Type="3" WindowRectTopPos="0" WindowRectBottomPos="10" WindowRectLeftPos="0" WindowRectRightPos="10" TopContaner="8"/>
+		<Pane-8 Type="2" DockingCX="11" DockingCY="11" Horiz="1" Panes="1" Pane-1="9"/>
+		<Pane-9 Type="1" DockingCX="11" DockingCY="11" Panes="0"/>
+		<Pane-10 Type="3" WindowRectTopPos="0" WindowRectBottomPos="10" WindowRectLeftPos="0" WindowRectRightPos="10" TopContaner="11"/>
+		<Pane-11 Type="2" DockingCX="11" DockingCY="11" Horiz="1" Panes="1" Pane-1="12"/>
+		<Pane-12 Type="1" DockingCX="11" DockingCY="11" Panes="0"/>
+		<Pane-13 Type="2" DockingCX="1301" Horiz="1" Panes="2" Pane-1="14" Pane-2="19"/>
+		<Pane-14 Type="2" DockingCX="581" DockingCY="723" Panes="3" Pane-1="15" Pane-2="16" Pane-3="18"/>
+		<Pane-15 Type="1" DockingCX="11" DockingCY="454" Panes="1" Selected="1" Pane-1="1"/>
+		<Pane-16 Type="2" Horiz="1" Panes="1" Pane-1="17"/>
+		<Pane-17 Type="4"/>
+		<Pane-18 Type="1" DockingCX="11" DockingCY="265" Panes="1" Selected="2" Pane-1="2"/>
+		<Pane-19 Type="1" DockingCX="716" DockingCY="11" Panes="0"/>
+	</Common>
+	<DockCycle DrawType="2"/>
+</DockingPaneLayouts>

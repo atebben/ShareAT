@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DockingPaneLayouts CompactMode="1">
+	<Common>
+		<Summary Panes="14" TopContainer="5" Client="9"/>
+		<Pane-1 Type="0" DockingCX="200" DockingCY="120" Title="palette list" ID="100" Options="7" DockingHolder="12" LastHolder="12" MinTrackX="160" MinTrackY="95"/>
+		<Pane-2 Type="0" DockingCX="200" DockingCY="120" Title="global effects" ID="101" Options="7" DockingHolder="13" LastHolder="13" MinTrackX="160" MinTrackY="118"/>
+		<Pane-3 Type="0" DockingCX="200" DockingCY="120" Title="Fixtures" ID="102" Options="7" DockingHolder="11" LastHolder="11"/>
+		<Pane-4 Type="0" DockingCX="200" DockingCY="120" Title="Fixtures" ID="103" Options="7" DockingHolder="14" LastHolder="14"/>
+		<Pane-5 Type="2" DockingCY="724" Panes="2" Pane-1="6" Pane-2="14"/>
+		<Pane-6 Type="2" DockingCX="1432" DockingCY="391" Horiz="1" Panes="2" Pane-1="7" Pane-2="13"/>
+		<Pane-7 Type="2" DockingCX="929" Panes="2" Pane-1="8" Pane-2="10"/>
+		<Pane-8 Type="2" Horiz="1" Panes="1" Pane-1="9"/>
+		<Pane-9 Type="4"/>
+		<Pane-10 Type="2" DockingCX="1158" DockingCY="120" Horiz="1" Panes="2" Pane-1="11" Pane-2="12"/>
+		<Pane-11 Type="1" DockingCX="552" DockingCY="120" Panes="1" Selected="3" Pane-1="3"/>
+		<Pane-12 Type="1" DockingCX="602" DockingCY="120" Panes="1" Selected="1" Pane-1="1"/>
+		<Pane-13 Type="1" DockingCX="499" DockingCY="120" Panes="1" Selected="2" Pane-1="2"/>
+		<Pane-14 Type="1" DockingCX="200" DockingCY="329" Panes="1" Selected="4" Pane-1="4"/>
+	</Common>
+	<PosFrame x="-8" y="-8" cx="1936" cy="1056"/>
+	<ToolbarOptions Schema="32" AlwaysShowFullMenus="1" ShowFullAfterDelay="1" ToolBarScreenTips="1" ToolBarAccelTips="0" LargeIcons="1" Animation="0"/>
+	<Layout>
+		<DockState Version="32" ScreenSize="1920, 1080" Count="1">
+			<BarInfo0 BarId="304" MRUWidth="32767"/>
+		</DockState>
+		<DockBars>
+			<DockBar0 Count="3" Id1="304"/>
+		</DockBars>
+	</Layout>
+</DockingPaneLayouts>

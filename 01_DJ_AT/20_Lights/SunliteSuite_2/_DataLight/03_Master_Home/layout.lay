@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DockingPaneLayouts CompactMode="1">
+	<Common>
+		<Summary Panes="57" TopContainer="49" Client="54"/>
+		<Pane-1 Type="0" DockingCX="716" DockingCY="673" Title="Seiten" ID="101" Options="18" DockingHolder="52" FloatingHolder="15" LastHolder="52" MinTrackX="300" MinTrackY="200"/>
+		<Pane-2 Type="0" DockingCX="200" DockingCY="120" Title="Konsole" ID="103" Options="18" DockingHolder="52" FloatingHolder="18" LastHolder="52" MinTrackX="300" MinTrackY="200"/>
+		<Pane-3 Type="0" DockingCX="200" DockingCY="120" Title="Szene blenden (Fade)" ID="105" Options="18" DockingHolder="57" FloatingHolder="21" LastHolder="57" MinTrackX="240" MinTrackY="400"/>
+		<Pane-4 Type="0" DockingCX="200" DockingCY="120" Title="DMX Pegel" ID="102" Options="18" DockingHolder="55" FloatingHolder="24" LastHolder="55" MinTrackX="240" MinTrackY="240"/>
+		<Pane-5 Type="0" DockingCX="200" DockingCY="120" Title="Zyklus" ID="100" Options="18" DockingHolder="55" FloatingHolder="27" LastHolder="55" MinTrackX="240" MinTrackY="240"/>
+		<Pane-6 Type="0" DockingCX="10" DockingCY="10" Title="Geräte" ID="106" Options="18" DockingHolder="52" FloatingHolder="30" LastHolder="52" MinTrackX="240" MinTrackY="240"/>
+		<Pane-7 Type="0" DockingCX="10" DockingCY="10" Title="Favoriten" ID="107" Options="18" DockingHolder="52" FloatingHolder="33" LastHolder="52" MinTrackX="240" MinTrackY="240"/>
+		<Pane-8 Type="0" DockingCX="200" DockingCY="120" Title="_MASTER" ID="110" Options="18" DockingHolder="56" FloatingHolder="36" LastHolder="56" MinTrackX="154" MinTrackY="300"/>
+		<Pane-9 Type="0" DockingCX="968" DockingCY="120" Title="MH-X25" ID="111" Options="18" DockingHolder="56" FloatingHolder="39" LastHolder="56" MinTrackX="154" MinTrackY="300"/>
+		<Pane-10 Type="0" DockingCX="968" DockingCY="120" Title="CLS3" ID="112" Options="18" DockingHolder="56" FloatingHolder="42" LastHolder="56" MinTrackX="154" MinTrackY="300"/>
+		<Pane-11 Type="0" DockingCX="968" DockingCY="120" Title="PAR56" ID="113" Options="18" DockingHolder="56" FloatingHolder="45" LastHolder="56" MinTrackX="154" MinTrackY="300"/>
+		<Pane-12 Type="0" DockingCX="968" DockingCY="120" Title="PAR64" ID="114" Options="18" DockingHolder="56" FloatingHolder="48" LastHolder="56" MinTrackX="154" MinTrackY="300"/>
+		<Pane-13 Type="3" WindowRectTopPos="0" WindowRectBottomPos="200" WindowRectLeftPos="0" WindowRectRightPos="300" TopContaner="14"/>
+		<Pane-14 Type="2" DockingCX="716" DockingCY="673" Horiz="1" Panes="1" Pane-1="15"/>
+		<Pane-15 Type="1" DockingCX="716" DockingCY="673" Panes="0"/>
+		<Pane-16 Type="3" WindowRectTopPos="0" WindowRectBottomPos="200" WindowRectLeftPos="0" WindowRectRightPos="300" TopContaner="17"/>
+		<Pane-17 Type="2" DockingCX="200" DockingCY="120" Horiz="1" Panes="1" Pane-1="18"/>
+		<Pane-18 Type="1" DockingCX="200" DockingCY="120" Panes="0"/>
+		<Pane-19 Type="3" WindowRectTopPos="0" WindowRectBottomPos="400" WindowRectLeftPos="0" WindowRectRightPos="240" TopContaner="20"/>
+		<Pane-20 Type="2" DockingCX="200" DockingCY="120" Horiz="1" Panes="1" Pane-1="21"/>
+		<Pane-21 Type="1" DockingCX="200" DockingCY="120" Panes="0"/>
+		<Pane-22 Type="3" WindowRectTopPos="0" WindowRectBottomPos="400" WindowRectLeftPos="0" WindowRectRightPos="240" TopContaner="23"/>
+		<Pane-23 Type="2" DockingCX="200" DockingCY="120" Horiz="1" Panes="1" Pane-1="24"/>
+		<Pane-24 Type="1" DockingCX="200" DockingCY="120" Panes="0"/>
+		<Pane-25 Type="3" WindowRectTopPos="0" WindowRectBottomPos="240" WindowRectLeftPos="0" WindowRectRightPos="240" TopContaner="26"/>
+		<Pane-26 Type="2" DockingCX="200" DockingCY="120" Horiz="1" Panes="1" Pane-1="27"/>
+		<Pane-27 Type="1" DockingCX="200" DockingCY="120" Panes="0"/>
+		<Pane-28 Type="3" WindowRectTopPos="0" WindowRectBottomPos="240" WindowRectLeftPos="0" WindowRectRightPos="240" TopContaner="29"/>
+		<Pane-29 Type="2" DockingCX="10" DockingCY="10" Horiz="1" Panes="1" Pane-1="30"/>
+		<Pane-30 Type="1" DockingCX="10" DockingCY="10" Panes="0"/>
+		<Pane-31 Type="3" WindowRectTopPos="0" WindowRectBottomPos="240" WindowRectLeftPos="0" WindowRectRightPos="240" TopContaner="32"/>
+		<Pane-32 Type="2" DockingCX="10" DockingCY="10" Horiz="1" Panes="1" Pane-1="33"/>
+		<Pane-33 Type="1" DockingCX="10" DockingCY="10" Panes="0"/>
+		<Pane-34 Type="3" WindowRectTopPos="0" WindowRectBottomPos="300" WindowRectLeftPos="0" WindowRectRightPos="150" TopContaner="35"/>
+		<Pane-35 Type="2" DockingCX="200" DockingCY="120" Horiz="1" Panes="1" Pane-1="36"/>
+		<Pane-36 Type="1" DockingCX="200" DockingCY="120" Panes="0"/>
+		<Pane-37 Type="3" WindowRectTopPos="0" WindowRectBottomPos="300" WindowRectLeftPos="0" WindowRectRightPos="150" TopContaner="38"/>
+		<Pane-38 Type="2" DockingCX="968" DockingCY="120" Horiz="1" Panes="1" Pane-1="39"/>
+		<Pane-39 Type="1" DockingCX="968" DockingCY="120" Panes="0"/>
+		<Pane-40 Type="3" WindowRectTopPos="0" WindowRectBottomPos="300" WindowRectLeftPos="0" WindowRectRightPos="150" TopContaner="41"/>
+		<Pane-41 Type="2" DockingCX="968" DockingCY="120" Horiz="1" Panes="1" Pane-1="42"/>
+		<Pane-42 Type="1" DockingCX="968" DockingCY="120" Panes="0"/>
+		<Pane-43 Type="3" WindowRectTopPos="0" WindowRectBottomPos="300" WindowRectLeftPos="0" WindowRectRightPos="150" TopContaner="44"/>
+		<Pane-44 Type="2" DockingCX="968" DockingCY="120" Horiz="1" Panes="1" Pane-1="45"/>
+		<Pane-45 Type="1" DockingCX="968" DockingCY="120" Panes="0"/>
+		<Pane-46 Type="3" WindowRectTopPos="0" WindowRectBottomPos="300" WindowRectLeftPos="0" WindowRectRightPos="150" TopContaner="47"/>
+		<Pane-47 Type="2" DockingCX="968" DockingCY="120" Horiz="1" Panes="1" Pane-1="48"/>
+		<Pane-48 Type="1" DockingCX="968" DockingCY="120" Panes="0"/>
+		<Pane-49 Type="2" DockingCX="1920" Horiz="1" Panes="3" Pane-1="50" Pane-2="56" Pane-3="57"/>
+		<Pane-50 Type="2" DockingCX="916" DockingCY="908" Panes="2" Pane-1="51" Pane-2="55"/>
+		<Pane-51 Type="2" DockingCX="1920" DockingCY="420" Horiz="1" Panes="2" Pane-1="52" Pane-2="53"/>
+		<Pane-52 Type="1" DockingCX="200" DockingCY="120" Panes="3" Selected="1" Pane-1="1" Pane-2="6" Pane-3="7"/>
+		<Pane-53 Type="2" DockingCX="1920" Panes="1" Pane-1="54"/>
+		<Pane-54 Type="4"/>
+		<Pane-55 Type="1" DockingCX="200" DockingCY="484" Panes="2" Selected="5" Pane-1="4" Pane-2="5"/>
+		<Pane-56 Type="1" DockingCX="1000" DockingCY="120" Panes="5" Selected="8" Pane-1="8" Pane-2="9" Pane-3="10" Pane-4="11" Pane-5="12"/>
+		<Pane-57 Type="1" DockingCX="200" DockingCY="120" Panes="0"/>
+	</Common>
+	<PosFrame x="-8" y="-8" cx="1936" cy="1066"/>
+</DockingPaneLayouts>

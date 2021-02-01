@@ -1,0 +1,7 @@
+<scene_group_rect Author="dylan" Version="1.0">
+  <GroupRect ID="3" Loop="1" Bg="0" iBg="0">
+    <TimeLine Name="" Mode="0">
+      <Block Type="5" EffectManagerIndex="2" Time="0" Duree="300" />
+    </TimeLine>
+  </GroupRect>
+</scene_group_rect>

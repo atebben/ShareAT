@@ -1,0 +1,24 @@
+<ZoneParam Author="dylan" Version="1.0">
+  <Zone Type="0" ID="201" />
+  <Zone Type="0" ID="202">
+    <Group Name="MH-X25_DIMMER" Index="0" />
+    <Group Name="MH-X25_COLOR" Index="1" />
+    <Group Name="MH-X25_POSITION" Index="2" />
+    <Group Name="MH-X25_GOBO" Index="3" />
+    <Group Name="MH-X25_GOBO ROTATION" Index="4" />
+  </Zone>
+  <Zone Type="0" ID="203">
+    <Group Name="PLATINUM LINE CLS-3_DIMMER_SPEED_SENSITIVITY" Index="0" />
+    <Group Name="PLATINUM LINE CLS-3_RGB " Index="1" />
+    <Group Name="PLATINUM LINE CLS-3_FLASH" Index="2" />
+  </Zone>
+  <Zone Type="0" ID="204">
+    <Group Name="LED PAR 64_RGB " Index="0" />
+    <Group Name="LED PAR 56_RGB " Index="1" />
+  </Zone>
+  <Zone Type="0" ID="200" />
+  <Zone Type="0" ID="205" />
+  <Zone Type="0" ID="206">
+    <Button Name="MH-X25_X-Y ALL" Index="0" />
+  </Zone>
+</ZoneParam>

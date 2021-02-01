@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DockingPaneLayouts CompactMode="1">
+	<Common>
+		<Summary Panes="24" TopContainer="8" Client="11"/>
+		<Pane-1 Type="0" DockingCX="200" DockingCY="122" Title="ALL Devices" ID="200" Options="7" DockingHolder="15" LastHolder="15"/>
+		<Pane-2 Type="0" DockingCX="200" DockingCY="122" Title="MovingHeads" ID="201" Options="7" DockingHolder="19" LastHolder="19"/>
+		<Pane-3 Type="0" DockingCX="200" DockingCY="122" Title="QUAD Lamp" ID="202" Options="7" DockingHolder="23" LastHolder="23"/>
+		<Pane-4 Type="0" DockingCX="200" DockingCY="122" Title="Par Lamp" ID="203" Options="7" DockingHolder="24" LastHolder="24"/>
+		<Pane-5 Type="0" DockingCX="200" DockingCY="122" Title="MovingHeads MH-X25 PosVar" ID="204" Options="7" DockingHolder="21" LastHolder="21"/>
+		<Pane-6 Type="0" DockingCX="200" DockingCY="122" Title="Zyklus" ID="205" Options="7" DockingHolder="16" LastHolder="16"/>
+		<Pane-7 Type="0" DockingCX="200" DockingCY="122" Title="Intros" ID="206" Options="7" DockingHolder="17" LastHolder="17"/>
+		<Pane-8 Type="2" DockingCX="1018" Horiz="1" Panes="1" Pane-1="9"/>
+		<Pane-9 Type="2" DockingCX="697" Horiz="1" Panes="2" Pane-1="10" Pane-2="12"/>
+		<Pane-10 Type="2" DockingCX="311" Panes="1" Pane-1="11"/>
+		<Pane-11 Type="4"/>
+		<Pane-12 Type="2" DockingCX="772" DockingCY="759" Panes="1" Pane-1="13"/>
+		<Pane-13 Type="2" DockingCX="797" DockingCY="368" Horiz="1" Panes="3" Pane-1="14" Pane-2="18" Pane-3="22"/>
+		<Pane-14 Type="2" DockingCX="166" DockingCY="759" Panes="3" Pane-1="15" Pane-2="16" Pane-3="17"/>
+		<Pane-15 Type="1" DockingCX="242" DockingCY="327" Panes="1" Selected="1" Pane-1="1"/>
+		<Pane-16 Type="1" DockingCX="200" DockingCY="252" Panes="1" Selected="6" Pane-1="6"/>
+		<Pane-17 Type="1" DockingCX="200" DockingCY="172" Panes="1" Selected="7" Pane-1="7"/>
+		<Pane-18 Type="2" DockingCX="459" DockingCY="759" Panes="2" Pane-1="19" Pane-2="20"/>
+		<Pane-19 Type="1" DockingCX="489" DockingCY="327" Panes="1" Selected="2" Pane-1="2"/>
+		<Pane-20 Type="2" DockingCX="200" DockingCY="428" Horiz="1" Panes="1" Pane-1="21"/>
+		<Pane-21 Type="1" DockingCX="200" DockingCY="284" Panes="1" Selected="5" Pane-1="5"/>
+		<Pane-22 Type="2" DockingCX="164" DockingCY="807" Panes="2" Pane-1="23" Pane-2="24"/>
+		<Pane-23 Type="1" DockingCX="197" DockingCY="389" Panes="1" Selected="3" Pane-1="3"/>
+		<Pane-24 Type="1" DockingCX="200" DockingCY="414" Panes="1" Selected="4" Pane-1="4"/>
+	</Common>
+	<Custom Panes="7">
+		<Pane-1 ID="200" Name="ALL Devices" Type="3"/>
+		<Pane-2 ID="201" Name="MovingHeads" Type="3"/>
+		<Pane-3 ID="202" Name="QUAD Lamp" Type="3"/>
+		<Pane-4 ID="203" Name="Par Lamp" Type="3"/>
+		<Pane-5 ID="204" Name="MovingHeads MH-X25 PosVar" Type="3"/>
+		<Pane-6 ID="205" Name="Zyklus" Type="3"/>
+		<Pane-7 ID="206" Name="Intros" Type="3"/>
+	</Custom>
+</DockingPaneLayouts>

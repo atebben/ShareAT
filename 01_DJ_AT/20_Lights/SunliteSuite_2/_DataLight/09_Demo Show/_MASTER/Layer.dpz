@@ -1,0 +1,15 @@
+<ZoneParam Author="dylan" Version="1.0">
+  <Zone Type="0" ID="200">
+    <Button Name="I N I T" Index="0" />
+    <Button Name="SCENE 1" Index="1" />
+    <Button Name="SCENE" Index="2" />
+  </Zone>
+  <Zone Type="0" ID="201">
+    <Button Name="EasyShow load show" Index="0" />
+    <Button Name="EasyShow Start" Index="1" />
+    <Button Name="EasyShow Play-Stop" Index="2" />
+    <Button Name="EasyShow Close" Index="3" />
+  </Zone>
+  <Zone Type="0" ID="202" />
+  <Zone Type="0" ID="203" />
+</ZoneParam>

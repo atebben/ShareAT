@@ -1,0 +1,6 @@
+<PaletGroup Author="dylan" Version="1.0">
+  <Group Name="Intensity" />
+  <Group Name="Zoom" />
+  <Group Name="Positions" />
+  <Group Name="Colors" />
+</PaletGroup>

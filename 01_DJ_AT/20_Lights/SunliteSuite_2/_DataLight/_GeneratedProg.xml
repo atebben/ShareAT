@@ -1,0 +1,257 @@
+<GeneratedProg Author="dylan" Version="1.0">
+  <Effect Name="Circle" IdName="0" NameCompress="Position" IdNameCompress="0" Type="2" Info="Circle with Phasing" IconName="ZSceneCircle.ico">
+    <DLMFILE TYPE="NOTYPE" VERSION="2">
+      <EFFECT EFFECTNAME="test effec curve" EFFECTTYPE="4" EFFECTLEN="8000" EFFECTPHI="0" EFFECT16BITS="1" EFFECTOPACITY="100" MASKENABLE="0" MASKTOLERANCE="10" MASKRVALUE="0" MASKGVALUE="0" MASKBVALUE="0" EFFECTNBFIXT="4" PANTILTTYPE="1" PANTILTSTART="0" PANTILTMSEC="2000" PANTILTSENS="0">
+        <PANTILTPOINTS NUMBER="4">
+          <PANTILTPOINT PANTILTPOSX="54612" PANTILTPOSY="32767" PALETTE="" />
+          <PANTILTPOINT PANTILTPOSX="32767" PANTILTPOSY="54612" PALETTE="" />
+          <PANTILTPOINT PANTILTPOSX="10922" PANTILTPOSY="32767" PALETTE="" />
+          <PANTILTPOINT PANTILTPOSX="32767" PANTILTPOSY="10922" PALETTE="" />
+        </PANTILTPOINTS>
+      </EFFECT>
+    </DLMFILE>
+  </Effect>
+  <Effect Name="Center" IdName="0" NameCompress="Position" IdNameCompress="0" Type="2" Info="Center" IconName="ZSceneCenter.ico">
+    <DLMFILE TYPE="NOTYPE" VERSION="2">
+      <EFFECT EFFECTNAME="test effec curve" EFFECTTYPE="4" EFFECTLEN="1000" EFFECTPHI="0" EFFECT16BITS="1" EFFECTOPACITY="100" MASKENABLE="0" MASKTOLERANCE="10" MASKRVALUE="0" MASKGVALUE="0" MASKBVALUE="0" EFFECTNBFIXT="2" PANTILTTYPE="3" PANTILTSTART="0" PANTILTMSEC="1000" PANTILTSENS="0">
+        <PANTILTPOINTS NUMBER="1">
+          <PANTILTPOINT PANTILTPOSX="32639" PANTILTPOSY="32639" PALETTE="" />
+        </PANTILTPOINTS>
+      </EFFECT>
+    </DLMFILE>
+  </Effect>
+  <Effect Name="Circle phasing" IdName="0" NameCompress="Position" IdNameCompress="0" Type="2" Info="Cercle dephase de 5" IconName="ZSceneCircle2.ico">
+    <DLMFILE VERSION="2" TYPE="NOTYPE">
+      <EFFECT PANTILTSTART="0" MASKTOLERANCE="10" EFFECTLEN="8000" PANTILTSENS="0" MASKBVALUE="0" PANTILTMSEC="2000" EFFECTNAME="test effec curve" EFFECTTYPE="4" PANTILTTYPE="1" EFFECTOPACITY="100" MASKRVALUE="0" MASKGVALUE="0" EFFECT16BITS="1" MASKENABLE="0" EFFECTPHI="5">
+        <PANTILTPOINTS NUMBER="4">
+          <PANTILTPOINT PANTILTPOSX="54612" PANTILTPOSY="32767" PALETTE="" />
+          <PANTILTPOINT PANTILTPOSX="32767" PANTILTPOSY="54612" PALETTE="" />
+          <PANTILTPOINT PANTILTPOSX="10922" PANTILTPOSY="32767" PALETTE="" />
+          <PANTILTPOINT PANTILTPOSX="32767" PANTILTPOSY="10922" PALETTE="" />
+        </PANTILTPOINTS>
+      </EFFECT>
+    </DLMFILE>
+  </Effect>
+  <Effect Name="Curve" IdName="0" NameCompress="Position" IdNameCompress="0" Type="2" Info="Curve" IconName="ZSceneCurve.ico">
+    <DLMFILE VERSION="2" TYPE="NOTYPE">
+      <EFFECT PANTILTSTART="0" MASKTOLERANCE="10" EFFECTLEN="15200" PANTILTSENS="0" MASKBVALUE="0" PANTILTMSEC="1520" EFFECTNAME="test effec curve" EFFECTTYPE="4" PANTILTTYPE="5" EFFECTOPACITY="100" MASKRVALUE="0" MASKGVALUE="0" EFFECT16BITS="1" MASKENABLE="0" EFFECTPHI="0">
+        <PANTILTPOINTS NUMBER="10">
+          <PANTILTPOINT PANTILTPOSY="52026" PANTILTPOSX="23039">
+          </PANTILTPOINT>
+          <PANTILTPOINT PANTILTPOSY="43807" PANTILTPOSX="43235">
+          </PANTILTPOINT>
+          <PANTILTPOINT PANTILTPOSY="16074" PANTILTPOSX="39514">
+          </PANTILTPOINT>
+          <PANTILTPOINT PANTILTPOSY="42811" PANTILTPOSX="43526">
+          </PANTILTPOINT>
+          <PANTILTPOINT PANTILTPOSY="27008" PANTILTPOSX="50122">
+          </PANTILTPOINT>
+          <PANTILTPOINT PANTILTPOSY="17571" PANTILTPOSX="35099">
+          </PANTILTPOINT>
+          <PANTILTPOINT PANTILTPOSY="25322" PANTILTPOSX="34802">
+          </PANTILTPOINT>
+          <PANTILTPOINT PANTILTPOSY="52234" PANTILTPOSX="53145">
+          </PANTILTPOINT>
+          <PANTILTPOINT PANTILTPOSY="54474" PANTILTPOSX="23930">
+          </PANTILTPOINT>
+          <PANTILTPOINT PANTILTPOSY="11500" PANTILTPOSX="22250">
+          </PANTILTPOINT>
+        </PANTILTPOINTS>
+      </EFFECT>
+    </DLMFILE>
+  </Effect>
+  <Effect Name="Curve phasing" IdName="0" NameCompress="Position" IdNameCompress="0" Type="2" Info="Curve" IconName="ZSceneCurve2.ico">
+    <DLMFILE VERSION="2" TYPE="NOTYPE">
+      <EFFECT PANTILTSTART="0" MASKTOLERANCE="10" EFFECTLEN="14000" PANTILTSENS="0" MASKBVALUE="0" PANTILTMSEC="1400" EFFECTNAME="test effec curve" EFFECTTYPE="4" PANTILTTYPE="5" EFFECTOPACITY="100" MASKRVALUE="0" MASKGVALUE="0" EFFECT16BITS="1" MASKENABLE="0" EFFECTPHI="5">
+        <PANTILTPOINTS NUMBER="10">
+          <PANTILTPOINT PANTILTPOSY="45439" PANTILTPOSX="36502">
+          </PANTILTPOINT>
+          <PANTILTPOINT PANTILTPOSY="42335" PANTILTPOSX="17919">
+          </PANTILTPOINT>
+          <PANTILTPOINT PANTILTPOSY="32977" PANTILTPOSX="40326">
+          </PANTILTPOINT>
+          <PANTILTPOINT PANTILTPOSY="30714" PANTILTPOSX="40271">
+          </PANTILTPOINT>
+          <PANTILTPOINT PANTILTPOSY="25342" PANTILTPOSX="52675">
+          </PANTILTPOINT>
+          <PANTILTPOINT PANTILTPOSY="29510" PANTILTPOSX="45679">
+          </PANTILTPOINT>
+          <PANTILTPOINT PANTILTPOSY="16164" PANTILTPOSX="36226">
+          </PANTILTPOINT>
+          <PANTILTPOINT PANTILTPOSY="14015" PANTILTPOSX="36898">
+          </PANTILTPOINT>
+          <PANTILTPOINT PANTILTPOSY="33117" PANTILTPOSX="48921">
+          </PANTILTPOINT>
+          <PANTILTPOINT PANTILTPOSY="37223" PANTILTPOSX="47325">
+          </PANTILTPOINT>
+        </PANTILTPOINTS>
+      </EFFECT>
+    </DLMFILE>
+  </Effect>
+  <Effect Name="Eight" IdName="0" NameCompress="Position" IdNameCompress="0" Type="2" Info="Curve" IconName="ZSceneEight.ico">
+    <DLMFILE VERSION="2" TYPE="NOTYPE">
+      <EFFECT PANTILTSTART="0" MASKTOLERANCE="10" EFFECTLEN="10000" PANTILTSENS="0" MASKBVALUE="0" PANTILTMSEC="1000" EFFECTNAME="test effec curve" EFFECTTYPE="4" PANTILTTYPE="1" EFFECTOPACITY="100" MASKRVALUE="0" MASKGVALUE="0" EFFECT16BITS="1" MASKENABLE="0" EFFECTPHI="5">
+        <PANTILTPOINTS NUMBER="10">
+          <PANTILTPOINT PANTILTPOSY="32512" PANTILTPOSX="32767">
+          </PANTILTPOINT>
+          <PANTILTPOINT PANTILTPOSY="41728" PANTILTPOSX="41983">
+          </PANTILTPOINT>
+          <PANTILTPOINT PANTILTPOSY="53543" PANTILTPOSX="39517">
+          </PANTILTPOINT>
+          <PANTILTPOINT PANTILTPOSY="53543" PANTILTPOSX="26017">
+          </PANTILTPOINT>
+          <PANTILTPOINT PANTILTPOSY="41984" PANTILTPOSX="23551">
+          </PANTILTPOINT>
+          <PANTILTPOINT PANTILTPOSY="32512" PANTILTPOSX="32511">
+          </PANTILTPOINT>
+          <PANTILTPOINT PANTILTPOSY="24320" PANTILTPOSX="43007">
+          </PANTILTPOINT>
+          <PANTILTPOINT PANTILTPOSY="12800" PANTILTPOSX="38655">
+          </PANTILTPOINT>
+          <PANTILTPOINT PANTILTPOSY="12544" PANTILTPOSX="27391">
+          </PANTILTPOINT>
+          <PANTILTPOINT PANTILTPOSY="25344" PANTILTPOSX="23807">
+          </PANTILTPOINT>
+        </PANTILTPOINTS>
+      </EFFECT>
+    </DLMFILE>
+  </Effect>
+  <Effect Name="PanMove" IdName="0" NameCompress="Position" IdNameCompress="0" Type="2" Info="pan move" IconName="ZScenePanMove.ico">
+    <DLMFILE VERSION="2" TYPE="NOTYPE">
+      <EFFECT PANTILTSTART="0" MASKTOLERANCE="10" EFFECTLEN="6000" PANTILTSENS="0" MASKBVALUE="0" PANTILTMSEC="3000" EFFECTNAME="test effec curve" EFFECTTYPE="4" PANTILTTYPE="4" EFFECTOPACITY="100" MASKRVALUE="0" MASKGVALUE="0" EFFECT16BITS="1" MASKENABLE="0" EFFECTPHI="0">
+        <PANTILTPOINTS NUMBER="2">
+          <PANTILTPOINT PANTILTPOSY="45533" PANTILTPOSX="51711">
+          </PANTILTPOINT>
+          <PANTILTPOINT PANTILTPOSY="45533" PANTILTPOSX="14079">
+          </PANTILTPOINT>
+        </PANTILTPOINTS>
+      </EFFECT>
+    </DLMFILE>
+  </Effect>
+  <Effect Name="PanMovePhi" IdName="0" NameCompress="Position" IdNameCompress="0" Type="2" Info="pan move" IconName="ZScenePanMove2.ico">
+    <DLMFILE VERSION="2" TYPE="NOTYPE">
+      <EFFECT PANTILTSTART="0" MASKTOLERANCE="10" EFFECTLEN="6000" PANTILTSENS="0" MASKBVALUE="0" PANTILTMSEC="3000" EFFECTNAME="test effec curve" EFFECTTYPE="4" PANTILTTYPE="4" EFFECTOPACITY="100" MASKRVALUE="0" MASKGVALUE="0" EFFECT16BITS="1" MASKENABLE="0" EFFECTPHI="5">
+        <PANTILTPOINTS NUMBER="2">
+          <PANTILTPOINT PANTILTPOSY="45533" PANTILTPOSX="51711">
+          </PANTILTPOINT>
+          <PANTILTPOINT PANTILTPOSY="45533" PANTILTPOSX="14079">
+          </PANTILTPOINT>
+        </PANTILTPOINTS>
+      </EFFECT>
+    </DLMFILE>
+  </Effect>
+
+  <Effect Name="TiltMove" IdName="0" NameCompress="Position" IdNameCompress="0" Type="2" Info="tilt move" IconName="ZSceneTiltMove.ico">
+    <DLMFILE TYPE="NOTYPE" VERSION="2">
+      <EFFECT EFFECTNAME="test effec curve" EFFECTTYPE="4" EFFECTLEN="6000" EFFECTPHI="0" EFFECT16BITS="1" EFFECTOPACITY="100" MASKENABLE="0" MASKTOLERANCE="10" MASKRVALUE="0" MASKGVALUE="0" MASKBVALUE="0" EFFECTNBFIXT="2" PANTILTTYPE="4" PANTILTSTART="0" PANTILTMSEC="3000" PANTILTSENS="0">
+        <PANTILTPOINTS NUMBER="2">
+          <PANTILTPOINT PANTILTPOSX="33023" PANTILTPOSY="44544" PALETTE="" />
+          <PANTILTPOINT PANTILTPOSX="33023" PANTILTPOSY="21248" PALETTE="" />
+        </PANTILTPOINTS>
+      </EFFECT>
+    </DLMFILE>
+  </Effect>
+
+  <Effect Name="TiltMovePhi" IdName="0" NameCompress="Position" IdNameCompress="0" Type="2" Info="tilt move" IconName="ZSceneTiltMove2.ico">
+    <DLMFILE TYPE="NOTYPE" VERSION="2">
+      <EFFECT EFFECTNAME="test effec curve" EFFECTTYPE="4" EFFECTLEN="6000" EFFECTPHI="5" EFFECT16BITS="1" EFFECTOPACITY="100" MASKENABLE="0" MASKTOLERANCE="10" MASKRVALUE="0" MASKGVALUE="0" MASKBVALUE="0" EFFECTNBFIXT="2" PANTILTTYPE="4" PANTILTSTART="0" PANTILTMSEC="3000" PANTILTSENS="0">
+        <PANTILTPOINTS NUMBER="2">
+          <PANTILTPOINT PANTILTPOSX="33023" PANTILTPOSY="44544" PALETTE="" />
+          <PANTILTPOINT PANTILTPOSX="33023" PANTILTPOSY="21248" PALETTE="" />
+        </PANTILTPOINTS>
+      </EFFECT>
+    </DLMFILE>
+  </Effect>
+
+  <Effect Name="Rainbow" IdName="0" NameCompress="Color Effects" IdNameCompress="0" Type="1" Info="rainbow effect" IconName="ZScMColormix2.ico">
+    <DLMFILE TYPE="NOTYPE" VERSION="2">
+      <EFFECT EFFECTNAME="test effec curve" EFFECTTYPE="7" EFFECTLEN="1920" EFFECTPHI="0" EFFECT16BITS="0" EFFECTOPACITY="100" MASKENABLE="0" MASKTOLERANCE="10" MASKRVALUE="0" MASKGVALUE="0" MASKBVALUE="0" EFFECTNBFIXT="2" EFFECTCMY="0" EFFECTWCHAN="0" GRAYSCALE="0" COLORTYPE="0" COLORSIZE="2" COLORSPEED="1" COLORSENS="0">
+        <COLORS NUMBER="6">
+          <COLOR COLORVALUE="16711680" PALETTE="" />
+          <COLOR COLORVALUE="16776960" PALETTE="" />
+          <COLOR COLORVALUE="65280" PALETTE="" />
+          <COLOR COLORVALUE="65535" PALETTE="" />
+          <COLOR COLORVALUE="255" PALETTE="" />
+          <COLOR COLORVALUE="16711935" PALETTE="" />
+        </COLORS>
+      </EFFECT>
+    </DLMFILE>
+  </Effect >
+
+  <Effect Name="Line BPM" IdName="0" NameCompress="Position" IdNameCompress="0" Type="2" Info="rainbow effect" IconName="ZSceneMusicBPM.ico" EasyTimeModeTempo="1" EasyTimeMesures="1" EasyTimeMesureTimer="25">
+    <DLMFILE TYPE="NOTYPE" VERSION="2">
+      <EFFECT EFFECTNAME="test effec curve" EFFECTTYPE="4" EFFECTLEN="10000" EFFECTPHI="20" EFFECT16BITS="1" EFFECTOPACITY="100" MASKENABLE="0" MASKTOLERANCE="10" MASKRVALUE="0" MASKGVALUE="0" MASKBVALUE="0" EFFECTNBFIXT="4" PANTILTTYPE="5" PANTILTSTART="0" PANTILTMSEC="1000" PANTILTSENS="0">
+        <PANTILTPOINTS NUMBER="10">
+          <PANTILTPOINT PANTILTPOSX="39761" PANTILTPOSY="53895" PALETTE="" />
+          <PANTILTPOINT PANTILTPOSX="26392" PANTILTPOSY="43014" PALETTE="" />
+          <PANTILTPOINT PANTILTPOSX="14063" PANTILTPOSY="22276" PALETTE="" />
+          <PANTILTPOINT PANTILTPOSX="40925" PANTILTPOSY="17910" PALETTE="" />
+          <PANTILTPOINT PANTILTPOSX="45917" PANTILTPOSY="20987" PALETTE="" />
+          <PANTILTPOINT PANTILTPOSX="45038" PANTILTPOSY="29507" PALETTE="" />
+          <PANTILTPOINT PANTILTPOSX="40093" PANTILTPOSY="42438" PALETTE="" />
+          <PANTILTPOINT PANTILTPOSX="45637" PANTILTPOSY="39107" PALETTE="" />
+          <PANTILTPOINT PANTILTPOSX="13719" PANTILTPOSY="48149" PALETTE="" />
+          <PANTILTPOINT PANTILTPOSX="53911" PANTILTPOSY="41915" PALETTE="" />
+        </PANTILTPOINTS>
+      </EFFECT>
+    </DLMFILE>
+  </Effect>
+
+  <Effect Name="Chaser" IdName="0" NameCompress="Shutter" IdNameCompress="0" Type="0" Info="Chaser effect" IconName="Zchaser.ico" PhasingNbFx="1" WorkAllBeam="1">
+    <Block Time="16" CoefNbFx="n-1">
+      <Preset TChannel="15" TPreset="20" Value="0"/>
+      <Preset TChannel="7" TPreset="4" Value="0"/>
+      <Preset TChannel="13" TPreset="12" Value="0"/>
+    </Block>
+    <Block Time="16">
+      <Preset TChannel="15" TPreset="19" Value="0"/>
+      <Preset TChannel="7" TPreset="4" Value="100"/>
+      <Preset TChannel="13" TPreset="12" Value="100"/>
+    </Block>
+  </Effect>
+
+  <Effect Name="Chaser BPM" IdName="0" NameCompress="Shutter" IdNameCompress="0" Type="0" Info="Chaser effect" IconName="Zchaser.ico" PhasingNbFx="1" WorkAllBeam="1" EasyTimeModeTempo="1" EasyTimeMesures="1" EasyTimeMesureTimerAllSeq="1">
+    <Block Time="16" CoefNbFx="n-1">
+      <Preset TChannel="15" TPreset="20" Value="0"/>
+      <Preset TChannel="7" TPreset="4" Value="0"/>
+      <Preset TChannel="13" TPreset="12" Value="0"/>
+    </Block>
+    <Block Time="16">
+      <Preset TChannel="15" TPreset="19" Value="0"/>
+      <Preset TChannel="7" TPreset="4" Value="100"/>
+      <Preset TChannel="13" TPreset="12" Value="100"/>
+    </Block>
+  </Effect>
+
+  <Effect Name="Chaser BPM2" IdName="0" NameCompress="Shutter" IdNameCompress="0" Type="0" Info="Chaser effect" IconName="Zchaser.ico" PhasingNbFx="1" WorkAllBeam="1" EasyTimeModeTempo="1" EasyTimeMesures="1" EasyTimeMesureTimer="4">
+    <Block Time="16" CoefNbFx="n-1">
+      <Preset TChannel="15" TPreset="20" Value="0"/>
+      <Preset TChannel="7" TPreset="4" Value="0"/>
+      <Preset TChannel="13" TPreset="12" Value="0"/>
+    </Block>
+    <Block Time="16">
+      <Preset TChannel="15" TPreset="19" Value="0"/>
+      <Preset TChannel="7" TPreset="4" Value="100"/>
+      <Preset TChannel="13" TPreset="12" Value="100"/>
+    </Block>
+  </Effect>
+
+  <Effect Name="Chaser" IdName="0" NameCompress="Dimmer" IdNameCompress="0" Type="0" Info="Chaser effect" IconName="Zchaser.ico" PhasingNbFx="1" WorkAllBeam="1">
+    <Block Time="16" CoefNbFx="n-1" TimeFade="16">
+      <Preset TChannel="7" TPreset="4" Value="0"/>
+    </Block>
+    <Block Time="16" TimeFade="16">
+      <Preset TChannel="7" TPreset="4" Value="100"/>
+    </Block>
+  </Effect>
+
+  <Effect Name="Chaser" IdName="0" NameCompress="Iris" IdNameCompress="0" Type="0" Info="Chaser effect" IconName="Zchaser.ico" PhasingNbFx="1" WorkAllBeam="1">
+    <Block Time="16" CoefNbFx="n-1" TimeFade="16">
+      <Preset TChannel="13" TPreset="12" Value="0"/>
+    </Block>
+    <Block Time="16" TimeFade="16">
+      <Preset TChannel="13" TPreset="12" Value="100"/>
+    </Block>
+  </Effect>
+
+</GeneratedProg>

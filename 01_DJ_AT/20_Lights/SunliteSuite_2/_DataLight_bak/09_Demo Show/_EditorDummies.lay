@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DockingPaneLayouts CompactMode="1">
+	<Common>
+		<Summary Panes="21" TopContainer="10" Client="15"/>
+		<Pane-1 Type="0" DockingCX="200" DockingCY="120" Title="Projecteurs" ID="100" Options="7" DockingHolder="12" LastHolder="12" MinTrackX="260" MinTrackY="120"/>
+		<Pane-2 Type="0" DockingCX="200" DockingCY="120" Title="Preset" ID="102" Options="7" DockingHolder="21" LastHolder="21" MinTrackX="175" MinTrackY="310"/>
+		<Pane-3 Type="0" DockingCX="200" DockingCY="120" Title="Palette" ID="104" Options="6" DockingHolder="19" LastHolder="19" MinTrackX="175" MinTrackY="170"/>
+		<Pane-4 Type="0" DockingCX="200" DockingCY="120" Title="EasyStep" ID="103" Options="7" DockingHolder="20" LastHolder="20" MinTrackX="175" MinTrackY="170"/>
+		<Pane-5 Type="0" DockingCX="200" DockingCY="120" Title="Circuits" ID="101" Options="7" DockingHolder="21" LastHolder="21" MinTrackX="150" MinTrackY="265"/>
+		<Pane-6 Type="0" DockingCX="200" DockingCY="120" Title="EasyTime" ID="105" Options="6" DockingHolder="17" LastHolder="17" MinTrackX="300" MinTrackY="150"/>
+		<Pane-7 Type="0" DockingCX="200" DockingCY="120" Title="Barre d'historique" ID="106" Options="6" DockingHolder="17" LastHolder="17" MinTrackX="175" MinTrackY="170"/>
+		<Pane-8 Type="0" DockingCX="200" DockingCY="120" Title="Entrée DMX" ID="107" Options="6" DockingHolder="17" LastHolder="17" MinTrackX="175" MinTrackY="170"/>
+		<Pane-9 Type="0" DockingCX="200" DockingCY="120" Title="Follow spot" ID="108" Options="6" DockingHolder="17" LastHolder="17" MinTrackX="250" MinTrackY="250"/>
+		<Pane-10 Type="2" DockingCX="1176" DockingCY="868" Panes="2" Pane-1="11" Pane-2="21"/>
+		<Pane-11 Type="2" DockingCX="1680" DockingCY="458" Horiz="1" Panes="3" Pane-1="12" Pane-2="13" Pane-3="20"/>
+		<Pane-12 Type="1" DockingCX="803" DockingCY="120" Panes="1" Selected="1" Pane-1="1"/>
+		<Pane-13 Type="2" DockingCX="1176" DockingCY="868" Panes="2" Pane-1="14" Pane-2="18"/>
+		<Pane-14 Type="2" DockingCX="1680" DockingCY="440" Horiz="1" Panes="2" Pane-1="15" Pane-2="16"/>
+		<Pane-15 Type="4"/>
+		<Pane-16 Type="2" DockingCX="978" DockingCY="868" Panes="1" Pane-1="17"/>
+		<Pane-17 Type="1" DockingCX="200" DockingCY="372" Panes="0"/>
+		<Pane-18 Type="2" DockingCX="462" DockingCY="424" Horiz="1" Panes="1" Pane-1="19"/>
+		<Pane-19 Type="1" DockingCX="462" DockingCY="478" Panes="0"/>
+		<Pane-20 Type="1" DockingCX="873" DockingCY="120" Panes="1" Selected="4" Pane-1="4"/>
+		<Pane-21 Type="1" DockingCX="200" DockingCY="406" Panes="2" Selected="5" Pane-1="5" Pane-2="2"/>
+	</Common>
+	<DockFixtures DrawIris="1" DrawGobo="1" ZoomFixture="400" ShowFixtureBeam="1" ShowFixtureName="0"/>
+	<PosFrame x="-8" y="-8" cx="1696" cy="1026"/>
+</DockingPaneLayouts>

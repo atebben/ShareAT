@@ -1,0 +1,16 @@
+<ZoneParam Author="dylan" Version="1.0">
+  <Zone Type="0" ID="200">
+    <Button Name="I N I T" Index="0" />
+    <Group Name="RGB " Index="1" />
+    <Group Name="COLOR EFFECTS" Index="2" />
+    <Group Name="MODE" Index="3" />
+    <Group Name="DIMMER_SPEED_SENSITIVITY" Index="4" />
+    <Button Name=" SPEED_SENSITIVITY" Index="5" />
+    <Group Name="FLASH" Index="6" />
+    <Group Name="POWER OUT 1" Index="7" />
+    <Group Name="POWER OUT 2" Index="8" />
+  </Zone>
+  <Zone Type="1" ID="201">
+    <Button Name="FARBMISCHUNG ALL" Index="0" />
+  </Zone>
+</ZoneParam>

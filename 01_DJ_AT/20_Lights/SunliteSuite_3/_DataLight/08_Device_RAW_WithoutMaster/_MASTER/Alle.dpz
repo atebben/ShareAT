@@ -1,0 +1,37 @@
+<ZoneParam Author="dylan" Version="1.0">
+  <Zone Type="0" ID="200">
+    <Button Name="I N I T" Index="0" />
+    <Group Name="MH-X25_GOBO" Index="1" />
+    <Group Name="MH-X25_COLOR" Index="2" />
+    <Group Name="MH-X25_GOBO ROTATION" Index="3" />
+    <Button Name="MH-X25_POSITIONCIRCLE" Index="4" />
+    <Button Name="MH-X25_POSITIONCIRCLE PHASING" Index="4" />
+    <Button Name="MH-X25_POSITIONCENTER" Index="4" />
+    <Button Name="MH-X25_POSITIONEIGHT" Index="4" />
+    <Button Name="MH-X25_POSITIONPANMOVE" Index="4" />
+    <Button Name="MH-X25_POSITIONPANMOVEPHI" Index="4" />
+    <Button Name="MH-X25_POSITIONTILTMOVE" Index="4" />
+    <Button Name="MH-X25_POSITIONTILTMOVEPHI" Index="4" />
+    <Button Name="MH-X25_POSITIONLINE BPM" Index="4" />
+    <Group Name="MH-X25_DIMMER" Index="5" />
+    <Button Name="MH-X25_POSITIONCIRCLE 1" Index="6" />
+    <Button Name="MH-X25_POSITIONCIRCLE PHASING 1" Index="6" />
+    <Button Name="MH-X25_POSITIONCENTER 1" Index="6" />
+    <Button Name="MH-X25_POSITIONEIGHT 1" Index="6" />
+    <Button Name="MH-X25_POSITIONPANMOVE 1" Index="6" />
+    <Button Name="MH-X25_POSITIONPANMOVEPHI 1" Index="6" />
+    <Button Name="MH-X25_POSITIONTILTMOVE 1" Index="6" />
+    <Button Name="MH-X25_POSITIONTILTMOVEPHI 1" Index="6" />
+    <Button Name="MH-X25_POSITIONLINE BPM 1" Index="6" />
+    <Group Name="PLATINUM LINE CLS-3_RGB " Index="7" />
+    <Group Name="PLATINUM LINE CLS-3_DIMMER_SPEED_SENSITIVITY" Index="8" />
+    <Group Name="PLATINUM LINE CLS-3_FLASH" Index="9" />
+    <Group Name="LED PAR 64_RGB " Index="10" />
+    <Button Name="LED PAR 56_RGB RGB RED" Index="-2" />
+    <Button Name="LED PAR 56_RGB RGB BLUE" Index="-2" />
+    <Button Name="LED PAR 56_RGB RGB GREEN" Index="-2" />
+    <Button Name="LED PAR 56_RGB RGB CYAN" Index="-2" />
+    <Button Name="LED PAR 56_RGB RGB MAGENTA" Index="-2" />
+    <Button Name="LED PAR 56_RGB RGB YELLOW" Index="-2" />
+  </Zone>
+</ZoneParam>
