@@ -6,7 +6,7 @@
 		<Pane-2 Type="0" DockingCX="200" DockingCY="120" Title="Konsole" ID="103" Options="18" DockingHolder="32" FloatingHolder="18" LastHolder="32" MinTrackX="300" MinTrackY="200"/>
 		<Pane-3 Type="0" DockingCX="200" DockingCY="120" Title="Szene blenden (Fade)" ID="105" Options="18" DockingHolder="37" FloatingHolder="21" LastHolder="37" MinTrackX="240" MinTrackY="400"/>
 		<Pane-4 Type="0" DockingCX="200" DockingCY="120" Title="DMX Pegel" ID="102" Options="18" DockingHolder="33" FloatingHolder="43" LastHolder="33" MinTrackX="240" MinTrackY="240"/>
-		<Pane-5 Type="0" DockingCX="200" DockingCY="120" Title="Zyklus - &quot;_Zyklus 01 Main ALL&quot; (Seite &quot;_MASTER&quot;)" ID="100" Options="18" DockingHolder="33" FloatingHolder="43" LastHolder="33" MinTrackX="240" MinTrackY="240"/>
+		<Pane-5 Type="0" DockingCX="200" DockingCY="120" Title="Zyklus" ID="100" Options="18" DockingHolder="33" FloatingHolder="43" LastHolder="33" MinTrackX="240" MinTrackY="240"/>
 		<Pane-6 Type="0" DockingCX="10" DockingCY="10" Title="Geräte" ID="106" Options="18" DockingHolder="32" FloatingHolder="24" LastHolder="32" MinTrackX="240" MinTrackY="240"/>
 		<Pane-7 Type="0" DockingCX="10" DockingCY="10" Title="Favoriten" ID="107" Options="18" DockingHolder="32" FloatingHolder="27" LastHolder="32" MinTrackX="240" MinTrackY="240"/>
 		<Pane-8 Type="0" DockingCX="200" DockingCY="120" Title="_MASTER" ID="110" Options="18" DockingHolder="36" FloatingHolder="40" LastHolder="36" MinTrackX="154" MinTrackY="300"/>
