@@ -40,7 +40,7 @@
     <ModulFreq Name="High" Freq="7200" Q="229" Gain="50" MasterSmoothyUp="1" MasterSmoothyDown="1" />
   </Audio>
   <Calendar Latitude="48870" Longitude="2330" />
-  <DockCycle HLC_Time="1" HLC_RelativeTime="1" HLC_ModeState="1" HLC_Pause="1" HLC_BeforeFadeIn="1" HLC_FadeIn="1" HLC_BeforeFadeOut="1" HLC_FadeOut="1" Zoom="0.086078" Ratio="15.375000" />
+  <DockCycle HLC_Time="1" HLC_RelativeTime="1" HLC_ModeState="1" HLC_Pause="1" HLC_BeforeFadeIn="1" HLC_FadeIn="1" HLC_BeforeFadeOut="1" HLC_FadeOut="1" Zoom="0.013103" Ratio="1.218447" />
   <Console ShowTooltips="1" ShowSettingsAfterLink="0" AffectImageAfterLink="1" />
   <Video FullScreen="0" CloseFinished="1" AllwaysShown="0" HideMouse="1" CloseEscape="1" IdMonitor="0" />
   <MouseAction Left="1" LeftShift="6" LeftControl="3" Right="2" RightShift="7" RightControl="4" LoadCycle="1" />
@@ -53,5 +53,5 @@
     <_VisuDmxAllFxChannelsNameFontclrArray data0="-1" data1="-1" data2="-1" data3="-1" data4="-1" data5="-1" data6="-1" data7="-1" data8="-1" data9="-1" />
     <_VisuDmxAllFxChannelsNameZoneclrArray data0="-1" data1="-1" data2="-1" data3="-1" data4="-1" data5="-1" data6="-1" data7="-1" data8="-1" data9="-1" />
   </VisuDmx>
-  <DockFixtures MergeColorFct="0" DrawIris="1" DrawGobo="1" ZoomFixture="300" ShowFixtureBeam="1" ShowFixtureName="1" ShowFixtureIndex="0" ShowFixtureMaster="0" />
+  <DockFixtures MergeColorFct="0" DrawIris="1" DrawGobo="1" ZoomFixture="300" ShowFixtureBeam="1" ShowFixtureName="1" ShowFixtureIndex="0" ShowFixtureMaster="1" />
 </Global>

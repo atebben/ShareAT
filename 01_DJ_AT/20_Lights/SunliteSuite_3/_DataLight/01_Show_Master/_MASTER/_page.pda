@@ -9,8 +9,7 @@
   <SwitchOn>
     <Switch Name="_ALL Reset 02 Pos MovingHeadsDefault" />
     <Switch Page="LED PAR 64" Name="VDimmer Dimmer" />
-    <Switch Name="_MH-X25 Dimmer 01" />
-    <Switch Name="_CLS3 Dimmer 01" />
+    <Switch Page="LED PAR 56" Name="VDimmer Dimmer" />
   </SwitchOn>
   <FxOrder ID="-1" Name="Par-56" Index="0" UID="{6ae907dd-33f8-4035-9cba-314b3d687ae1}">
     <SKey Key="0" Flag="1" />

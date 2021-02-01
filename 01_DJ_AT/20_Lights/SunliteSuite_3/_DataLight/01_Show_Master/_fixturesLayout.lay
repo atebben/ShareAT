@@ -10,9 +10,9 @@
 		<Pane-6 Type="3" WindowRectTopPos="0" WindowRectBottomPos="10" WindowRectLeftPos="0" WindowRectRightPos="10" TopContaner="7"/>
 		<Pane-7 Type="2" DockingCX="200" DockingCY="122" Horiz="1" Panes="1" Pane-1="8"/>
 		<Pane-8 Type="1" DockingCX="200" DockingCY="122" Panes="0"/>
-		<Pane-9 Type="2" DockingCX="376" Horiz="1" Panes="2" Pane-1="10" Pane-2="11"/>
-		<Pane-10 Type="1" DockingCX="288" DockingCY="122" Panes="1" Selected="2" Pane-1="2"/>
-		<Pane-11 Type="2" DockingCX="84" Panes="2" Pane-1="12" Pane-2="13"/>
+		<Pane-9 Type="2" DockingCX="648" Horiz="1" Panes="2" Pane-1="10" Pane-2="11"/>
+		<Pane-10 Type="1" DockingCX="570" DockingCY="122" Panes="1" Selected="2" Pane-1="2"/>
+		<Pane-11 Type="2" DockingCX="74" Panes="2" Pane-1="12" Pane-2="13"/>
 		<Pane-12 Type="1" DockingCX="200" DockingCY="122" Panes="1" Selected="1" Pane-1="1"/>
 		<Pane-13 Type="2" Horiz="1" Panes="1" Pane-1="14"/>
 		<Pane-14 Type="4"/>

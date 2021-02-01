@@ -9,7 +9,6 @@
     <Button Name="_ALL ACTIVE 12 COLOR 03 RED" Index="0" />
     <Button Name="_ALL ACTIVE 13 COLOR 04 YELLOW" Index="0" />
     <Group Name="_ALL RESET" Index="1" />
-    <Button Name="ZYKLUS" Index="-1" />
   </Zone>
   <Zone Type="0" ID="201">
     <Group Name="_MH-X25 DIMMER" Index="0" />
@@ -37,7 +36,7 @@
     <Group Name="_MH-X25 VAR" Index="0" />
   </Zone>
   <Zone Type="0" ID="205">
-    <Button Name="SHOW ALL" Index="0" />
+    <Button Name="_SHOW ALL" Index="0" />
   </Zone>
   <Zone Type="0" ID="206">
     <Button Name="SCENE MAIN" Index="0" />
