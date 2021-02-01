@@ -1,0 +1,207 @@
+<Page Author="dylan" Version="1.0">
+  <Global Name="_MASTER" InMaster="0" DmxSend="1" Freeze="0" Lock="0" SceneFadeManual="0" SceneFadeEnable="1" Icon="" ID="120" Currentlayer="0" ShowTab="1" Zoom="1" Image="" ImageCoef="100" ZoomFixture="225">
+    <DataColDesign Default="0" Color="#000000" />
+    <Shortcut Key="0" Flag="1" />
+    <ShortcutFreeze Key="0" Flag="1" />
+    <ShortcutSendDmx Key="0" Flag="1" />
+  </Global>
+  <Lock AskPassword="1" PageRename="1" PageDelete="1" PageSettings="1" PageExport="1" PageFreeze="1" PageDmx="1" PageLock="1" PageAddInMaster="1" FxLiveMode="1" FxEmbeddedMode="1" FxAddEditDeleteRenameGroup="1" FxMove="1" Dimmer="0" Speed="0" ButtonsLayersChange="1" ButtonsLayersModif="1" ButtonsLayerOrder="1" ButtonsActivation="0" ButtonsOrder="1" ButtonsCreate="1" ButtonsEdit="1" ButtonsSettings="1" ButtonsRename="1" ButtonsDelete="1" ButtonsLinkKeyboard="1" ButtonsDimmer="0" ButtonsSpeed="0" ButtonsPhasing="0" ButtonsSize="0" />
+  <FxOrder ID="0" Name="LED Matrix">
+    <SKey Key="0" Flag="1" />
+    <Group>
+      <Fx ID="9" />
+    </Group>
+    <Group>
+      <Fx ID="10" />
+    </Group>
+    <Group>
+      <Fx ID="11" />
+    </Group>
+    <Group>
+      <Fx ID="12" />
+    </Group>
+    <Group>
+      <Fx ID="13" />
+    </Group>
+    <Group>
+      <Fx ID="14" />
+    </Group>
+    <Group>
+      <Fx ID="15" />
+    </Group>
+    <Group>
+      <Fx ID="16" />
+    </Group>
+    <Group>
+      <Fx ID="17" />
+    </Group>
+    <Group>
+      <Fx ID="18" />
+    </Group>
+    <Group>
+      <Fx ID="19" />
+    </Group>
+    <Group>
+      <Fx ID="20" />
+    </Group>
+    <Group>
+      <Fx ID="21" />
+    </Group>
+    <Group>
+      <Fx ID="22" />
+    </Group>
+    <Group>
+      <Fx ID="23" />
+    </Group>
+    <Group>
+      <Fx ID="24" />
+    </Group>
+    <Group>
+      <Fx ID="25" />
+    </Group>
+    <Group>
+      <Fx ID="26" />
+    </Group>
+    <Group>
+      <Fx ID="27" />
+    </Group>
+    <Group>
+      <Fx ID="28" />
+    </Group>
+    <Group>
+      <Fx ID="29" />
+    </Group>
+    <Group>
+      <Fx ID="30" />
+    </Group>
+    <Group>
+      <Fx ID="31" />
+    </Group>
+    <Group>
+      <Fx ID="32" />
+    </Group>
+    <Group>
+      <Fx ID="33" />
+    </Group>
+    <Group>
+      <Fx ID="34" />
+    </Group>
+    <Group>
+      <Fx ID="35" />
+    </Group>
+    <Group>
+      <Fx ID="36" />
+    </Group>
+    <Group>
+      <Fx ID="37" />
+    </Group>
+    <Group>
+      <Fx ID="38" />
+    </Group>
+    <Group>
+      <Fx ID="39" />
+    </Group>
+    <Group>
+      <Fx ID="40" />
+    </Group>
+    <Group>
+      <Fx ID="41" />
+    </Group>
+    <Group>
+      <Fx ID="42" />
+    </Group>
+    <Group>
+      <Fx ID="43" />
+    </Group>
+    <Group>
+      <Fx ID="44" />
+    </Group>
+  </FxOrder>
+  <FxOrder ID="1" Name="Heads">
+    <SKey Key="0" Flag="1" />
+    <Group>
+      <Fx ID="1" />
+    </Group>
+    <Group>
+      <Fx ID="2" />
+    </Group>
+    <Group>
+      <Fx ID="3" />
+    </Group>
+    <Group>
+      <Fx ID="4" />
+    </Group>
+    <Group>
+      <Fx ID="5" />
+    </Group>
+    <Group>
+      <Fx ID="6" />
+    </Group>
+    <Group>
+      <Fx ID="7" />
+    </Group>
+    <Group>
+      <Fx ID="8" />
+    </Group>
+  </FxOrder>
+  <FxOrder ID="2" Name="Pars">
+    <SKey Key="0" Flag="1" />
+    <Group>
+      <Fx ID="45" />
+    </Group>
+    <Group>
+      <Fx ID="46" />
+    </Group>
+    <Group>
+      <Fx ID="47" />
+    </Group>
+    <Group>
+      <Fx ID="48" />
+    </Group>
+    <Group>
+      <Fx ID="51" />
+    </Group>
+    <Group>
+      <Fx ID="52" />
+    </Group>
+    <Group>
+      <Fx ID="49" />
+    </Group>
+    <Group>
+      <Fx ID="50" />
+    </Group>
+  </FxOrder>
+  <FxOrder ID="3" Name="Back2">
+    <SKey Key="0" Flag="1" />
+    <Group>
+      <Fx ID="2" />
+    </Group>
+    <Group>
+      <Fx ID="3" />
+    </Group>
+  </FxOrder>
+  <FxOrder ID="4" Name="Front">
+    <SKey Key="0" Flag="1" />
+    <Group>
+      <Fx ID="5" />
+    </Group>
+    <Group>
+      <Fx ID="6" />
+    </Group>
+    <Group>
+      <Fx ID="7" />
+    </Group>
+    <Group>
+      <Fx ID="8" />
+    </Group>
+  </FxOrder>
+  <Fxs />
+  <VisuDmx _VisuDmxAllFxNameShow="0" _VisuDmxAllFxNameFontCustom="0" _VisuDmxAllFxNameFontclrCustom="0" _VisuDmxAllFxNameZoneclrCustom="0" _VisuDmxAllFxChannelsNameShow="0" _VisuDmxAllFxChannelsNameFontCustom="0" _VisuDmxAllFxChannelsNameFontclrCustom="0" _VisuDmxAllFxChannelsNameZoneclrCustom="0" _VisuDmxAllFxPresetsImageShow="0">
+    <_VisuDmxAllFxNameFont lfHeight="12" lfWidth="0" lfEscapement="0" lfOrientation="0" lfWeight="400" lfItalic="0" lfUnderline="0" lfStrikeOut="0" lfCharSet="1" lfOutPrecision="0" lfClipPrecision="0" lfQuality="0" lfPitchAndFamily="32" lfFaceName="Arial" />
+    <_VisuDmxAllFxNameFontclrArray data0="-1" data1="-1" data2="-1" data3="-1" data4="-1" data5="-1" data6="-1" data7="-1" data8="-1" data9="-1" />
+    <_VisuDmxAllFxNameZoneclrArray data0="-1" data1="-1" data2="-1" data3="-1" data4="-1" data5="-1" data6="-1" data7="-1" data8="-1" data9="-1" />
+    <_VisuDmxAllFxChannelsNameFont lfHeight="12" lfWidth="0" lfEscapement="0" lfOrientation="0" lfWeight="400" lfItalic="0" lfUnderline="0" lfStrikeOut="0" lfCharSet="1" lfOutPrecision="0" lfClipPrecision="0" lfQuality="0" lfPitchAndFamily="32" lfFaceName="Arial" />
+    <_VisuDmxAllFxChannelsNameFontclrArray data0="-1" data1="-1" data2="-1" data3="-1" data4="-1" data5="-1" data6="-1" data7="-1" data8="-1" data9="-1" />
+    <_VisuDmxAllFxChannelsNameZoneclrArray data0="-1" data1="-1" data2="-1" data3="-1" data4="-1" data5="-1" data6="-1" data7="-1" data8="-1" data9="-1" />
+  </VisuDmx>
+</Page>

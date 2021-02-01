@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DockingPaneLayouts CompactMode="1">
+	<Common>
+		<Summary Panes="10" TopContainer="4" Client="7"/>
+		<Pane-1 Type="0" DockingCX="200" DockingCY="122" Title="Other" ID="200" Options="7" DockingHolder="8" LastHolder="8"/>
+		<Pane-2 Type="0" DockingCX="200" DockingCY="122" Title="Color mixing " ID="201" Options="7" DockingHolder="10" LastHolder="10"/>
+		<Pane-3 Type="0" DockingCX="200" DockingCY="122" Title="XY" ID="202" Options="7" DockingHolder="10" LastHolder="10"/>
+		<Pane-4 Type="2" DockingCX="843" Horiz="1" Panes="2" Pane-1="5" Pane-2="9"/>
+		<Pane-5 Type="2" DockingCX="453" Panes="2" Pane-1="6" Pane-2="8"/>
+		<Pane-6 Type="2" Horiz="1" Panes="1" Pane-1="7"/>
+		<Pane-7 Type="4"/>
+		<Pane-8 Type="1" DockingCX="200" DockingCY="122" Panes="1" Selected="1" Pane-1="1"/>
+		<Pane-9 Type="2" DockingCX="386" DockingCY="122" Panes="1" Pane-1="10"/>
+		<Pane-10 Type="1" DockingCX="200" DockingCY="122" Panes="2" Selected="2" Pane-1="2" Pane-2="3"/>
+	</Common>
+	<Custom Panes="3">
+		<Pane-1 ID="200" Name="Other" Type="3"/>
+		<Pane-2 ID="201" Name="Color mixing " Type="3"/>
+		<Pane-3 ID="202" Name="X-Y" Type="3"/>
+	</Custom>
+</DockingPaneLayouts>

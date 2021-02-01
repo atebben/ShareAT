@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DockingPaneLayouts CompactMode="1">
+	<Common>
+		<Summary Panes="11" TopContainer="5" Client="6"/>
+		<Pane-1 Type="0" DockingCX="300" DockingCY="120" Title="_MASTER" ID="120" Options="18" DockingHolder="7" LastHolder="7" MinTrackX="154" MinTrackY="300"/>
+		<Pane-2 Type="0" DockingCX="300" DockingCY="120" Title="MOVING HEAD" ID="121" Options="18" DockingHolder="8" LastHolder="8" MinTrackX="154" MinTrackY="300"/>
+		<Pane-3 Type="0" DockingCX="300" DockingCY="120" Title="PAR 64" ID="123" Options="18" DockingHolder="8" FloatingHolder="11" LastHolder="8" MinTrackX="154" MinTrackY="300"/>
+		<Pane-4 Type="0" DockingCX="300" DockingCY="120" Title="RGB" ID="122" Options="18" DockingHolder="8" LastHolder="8" MinTrackX="154" MinTrackY="300"/>
+		<Pane-5 Type="2" DockingCX="1216" Horiz="1" Panes="3" Pane-1="6" Pane-2="7" Pane-3="8"/>
+		<Pane-6 Type="4"/>
+		<Pane-7 Type="1" DockingCX="363" DockingCY="120" Panes="1" Selected="1" Pane-1="1"/>
+		<Pane-8 Type="1" DockingCX="849" DockingCY="120" Panes="3" Selected="2" Pane-1="2" Pane-2="4" Pane-3="3"/>
+		<Pane-9 Type="3" WindowRectTopPos="201" WindowRectBottomPos="1035" WindowRectLeftPos="1066" WindowRectRightPos="1915" TopContaner="10"/>
+		<Pane-10 Type="2" DockingCX="300" DockingCY="120" Horiz="1" Panes="1" Pane-1="11"/>
+		<Pane-11 Type="1" DockingCX="300" DockingCY="120" Panes="0"/>
+	</Common>
+	<Custom Panes="4">
+		<Pane-1 ID="120" Name="_MASTER"/>
+		<Pane-2 ID="121" Name="MOVING HEAD"/>
+		<Pane-3 ID="123" Name="PAR 64"/>
+		<Pane-4 ID="122" Name="RGB"/>
+	</Custom>
+</DockingPaneLayouts>
