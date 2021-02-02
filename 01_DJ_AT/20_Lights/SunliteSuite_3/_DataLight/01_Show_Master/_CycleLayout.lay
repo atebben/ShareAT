@@ -15,11 +15,11 @@
 		<Pane-11 Type="2" DockingCX="11" DockingCY="11" Horiz="1" Panes="1" Pane-1="12"/>
 		<Pane-12 Type="1" DockingCX="11" DockingCY="11" Panes="0"/>
 		<Pane-13 Type="2" DockingCX="1301" Horiz="1" Panes="2" Pane-1="14" Pane-2="19"/>
-		<Pane-14 Type="2" DockingCX="581" DockingCY="723" Panes="3" Pane-1="15" Pane-2="16" Pane-3="18"/>
-		<Pane-15 Type="1" DockingCX="11" DockingCY="454" Panes="1" Selected="1" Pane-1="1"/>
+		<Pane-14 Type="2" DockingCX="581" DockingCY="859" Panes="3" Pane-1="15" Pane-2="16" Pane-3="18"/>
+		<Pane-15 Type="1" DockingCX="11" DockingCY="721" Panes="1" Selected="1" Pane-1="1"/>
 		<Pane-16 Type="2" Horiz="1" Panes="1" Pane-1="17"/>
 		<Pane-17 Type="4"/>
-		<Pane-18 Type="1" DockingCX="11" DockingCY="265" Panes="1" Selected="2" Pane-1="2"/>
+		<Pane-18 Type="1" DockingCX="11" DockingCY="134" Panes="1" Selected="2" Pane-1="2"/>
 		<Pane-19 Type="1" DockingCX="716" DockingCY="11" Panes="0"/>
 	</Common>
 	<DockCycle DrawType="2"/>
