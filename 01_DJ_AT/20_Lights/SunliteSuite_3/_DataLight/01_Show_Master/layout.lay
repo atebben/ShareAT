@@ -8,7 +8,7 @@
 		<Pane-4 Type="0" DockingCX="200" DockingCY="120" Title="Live Beam" ID="112" Options="26" DockingHolder="44" FloatingHolder="33" LastHolder="44" MinTrackX="396" MinTrackY="85" MaxTrackX="396" MaxTrackY="85"/>
 		<Pane-5 Type="0" DockingCX="200" DockingCY="120" Title="Audio BPM" ID="113" Options="26" DockingHolder="45" FloatingHolder="36" LastHolder="45" MinTrackX="420" MinTrackY="85" MaxTrackX="420" MaxTrackY="85"/>
 		<Pane-6 Type="0" DockingCX="200" DockingCY="120" Title="DMX Pegel" ID="102" Options="154" DockingHolder="41" FloatingHolder="53" LastHolder="41" MinTrackX="240" MinTrackY="240"/>
-		<Pane-7 Type="0" DockingCX="11" DockingCY="11" Title="Zyklus - &quot;_Show All&quot; (Seite &quot;_MASTER&quot;)" ID="100" Options="154" DockingHolder="41" FloatingHolder="56" LastHolder="41" MinTrackX="240" MinTrackY="240"/>
+		<Pane-7 Type="0" DockingCX="11" DockingCY="11" Title="Zyklus" ID="100" Options="154" DockingHolder="41" FloatingHolder="56" LastHolder="41" MinTrackX="240" MinTrackY="240"/>
 		<Pane-8 Type="0" DockingCX="11" DockingCY="11" Title="Geräte" ID="106" Options="410" DockingHolder="41" FloatingHolder="39" LastHolder="41" MinTrackX="240" MinTrackY="240"/>
 		<Pane-9 Type="0" DockingCX="11" DockingCY="11" Title="Live fixtures" ID="111" Options="26" DockingHolder="47" FloatingHolder="21" LastHolder="47" MinTrackX="240" MinTrackY="240"/>
 		<Pane-10 Type="0" DockingCX="11" DockingCY="11" Title="Embedded fixtures" ID="114" Options="26" DockingHolder="49" FloatingHolder="24" LastHolder="24" MinTrackX="240" MinTrackY="240"/>
@@ -42,7 +42,7 @@
 		<Pane-38 Type="2" DockingCX="827" DockingCY="11" Horiz="1" Panes="1" Pane-1="39"/>
 		<Pane-39 Type="1" DockingCX="827" DockingCY="11" Panes="0"/>
 		<Pane-40 Type="2" DockingCX="1916" DockingCY="954" Horiz="1" Panes="2" Pane-1="41" Pane-2="42"/>
-		<Pane-41 Type="1" DockingCX="671" DockingCY="11" Panes="4" Selected="8" Pane-1="8" Pane-2="1" Pane-3="6" Pane-4="7"/>
+		<Pane-41 Type="1" DockingCX="671" DockingCY="11" Panes="4" Selected="7" Pane-1="8" Pane-2="1" Pane-3="6" Pane-4="7"/>
 		<Pane-42 Type="2" DockingCX="1241" DockingCY="954" Panes="2" Pane-1="43" Pane-2="46"/>
 		<Pane-43 Type="2" DockingCX="1916" DockingCY="85" Horiz="1" Panes="2" Pane-1="44" Pane-2="45"/>
 		<Pane-44 Type="1" DockingCX="1916" DockingCY="85" Panes="0"/>
@@ -55,7 +55,7 @@
 		<Pane-51 Type="3" WindowRectTopPos="57" WindowRectBottomPos="715" WindowRectLeftPos="-1111" WindowRectRightPos="-71" TopContaner="52"/>
 		<Pane-52 Type="2" DockingCX="200" DockingCY="120" Horiz="1" Panes="1" Pane-1="53"/>
 		<Pane-53 Type="1" DockingCX="200" DockingCY="120" Panes="0"/>
-		<Pane-54 Type="3" WindowRectTopPos="38" WindowRectBottomPos="1018" WindowRectLeftPos="1966" WindowRectRightPos="3764" TopContaner="55"/>
+		<Pane-54 Type="3" WindowRectTopPos="0" WindowRectBottomPos="1080" WindowRectLeftPos="0" WindowRectRightPos="1920" TopContaner="55"/>
 		<Pane-55 Type="2" DockingCX="11" DockingCY="11" Horiz="1" Panes="1" Pane-1="56"/>
 		<Pane-56 Type="1" DockingCX="11" DockingCY="11" Panes="0"/>
 	</Common>
