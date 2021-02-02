@@ -3,7 +3,7 @@
     <Button Name="I N I T" Index="0" />
     <Group Name="POSITION" Index="1" />
     <Group Name="DIMMER" Index="2" />
-    <Group Name="P_T SPEED" Index="3" />
+    <Button Name="P_T SPEED SPEED" Index="3" />
     <Group Name="COLOR" Index="4" />
     <Group Name="SHUTTER" Index="5" />
     <Group Name="GOBO" Index="6" />
