@@ -7,7 +7,7 @@
   </Global>
   <Lock AskPassword="1" PageRename="1" PageDelete="1" PageSettings="1" PageExport="1" PageFreeze="1" PageDmx="1" PageLock="1" PageAddInMaster="1" FxLiveMode="1" FxEmbeddedMode="1" FxAddEditDeleteRenameGroup="1" FxMove="1" Dimmer="0" Speed="0" ButtonsLayersChange="1" ButtonsLayersModif="1" ButtonsLayerOrder="1" ButtonsActivation="0" ButtonsOrder="1" ButtonsCreate="1" ButtonsEdit="1" ButtonsSettings="1" ButtonsRename="1" ButtonsDelete="1" ButtonsLinkKeyboard="1" ButtonsDimmer="0" ButtonsSpeed="0" ButtonsPhasing="0" ButtonsSize="0" />
   <SwitchOn>
-    <Switch Name="_ALL Reset 02 Pos MovingHeadsDefault" />
+    <Switch Name="_ALL Reset 02 ALL ON" />
   </SwitchOn>
   <FxOrder ID="-1" Name="Par-56" Index="0" UID="{6ae907dd-33f8-4035-9cba-314b3d687ae1}">
     <SKey Key="0" Flag="1" />
