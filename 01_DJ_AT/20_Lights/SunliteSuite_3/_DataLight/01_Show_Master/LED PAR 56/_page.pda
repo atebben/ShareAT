@@ -47,11 +47,11 @@
       <Fx ID="10" />
     </Group>
   </FxOrder>
-  <Compress Name="VDimmer" SwitchOneIsOn="0" SwitchOnlyOneIsOn="0" Sort="0" ModeApplication="Switch" Type="Icon" Icon="dimmer.png" PX="0" PY="0" SX="0" SY="0" Flag="36" />
+  <Compress Name="VDimmer" SwitchOneIsOn="0" SwitchOnlyOneIsOn="0" Sort="0" ModeApplication="Switch" Type="Icon" Icon="" PX="0" PY="0" SX="0" SY="0" Flag="36" />
   <Compress Name="Speed" SwitchOneIsOn="0" SwitchOnlyOneIsOn="0" Sort="0" ModeApplication="Switch" Type="Icon" Icon="" PX="0" PY="0" SX="0" SY="0" Flag="36" />
   <Compress Name="RGB " SwitchOneIsOn="0" SwitchOnlyOneIsOn="0" Sort="0" ModeApplication="Switch" Type="Icon" Icon="" PX="0" PY="0" SX="0" SY="0" Flag="36" />
   <Compress Name="Mode" SwitchOneIsOn="0" SwitchOnlyOneIsOn="0" Sort="0" ModeApplication="Switch" Type="Icon" Icon="" PX="0" PY="0" SX="0" SY="0" Flag="36" />
-  <Compress Name="Farbmischung " SwitchOneIsOn="0" SwitchOnlyOneIsOn="0" Sort="0" ModeApplication="Switch" Type="Icon" Icon="trichro.png" PX="0" PY="0" SX="0" SY="0" Flag="36" />
+  <Compress Name="Farbmischung " SwitchOneIsOn="0" SwitchOnlyOneIsOn="0" Sort="0" ModeApplication="Switch" Type="Icon" Icon="" PX="0" PY="0" SX="0" SY="0" Flag="36" />
   <Compress Name="DImmer" SwitchOneIsOn="0" SwitchOnlyOneIsOn="0" Sort="0" ModeApplication="Switch" Type="Icon" Icon="" PX="0" PY="0" SX="0" SY="0" Flag="36" />
   <Compress Name="Color Effects" SwitchOneIsOn="0" SwitchOnlyOneIsOn="0" Sort="0" ModeApplication="Switch" Type="Icon" Icon="" PX="0" PY="0" SX="0" SY="0" Flag="36" />
   <Fxs>

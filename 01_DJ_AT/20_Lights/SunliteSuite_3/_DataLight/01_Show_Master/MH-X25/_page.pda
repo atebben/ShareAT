@@ -43,16 +43,16 @@
     </Group>
   </FxOrder>
   <Compress Name="_MASTER_MH-X25_Position" SwitchOneIsOn="0" SwitchOnlyOneIsOn="0" Sort="0" ModeApplication="Switch" Type="Icon" Icon="" PX="0" PY="0" SX="0" SY="0" Flag="36" />
-  <Compress Name="X-Y " SwitchOneIsOn="0" SwitchOnlyOneIsOn="0" Sort="0" ModeApplication="Switch" Type="SplashPanTiltIco" Icon="pantilt.png" PX="0" PY="0" SX="0" SY="0" Flag="36" />
-  <Compress Name="Shutter" SwitchOneIsOn="0" SwitchOnlyOneIsOn="0" Sort="0" ModeApplication="Switch" Type="Icon" Icon="shutter.png" PX="0" PY="0" SX="0" SY="0" Flag="36" />
+  <Compress Name="X-Y " SwitchOneIsOn="0" SwitchOnlyOneIsOn="0" Sort="0" ModeApplication="Switch" Type="SplashPanTiltIco" Icon="" PX="0" PY="0" SX="0" SY="0" Flag="36" />
+  <Compress Name="Shutter" SwitchOneIsOn="0" SwitchOnlyOneIsOn="0" Sort="0" ModeApplication="Switch" Type="Icon" Icon="" PX="0" PY="0" SX="0" SY="0" Flag="36" />
   <Compress Name="Program built-in" SwitchOneIsOn="0" SwitchOnlyOneIsOn="0" Sort="0" ModeApplication="Switch" Type="Icon" Icon="" PX="0" PY="0" SX="0" SY="0" Flag="36" />
   <Compress Name="Position" SwitchOneIsOn="0" SwitchOnlyOneIsOn="0" Sort="0" ModeApplication="Switch" Type="Icon" Icon="" PX="0" PY="0" SX="0" SY="0" Flag="36" />
   <Compress Name="P_T Speed" SwitchOneIsOn="0" SwitchOnlyOneIsOn="0" Sort="0" ModeApplication="Switch" Type="Icon" Icon="" PX="0" PY="0" SX="0" SY="0" Flag="36" />
-  <Compress Name="Gobo rotation" SwitchOneIsOn="0" SwitchOnlyOneIsOn="0" Sort="0" ModeApplication="Switch" Type="Icon" Icon="goborot.png" PX="0" PY="0" SX="0" SY="0" Flag="36" />
-  <Compress Name="Gobo" SwitchOneIsOn="0" SwitchOnlyOneIsOn="0" Sort="0" ModeApplication="Switch" Type="Icon" Icon="gobo.png" PX="0" PY="0" SX="0" SY="0" Flag="36" />
+  <Compress Name="Gobo rotation" SwitchOneIsOn="0" SwitchOnlyOneIsOn="0" Sort="0" ModeApplication="Switch" Type="Icon" Icon="" PX="0" PY="0" SX="0" SY="0" Flag="36" />
+  <Compress Name="Gobo" SwitchOneIsOn="0" SwitchOnlyOneIsOn="0" Sort="0" ModeApplication="Switch" Type="Icon" Icon="" PX="0" PY="0" SX="0" SY="0" Flag="36" />
   <Compress Name="Function" SwitchOneIsOn="0" SwitchOnlyOneIsOn="0" Sort="0" ModeApplication="Switch" Type="Icon" Icon="" PX="0" PY="0" SX="0" SY="0" Flag="36" />
   <Compress Name="DImmer" SwitchOneIsOn="0" SwitchOnlyOneIsOn="0" Sort="0" ModeApplication="Switch" Type="Icon" Icon="" PX="0" PY="0" SX="0" SY="0" Flag="36" />
-  <Compress Name="Color" SwitchOneIsOn="0" SwitchOnlyOneIsOn="0" Sort="0" ModeApplication="Switch" Type="Icon" Icon="color.png" PX="0" PY="0" SX="0" SY="0" Flag="36" />
+  <Compress Name="Color" SwitchOneIsOn="0" SwitchOnlyOneIsOn="0" Sort="0" ModeApplication="Switch" Type="Icon" Icon="" PX="0" PY="0" SX="0" SY="0" Flag="36" />
   <Fxs>
     <Fx ID="1" LibName="\STAIRVILLE\MH-X25.SSL2" Mode="0" DmxA="0" DmxU="0" />
     <Fx ID="2" LibName="\STAIRVILLE\MH-X25.SSL2" Mode="0" DmxA="12" DmxU="0" />

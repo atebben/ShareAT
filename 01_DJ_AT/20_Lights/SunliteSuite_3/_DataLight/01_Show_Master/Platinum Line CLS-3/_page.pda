@@ -70,11 +70,11 @@
   <Compress Name="Power Out 2" SwitchOneIsOn="0" SwitchOnlyOneIsOn="0" Sort="0" ModeApplication="Switch" Type="Icon" Icon="" PX="0" PY="0" SX="0" SY="0" Flag="36" />
   <Compress Name="Power Out 1" SwitchOneIsOn="0" SwitchOnlyOneIsOn="0" Sort="0" ModeApplication="Switch" Type="Icon" Icon="" PX="0" PY="0" SX="0" SY="0" Flag="36" />
   <Compress Name="Mode" SwitchOneIsOn="0" SwitchOnlyOneIsOn="0" Sort="0" ModeApplication="Switch" Type="Icon" Icon="" PX="0" PY="0" SX="0" SY="0" Flag="36" />
-  <Compress Name="Flash" SwitchOneIsOn="0" SwitchOnlyOneIsOn="0" Sort="0" ModeApplication="Switch" Type="Icon" Icon="shutter.png" PX="0" PY="0" SX="0" SY="0" Flag="36" />
-  <Compress Name="Farbmischung " SwitchOneIsOn="0" SwitchOnlyOneIsOn="0" Sort="0" ModeApplication="Switch" Type="Icon" Icon="trichro.png" PX="0" PY="0" SX="0" SY="0" Flag="36" />
-  <Compress Name="Dimmer_Speed_Sensitivity" SwitchOneIsOn="0" SwitchOnlyOneIsOn="0" Sort="0" ModeApplication="Switch" Type="Icon" Icon="dimmer.png" PX="0" PY="0" SX="0" SY="0" Flag="36" />
+  <Compress Name="Flash" SwitchOneIsOn="0" SwitchOnlyOneIsOn="0" Sort="0" ModeApplication="Switch" Type="Icon" Icon="" PX="0" PY="0" SX="0" SY="0" Flag="36" />
+  <Compress Name="Farbmischung " SwitchOneIsOn="0" SwitchOnlyOneIsOn="0" Sort="0" ModeApplication="Switch" Type="Icon" Icon="" PX="0" PY="0" SX="0" SY="0" Flag="36" />
+  <Compress Name="Dimmer_Speed_Sensitivity" SwitchOneIsOn="0" SwitchOnlyOneIsOn="0" Sort="0" ModeApplication="Switch" Type="Icon" Icon="" PX="0" PY="0" SX="0" SY="0" Flag="36" />
   <Compress Name="Color Effects" SwitchOneIsOn="0" SwitchOnlyOneIsOn="0" Sort="0" ModeApplication="Switch" Type="Icon" Icon="" PX="0" PY="0" SX="0" SY="0" Flag="36" />
-  <Compress Name="" SwitchOneIsOn="0" SwitchOnlyOneIsOn="0" Sort="0" ModeApplication="Switch" Type="Icon" Icon="dimmer.png" PX="0" PY="0" SX="0" SY="0" Flag="36" />
+  <Compress Name="" SwitchOneIsOn="0" SwitchOnlyOneIsOn="0" Sort="0" ModeApplication="Switch" Type="Icon" Icon="" PX="0" PY="0" SX="0" SY="0" Flag="36" />
   <Fxs>
     <Fx ID="5" LibName="\LIGHTMAXX\PLATINUM LINE CLS-3 QUAD 19CH.SSL2" Mode="2" DmxA="49" DmxU="0" />
     <Fx ID="6" LibName="\LIGHTMAXX\PLATINUM LINE CLS-3 QUAD 19CH.SSL2" Mode="2" DmxA="58" DmxU="0" />
