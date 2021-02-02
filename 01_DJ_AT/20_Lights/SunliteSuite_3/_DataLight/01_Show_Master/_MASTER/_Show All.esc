@@ -1,4 +1,4 @@
-<EasyShowCycle Author="dylan" Version="1.1" EndTime="27108" TypeButton="4" IconTxtOver="0" Icon="..\Scanlibrary\icon\ZMediaPlay.ico" InvertFugitif="0" Shortcut="0" ShortcutFugitif="0" ReleaseOther="0" AutoSave="0" LoadWhenActivate="1" Loop="1" MTCIn="0" MTCOut="0" BpmMode="0">
+<EasyShowCycle Author="dylan" Version="1.1" EndTime="25208" TypeButton="4" IconTxtOver="0" Icon="..\Scanlibrary\icon\ZMediaPlay.ico" InvertFugitif="0" Shortcut="0" ShortcutFugitif="0" ReleaseOther="0" AutoSave="0" LoadWhenActivate="1" Loop="1" MTCIn="0" MTCOut="0" BpmMode="0">
   <TriggerPort Interface="0" PortFugitif="0" />
   <sBPMSynchro />
   <TimeLine Name="X-25 Dimm" ID="0" Mode="1" />
@@ -13,21 +13,21 @@
   <TimeLine Name="Par-56 Color" ID="13" Mode="1" />
   <TimeLine Name="On/Off" ID="1" Mode="0" Lock="1" />
   <Button Name="_MH-X25 Color 04 Yellow" Page="_MASTER">
-    <Block Time="0" Pause="0" LockPos="0" Duree="0" PausePlayOnRestart="0" iTL="8" LoadWaveForm="-1" LoadBeatDetector="-1" State="0" />
+    <Block Time="71" Pause="0" LockPos="0" Duree="0" PausePlayOnRestart="0" iTL="8" LoadWaveForm="-1" LoadBeatDetector="-1" State="0" />
   </Button>
   <Button Name="_PAR56 Color 02 Blue" Page="_MASTER">
-    <Block Time="0" Pause="0" LockPos="0" Duree="0" PausePlayOnRestart="0" iTL="13" LoadWaveForm="-1" LoadBeatDetector="-1" State="0" />
+    <Block Time="71" Pause="0" LockPos="0" Duree="0" PausePlayOnRestart="0" iTL="13" LoadWaveForm="-1" LoadBeatDetector="-1" State="0" />
     <Block Time="12000" Pause="0" LockPos="0" Duree="0" PausePlayOnRestart="0" iTL="13" LoadWaveForm="-1" LoadBeatDetector="-1" State="0" />
   </Button>
   <Button Name="_CLS3 Color 02 Blue" Page="_MASTER">
-    <Block Time="0" Pause="0" LockPos="0" Duree="0" PausePlayOnRestart="0" iTL="11" LoadWaveForm="-1" LoadBeatDetector="-1" State="0" />
+    <Block Time="71" Pause="0" LockPos="0" Duree="0" PausePlayOnRestart="0" iTL="11" LoadWaveForm="-1" LoadBeatDetector="-1" State="0" />
     <Block Time="12000" Pause="0" LockPos="0" Duree="0" PausePlayOnRestart="0" iTL="11" LoadWaveForm="-1" LoadBeatDetector="-1" State="0" />
   </Button>
   <Button Name="_MH-X25 Gobo 04" Page="_MASTER">
-    <Block Time="0" Pause="0" LockPos="0" Duree="0" PausePlayOnRestart="0" iTL="9" LoadWaveForm="-1" LoadBeatDetector="-1" State="0" />
+    <Block Time="71" Pause="0" LockPos="0" Duree="0" PausePlayOnRestart="0" iTL="9" LoadWaveForm="-1" LoadBeatDetector="-1" State="0" />
   </Button>
   <Button Name="_PAR64 Color 02 Blue" Page="_MASTER">
-    <Block Time="0" Pause="0" LockPos="0" Duree="0" PausePlayOnRestart="0" iTL="12" LoadWaveForm="-1" LoadBeatDetector="-1" State="0" />
+    <Block Time="71" Pause="0" LockPos="0" Duree="0" PausePlayOnRestart="0" iTL="12" LoadWaveForm="-1" LoadBeatDetector="-1" State="0" />
     <Block Time="12000" Pause="0" LockPos="0" Duree="0" PausePlayOnRestart="0" iTL="12" LoadWaveForm="-1" LoadBeatDetector="-1" State="0" />
   </Button>
   <Button Name="_MH-X25 Dimmer 01" Page="_MASTER">
@@ -35,14 +35,14 @@
     <Block Time="7000" Pause="0" LockPos="0" Duree="0" PausePlayOnRestart="0" iTL="0" LoadWaveForm="-1" LoadBeatDetector="-1" State="0" />
     <Block Time="10800" Pause="0" LockPos="0" Duree="0" PausePlayOnRestart="0" iTL="0" LoadWaveForm="-1" LoadBeatDetector="-1" State="0" />
     <Block Time="14400" Pause="0" LockPos="0" Duree="0" PausePlayOnRestart="0" iTL="0" LoadWaveForm="-1" LoadBeatDetector="-1" State="0" />
-    <Block Time="17904" Pause="0" LockPos="0" Duree="0" PausePlayOnRestart="0" iTL="0" LoadWaveForm="-1" LoadBeatDetector="-1" State="0" />
+    <Block Time="18000" Pause="0" LockPos="0" Duree="0" PausePlayOnRestart="0" iTL="0" LoadWaveForm="-1" LoadBeatDetector="-1" State="0" />
     <Block Time="21504" Pause="0" LockPos="0" Duree="0" PausePlayOnRestart="0" iTL="0" LoadWaveForm="-1" LoadBeatDetector="-1" State="0" />
   </Button>
   <Button Name="_CLS3 Dimmer 01" Page="_MASTER">
     <Block Time="209" Pause="0" LockPos="0" Duree="0" PausePlayOnRestart="0" iTL="10" LoadWaveForm="-1" LoadBeatDetector="-1" State="0" />
   </Button>
   <Button Name="_MH-X25 Move 01" Page="_MASTER">
-    <Block Time="0" Pause="0" LockPos="0" Duree="0" PausePlayOnRestart="0" iTL="6" LoadWaveForm="-1" LoadBeatDetector="-1" State="0" />
+    <Block Time="71" Pause="0" LockPos="0" Duree="0" PausePlayOnRestart="0" iTL="6" LoadWaveForm="-1" LoadBeatDetector="-1" State="0" />
   </Button>
   <Button Name="_MH-X25 Move 02" Page="_MASTER">
     <Block Time="800" Pause="0" LockPos="0" Duree="0" PausePlayOnRestart="0" iTL="6" LoadWaveForm="-1" LoadBeatDetector="-1" State="0" />
@@ -92,7 +92,7 @@
     <Block Time="16904" Pause="0" LockPos="0" Duree="0" PausePlayOnRestart="0" iTL="7" LoadWaveForm="-1" LoadBeatDetector="-1" State="0" />
   </Button>
   <Button Name="_MH-X25 Move 07" Page="_MASTER">
-    <Block Time="17904" Pause="0" LockPos="0" Duree="0" PausePlayOnRestart="0" iTL="6" LoadWaveForm="-1" LoadBeatDetector="-1" State="0" />
+    <Block Time="18000" Pause="0" LockPos="0" Duree="0" PausePlayOnRestart="0" iTL="6" LoadWaveForm="-1" LoadBeatDetector="-1" State="0" />
   </Button>
   <Button Name="_MH-X25 Pos 12" Page="_MASTER">
     <Block Time="20400" Pause="0" LockPos="0" Duree="0" PausePlayOnRestart="0" iTL="7" LoadWaveForm="-1" LoadBeatDetector="-1" State="0" />

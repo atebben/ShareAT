@@ -8,7 +8,7 @@
 		<Pane-4 Type="0" DockingCX="200" DockingCY="120" Title="Live Beam" ID="112" Options="26" DockingHolder="44" FloatingHolder="33" LastHolder="44" MinTrackX="396" MinTrackY="85" MaxTrackX="396" MaxTrackY="85"/>
 		<Pane-5 Type="0" DockingCX="200" DockingCY="120" Title="Audio BPM" ID="113" Options="26" DockingHolder="45" FloatingHolder="36" LastHolder="45" MinTrackX="420" MinTrackY="85" MaxTrackX="420" MaxTrackY="85"/>
 		<Pane-6 Type="0" DockingCX="200" DockingCY="120" Title="DMX Pegel" ID="102" Options="154" DockingHolder="41" FloatingHolder="53" LastHolder="41" MinTrackX="240" MinTrackY="240"/>
-		<Pane-7 Type="0" DockingCX="11" DockingCY="11" Title="Zyklus" ID="100" Options="154" DockingHolder="41" FloatingHolder="56" LastHolder="41" MinTrackX="240" MinTrackY="240"/>
+		<Pane-7 Type="0" DockingCX="11" DockingCY="11" Title="Zyklus - &quot;_Show All&quot; (Seite &quot;_MASTER&quot;)" ID="100" Options="154" DockingHolder="41" FloatingHolder="56" LastHolder="41" MinTrackX="240" MinTrackY="240"/>
 		<Pane-8 Type="0" DockingCX="11" DockingCY="11" Title="Geräte" ID="106" Options="410" DockingHolder="41" FloatingHolder="39" LastHolder="41" MinTrackX="240" MinTrackY="240"/>
 		<Pane-9 Type="0" DockingCX="11" DockingCY="11" Title="Live fixtures" ID="111" Options="26" DockingHolder="47" FloatingHolder="21" LastHolder="47" MinTrackX="240" MinTrackY="240"/>
 		<Pane-10 Type="0" DockingCX="11" DockingCY="11" Title="Embedded fixtures" ID="114" Options="26" DockingHolder="49" FloatingHolder="24" LastHolder="24" MinTrackX="240" MinTrackY="240"/>
