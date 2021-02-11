@@ -9,7 +9,7 @@
   <SwitchBeamOn Switch="DIMMER_SPEED_SENSITIVITY 1.DIMMER" />
   <SwitchBeamOn Switch="FLASH NOFUNCTION" />
   <SwitchBeamOff Switch="DIMMER_SPEED_SENSITIVITY 1.DIMMER" />
-  <FxOrder ID="-1" Name="Alle" Index="0" UID="{0e462cb6-ad43-4caf-85cd-c5d22d9b79b6}">
+  <FxOrder ID="-1" Name="Alle" Index="-1" UID="{0e462cb6-ad43-4caf-85cd-c5d22d9b79b6}">
     <SKey Key="0" Flag="1" />
     <Group>
       <Fx ID="5" />
@@ -36,7 +36,7 @@
       <Fx ID="6" IdBeam="3" />
     </Group>
   </FxOrder>
-  <FxOrder ID="-1" Name="2, 4, 6..." Index="1" UID="{41633200-8f73-4ad7-8d35-f1c0436dd1ec}">
+  <FxOrder ID="-1" Name="2, 4, 6..." Index="-1" UID="{41633200-8f73-4ad7-8d35-f1c0436dd1ec}">
     <SKey Key="0" Flag="1" />
     <Group>
       <Fx ID="6" />
@@ -51,7 +51,7 @@
       <Fx ID="6" IdBeam="3" />
     </Group>
   </FxOrder>
-  <FxOrder ID="-1" Name="1, 3, 5..." Index="2" UID="{b3b7a898-bf22-44e9-9ba2-00910f9f9b18}">
+  <FxOrder ID="-1" Name="1, 3, 5..." Index="-1" UID="{b3b7a898-bf22-44e9-9ba2-00910f9f9b18}">
     <SKey Key="0" Flag="1" />
     <Group>
       <Fx ID="5" />

@@ -1,4 +1,4 @@
-<scene Author="dylan" Version="1.0" Dimmer="25900" Speed="0" PhasingCourbe="0" Phasing="11000" Size="0" TypeButton="1" IconTxtOver="0" Icon="ZSceneTiltMove.ico" InvertFugitif="0" Shortcut="0" ShortcutFugitif="0" ReleaseOther="0" DontReleaseOther="1" ResetOffsetLevel="1" FlagSlider="11" FlagWorkSlider="0">
+<scene Author="dylan" Version="1.0" Dimmer="26000" Speed="0" PhasingCourbe="0" Phasing="11000" Size="0" TypeButton="1" IconTxtOver="0" Icon="ZSceneTiltMove.ico" InvertFugitif="0" Shortcut="0" ShortcutFugitif="0" ReleaseOther="0" DontReleaseOther="1" ResetOffsetLevel="1" FlagSlider="11" FlagWorkSlider="0">
   <TriggerPort Interface="0" PortFugitif="0" />
   <Multimedia File="" SX="0" SY="0" Loop="0" TimeStart="-1" TimeEnd="-1" StopWhenOtherStart="1" />
   <Editor EasyTimeZoom="2" EasyTimeShowIcon="0" EasyTimeCompressColorXY="1" EasyTimeShowSelected="0" EasyTimeCompress="0" EasyTimeMagnetism="1" EasyTimeMagnetismValue="100" FixturesShowBeam="1" FixturesShowTxt="0" FixturesShowIndex="1" EasyTimeMesureTimer="25" DoJoinLevelBeforePlay="0">
@@ -38,7 +38,7 @@
           <Block Type="4" InGroupRect="0" EffectManagerIndex="0" IndexPixel="0" Time="0" Duree="200" Min="0" Max="255" FullRange="1" EffectName="" NbStep="50" Data="789c5ab9925400000000ffff" />
         </EasyTime>
       </Ch>
-      <Ch MWhite="0" Index="1" DmxInCh="-1" DmxInU="-1" Rack="3" L="91" LMD="0">
+      <Ch MWhite="0" Index="1" DmxInCh="-1" DmxInU="-1" Rack="3" L="110" LMD="0">
         <EasyTime Loop="1" Bg="0" iBg="0">
           <Block Type="4" InGroupRect="0" EffectManagerIndex="0" IndexPixel="0" Time="0" Duree="200" Min="0" Max="255" FullRange="1" EffectName="" NbStep="50" Data="789c6260e1e41396905154d33630b1b473f6f0090c8b4e48c9cc2bae28cecb4c49880e0bf4f170b6b33431d05653949110e6e36401000000ffff" />
         </EasyTime>
@@ -51,7 +51,7 @@
           <Block Type="4" InGroupRect="0" EffectManagerIndex="0" IndexPixel="1" Time="0" Duree="200" Min="0" Max="255" FullRange="1" EffectName="" NbStep="50" Data="789c5ab9925400000000ffff" />
         </EasyTime>
       </Ch>
-      <Ch MWhite="0" Index="1" DmxInCh="-1" DmxInU="-1" Rack="3" L="105" LMD="0">
+      <Ch MWhite="0" Index="1" DmxInCh="-1" DmxInU="-1" Rack="3" L="72" LMD="0">
         <EasyTime Loop="1" Bg="0" iBg="0">
           <Block Type="4" InGroupRect="0" EffectManagerIndex="0" IndexPixel="1" Time="0" Duree="200" Min="0" Max="255" FullRange="1" EffectName="" NbStep="50" Data="789c6260e1e41396905154d33630b1b473f6f0090c8b4e48c9cc2bae28cecb4c49880e0bf4f170b6b33431d05653949110e6e36401000000ffff" />
         </EasyTime>
@@ -64,7 +64,7 @@
           <Block Type="4" InGroupRect="0" EffectManagerIndex="0" IndexPixel="2" Time="0" Duree="200" Min="0" Max="255" FullRange="1" EffectName="" NbStep="50" Data="789c5ab9925400000000ffff" />
         </EasyTime>
       </Ch>
-      <Ch MWhite="0" Index="1" DmxInCh="-1" DmxInU="-1" Rack="3" L="67" LMD="0">
+      <Ch MWhite="0" Index="1" DmxInCh="-1" DmxInU="-1" Rack="3" L="28" LMD="0">
         <EasyTime Loop="1" Bg="0" iBg="0">
           <Block Type="4" InGroupRect="0" EffectManagerIndex="0" IndexPixel="2" Time="0" Duree="200" Min="0" Max="255" FullRange="1" EffectName="" NbStep="50" Data="789c6260e1e41396905154d33630b1b473f6f0090c8b4e48c9cc2bae28cecb4c49880e0bf4f170b6b33431d05653949110e6e36401000000ffff" />
         </EasyTime>
@@ -77,7 +77,7 @@
           <Block Type="4" InGroupRect="0" EffectManagerIndex="0" IndexPixel="3" Time="0" Duree="200" Min="0" Max="255" FullRange="1" EffectName="" NbStep="50" Data="789c5ab9925400000000ffff" />
         </EasyTime>
       </Ch>
-      <Ch MWhite="0" Index="1" DmxInCh="-1" DmxInU="-1" Rack="3" L="28" LMD="0">
+      <Ch MWhite="0" Index="1" DmxInCh="-1" DmxInU="-1" Rack="3" L="9" LMD="0">
         <EasyTime Loop="1" Bg="0" iBg="0">
           <Block Type="4" InGroupRect="0" EffectManagerIndex="0" IndexPixel="3" Time="0" Duree="200" Min="0" Max="255" FullRange="1" EffectName="" NbStep="50" Data="789c6260e1e41396905154d33630b1b473f6f0090c8b4e48c9cc2bae28cecb4c49880e0bf4f170b6b33431d05653949110e6e36401000000ffff" />
         </EasyTime>

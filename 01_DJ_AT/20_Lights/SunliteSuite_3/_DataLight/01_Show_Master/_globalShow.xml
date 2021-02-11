@@ -1,4 +1,4 @@
-<Global Author="dylan" Version="1.0" Suite3Date="Feb  1 2021" WhiteMode="1" ShowEditRGBVal="0" ClassementPages="0" InfosPages="1" AutoDetectInterfaces="1" EthernetIP="1" EthernetArtnetUsed="-1" RSVertical="1" RSRotary="0" EasyViewAutoStart="0" CompressWindowTransparency="255" EditeurWriteDmxInFile="0" EditeurDummies="0" Percent="0" ShowTextInEffectSelector="1" EditeurShowIndexChannel="0" EditeurCtrlPanTiltResolutionMouse="10" EditeurCtrlPanTiltResolutionArrow="10" EditeurCtrlPanTiltFlagLock="0">
+<Global Author="dylan" Version="1.0" Suite3Date="Feb 11 2021" WhiteMode="1" ShowEditRGBVal="0" ClassementPages="0" InfosPages="1" AutoDetectInterfaces="1" EthernetIP="1" EthernetArtnetUsed="-1" RSVertical="1" RSRotary="0" EasyViewAutoStart="0" CompressWindowTransparency="255" EditeurWriteDmxInFile="0" EditeurDummies="0" Percent="0" ShowTextInEffectSelector="1" EditeurShowIndexChannel="0" EditeurCtrlPanTiltResolutionMouse="10" EditeurCtrlPanTiltResolutionArrow="10" EditeurCtrlPanTiltFlagLock="0">
   <ClassementPages />
   <SSButton SX="1.00" SY="1.00" Icon="1.00" />
   <SSButton SX="1.00" SY="1.50" Icon="1.00" />

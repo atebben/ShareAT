@@ -43,7 +43,7 @@
           <Step L="212" />
         </EasyStep>
       </Ch>
-      <Ch MWhite="0" Index="1" DmxInCh="-1" DmxInU="-1" Rack="4" L="66" LMD="0">
+      <Ch MWhite="0" Index="1" DmxInCh="-1" DmxInU="-1" Rack="4" L="0" LMD="0">
         <EasyStep>
           <Step L="127" />
           <Step L="66" />
@@ -72,7 +72,7 @@
           <Step L="215" />
         </EasyStep>
       </Ch>
-      <Ch MWhite="0" Index="1" DmxInCh="-1" DmxInU="-1" Rack="4" L="189" LMD="0">
+      <Ch MWhite="0" Index="1" DmxInCh="-1" DmxInU="-1" Rack="4" L="144" LMD="0">
         <EasyStep>
           <Step L="127" />
           <Step L="189" />
@@ -101,7 +101,7 @@
           <Step L="215" />
         </EasyStep>
       </Ch>
-      <Ch MWhite="0" Index="1" DmxInCh="-1" DmxInU="-1" Rack="4" L="97" LMD="0">
+      <Ch MWhite="0" Index="1" DmxInCh="-1" DmxInU="-1" Rack="4" L="75" LMD="0">
         <EasyStep>
           <Step L="127" />
           <Step L="97" />
@@ -130,7 +130,7 @@
           <Step L="212" />
         </EasyStep>
       </Ch>
-      <Ch MWhite="0" Index="1" DmxInCh="-1" DmxInU="-1" Rack="4" L="158" LMD="0">
+      <Ch MWhite="0" Index="1" DmxInCh="-1" DmxInU="-1" Rack="4" L="40" LMD="0">
         <EasyStep>
           <Step L="127" />
           <Step L="158" />
