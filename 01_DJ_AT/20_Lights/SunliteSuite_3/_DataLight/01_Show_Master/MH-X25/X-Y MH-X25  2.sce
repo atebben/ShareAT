@@ -11,12 +11,15 @@
   </EasyStep>
   <Fxs />
   <Fxs>
+    <Fx ID="1" LibName="\STAIRVILLE\MH-X25.SSL2" Activated0="1" InvPan0="0" InvTilt0="0" LActivated0="1" />
     <Fx ID="2" LibName="\STAIRVILLE\MH-X25.SSL2" Activated0="1" InvPan0="0" InvTilt0="0" LActivated0="1">
-      <Ch MWhite="0" Index="0" DmxInCh="-1" DmxInU="-1" Rack="2" L="127" LMD="0" />
-      <Ch MWhite="0" Index="1" DmxInCh="-1" DmxInU="-1" Rack="2" L="127" LMD="0" />
-      <Ch MWhite="0" Index="2" DmxInCh="-1" DmxInU="-1" Rack="2" L="255" LMD="0" />
-      <Ch MWhite="0" Index="3" DmxInCh="-1" DmxInU="-1" Rack="2" L="255" LMD="0" />
+      <Ch MWhite="0" Index="0" DmxInCh="-1" DmxInU="-1" Rack="2" L="193" LMD="0" />
+      <Ch MWhite="0" Index="1" DmxInCh="-1" DmxInU="-1" Rack="2" L="65" LMD="0" />
+      <Ch MWhite="0" Index="2" DmxInCh="-1" DmxInU="-1" Rack="2" L="139" LMD="0" />
+      <Ch MWhite="0" Index="3" DmxInCh="-1" DmxInU="-1" Rack="2" L="217" LMD="0" />
     </Fx>
+    <Fx ID="3" LibName="\STAIRVILLE\MH-X25.SSL2" Activated0="1" InvPan0="0" InvTilt0="0" LActivated0="1" />
+    <Fx ID="4" LibName="\STAIRVILLE\MH-X25.SSL2" Activated0="1" InvPan0="0" InvTilt0="0" LActivated0="1" />
   </Fxs>
   <DmxInRecorder />
 </scene>

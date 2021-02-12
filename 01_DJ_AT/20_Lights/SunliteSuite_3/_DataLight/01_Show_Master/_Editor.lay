@@ -20,5 +20,5 @@
 		<Pane-16 Type="1" DockingCX="200" DockingCY="120" Panes="1" Selected="1" Pane-1="1"/>
 	</Common>
 	<DockFixtures DrawIris="1" DrawGobo="1" ZoomFixture="150" ShowFixtureBeam="1" ShowFixtureName="0" FixtureSelectAll="1"/>
-	<PosFrame Maximized="1" x="-8" y="-8" cx="1936" cy="1066"/>
+	<PosFrame x="-8" y="-8" cx="1936" cy="1066"/>
 </DockingPaneLayouts>
