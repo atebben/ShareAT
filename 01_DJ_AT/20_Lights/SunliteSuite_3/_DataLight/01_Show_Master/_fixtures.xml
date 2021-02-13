@@ -1,6 +1,6 @@
 <PagesFixtures Author="dylan" Version="1.1">
   <Fxs>
-    <Fx LibName="\STAIRVILLE\MH-X25.SSL2" IdLib="0" Mode="0" Name="MH-X25  1" ID="1" DmxA="0" DmxU="0" PX="1" PY="1" MasterPosX="1" MasterPosY="1" SX="1" SY="1" Rotation="0">
+    <Fx LibName="\STAIRVILLE\MH-X25.SSL2" IdLib="0" Mode="0" Name="MH-X25  1" ID="1" DmxA="0" DmxU="0" PX="1" PY="1" MasterPosX="0" MasterPosY="1" SX="1" SY="1" Rotation="0">
       <ColorFilter Color="-1" Name="" Manufacturer="" />
       <Ch Flag="29" />
       <Ch Flag="29" />
@@ -15,7 +15,7 @@
       <Ch Flag="0" />
       <Ch Flag="0" />
     </Fx>
-    <Fx LibName="\STAIRVILLE\MH-X25.SSL2" IdLib="0" Mode="0" Name="MH-X25  2" ID="2" DmxA="12" DmxU="0" PX="2" PY="1" MasterPosX="9" MasterPosY="1" SX="1" SY="1" Rotation="0">
+    <Fx LibName="\STAIRVILLE\MH-X25.SSL2" IdLib="0" Mode="0" Name="MH-X25  2" ID="2" DmxA="12" DmxU="0" PX="2" PY="1" MasterPosX="8" MasterPosY="1" SX="1" SY="1" Rotation="0">
       <ColorFilter Color="-1" Name="" Manufacturer="" />
       <Ch Flag="29" />
       <Ch Flag="29" />
@@ -30,7 +30,7 @@
       <Ch Flag="0" />
       <Ch Flag="0" />
     </Fx>
-    <Fx LibName="\STAIRVILLE\MH-X25.SSL2" IdLib="0" Mode="0" Name="MH-X25  3" ID="3" DmxA="24" DmxU="0" PX="3" PY="1" MasterPosX="3" MasterPosY="1" SX="1" SY="1" Rotation="0">
+    <Fx LibName="\STAIRVILLE\MH-X25.SSL2" IdLib="0" Mode="0" Name="MH-X25  3" ID="3" DmxA="24" DmxU="0" PX="3" PY="1" MasterPosX="2" MasterPosY="1" SX="1" SY="1" Rotation="0">
       <ColorFilter Color="-1" Name="" Manufacturer="" />
       <Ch Flag="29" />
       <Ch Flag="29" />
@@ -45,7 +45,7 @@
       <Ch Flag="0" />
       <Ch Flag="0" />
     </Fx>
-    <Fx LibName="\STAIRVILLE\MH-X25.SSL2" IdLib="0" Mode="0" Name="MH-X25  4" ID="4" DmxA="36" DmxU="0" PX="4" PY="1" MasterPosX="7" MasterPosY="1" SX="1" SY="1" Rotation="0">
+    <Fx LibName="\STAIRVILLE\MH-X25.SSL2" IdLib="0" Mode="0" Name="MH-X25  4" ID="4" DmxA="36" DmxU="0" PX="4" PY="1" MasterPosX="6" MasterPosY="1" SX="1" SY="1" Rotation="0">
       <ColorFilter Color="-1" Name="" Manufacturer="" />
       <Ch Flag="29" />
       <Ch Flag="29" />
@@ -60,7 +60,7 @@
       <Ch Flag="0" />
       <Ch Flag="0" />
     </Fx>
-    <Fx LibName="\LIGHTMAXX\PLATINUM LINE CLS-3 QUAD 19CH.SSL2" IdLib="1" Mode="2" Name="Platinum Line CLS-3 QUAD 19CH  1" ID="5" DmxA="49" DmxU="0" PX="1" PY="1" MasterPosX="1" MasterPosY="4" SX="1" SY="1" Rotation="0">
+    <Fx LibName="\LIGHTMAXX\PLATINUM LINE CLS-3 QUAD 19CH.SSL2" IdLib="1" Mode="2" Name="Platinum Line CLS-3 QUAD 19CH  1" ID="5" DmxA="49" DmxU="0" PX="1" PY="1" MasterPosX="0" MasterPosY="4" SX="1" SY="1" Rotation="0">
       <ColorFilter Color="-1" Name="" Manufacturer="" />
       <ColorFilter Color="-1" Name="" Manufacturer="" />
       <ColorFilter Color="-1" Name="" Manufacturer="" />
@@ -75,7 +75,7 @@
       <Ch Flag="0" />
       <Ch Flag="0" />
     </Fx>
-    <Fx LibName="\LIGHTMAXX\PLATINUM LINE CLS-3 QUAD 19CH.SSL2" IdLib="1" Mode="2" Name="Platinum Line CLS-3 QUAD 19CH  2" ID="6" DmxA="58" DmxU="0" PX="5" PY="1" MasterPosX="6" MasterPosY="4" SX="1" SY="1" Rotation="0">
+    <Fx LibName="\LIGHTMAXX\PLATINUM LINE CLS-3 QUAD 19CH.SSL2" IdLib="1" Mode="2" Name="Platinum Line CLS-3 QUAD 19CH  2" ID="6" DmxA="58" DmxU="0" PX="5" PY="1" MasterPosX="5" MasterPosY="4" SX="1" SY="1" Rotation="0">
       <ColorFilter Color="-1" Name="" Manufacturer="" />
       <ColorFilter Color="-1" Name="" Manufacturer="" />
       <ColorFilter Color="-1" Name="" Manufacturer="" />
@@ -90,7 +90,7 @@
       <Ch Flag="0" />
       <Ch Flag="0" />
     </Fx>
-    <Fx LibName="\STAIRVILLE\LED PAR 64 ALU BLACK.SSL2" IdLib="3" Mode="0" Name="LED PAR 64 Alu black  1" ID="12" DmxA="67" DmxU="0" PX="1" PY="1" MasterPosX="1" MasterPosY="6" SX="1" SY="1" Rotation="0">
+    <Fx LibName="\STAIRVILLE\LED PAR 64 ALU BLACK.SSL2" IdLib="3" Mode="0" Name="LED PAR 64 Alu black  1" ID="12" DmxA="67" DmxU="0" PX="1" PY="1" MasterPosX="0" MasterPosY="6" SX="1" SY="1" Rotation="0">
       <ColorFilter Color="-1" Name="" Manufacturer="" />
       <Ch Flag="0" />
       <Ch Flag="47" />
@@ -99,7 +99,7 @@
       <Ch Flag="0" />
       <Ch Flag="15" />
     </Fx>
-    <Fx LibName="\STAIRVILLE\LED PAR 64 ALU BLACK.SSL2" IdLib="3" Mode="0" Name="LED PAR 64 Alu black  2" ID="13" DmxA="72" DmxU="0" PX="2" PY="1" MasterPosX="2" MasterPosY="6" SX="1" SY="1" Rotation="0">
+    <Fx LibName="\STAIRVILLE\LED PAR 64 ALU BLACK.SSL2" IdLib="3" Mode="0" Name="LED PAR 64 Alu black  2" ID="13" DmxA="72" DmxU="0" PX="2" PY="1" MasterPosX="1" MasterPosY="6" SX="1" SY="1" Rotation="0">
       <ColorFilter Color="-1" Name="" Manufacturer="" />
       <Ch Flag="0" />
       <Ch Flag="47" />
@@ -108,7 +108,7 @@
       <Ch Flag="0" />
       <Ch Flag="15" />
     </Fx>
-    <Fx LibName="\STAIRVILLE\LED PAR 56.SSL2" IdLib="2" Mode="0" Name="LED PAR 56  1" ID="7" DmxA="81" DmxU="0" PX="1" PY="1" MasterPosX="9" MasterPosY="8" SX="1" SY="1" Rotation="0">
+    <Fx LibName="\STAIRVILLE\LED PAR 56.SSL2" IdLib="2" Mode="0" Name="LED PAR 56  1" ID="7" DmxA="81" DmxU="0" PX="1" PY="1" MasterPosX="8" MasterPosY="8" SX="1" SY="1" Rotation="0">
       <ColorFilter Color="-1" Name="" Manufacturer="" />
       <Ch Flag="0" />
       <Ch Flag="47" />
@@ -117,7 +117,7 @@
       <Ch Flag="0" />
       <Ch Flag="15" />
     </Fx>
-    <Fx LibName="\STAIRVILLE\LED PAR 56.SSL2" IdLib="2" Mode="0" Name="LED PAR 56  2" ID="8" DmxA="86" DmxU="0" PX="2" PY="1" MasterPosX="8" MasterPosY="6" SX="1" SY="1" Rotation="0">
+    <Fx LibName="\STAIRVILLE\LED PAR 56.SSL2" IdLib="2" Mode="0" Name="LED PAR 56  2" ID="8" DmxA="86" DmxU="0" PX="2" PY="1" MasterPosX="7" MasterPosY="6" SX="1" SY="1" Rotation="0">
       <ColorFilter Color="-1" Name="" Manufacturer="" />
       <Ch Flag="0" />
       <Ch Flag="47" />
@@ -126,7 +126,7 @@
       <Ch Flag="0" />
       <Ch Flag="15" />
     </Fx>
-    <Fx LibName="\STAIRVILLE\LED PAR 56.SSL2" IdLib="2" Mode="0" Name="LED PAR 56  3" ID="9" DmxA="91" DmxU="0" PX="3" PY="1" MasterPosX="9" MasterPosY="6" SX="1" SY="1" Rotation="0">
+    <Fx LibName="\STAIRVILLE\LED PAR 56.SSL2" IdLib="2" Mode="0" Name="LED PAR 56  3" ID="9" DmxA="91" DmxU="0" PX="3" PY="1" MasterPosX="8" MasterPosY="6" SX="1" SY="1" Rotation="0">
       <ColorFilter Color="-1" Name="" Manufacturer="" />
       <Ch Flag="0" />
       <Ch Flag="47" />
@@ -135,7 +135,7 @@
       <Ch Flag="0" />
       <Ch Flag="15" />
     </Fx>
-    <Fx LibName="\STAIRVILLE\LED PAR 56.SSL2" IdLib="2" Mode="0" Name="LED PAR 56  4" ID="10" DmxA="96" DmxU="0" PX="4" PY="1" MasterPosX="8" MasterPosY="7" SX="1" SY="1" Rotation="0">
+    <Fx LibName="\STAIRVILLE\LED PAR 56.SSL2" IdLib="2" Mode="0" Name="LED PAR 56  4" ID="10" DmxA="96" DmxU="0" PX="4" PY="1" MasterPosX="7" MasterPosY="7" SX="1" SY="1" Rotation="0">
       <ColorFilter Color="-1" Name="" Manufacturer="" />
       <Ch Flag="0" />
       <Ch Flag="47" />
@@ -144,7 +144,7 @@
       <Ch Flag="0" />
       <Ch Flag="15" />
     </Fx>
-    <Fx LibName="\STAIRVILLE\LED PAR 56.SSL2" IdLib="2" Mode="0" Name="LED PAR 56  5" ID="11" DmxA="101" DmxU="0" PX="5" PY="1" MasterPosX="9" MasterPosY="7" SX="1" SY="1" Rotation="0">
+    <Fx LibName="\STAIRVILLE\LED PAR 56.SSL2" IdLib="2" Mode="0" Name="LED PAR 56  5" ID="11" DmxA="101" DmxU="0" PX="5" PY="1" MasterPosX="8" MasterPosY="7" SX="1" SY="1" Rotation="0">
       <ColorFilter Color="-1" Name="" Manufacturer="" />
       <Ch Flag="0" />
       <Ch Flag="47" />
@@ -153,7 +153,7 @@
       <Ch Flag="0" />
       <Ch Flag="15" />
     </Fx>
-    <Fx LibName="\STAIRVILLE\LED PAR 64 ALU BLACK.SSL2" IdLib="3" Mode="0" Name="LED PAR 64 Alu black  3" ID="14" DmxA="106" DmxU="0" PX="3" PY="1" MasterPosX="1" MasterPosY="8" SX="1" SY="1" Rotation="0">
+    <Fx LibName="\STAIRVILLE\LED PAR 64 ALU BLACK.SSL2" IdLib="3" Mode="0" Name="LED PAR 64 Alu black  3" ID="14" DmxA="106" DmxU="0" PX="3" PY="1" MasterPosX="0" MasterPosY="8" SX="1" SY="1" Rotation="0">
       <ColorFilter Color="-1" Name="" Manufacturer="" />
       <Ch Flag="0" />
       <Ch Flag="47" />
@@ -162,7 +162,7 @@
       <Ch Flag="0" />
       <Ch Flag="15" />
     </Fx>
-    <Fx LibName="\STAIRVILLE\LED PAR 64 ALU BLACK.SSL2" IdLib="3" Mode="0" Name="LED PAR 64 Alu black  4" ID="15" DmxA="111" DmxU="0" PX="4" PY="1" MasterPosX="1" MasterPosY="7" SX="1" SY="1" Rotation="0">
+    <Fx LibName="\STAIRVILLE\LED PAR 64 ALU BLACK.SSL2" IdLib="3" Mode="0" Name="LED PAR 64 Alu black  4" ID="15" DmxA="111" DmxU="0" PX="4" PY="1" MasterPosX="0" MasterPosY="7" SX="1" SY="1" Rotation="0">
       <ColorFilter Color="-1" Name="" Manufacturer="" />
       <Ch Flag="0" />
       <Ch Flag="47" />
@@ -171,7 +171,7 @@
       <Ch Flag="0" />
       <Ch Flag="15" />
     </Fx>
-    <Fx LibName="\STAIRVILLE\LED PAR 64 ALU BLACK.SSL2" IdLib="3" Mode="0" Name="LED PAR 64 Alu black  5" ID="16" DmxA="116" DmxU="0" PX="5" PY="1" MasterPosX="2" MasterPosY="7" SX="1" SY="1" Rotation="0">
+    <Fx LibName="\STAIRVILLE\LED PAR 64 ALU BLACK.SSL2" IdLib="3" Mode="0" Name="LED PAR 64 Alu black  5" ID="16" DmxA="116" DmxU="0" PX="5" PY="1" MasterPosX="1" MasterPosY="7" SX="1" SY="1" Rotation="0">
       <ColorFilter Color="-1" Name="" Manufacturer="" />
       <Ch Flag="0" />
       <Ch Flag="47" />
@@ -180,7 +180,7 @@
       <Ch Flag="0" />
       <Ch Flag="15" />
     </Fx>
-    <Fx LibName="\STAIRVILLE\LED PAR 64 ALU BLACK.SSL2" IdLib="3" Mode="0" Name="LED PAR 64 Alu black  6" ID="17" DmxA="121" DmxU="0" PX="6" PY="1" MasterPosX="2" MasterPosY="8" SX="1" SY="1" Rotation="0">
+    <Fx LibName="\STAIRVILLE\LED PAR 64 ALU BLACK.SSL2" IdLib="3" Mode="0" Name="LED PAR 64 Alu black  6" ID="17" DmxA="121" DmxU="0" PX="6" PY="1" MasterPosX="1" MasterPosY="8" SX="1" SY="1" Rotation="0">
       <ColorFilter Color="-1" Name="" Manufacturer="" />
       <Ch Flag="0" />
       <Ch Flag="47" />

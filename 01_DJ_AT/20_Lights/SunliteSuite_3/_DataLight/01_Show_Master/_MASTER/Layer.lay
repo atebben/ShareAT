@@ -14,16 +14,16 @@
 		<Pane-10 Type="2" DockingCX="311" Panes="1" Pane-1="11"/>
 		<Pane-11 Type="4"/>
 		<Pane-12 Type="2" DockingCX="772" DockingCY="759" Panes="1" Pane-1="13"/>
-		<Pane-13 Type="2" DockingCX="1337" DockingCY="368" Horiz="1" Panes="3" Pane-1="14" Pane-2="18" Pane-3="22"/>
-		<Pane-14 Type="2" DockingCX="267" DockingCY="807" Panes="3" Pane-1="15" Pane-2="16" Pane-3="17"/>
+		<Pane-13 Type="2" DockingCX="1391" DockingCY="368" Horiz="1" Panes="3" Pane-1="14" Pane-2="18" Pane-3="22"/>
+		<Pane-14 Type="2" DockingCX="277" DockingCY="807" Panes="3" Pane-1="15" Pane-2="16" Pane-3="17"/>
 		<Pane-15 Type="1" DockingCX="242" DockingCY="315" Panes="1" Selected="1" Pane-1="1"/>
-		<Pane-16 Type="1" DockingCX="200" DockingCY="116" Panes="1" Selected="6" Pane-1="6"/>
-		<Pane-17 Type="1" DockingCX="200" DockingCY="368" Panes="1" Selected="7" Pane-1="7"/>
-		<Pane-18 Type="2" DockingCX="799" DockingCY="807" Panes="2" Pane-1="19" Pane-2="20"/>
-		<Pane-19 Type="1" DockingCX="489" DockingCY="260" Panes="1" Selected="2" Pane-1="2"/>
-		<Pane-20 Type="2" DockingCX="200" DockingCY="543" Horiz="1" Panes="1" Pane-1="21"/>
+		<Pane-16 Type="1" DockingCX="200" DockingCY="195" Panes="1" Selected="6" Pane-1="6"/>
+		<Pane-17 Type="1" DockingCX="200" DockingCY="289" Panes="1" Selected="7" Pane-1="7"/>
+		<Pane-18 Type="2" DockingCX="859" DockingCY="807" Panes="2" Pane-1="19" Pane-2="20"/>
+		<Pane-19 Type="1" DockingCX="489" DockingCY="281" Panes="1" Selected="2" Pane-1="2"/>
+		<Pane-20 Type="2" DockingCX="200" DockingCY="522" Horiz="1" Panes="1" Pane-1="21"/>
 		<Pane-21 Type="1" DockingCX="200" DockingCY="284" Panes="1" Selected="5" Pane-1="5"/>
-		<Pane-22 Type="2" DockingCX="263" DockingCY="807" Panes="2" Pane-1="23" Pane-2="24"/>
+		<Pane-22 Type="2" DockingCX="247" DockingCY="807" Panes="2" Pane-1="23" Pane-2="24"/>
 		<Pane-23 Type="1" DockingCX="197" DockingCY="389" Panes="1" Selected="3" Pane-1="3"/>
 		<Pane-24 Type="1" DockingCX="200" DockingCY="414" Panes="1" Selected="4" Pane-1="4"/>
 	</Common>

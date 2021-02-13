@@ -39,24 +39,24 @@
 		<Pane-35 Type="2" DockingCY="120" Horiz="1" Panes="1" Pane-1="36"/>
 		<Pane-36 Type="1" DockingCX="342" DockingCY="120" Panes="0"/>
 		<Pane-37 Type="3" WindowRectTopPos="51" WindowRectBottomPos="1005" WindowRectLeftPos="2115" WindowRectRightPos="2942" TopContaner="38"/>
-		<Pane-38 Type="2" DockingCX="827" DockingCY="11" Horiz="1" Panes="1" Pane-1="39"/>
+		<Pane-38 Type="2" DockingCY="11" Horiz="1" Panes="1" Pane-1="39"/>
 		<Pane-39 Type="1" DockingCX="827" DockingCY="11" Panes="0"/>
 		<Pane-40 Type="2" DockingCX="1916" DockingCY="954" Horiz="1" Panes="2" Pane-1="41" Pane-2="42"/>
-		<Pane-41 Type="1" DockingCX="594" DockingCY="11" Panes="4" Selected="8" Pane-1="8" Pane-2="1" Pane-3="6" Pane-4="7"/>
-		<Pane-42 Type="2" DockingCX="1318" DockingCY="954" Panes="2" Pane-1="43" Pane-2="46"/>
-		<Pane-43 Type="2" DockingCX="1916" DockingCY="85" Horiz="1" Panes="2" Pane-1="44" Pane-2="45"/>
-		<Pane-44 Type="1" DockingCX="1916" DockingCY="85" Panes="0"/>
+		<Pane-41 Type="1" DockingCX="543" DockingCY="11" Panes="4" Selected="8" Pane-1="8" Pane-2="1" Pane-3="6" Pane-4="7"/>
+		<Pane-42 Type="2" DockingCX="1369" DockingCY="954" Panes="2" Pane-1="43" Pane-2="46"/>
+		<Pane-43 Type="2" DockingCX="396" DockingCY="85" Horiz="1" Panes="2" Pane-1="44" Pane-2="45"/>
+		<Pane-44 Type="1" DockingCX="396" DockingCY="85" Panes="0"/>
 		<Pane-45 Type="1" DockingCX="1550" DockingCY="120" Panes="0"/>
-		<Pane-46 Type="2" DockingCX="1916" DockingCY="865" Horiz="1" Panes="4" Pane-1="47" Pane-2="48" Pane-3="49" Pane-4="50"/>
+		<Pane-46 Type="2" DockingCX="396" DockingCY="865" Horiz="1" Panes="4" Pane-1="47" Pane-2="48" Pane-3="49" Pane-4="50"/>
 		<Pane-47 Type="1" DockingCX="827" DockingCY="11" Panes="0"/>
 		<Pane-48 Type="4"/>
 		<Pane-49 Type="1" DockingCX="11" DockingCY="11" Panes="0"/>
-		<Pane-50 Type="1" DockingCX="1085" DockingCY="10" Panes="1" Selected="12" Pane-1="12"/>
+		<Pane-50 Type="1" DockingCX="396" DockingCY="10" Panes="1" Selected="12" Pane-1="12"/>
 		<Pane-51 Type="3" WindowRectTopPos="57" WindowRectBottomPos="715" WindowRectLeftPos="-1111" WindowRectRightPos="-71" TopContaner="52"/>
-		<Pane-52 Type="2" DockingCX="200" DockingCY="120" Horiz="1" Panes="1" Pane-1="53"/>
+		<Pane-52 Type="2" DockingCY="120" Horiz="1" Panes="1" Pane-1="53"/>
 		<Pane-53 Type="1" DockingCX="200" DockingCY="120" Panes="0"/>
 		<Pane-54 Type="3" WindowRectTopPos="0" WindowRectBottomPos="1080" WindowRectLeftPos="0" WindowRectRightPos="1920" TopContaner="55"/>
-		<Pane-55 Type="2" DockingCX="11" DockingCY="11" Horiz="1" Panes="1" Pane-1="56"/>
+		<Pane-55 Type="2" DockingCY="11" Horiz="1" Panes="1" Pane-1="56"/>
 		<Pane-56 Type="1" DockingCX="11" DockingCY="11" Panes="0"/>
 	</Common>
 	<PosFrame x="-8" y="-8" cx="1936" cy="1066"/>

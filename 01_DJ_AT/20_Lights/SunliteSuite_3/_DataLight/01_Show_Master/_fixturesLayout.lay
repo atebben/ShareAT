@@ -11,10 +11,10 @@
 		<Pane-7 Type="2" DockingCX="200" DockingCY="122" Horiz="1" Panes="1" Pane-1="8"/>
 		<Pane-8 Type="1" DockingCX="200" DockingCY="122" Panes="0"/>
 		<Pane-9 Type="2" DockingCX="648" DockingCY="925" Panes="2" Pane-1="10" Pane-2="14"/>
-		<Pane-10 Type="2" DockingCX="648" DockingCY="602" Horiz="1" Panes="2" Pane-1="11" Pane-2="12"/>
+		<Pane-10 Type="2" DockingCX="648" DockingCY="551" Horiz="1" Panes="2" Pane-1="11" Pane-2="12"/>
 		<Pane-11 Type="1" DockingCX="570" DockingCY="122" Panes="1" Selected="2" Pane-1="2"/>
 		<Pane-12 Type="2" DockingCX="74" Panes="1" Pane-1="13"/>
 		<Pane-13 Type="4"/>
-		<Pane-14 Type="1" DockingCX="200" DockingCY="319" Panes="1" Selected="1" Pane-1="1"/>
+		<Pane-14 Type="1" DockingCX="200" DockingCY="370" Panes="1" Selected="1" Pane-1="1"/>
 	</Common>
 </DockingPaneLayouts>
