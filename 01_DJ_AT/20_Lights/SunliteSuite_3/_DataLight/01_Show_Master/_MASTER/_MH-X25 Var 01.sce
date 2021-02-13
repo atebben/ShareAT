@@ -23,31 +23,31 @@
     <Fx ID="16" LibName="\STAIRVILLE\LED PAR 64 ALU BLACK.SSL2" Activated0="1" InvPan0="0" InvTilt0="0" LActivated0="1" />
     <Fx ID="17" LibName="\STAIRVILLE\LED PAR 64 ALU BLACK.SSL2" Activated0="1" InvPan0="0" InvTilt0="0" LActivated0="1" />
     <Fx ID="1" LibName="\STAIRVILLE\MH-X25.SSL2" Activated0="1" InvPan0="0" InvTilt0="0" LActivated0="1">
-      <Ch MWhite="0" Index="0" DmxInCh="-1" DmxInU="-1" Rack="2" L="255" LMD="0" />
-      <Ch MWhite="0" Index="1" DmxInCh="-1" DmxInU="-1" Rack="2" L="253" LMD="0" />
-      <Ch MWhite="0" Index="2" DmxInCh="-1" DmxInU="-1" Rack="2" L="255" LMD="0" />
-      <Ch MWhite="0" Index="3" DmxInCh="-1" DmxInU="-1" Rack="2" L="107" LMD="0" />
+      <Ch MWhite="0" Index="0" DmxInCh="-1" DmxInU="-1" Rack="2" L="171" LMD="0" />
+      <Ch MWhite="0" Index="1" DmxInCh="-1" DmxInU="-1" Rack="2" L="70" LMD="0" />
+      <Ch MWhite="0" Index="2" DmxInCh="-1" DmxInU="-1" Rack="2" L="9" LMD="0" />
+      <Ch MWhite="0" Index="3" DmxInCh="-1" DmxInU="-1" Rack="2" L="5" LMD="0" />
       <Ch MWhite="0" Index="4" DmxInCh="-1" DmxInU="-1" Rack="8" L="255" LMD="0" />
     </Fx>
     <Fx ID="2" LibName="\STAIRVILLE\MH-X25.SSL2" Activated0="1" InvPan0="0" InvTilt0="0" LActivated0="1">
-      <Ch MWhite="0" Index="0" DmxInCh="-1" DmxInU="-1" Rack="2" L="254" LMD="0" />
-      <Ch MWhite="0" Index="1" DmxInCh="-1" DmxInU="-1" Rack="2" L="1" LMD="0" />
-      <Ch MWhite="0" Index="2" DmxInCh="-1" DmxInU="-1" Rack="2" L="191" LMD="0" />
-      <Ch MWhite="0" Index="3" DmxInCh="-1" DmxInU="-1" Rack="2" L="184" LMD="0" />
+      <Ch MWhite="0" Index="0" DmxInCh="-1" DmxInU="-1" Rack="2" L="171" LMD="0" />
+      <Ch MWhite="0" Index="1" DmxInCh="-1" DmxInU="-1" Rack="2" L="70" LMD="0" />
+      <Ch MWhite="0" Index="2" DmxInCh="-1" DmxInU="-1" Rack="2" L="9" LMD="0" />
+      <Ch MWhite="0" Index="3" DmxInCh="-1" DmxInU="-1" Rack="2" L="0" LMD="0" />
       <Ch MWhite="0" Index="4" DmxInCh="-1" DmxInU="-1" Rack="8" L="255" LMD="0" />
     </Fx>
     <Fx ID="3" LibName="\STAIRVILLE\MH-X25.SSL2" Activated0="1" InvPan0="0" InvTilt0="0" LActivated0="1">
-      <Ch MWhite="0" Index="0" DmxInCh="-1" DmxInU="-1" Rack="2" L="47" LMD="0" />
-      <Ch MWhite="0" Index="1" DmxInCh="-1" DmxInU="-1" Rack="2" L="25" LMD="0" />
-      <Ch MWhite="0" Index="2" DmxInCh="-1" DmxInU="-1" Rack="2" L="205" LMD="0" />
-      <Ch MWhite="0" Index="3" DmxInCh="-1" DmxInU="-1" Rack="2" L="30" LMD="0" />
+      <Ch MWhite="0" Index="0" DmxInCh="-1" DmxInU="-1" Rack="2" L="171" LMD="0" />
+      <Ch MWhite="0" Index="1" DmxInCh="-1" DmxInU="-1" Rack="2" L="70" LMD="0" />
+      <Ch MWhite="0" Index="2" DmxInCh="-1" DmxInU="-1" Rack="2" L="1" LMD="0" />
+      <Ch MWhite="0" Index="3" DmxInCh="-1" DmxInU="-1" Rack="2" L="0" LMD="0" />
       <Ch MWhite="0" Index="4" DmxInCh="-1" DmxInU="-1" Rack="8" L="255" LMD="0" />
     </Fx>
     <Fx ID="4" LibName="\STAIRVILLE\MH-X25.SSL2" Activated0="1" InvPan0="0" InvTilt0="0" LActivated0="1">
-      <Ch MWhite="0" Index="0" DmxInCh="-1" DmxInU="-1" Rack="2" L="44" LMD="0" />
-      <Ch MWhite="0" Index="1" DmxInCh="-1" DmxInU="-1" Rack="2" L="213" LMD="0" />
-      <Ch MWhite="0" Index="2" DmxInCh="-1" DmxInU="-1" Rack="2" L="46" LMD="0" />
-      <Ch MWhite="0" Index="3" DmxInCh="-1" DmxInU="-1" Rack="2" L="242" LMD="0" />
+      <Ch MWhite="0" Index="0" DmxInCh="-1" DmxInU="-1" Rack="2" L="171" LMD="0" />
+      <Ch MWhite="0" Index="1" DmxInCh="-1" DmxInU="-1" Rack="2" L="70" LMD="0" />
+      <Ch MWhite="0" Index="2" DmxInCh="-1" DmxInU="-1" Rack="2" L="4" LMD="0" />
+      <Ch MWhite="0" Index="3" DmxInCh="-1" DmxInU="-1" Rack="2" L="0" LMD="0" />
       <Ch MWhite="0" Index="4" DmxInCh="-1" DmxInU="-1" Rack="8" L="255" LMD="0" />
     </Fx>
     <Fx ID="5" LibName="\LIGHTMAXX\PLATINUM LINE CLS-3 QUAD 19CH.SSL2" Activated0="1" Activated1="1" Activated2="1" Activated3="1" InvPan0="0" InvTilt0="0" InvPan1="0" InvTilt1="0" InvPan2="0" InvTilt2="0" InvPan3="0" InvTilt3="0" LActivated0="1" LActivated1="1" LActivated2="1" LActivated3="1" />
