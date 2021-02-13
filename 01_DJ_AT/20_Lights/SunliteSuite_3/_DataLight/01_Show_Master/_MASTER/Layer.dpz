@@ -15,9 +15,9 @@
     <Group Name="_MH-X25 COLOR" Index="1" />
     <Group Name="_MH-X25 GOBO" Index="2" />
     <Group Name="_MH-X25 SHAKE" Index="3" />
-    <Group Name="_MH-X25 POS" Index="4" />
-    <Group Name="_MH-X25 MOVE" Index="5" />
-    <Button Name="_MH-X25 SPEED 01" Index="6" />
+    <Group Name="_MH-X25 ROTATE" Index="4" />
+    <Button Name="_MH-X25 ROTATE 04 INDEX" Index="5" />
+    <Group Name="_MH-X25 MOVE" Index="6" />
   </Zone>
   <Zone Type="0" ID="202">
     <Group Name="_CLS3 DIMMER" Index="0" />
@@ -29,7 +29,7 @@
     <Group Name="_PAR56 COLOR" Index="1" />
   </Zone>
   <Zone Type="2" ID="204">
-    <Group Name="_MH-X25 VAR" Index="0" />
+    <Group Name="_MH-X25 POS" Index="0" />
   </Zone>
   <Zone Type="0" ID="205">
     <Button Name="_SHOW ALL" Index="0" />

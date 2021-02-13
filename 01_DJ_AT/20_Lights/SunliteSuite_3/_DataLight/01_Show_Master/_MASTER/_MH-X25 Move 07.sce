@@ -1,4 +1,4 @@
-<scene Author="dylan" Version="1.0" Dimmer="28735" Speed="0" PhasingCourbe="0" Phasing="10500" Size="0" TypeButton="1" IconTxtOver="0" Icon="Scanlibrary\icon\ZSceneTriangle.ico" InvertFugitif="0" Shortcut="0" ShortcutFugitif="0" ReleaseOther="0" DontReleaseOther="1" ResetOffsetLevel="1" FlagSlider="11" FlagWorkSlider="0">
+<scene Author="dylan" Version="1.0" Dimmer="28735" Speed="0" PhasingCourbe="0" Phasing="10500" Size="0" TypeButton="1" IconTxtOver="0" Icon="..\Scanlibrary\icon\ZSceneChaser.png" InvertFugitif="0" Shortcut="0" ShortcutFugitif="0" ReleaseOther="0" DontReleaseOther="1" ResetOffsetLevel="1" FlagSlider="11" FlagWorkSlider="0">
   <TriggerPort Interface="0" PortFugitif="0" />
   <Multimedia File="" SX="0" SY="0" Loop="0" TimeStart="-1" TimeEnd="-1" StopWhenOtherStart="1" />
   <Editor EasyTimeZoom="8" EasyTimeShowIcon="0" EasyTimeCompressColorXY="1" EasyTimeShowSelected="0" EasyTimeCompress="0" EasyTimeMagnetism="1" EasyTimeMagnetismValue="100" FixturesShowBeam="1" FixturesShowTxt="0" FixturesShowIndex="1" EasyTimeMesureTimer="25" DoJoinLevelBeforePlay="0">
@@ -43,7 +43,7 @@
           <Step L="212" />
         </EasyStep>
       </Ch>
-      <Ch MWhite="0" Index="1" DmxInCh="-1" DmxInU="-1" Rack="4" L="0" LMD="0">
+      <Ch MWhite="0" Index="1" DmxInCh="-1" DmxInU="-1" Rack="4" L="76" LMD="0">
         <EasyStep>
           <Step L="127" />
           <Step L="66" />
@@ -72,7 +72,7 @@
           <Step L="215" />
         </EasyStep>
       </Ch>
-      <Ch MWhite="0" Index="1" DmxInCh="-1" DmxInU="-1" Rack="4" L="144" LMD="0">
+      <Ch MWhite="0" Index="1" DmxInCh="-1" DmxInU="-1" Rack="4" L="254" LMD="0">
         <EasyStep>
           <Step L="127" />
           <Step L="189" />
@@ -101,7 +101,7 @@
           <Step L="215" />
         </EasyStep>
       </Ch>
-      <Ch MWhite="0" Index="1" DmxInCh="-1" DmxInU="-1" Rack="4" L="75" LMD="0">
+      <Ch MWhite="0" Index="1" DmxInCh="-1" DmxInU="-1" Rack="4" L="66" LMD="0">
         <EasyStep>
           <Step L="127" />
           <Step L="97" />
@@ -130,7 +130,7 @@
           <Step L="212" />
         </EasyStep>
       </Ch>
-      <Ch MWhite="0" Index="1" DmxInCh="-1" DmxInU="-1" Rack="4" L="40" LMD="0">
+      <Ch MWhite="0" Index="1" DmxInCh="-1" DmxInU="-1" Rack="4" L="0" LMD="0">
         <EasyStep>
           <Step L="127" />
           <Step L="158" />
