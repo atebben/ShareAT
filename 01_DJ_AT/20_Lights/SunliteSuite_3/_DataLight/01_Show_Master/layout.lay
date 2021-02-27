@@ -10,7 +10,7 @@
 		<Pane-6 Type="0" DockingCX="200" DockingCY="120" Title="DMX Pegel" ID="102" Options="154" DockingHolder="41" FloatingHolder="53" LastHolder="41" MinTrackX="240" MinTrackY="240"/>
 		<Pane-7 Type="0" DockingCX="11" DockingCY="11" Title="Zyklus" ID="100" Options="154" DockingHolder="41" FloatingHolder="56" LastHolder="41" MinTrackX="240" MinTrackY="240"/>
 		<Pane-8 Type="0" DockingCX="11" DockingCY="11" Title="Geräte" ID="106" Options="410" DockingHolder="41" FloatingHolder="39" LastHolder="41" MinTrackX="240" MinTrackY="240"/>
-		<Pane-9 Type="0" DockingCX="11" DockingCY="11" Title="Live fixtures" ID="111" Options="26" DockingHolder="47" FloatingHolder="21" LastHolder="47" MinTrackX="240" MinTrackY="240"/>
+		<Pane-9 Type="0" DockingCX="11" DockingCY="11" Title="Live actions" ID="111" Options="26" DockingHolder="47" FloatingHolder="21" LastHolder="47" MinTrackX="240" MinTrackY="240"/>
 		<Pane-10 Type="0" DockingCX="11" DockingCY="11" Title="Embedded fixtures" ID="114" Options="26" DockingHolder="49" FloatingHolder="24" LastHolder="24" MinTrackX="240" MinTrackY="240"/>
 		<Pane-11 Type="0" DockingCX="10" DockingCY="10" Title="Favorites" ID="107" Options="26" DockingHolder="47" FloatingHolder="27" LastHolder="47" MinTrackX="240" MinTrackY="240"/>
 		<Pane-12 Type="0" DockingCX="10" DockingCY="10" Title="_MASTER" ID="108" Options="27" DockingHolder="50" FloatingHolder="30" LastHolder="50" MinTrackX="300" MinTrackY="200"/>
@@ -42,7 +42,7 @@
 		<Pane-38 Type="2" DockingCY="11" Horiz="1" Panes="1" Pane-1="39"/>
 		<Pane-39 Type="1" DockingCX="827" DockingCY="11" Panes="0"/>
 		<Pane-40 Type="2" DockingCX="1916" DockingCY="954" Horiz="1" Panes="2" Pane-1="41" Pane-2="42"/>
-		<Pane-41 Type="1" DockingCX="543" DockingCY="11" Panes="4" Selected="8" Pane-1="8" Pane-2="1" Pane-3="6" Pane-4="7"/>
+		<Pane-41 Type="1" DockingCX="543" DockingCY="11" Panes="4" Selected="8" Pane-1="8" Pane-2="1" Pane-3="7" Pane-4="6"/>
 		<Pane-42 Type="2" DockingCX="1369" DockingCY="954" Panes="2" Pane-1="43" Pane-2="46"/>
 		<Pane-43 Type="2" DockingCX="396" DockingCY="85" Horiz="1" Panes="2" Pane-1="44" Pane-2="45"/>
 		<Pane-44 Type="1" DockingCX="396" DockingCY="85" Panes="0"/>

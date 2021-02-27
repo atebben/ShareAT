@@ -29,12 +29,8 @@
     <Group Name="_PAR56 COLOR" Index="1" />
   </Zone>
   <Zone Type="2" ID="204">
-    <Button Name="SCHALTER" Index="0" />
-    <Group Name="_MH-X25 POS" Index="1" />
-    <Button Name="_FINEPOS LIVE 01" Index="1" />
-    <Button Name="_FINEPOS LIVE 02" Index="1" />
-    <Button Name="_FINEPOS LIVE 03" Index="1" />
-    <Button Name="_FINEPOS LIVE 04" Index="1" />
+    <Group Name="_MH-X25 POS" Index="0" />
+    <Group Name="_FINEPOS LIVE" Index="1" />
   </Zone>
   <Zone Type="0" ID="205">
     <Button Name="_SHOW ALL" Index="0" />
