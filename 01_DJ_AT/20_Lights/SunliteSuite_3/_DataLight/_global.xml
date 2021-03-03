@@ -1,4 +1,4 @@
-<Global Version="1.0" Oem="SUNLITE" Style="" Language="Deutsch" Show="01_Show_Master" ShowSorted="0" ShowOpenDialog="0" ShowSUTDialog="0" TryUpdate="1" Multimedia="ffmpeg" MultimediaPreloading="1" AutoDetectInterfaces="1" EthernetIP="1" EthernetArtnetUsed="-1">
+<Global Version="1.0" Oem="SUNLITE" Style="" TestCrashSoftware="0" Language="Deutsch" Show="01_Show_Master" ShowSorted="0" ShowOpenDialog="0" ShowSUTDialog="0" TryUpdate="1" Multimedia="ffmpeg" MultimediaPreloading="1" AutoDetectInterfaces="1" EthernetIP="1" EthernetArtnetUsed="-1">
   <WizardNewPage PresetCreation="1" PresetCreationAllSolo="0" PresetShowLightBeam="1" PresetOnlySelectedActive="1" PreProgCreation="1" PreProgShowLightBeam="1" />
   <Calendar>
     <City Name="Arcachon" Latitude="44600" Longitude="-1160" />

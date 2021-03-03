@@ -96,6 +96,36 @@
         </EasyStep>
       </Ch>
     </Fx>
+    <Fx ID="12" LibName="\STAIRVILLE\LED PAR 64 ALU BLACK.SSL2" Activated0="1" InvPan0="0" InvTilt0="0" LActivated0="1">
+      <Ch MWhite="0" Index="1" DmxInCh="-1" DmxInU="-1" Rack="1" L="255" LMD="0" />
+      <Ch MWhite="0" Index="2" DmxInCh="-1" DmxInU="-1" Rack="1" L="255" LMD="0" />
+      <Ch MWhite="0" Index="3" DmxInCh="-1" DmxInU="-1" Rack="1" L="255" LMD="0" />
+    </Fx>
+    <Fx ID="13" LibName="\STAIRVILLE\LED PAR 64 ALU BLACK.SSL2" Activated0="1" InvPan0="0" InvTilt0="0" LActivated0="1">
+      <Ch MWhite="0" Index="1" DmxInCh="-1" DmxInU="-1" Rack="1" L="255" LMD="0" />
+      <Ch MWhite="0" Index="2" DmxInCh="-1" DmxInU="-1" Rack="1" L="255" LMD="0" />
+      <Ch MWhite="0" Index="3" DmxInCh="-1" DmxInU="-1" Rack="1" L="255" LMD="0" />
+    </Fx>
+    <Fx ID="14" LibName="\STAIRVILLE\LED PAR 64 ALU BLACK.SSL2" Activated0="1" InvPan0="0" InvTilt0="0" LActivated0="1">
+      <Ch MWhite="0" Index="1" DmxInCh="-1" DmxInU="-1" Rack="1" L="255" LMD="0" />
+      <Ch MWhite="0" Index="2" DmxInCh="-1" DmxInU="-1" Rack="1" L="255" LMD="0" />
+      <Ch MWhite="0" Index="3" DmxInCh="-1" DmxInU="-1" Rack="1" L="255" LMD="0" />
+    </Fx>
+    <Fx ID="15" LibName="\STAIRVILLE\LED PAR 64 ALU BLACK.SSL2" Activated0="1" InvPan0="0" InvTilt0="0" LActivated0="1">
+      <Ch MWhite="0" Index="1" DmxInCh="-1" DmxInU="-1" Rack="1" L="255" LMD="0" />
+      <Ch MWhite="0" Index="2" DmxInCh="-1" DmxInU="-1" Rack="1" L="255" LMD="0" />
+      <Ch MWhite="0" Index="3" DmxInCh="-1" DmxInU="-1" Rack="1" L="255" LMD="0" />
+    </Fx>
+    <Fx ID="16" LibName="\STAIRVILLE\LED PAR 64 ALU BLACK.SSL2" Activated0="1" InvPan0="0" InvTilt0="0" LActivated0="1">
+      <Ch MWhite="0" Index="1" DmxInCh="-1" DmxInU="-1" Rack="1" L="255" LMD="0" />
+      <Ch MWhite="0" Index="2" DmxInCh="-1" DmxInU="-1" Rack="1" L="255" LMD="0" />
+      <Ch MWhite="0" Index="3" DmxInCh="-1" DmxInU="-1" Rack="1" L="255" LMD="0" />
+    </Fx>
+    <Fx ID="17" LibName="\STAIRVILLE\LED PAR 64 ALU BLACK.SSL2" Activated0="1" InvPan0="0" InvTilt0="0" LActivated0="1">
+      <Ch MWhite="0" Index="1" DmxInCh="-1" DmxInU="-1" Rack="1" L="255" LMD="0" />
+      <Ch MWhite="0" Index="2" DmxInCh="-1" DmxInU="-1" Rack="1" L="255" LMD="0" />
+      <Ch MWhite="0" Index="3" DmxInCh="-1" DmxInU="-1" Rack="1" L="255" LMD="0" />
+    </Fx>
     <Fx ID="1" LibName="\STAIRVILLE\MH-X25.SSL2" Activated0="1" InvPan0="0" InvTilt0="0" LActivated0="1">
       <Ch MWhite="0" Index="5" DmxInCh="-1" DmxInU="-1" Rack="4" L="2" LMD="0">
         <EasyStep>
