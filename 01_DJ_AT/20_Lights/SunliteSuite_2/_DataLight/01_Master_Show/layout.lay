@@ -29,22 +29,22 @@
 		<Pane-25 Type="3" WindowRectTopPos="0" WindowRectBottomPos="240" WindowRectLeftPos="0" WindowRectRightPos="240" TopContaner="26"/>
 		<Pane-26 Type="2" DockingCX="10" DockingCY="10" Horiz="1" Panes="1" Pane-1="27"/>
 		<Pane-27 Type="1" DockingCX="10" DockingCY="10" Panes="0"/>
-		<Pane-28 Type="2" DockingCX="1920" Horiz="1" Panes="3" Pane-1="29" Pane-2="36" Pane-3="37"/>
-		<Pane-29 Type="2" DockingCX="704" DockingCY="908" Panes="1" Pane-1="30"/>
+		<Pane-28 Type="2" DockingCX="3840" Horiz="1" Panes="3" Pane-1="29" Pane-2="36" Pane-3="37"/>
+		<Pane-29 Type="2" DockingCX="833" DockingCY="908" Panes="1" Pane-1="30"/>
 		<Pane-30 Type="2" DockingCX="1920" DockingCY="291" Horiz="1" Panes="2" Pane-1="31" Pane-2="34"/>
 		<Pane-31 Type="2" DockingCX="200" DockingCY="908" Panes="2" Pane-1="32" Pane-2="33"/>
 		<Pane-32 Type="1" DockingCX="200" DockingCY="475" Panes="2" Selected="1" Pane-1="1" Pane-2="6"/>
 		<Pane-33 Type="1" DockingCX="200" DockingCY="429" Panes="2" Selected="5" Pane-1="4" Pane-2="5"/>
 		<Pane-34 Type="2" DockingCX="1920" Panes="1" Pane-1="35"/>
 		<Pane-35 Type="4"/>
-		<Pane-36 Type="1" DockingCX="1212" DockingCY="120" Panes="5" Selected="8" Pane-1="8" Pane-2="9" Pane-3="10" Pane-4="12" Pane-5="11"/>
+		<Pane-36 Type="1" DockingCX="3003" DockingCY="120" Panes="5" Selected="8" Pane-1="8" Pane-2="9" Pane-3="10" Pane-4="12" Pane-5="11"/>
 		<Pane-37 Type="1" DockingCX="200" DockingCY="120" Panes="0"/>
 		<Pane-38 Type="3" WindowRectTopPos="148" WindowRectBottomPos="1056" WindowRectLeftPos="892" WindowRectRightPos="1920" TopContaner="39"/>
 		<Pane-39 Type="2" DockingCX="1028" DockingCY="120" Horiz="1" Panes="1" Pane-1="40"/>
 		<Pane-40 Type="1" DockingCX="1028" DockingCY="120" Panes="0"/>
-		<Pane-41 Type="3" WindowRectTopPos="223" WindowRectBottomPos="836" WindowRectLeftPos="-1133" WindowRectRightPos="-261" TopContaner="42"/>
+		<Pane-41 Type="3" WindowRectTopPos="223" WindowRectBottomPos="836" WindowRectLeftPos="-862" WindowRectRightPos="10" TopContaner="42"/>
 		<Pane-42 Type="2" DockingCX="200" DockingCY="613" Horiz="1" Panes="1" Pane-1="43"/>
 		<Pane-43 Type="1" DockingCX="200" DockingCY="613" Panes="0"/>
 	</Common>
-	<PosFrame x="-8" y="-8" cx="1936" cy="1066"/>
+	<PosFrame x="-8" y="-8" cx="3856" cy="1066"/>
 </DockingPaneLayouts>
