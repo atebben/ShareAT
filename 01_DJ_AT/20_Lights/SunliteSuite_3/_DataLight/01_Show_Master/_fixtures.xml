@@ -97,7 +97,7 @@
       <Ch Flag="47" />
       <Ch Flag="47" />
       <Ch Flag="0" />
-      <Ch Flag="15" />
+      <Ch Flag="79" />
     </Fx>
     <Fx LibName="\STAIRVILLE\LED PAR 64 ALU BLACK.SSL2" IdLib="3" Mode="0" Name="LED PAR 64 Alu black  2" ID="13" DmxA="72" DmxU="0" PX="2" PY="1" MasterPosX="1" MasterPosY="6" SX="1" SY="1" Rotation="0">
       <ColorFilter Color="-1" Name="" Manufacturer="" />
@@ -106,7 +106,7 @@
       <Ch Flag="47" />
       <Ch Flag="47" />
       <Ch Flag="0" />
-      <Ch Flag="15" />
+      <Ch Flag="79" />
     </Fx>
     <Fx LibName="\STAIRVILLE\LED PAR 56.SSL2" IdLib="2" Mode="0" Name="LED PAR 56  1" ID="7" DmxA="81" DmxU="0" PX="1" PY="1" MasterPosX="8" MasterPosY="8" SX="1" SY="1" Rotation="0">
       <ColorFilter Color="-1" Name="" Manufacturer="" />
@@ -115,7 +115,7 @@
       <Ch Flag="47" />
       <Ch Flag="47" />
       <Ch Flag="0" />
-      <Ch Flag="15" />
+      <Ch Flag="79" />
     </Fx>
     <Fx LibName="\STAIRVILLE\LED PAR 56.SSL2" IdLib="2" Mode="0" Name="LED PAR 56  2" ID="8" DmxA="86" DmxU="0" PX="2" PY="1" MasterPosX="7" MasterPosY="6" SX="1" SY="1" Rotation="0">
       <ColorFilter Color="-1" Name="" Manufacturer="" />
@@ -124,7 +124,7 @@
       <Ch Flag="47" />
       <Ch Flag="47" />
       <Ch Flag="0" />
-      <Ch Flag="15" />
+      <Ch Flag="79" />
     </Fx>
     <Fx LibName="\STAIRVILLE\LED PAR 56.SSL2" IdLib="2" Mode="0" Name="LED PAR 56  3" ID="9" DmxA="91" DmxU="0" PX="3" PY="1" MasterPosX="8" MasterPosY="6" SX="1" SY="1" Rotation="0">
       <ColorFilter Color="-1" Name="" Manufacturer="" />
@@ -133,7 +133,7 @@
       <Ch Flag="47" />
       <Ch Flag="47" />
       <Ch Flag="0" />
-      <Ch Flag="15" />
+      <Ch Flag="79" />
     </Fx>
     <Fx LibName="\STAIRVILLE\LED PAR 56.SSL2" IdLib="2" Mode="0" Name="LED PAR 56  4" ID="10" DmxA="96" DmxU="0" PX="4" PY="1" MasterPosX="7" MasterPosY="7" SX="1" SY="1" Rotation="0">
       <ColorFilter Color="-1" Name="" Manufacturer="" />
@@ -142,7 +142,7 @@
       <Ch Flag="47" />
       <Ch Flag="47" />
       <Ch Flag="0" />
-      <Ch Flag="15" />
+      <Ch Flag="79" />
     </Fx>
     <Fx LibName="\STAIRVILLE\LED PAR 56.SSL2" IdLib="2" Mode="0" Name="LED PAR 56  5" ID="11" DmxA="101" DmxU="0" PX="5" PY="1" MasterPosX="8" MasterPosY="7" SX="1" SY="1" Rotation="0">
       <ColorFilter Color="-1" Name="" Manufacturer="" />
@@ -151,7 +151,7 @@
       <Ch Flag="47" />
       <Ch Flag="47" />
       <Ch Flag="0" />
-      <Ch Flag="15" />
+      <Ch Flag="79" />
     </Fx>
     <Fx LibName="\STAIRVILLE\LED PAR 64 ALU BLACK.SSL2" IdLib="3" Mode="0" Name="LED PAR 64 Alu black  3" ID="14" DmxA="106" DmxU="0" PX="3" PY="1" MasterPosX="0" MasterPosY="8" SX="1" SY="1" Rotation="0">
       <ColorFilter Color="-1" Name="" Manufacturer="" />
@@ -160,7 +160,7 @@
       <Ch Flag="47" />
       <Ch Flag="47" />
       <Ch Flag="0" />
-      <Ch Flag="15" />
+      <Ch Flag="79" />
     </Fx>
     <Fx LibName="\STAIRVILLE\LED PAR 64 ALU BLACK.SSL2" IdLib="3" Mode="0" Name="LED PAR 64 Alu black  4" ID="15" DmxA="111" DmxU="0" PX="4" PY="1" MasterPosX="0" MasterPosY="7" SX="1" SY="1" Rotation="0">
       <ColorFilter Color="-1" Name="" Manufacturer="" />
@@ -169,7 +169,7 @@
       <Ch Flag="47" />
       <Ch Flag="47" />
       <Ch Flag="0" />
-      <Ch Flag="15" />
+      <Ch Flag="79" />
     </Fx>
     <Fx LibName="\STAIRVILLE\LED PAR 64 ALU BLACK.SSL2" IdLib="3" Mode="0" Name="LED PAR 64 Alu black  5" ID="16" DmxA="116" DmxU="0" PX="5" PY="1" MasterPosX="1" MasterPosY="7" SX="1" SY="1" Rotation="0">
       <ColorFilter Color="-1" Name="" Manufacturer="" />
@@ -178,7 +178,7 @@
       <Ch Flag="47" />
       <Ch Flag="47" />
       <Ch Flag="0" />
-      <Ch Flag="15" />
+      <Ch Flag="79" />
     </Fx>
     <Fx LibName="\STAIRVILLE\LED PAR 64 ALU BLACK.SSL2" IdLib="3" Mode="0" Name="LED PAR 64 Alu black  6" ID="17" DmxA="121" DmxU="0" PX="6" PY="1" MasterPosX="1" MasterPosY="8" SX="1" SY="1" Rotation="0">
       <ColorFilter Color="-1" Name="" Manufacturer="" />
@@ -187,7 +187,7 @@
       <Ch Flag="47" />
       <Ch Flag="47" />
       <Ch Flag="0" />
-      <Ch Flag="15" />
+      <Ch Flag="79" />
     </Fx>
   </Fxs>
 </PagesFixtures>

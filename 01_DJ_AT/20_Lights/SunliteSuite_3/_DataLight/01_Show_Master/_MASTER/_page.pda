@@ -8,17 +8,19 @@
   <Lock AskPassword="1" PageRename="1" PageDelete="1" PageSettings="1" PageExport="1" PageFreeze="1" PageDmx="1" PageLock="1" PageAddInMaster="1" FxLiveMode="1" FxEmbeddedMode="1" FxAddEditDeleteRenameGroup="1" FxMove="1" Dimmer="0" Speed="0" ButtonsLayersChange="1" ButtonsLayersModif="1" ButtonsLayerOrder="1" ButtonsActivation="0" ButtonsOrder="1" ButtonsCreate="1" ButtonsEdit="1" ButtonsSettings="1" ButtonsRename="1" ButtonsDelete="1" ButtonsLinkKeyboard="1" ButtonsDimmer="0" ButtonsSpeed="0" ButtonsPhasing="0" ButtonsSize="0" />
   <SwitchOn>
     <Switch Name="_ALL Reset 02 ALL ON" />
+    <Switch Name="_MH-X25 Pos 15" />
+    <Switch Name="_MH-X25 Color 01 White" />
   </SwitchOn>
-  <FxOrder ID="-1" Name="Par-56" Index="0" UID="{6ae907dd-33f8-4035-9cba-314b3d687ae1}">
+  <FxOrder ID="-1" Name="Par-56" Image="" Index="0" UID="{6ae907dd-33f8-4035-9cba-314b3d687ae1}">
     <SKey Key="0" Flag="1" />
   </FxOrder>
-  <FxOrder ID="-1" Name="Par-64" Index="1" UID="{8627b4f6-f0b1-4aea-9aa6-7e03f3680ae8}">
+  <FxOrder ID="-1" Name="Par-64" Image="" Index="1" UID="{8627b4f6-f0b1-4aea-9aa6-7e03f3680ae8}">
     <SKey Key="0" Flag="1" />
   </FxOrder>
-  <FxOrder ID="-1" Name="MH-X25" Index="2" UID="{885e1fd2-f302-4ae1-82cb-5b3946a44d69}">
+  <FxOrder ID="-1" Name="MH-X25" Image="" Index="2" UID="{885e1fd2-f302-4ae1-82cb-5b3946a44d69}">
     <SKey Key="0" Flag="1" />
   </FxOrder>
-  <FxOrder ID="-1" Name="CLS-3" Index="3" UID="{da24026f-76a2-44d6-9c69-bb1dc7a08273}">
+  <FxOrder ID="-1" Name="CLS-3" Image="" Index="3" UID="{da24026f-76a2-44d6-9c69-bb1dc7a08273}">
     <SKey Key="0" Flag="1" />
   </FxOrder>
   <Compress Name="_PAR64 Color" SwitchOneIsOn="0" SwitchOnlyOneIsOn="0" Sort="1" ModeApplication="All" Type="Icon" Icon="" PX="0" PY="0" SX="0" SY="0" Flag="36" />

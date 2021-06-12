@@ -8,7 +8,7 @@
   <Lock AskPassword="1" PageRename="1" PageDelete="1" PageSettings="1" PageExport="1" PageFreeze="1" PageDmx="1" PageLock="1" PageAddInMaster="1" FxLiveMode="1" FxEmbeddedMode="1" FxAddEditDeleteRenameGroup="1" FxMove="1" Dimmer="0" Speed="0" ButtonsLayersChange="1" ButtonsLayersModif="1" ButtonsLayerOrder="1" ButtonsActivation="0" ButtonsOrder="1" ButtonsCreate="1" ButtonsEdit="1" ButtonsSettings="1" ButtonsRename="1" ButtonsDelete="1" ButtonsLinkKeyboard="1" ButtonsDimmer="0" ButtonsSpeed="0" ButtonsPhasing="0" ButtonsSize="0" />
   <SwitchBeamOn Switch="VDIMMER DIMMER" />
   <SwitchBeamOff Switch="VDIMMER DIMMER" />
-  <FxOrder ID="-1" Name="1, 3, 5..." Index="0" UID="{b01f8195-b3f0-454b-83c6-2bd9d8e187fb}">
+  <FxOrder ID="-1" Name="1, 3, 5..." Image="" Index="0" UID="{b01f8195-b3f0-454b-83c6-2bd9d8e187fb}">
     <SKey Key="0" Flag="1" />
     <Group>
       <Fx ID="7" />
@@ -20,7 +20,7 @@
       <Fx ID="11" />
     </Group>
   </FxOrder>
-  <FxOrder ID="-1" Name="Alle" Index="1" UID="{f5bf2521-92ed-40db-a653-84c997389976}">
+  <FxOrder ID="-1" Name="Alle" Image="" Index="1" UID="{f5bf2521-92ed-40db-a653-84c997389976}">
     <SKey Key="0" Flag="1" />
     <Group>
       <Fx ID="7" />
@@ -38,7 +38,7 @@
       <Fx ID="11" />
     </Group>
   </FxOrder>
-  <FxOrder ID="-1" Name="2, 4, 6..." Index="2" UID="{f76e2aa7-b6cd-452b-b30e-ee19ed90509b}">
+  <FxOrder ID="-1" Name="2, 4, 6..." Image="" Index="2" UID="{f76e2aa7-b6cd-452b-b30e-ee19ed90509b}">
     <SKey Key="0" Flag="1" />
     <Group>
       <Fx ID="8" />

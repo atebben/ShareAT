@@ -9,7 +9,7 @@
   <SwitchBeamOn Switch="SHUTTER SHUTTER OPEN" />
   <SwitchBeamOn Switch="DIMMER DIMMER LINEAR" />
   <SwitchBeamOff Switch="SHUTTER SHUTTER CLOSED" />
-  <FxOrder ID="-1" Name="Alle" Index="0" UID="{1615135c-dadf-4ed3-aed7-5c5f18845945}">
+  <FxOrder ID="-1" Name="Alle" Image="" Index="0" UID="{1615135c-dadf-4ed3-aed7-5c5f18845945}">
     <SKey Key="0" Flag="1" />
     <Group>
       <Fx ID="1" />
@@ -24,7 +24,7 @@
       <Fx ID="4" />
     </Group>
   </FxOrder>
-  <FxOrder ID="-1" Name="1, 3, 5..." Index="1" UID="{59f5e7b6-b214-4627-9010-39b390145202}">
+  <FxOrder ID="-1" Name="1, 3, 5..." Image="" Index="1" UID="{59f5e7b6-b214-4627-9010-39b390145202}">
     <SKey Key="0" Flag="1" />
     <Group>
       <Fx ID="1" />
@@ -33,7 +33,7 @@
       <Fx ID="3" />
     </Group>
   </FxOrder>
-  <FxOrder ID="-1" Name="2, 4, 6..." Index="2" UID="{be509ad4-5571-412d-b853-e7119b4f5510}">
+  <FxOrder ID="-1" Name="2, 4, 6..." Image="" Index="2" UID="{be509ad4-5571-412d-b853-e7119b4f5510}">
     <SKey Key="0" Flag="1" />
     <Group>
       <Fx ID="2" />
